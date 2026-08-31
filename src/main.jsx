@@ -42,10 +42,18 @@ const REPORTS = [
   },
   {
     id: 5,
-    company: "Hafina",
-    name: "Hafina - All APIs Automation",
-    path: "Hafina",
-    description: "Complete API automation test results covering all Hafina APIs.",
+    company: "Hafnia",
+    name: "Hafnia - All APIs Automation",
+    path: "Hafnia",
+    description: "Complete API automation test results covering all Hafnia APIs.",
+    color: "#2563eb",
+  },
+  {
+    id: 6,
+    company: "Sacred Groves",
+    name: "SG - Website Automation",
+    path: "SacredGroves",
+    description: "Full Website Test Automation & Functional Validation Results",
     color: "#2563eb",
   },
 ];
