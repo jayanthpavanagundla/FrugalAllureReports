@@ -45,7 +45,7 @@ const REPORTS = [
     company: "Hafina",
     name: "Hafina - All APIs Automation",
     path: "Hafina",
-    description: "Comprehensive API automation test results covering all Hafina APIs.",
+    description: "Complete API automation test results covering all Hafina APIs.",
     color: "#2563eb",
   },
 ];
