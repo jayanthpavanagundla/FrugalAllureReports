@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:59:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 560
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"230-5jtEavXMweZ9UEojTZLfMpcOkeI"
+server: hide
+
+{
+    "result": [
+        {
+            "id": "37707e6a-07af-4b5f-8c26-cb48a951b9f7"
+        },
+        {
+            "id": "e43b593a-dc90-4408-8e08-31a7893e7ca4"
+        },
+        {
+            "id": "d3ef1127-6c43-4138-8b29-123ab58995ef"
+        },
+        {
+            "id": "ef253ba0-6d7e-4d59-8dd4-07d195295daa"
+        },
+        {
+            "id": "0bcc2edb-e6b0-4a19-9637-aa78f82ab782"
+        },
+        {
+            "id": "18c1e03b-66b7-4a1f-99a0-244f11b32b80"
+        },
+        {
+            "id": "fec5789a-2307-4f86-a456-9ace5fcc9452"
+        },
+        {
+            "id": "505d8440-0e82-409e-bcac-258a3950db54"
+        },
+        {
+            "id": "8654ac12-bf7d-4259-b02a-066aa8a9425e"
+        },
+        {
+            "id": "59a9254d-8f17-4381-a897-fdd83b6102c7"
+        }
+    ],
+    "pagination": {
+        "total": 42937,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4294
+    }
+}

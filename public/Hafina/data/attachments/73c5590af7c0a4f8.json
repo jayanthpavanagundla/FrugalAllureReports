@@ -1,0 +1,213 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:14 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "NY/ARA/NY",
+            "route": "ARA/USAC",
+            "rate": "WS 200.0",
+            "tce": "25164.45",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "24594.62",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "WAF/ARA/WAF 10DEM",
+            "route": "ARA/WAF",
+            "rate": "WS 237.5",
+            "tce": "32331.68",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "28627.35",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "NY/USG/ARA/NY",
+            "route": "TC2+TC14",
+            "rate": null,
+            "tce": "38405.79",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "0",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "BZL/USG/BZL",
+            "route": "USG/BRAZIL",
+            "rate": "WS 290.0",
+            "tce": "42091.76",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "43563.59",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "COR/USG/COR",
+            "route": "USG/CHILE",
+            "rate": "$ 3,050,000",
+            "tce": "49204.05",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "53871.27",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "BZL/ARGIE/BZL/ECI",
+            "route": "VEG SAM/INDIA",
+            "rate": "75.00 PMT",
+            "tce": "29886.44",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "30984.31",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "INDIA/UKC",
+            "route": "PALM TCT",
+            "rate": "$ 49,500 PD",
+            "tce": "42116.17",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "42133.64",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "ARGIE/INDIA/UKC",
+            "route": "VEG COMBO",
+            "rate": "75.00 PMT + $ 49,500 PD",
+            "tce": "35681.44",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "0",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "SPORE/SIKKA/CHIBA",
+            "route": "WCI/JAPAN",
+            "rate": "WS 235.0",
+            "tce": "37126.71",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "52925.78",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "SPORE/SIKKA/CHIBA/ULSAN/SPORE",
+            "route": "TC12+BACKHAUL",
+            "rate": null,
+            "tce": "39202.16",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "0",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "ADELAIDE/SPORE/ADELAIDE",
+            "route": "SPORE/OZ",
+            "rate": "WS 295.0",
+            "tce": "37554.55",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "40455.87",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "LA/YOSU/LA",
+            "route": "KOREA / USWC",
+            "rate": "$ 2,550,000",
+            "tce": "48306.54",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "52277.50",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "JEBEL ALI/JUBAIL/JEBEL ALI",
+            "route": "X-AG",
+            "rate": "$ 500,000",
+            "tce": "44750.02",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "91687.55",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "DAR ES SALAAM/JUBAIL/DAR ES SALAAM",
+            "route": "AG/EAF ",
+            "rate": "WS 310.0",
+            "tce": "36043.23",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "52571.09",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "SPORE/AG/UKC",
+            "route": "AG/UKC",
+            "rate": "$ 3,100,000",
+            "tce": "36456.90",
+            "weekNumber": 14,
+            "year": 2024,
+            "segment": "MR",
+            "previousTCE": "52072.45",
+            "trend": "-1"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN WEST MARKET",
+        "CLEAN EAST MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:14 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "statusCode": 400,
+    "error": "invalid request: invalid segment name \"lr100\". allowed values are: handy, lr1, lr2, mr."
+}

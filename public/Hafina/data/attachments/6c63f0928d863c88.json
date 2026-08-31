@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/MarketData/bunkerprice?weekNumber=9&year=2024
+Proxy:			<none>
+Request params:	<none>
+Query params:	weekNumber=9
+				year=2024
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

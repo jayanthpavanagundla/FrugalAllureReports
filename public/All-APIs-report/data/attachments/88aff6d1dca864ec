@@ -1,0 +1,121 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:59:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 760
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"2f8-YePDzgnHutyXXAPQolYvVTmjXxo"
+server: hide
+
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "BkNqySyVu"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "43UqQHsY3"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "_eo5OZU4l"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "dgoNBf8WZ"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "1sjIXtia2"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "83LPLcTk4"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "EkCuF135j"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "B0P7G-oFV"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "0fI0WwtI3"
+        },
+        {
+            "requestStatus": [
+                
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "Al6u9qUSt"
+        }
+    ],
+    "pagination": {
+        "total": 26,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,189 @@
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/app/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "MTWTPQxpuzUfg3Vz59oa",
+    "roles": [
+        "LOAN ADMIN",
+        "CREDIT_OFFICER",
+        "CREDIT_ADMIN"
+    ],
+    "email": "eshareddy+underwriter@frugaltestingin.com"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJkUEZlaUZOOVVBdzZDd1NiWWxRMyIsImp3dElkIjoiSmZQMnhiVHFkN2hJTUEwVnZtRUwiLCJpYXQiOjE3NzQ1MzEyOTIsImV4cCI6MTgwNjA2NzI5Mn0.Ra5KgyKf7I2JKZrsy_RAdXH_zu5819edv_YDXGzGeYg
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyOTEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.eS24IWxszqfuI8syA-kMdXyz4FEP70cni93yiXagSV4
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/payment-requests/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyOTEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.eS24IWxszqfuI8syA-kMdXyz4FEP70cni93yiXagSV4
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://autochek.retool.com/url/hydra/status?environment=staging&incoming_request_id=Zp9yMYolgs
+Proxy:			<none>
+Request params:	<none>
+Query params:	environment=staging
+				incoming_request_id=Zp9yMYolgs
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=retool_wk_f78a8cce32174d94ac5e319395ec65bb
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/activation-webhook
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyOTEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.eS24IWxszqfuI8syA-kMdXyz4FEP70cni93yiXagSV4
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "incoming_request_id": "Zp9yMYolgs",
+    "id": 4257,
+    "status": "APPROVED",
+    "request_data": {
+        "acquireId": "017788:021285",
+        "acquire_id": null,
+        "amount_paid": null,
+        "batch_id": null,
+        "callback_id": "afs_middleware",
+        "callback_url": "https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/activation-webhook",
+        "comment": "",
+        "country": "NG",
+        "created_at": "2026-03-26T18:51:40.120761+05:30",
+        "currency": "NGN",
+        "customer": {
+            
+        },
+        "deductions": "0.00",
+        "due_date": "2026-03-26",
+        "equity_to_dealer": false,
+        "hydragen_request": null,
+        "hydragen_request_breakdown": [
+            
+        ],
+        "id": 4257,
+        "incoming_request_id": "Zp9yMYolgs",
+        "invoice_number": null,
+        "invoice_url": null,
+        "is_batch": false,
+        "is_partial": true,
+        "loan_id": "OR4S4vvo-",
+        "loan_type": "Partner Financed - Access Bank Nigeria Plc",
+        "product": "Disbursement",
+        "purchase_order": false,
+        "receipt_url": null,
+        "recipient_account_name": "AutoChek",
+        "recipient_account_number": "1001713926",
+        "recipient_bank": "Get Gari",
+        "recipient_name": "AutoChek",
+        "request_description": "DEALER payment request to AutoChek for Audi A5  2015 - ABC Business",
+        "request_type_id": "DEALER",
+        "requested_amount": 5000000,
+        "status": "APPROVED",
+        "status_comment": "APPROVED",
+        "statuses": null,
+        "total_amount": 5000000,
+        "type": {
+            "color": "#336699",
+            "id": "DEALER"
+        },
+        "user_id": "11TfeNJRk"
+    }
+}
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyOTEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.eS24IWxszqfuI8syA-kMdXyz4FEP70cni93yiXagSV4
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJkUEZlaUZOOVVBdzZDd1NiWWxRMyIsImp3dElkIjoiSmZQMnhiVHFkN2hJTUEwVnZtRUwiLCJpYXQiOjE3NzQ1MzEyOTIsImV4cCI6MTgwNjA2NzI5Mn0.Ra5KgyKf7I2JKZrsy_RAdXH_zu5819edv_YDXGzGeYg
+				refresh_token=2c73267ddad7bd63ff9d9a10af00c12f610e3a8ba5b702b520e346da7df81a698d6ca9ef56f49e60e50e5652e5091d000fb7010eda4daacfdeffba8763b2db6a
+Multiparts:		<none>
+Body:			<none>

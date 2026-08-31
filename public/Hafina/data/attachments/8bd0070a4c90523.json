@@ -1,0 +1,24 @@
+Request method:	POST
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Vessel/vesseloverview
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "vesselId": "682277843433843424",
+    "startDate": "2021-07-01",
+    "endDate": "2021-12-31",
+    "distributionPoolIds": [
+        
+    ],
+    "participantIds": [
+        "-47311463948867559"
+    ]
+}

@@ -1,0 +1,3171 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:24:29 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselCount": [
+        {
+            "period": {
+                "monthNumber": 10,
+                "month": "October  ",
+                "year": 2022
+            },
+            "vesselCount": 16
+        },
+        {
+            "period": {
+                "monthNumber": 11,
+                "month": "November ",
+                "year": 2022
+            },
+            "vesselCount": 15
+        },
+        {
+            "period": {
+                "monthNumber": 12,
+                "month": "December ",
+                "year": 2022
+            },
+            "vesselCount": 17
+        },
+        {
+            "period": {
+                "monthNumber": 7,
+                "month": "July     ",
+                "year": 2022
+            },
+            "vesselCount": 13
+        },
+        {
+            "period": {
+                "monthNumber": 8,
+                "month": "August   ",
+                "year": 2022
+            },
+            "vesselCount": 17
+        },
+        {
+            "period": {
+                "monthNumber": 9,
+                "month": "September",
+                "year": 2022
+            },
+            "vesselCount": 13
+        }
+    ],
+    "monthlySpeedPercentage": [
+        {
+            "speedPercentage": 94.43,
+            "bucket": 3,
+            "monthNumber": 7,
+            "month": "July     ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 94.64,
+            "bucket": 3,
+            "monthNumber": 8,
+            "month": "August   ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 95.33,
+            "bucket": 3,
+            "monthNumber": 9,
+            "month": "September",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 94.58,
+            "bucket": 3,
+            "monthNumber": 10,
+            "month": "October  ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 93.00,
+            "bucket": 3,
+            "monthNumber": 11,
+            "month": "November ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 94.23,
+            "bucket": 3,
+            "monthNumber": 12,
+            "month": "December ",
+            "year": 2022
+        }
+    ],
+    "speedPercentageByVessel": [
+        {
+            "vesselId": "110510961707209453",
+            "vesselName": "AEGEAN STAR",
+            "age": 7.2,
+            "participant": "CHARTWORLD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 93,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 90,
+                    "bucket": 4,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "420750678525608445",
+                    "voyageNumber": 36,
+                    "voyageCode": "AEGEAN STAR - 36",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "POZOS COLORADOS",
+                    "completePortName": "SAO LUIZ DE MARANHAO",
+                    "commenceDate": "2022-11-25T13:15:00",
+                    "completeDate": "2023-01-12T03:00:00"
+                },
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "61145480051976476",
+                    "voyageNumber": 35,
+                    "voyageCode": "AEGEAN STAR - 35",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 93,
+                    "commencePortName": "LA PAMPILLA",
+                    "completePortName": "POZOS COLORADOS",
+                    "commenceDate": "2022-10-26T23:42:00",
+                    "completeDate": "2022-11-25T13:15:00"
+                },
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "-21528765548057456",
+                    "voyageNumber": 34,
+                    "voyageCode": "AEGEAN STAR - 34",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90,
+                    "commencePortName": "MAZATLAN",
+                    "completePortName": "LA PAMPILLA",
+                    "commenceDate": "2022-09-21T14:30:00",
+                    "completeDate": "2022-10-26T23:42:00"
+                },
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "565455473024800000",
+                    "voyageNumber": 33,
+                    "voyageCode": "AEGEAN STAR - 33",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "CIUDAD MADERO",
+                    "completePortName": "MAZATLAN",
+                    "commenceDate": "2022-07-14T21:18:00",
+                    "completeDate": "2022-09-21T14:30:00"
+                },
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "-20334374908918368",
+                    "voyageNumber": 32,
+                    "voyageCode": "AEGEAN STAR - 32",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "CIUDAD MADERO",
+                    "commenceDate": "2022-05-13T15:30:00",
+                    "completeDate": "2022-07-14T21:18:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "110510961707209453",
+                    "voyageId": "-21528765548057456",
+                    "commencePortName": "MAZATLAN",
+                    "completePortName": "LA PAMPILLA",
+                    "eventDate": "2022-09-25T00:00:00",
+                    "eventType": "InWaterHullCleaning",
+                    "comment": "At LONG BEACH. Only underwater part of hull cleaned, above the waterline (vessel in ballast) not completed. Source: Vessel email."
+                }
+            ]
+        },
+        {
+            "vesselId": "172777982611178546",
+            "vesselName": "HAFNIA ANE",
+            "age": 10.4,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 93.20,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 99,
+                    "bucket": 1,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 100,
+                    "bucket": 1,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 100,
+                    "bucket": 1,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92.50,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 89,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 90,
+                    "bucket": 4,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "172777982611178546",
+                    "voyageId": "-11399448611360285",
+                    "voyageNumber": 45,
+                    "voyageCode": "HAFNIA ANE - 45",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90.75,
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "GUAYMAS",
+                    "commenceDate": "2022-11-13T01:06:00",
+                    "completeDate": "2022-12-29T00:18:00"
+                },
+                {
+                    "vesselId": "172777982611178546",
+                    "voyageId": "-20708913991043992",
+                    "voyageNumber": 44,
+                    "voyageCode": "HAFNIA ANE - 44",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 85,
+                    "commencePortName": "ROSARITO TERMINAL",
+                    "completePortName": "GUAYMAS",
+                    "commenceDate": "2022-10-14T13:36:00",
+                    "completeDate": "2022-11-13T01:06:00"
+                },
+                {
+                    "vesselId": "172777982611178546",
+                    "voyageId": "-66635803664267926",
+                    "voyageNumber": 43,
+                    "voyageCode": "HAFNIA ANE - 43",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96.80,
+                    "commencePortName": "POINT A PIERRE",
+                    "completePortName": "ROSARITO TERMINAL",
+                    "commenceDate": "2022-06-12T22:06:00",
+                    "completeDate": "2022-10-14T13:36:00"
+                }
+            ],
+            "events": [
+                
+            ]
+        },
+        {
+            "vesselId": "-21348347934041917",
+            "vesselName": "OINOUSSIAN STAR",
+            "age": 7.6,
+            "participant": "CHARTWORLD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 91.43,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 80,
+                    "bucket": 4,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-21348347934041917",
+                    "voyageId": "736537122250761143",
+                    "voyageNumber": 31,
+                    "voyageCode": "OINOUSSIAN STAR - 31",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "TUXPAN",
+                    "completePortName": "TUXPAN",
+                    "commenceDate": "2022-11-30T15:42:00",
+                    "completeDate": "2022-12-19T01:00:00"
+                },
+                {
+                    "vesselId": "-21348347934041917",
+                    "voyageId": "-41531091361784031",
+                    "voyageNumber": 29,
+                    "voyageCode": "OINOUSSIAN STAR - 29",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "GALVESTON LIGHT 1",
+                    "completePortName": "SANTO TOMAS DE CASTILLA",
+                    "commenceDate": "2022-10-16T14:30:00",
+                    "completeDate": "2022-11-02T07:00:00"
+                },
+                {
+                    "vesselId": "-21348347934041917",
+                    "voyageId": "-83427233827532649",
+                    "voyageNumber": 28,
+                    "voyageCode": "OINOUSSIAN STAR - 28",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90.67,
+                    "commencePortName": "BARRANQUILLA",
+                    "completePortName": "GALVESTON LIGHT 1",
+                    "commenceDate": "2022-08-26T16:36:00",
+                    "completeDate": "2022-10-16T14:30:00"
+                },
+                {
+                    "vesselId": "-21348347934041917",
+                    "voyageId": "580457704155403241",
+                    "voyageNumber": 26,
+                    "voyageCode": "OINOUSSIAN STAR - 26",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 89,
+                    "commencePortName": "CORINTO",
+                    "completePortName": "GUAYMAS",
+                    "commenceDate": "2022-05-05T05:24:00",
+                    "completeDate": "2022-08-06T03:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-21348347934041917",
+                    "voyageId": "535415223377420989",
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "BARRANQUILLA",
+                    "eventDate": "2022-08-17T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Panama. Source: HafniaBw."
+                }
+            ]
+        },
+        {
+            "vesselId": "-26938122904516016",
+            "vesselName": "HAFNIA CHEETAH",
+            "age": 12.2,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94.67,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95.33,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-26938122904516016",
+                    "voyageId": "11846083635473095",
+                    "voyageNumber": 21,
+                    "voyageCode": "BW CHEETAH - 21",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "PORT VILA",
+                    "completePortName": "PENGERANG",
+                    "commenceDate": "2021-06-12T21:36:00",
+                    "completeDate": "2023-02-21T00:01:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-26938122904516016",
+                    "voyageId": "11846083635473095",
+                    "commencePortName": "PORT VILA",
+                    "completePortName": "PENGERANG",
+                    "eventDate": "2022-08-15T00:00:00",
+                    "eventType": "InWaterHullCleaning",
+                    "comment": "At SINGAPORE. Vertical sides: Slime-60%, Algae-10% Source: Divers report."
+                },
+                {
+                    "vesselId": "-26938122904516016",
+                    "voyageId": "11846083635473095",
+                    "commencePortName": "PORT VILA",
+                    "completePortName": "PENGERANG",
+                    "eventDate": "2022-12-04T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At SINGAPORE. Vertical sides observed to have fouling of algae 5%-70%. Source: Divers report."
+                },
+                {
+                    "vesselId": "-26938122904516016",
+                    "voyageId": "11846083635473095",
+                    "commencePortName": "PORT VILA",
+                    "completePortName": "PENGERANG",
+                    "eventDate": "2022-12-12T00:00:00",
+                    "eventType": "InWaterHullCleaning",
+                    "comment": "At SINGAPORE. Source: Vessel email."
+                }
+            ]
+        },
+        {
+            "vesselId": "-28487869728084161",
+            "vesselName": "IONIAN STAR",
+            "age": 7.3,
+            "participant": "CHARTWORLD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 92.75,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 90.50,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 89,
+                    "bucket": 4,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-28487869728084161",
+                    "voyageId": "681528121922989107",
+                    "voyageNumber": 39,
+                    "voyageCode": "IONIAN STAR - 39",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 87.33,
+                    "commencePortName": "BEIRA",
+                    "completePortName": "DURBAN",
+                    "commenceDate": "2022-11-16T19:00:00",
+                    "completeDate": "2022-12-20T03:00:00"
+                },
+                {
+                    "vesselId": "-28487869728084161",
+                    "voyageId": "-62468819547113412",
+                    "voyageNumber": 38,
+                    "voyageCode": "IONIAN STAR - 38",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96.33,
+                    "commencePortName": "ANTWERP",
+                    "completePortName": "BEIRA",
+                    "commenceDate": "2022-08-30T10:00:00",
+                    "completeDate": "2022-11-16T19:00:00"
+                },
+                {
+                    "vesselId": "-28487869728084161",
+                    "voyageId": "261152942201626025",
+                    "voyageNumber": 37,
+                    "voyageCode": "IONIAN STAR - 37",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "SAN LORENZO-SAN MARTIN",
+                    "completePortName": "ANTWERP",
+                    "commenceDate": "2022-07-01T22:30:00",
+                    "completeDate": "2022-08-30T10:00:00"
+                },
+                {
+                    "vesselId": "-28487869728084161",
+                    "voyageId": "-82758468606784476",
+                    "voyageNumber": 36,
+                    "voyageCode": "IONIAN STAR - 36",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "ALEXANDRIA (EGYPT)",
+                    "completePortName": "SAN LORENZO-SAN MARTIN",
+                    "commenceDate": "2022-05-23T12:30:00",
+                    "completeDate": "2022-07-01T22:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-28487869728084161",
+                    "voyageId": "681528121922989107",
+                    "commencePortName": "BEIRA",
+                    "completePortName": "DURBAN",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Fujairah. Hull was fouled of about 40% barnacles along with 60% slime. Flat bottom fouled with 80-90% barnacles. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "-28901690987005272",
+            "vesselName": "HAFNIA RAVEN",
+            "age": 10.4,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95.17,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-28901690987005272",
+                    "voyageId": "-86325280918620633",
+                    "voyageNumber": 47,
+                    "voyageCode": "HAFNIA RAVEN - 47",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94.50,
+                    "commencePortName": "SUEZ",
+                    "completePortName": "LAGOS (NIGERIA)",
+                    "commenceDate": "2022-10-27T08:54:00",
+                    "completeDate": "2022-12-07T15:54:00"
+                },
+                {
+                    "vesselId": "-28901690987005272",
+                    "voyageId": "135455112817142832",
+                    "voyageNumber": 45,
+                    "voyageCode": "HAFNIA RAVEN - 45",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.50,
+                    "commencePortName": "SOHAR",
+                    "completePortName": "BEIRA",
+                    "commenceDate": "2022-08-25T11:54:00",
+                    "completeDate": "2022-10-01T17:12:00"
+                },
+                {
+                    "vesselId": "-28901690987005272",
+                    "voyageId": "537970690348718786",
+                    "voyageNumber": 43,
+                    "voyageCode": "HAFNIA RAVEN - 43",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "FUJAIRAH",
+                    "completePortName": "SOHAR",
+                    "commenceDate": "2022-07-27T14:48:00",
+                    "completeDate": "2022-08-12T10:24:00"
+                },
+                {
+                    "vesselId": "-28901690987005272",
+                    "voyageId": "-40938722021379655",
+                    "voyageNumber": 41,
+                    "voyageCode": "HAFNIA RAVEN - 41",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "FUJAIRAH",
+                    "completePortName": "MUMBAI",
+                    "commenceDate": "2022-06-18T00:00:00",
+                    "completeDate": "2022-07-14T06:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-28901690987005272",
+                    "voyageId": "135455112817142832",
+                    "commencePortName": "SOHAR",
+                    "completePortName": "BEIRA",
+                    "eventDate": "2022-08-30T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At Fujairah. Vertical sides: 5% fouled with marine slime. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "295594070411029302",
+            "vesselName": "HAFNIA COUGAR",
+            "age": 12.3,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "221103019775609572",
+                    "voyageNumber": 34,
+                    "voyageCode": "BW COUGAR - 34",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "WYNDHAM",
+                    "completePortName": "CAIRNS",
+                    "commenceDate": "2022-11-21T14:18:00",
+                    "completeDate": "2022-12-31T13:30:00"
+                },
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "266254964897868281",
+                    "voyageNumber": 33,
+                    "voyageCode": "BW COUGAR - 33",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "SINGAPORE",
+                    "completePortName": "WYNDHAM",
+                    "commenceDate": "2022-10-25T06:48:00",
+                    "completeDate": "2022-11-21T14:18:00"
+                },
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "429832639870221364",
+                    "voyageNumber": 30,
+                    "voyageCode": "BW COUGAR - 30",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "ADELAIDE",
+                    "completePortName": "PENGERANG",
+                    "commenceDate": "2022-09-14T01:24:00",
+                    "completeDate": "2022-10-03T07:00:00"
+                },
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "-88419330654705061",
+                    "voyageNumber": 29,
+                    "voyageCode": "BW COUGAR - 29",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.50,
+                    "commencePortName": "CEBU",
+                    "completePortName": "ADELAIDE",
+                    "commenceDate": "2022-07-31T09:36:00",
+                    "completeDate": "2022-09-14T01:24:00"
+                },
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "245987032781648692",
+                    "voyageNumber": 28,
+                    "voyageCode": "BW COUGAR - 28",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "QUINTERO",
+                    "completePortName": "CEBU",
+                    "commenceDate": "2022-06-08T14:00:00",
+                    "completeDate": "2022-07-31T09:36:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "295594070411029302",
+                    "voyageId": "-88419330654705061",
+                    "commencePortName": "CEBU",
+                    "completePortName": "ADELAIDE",
+                    "eventDate": "2022-08-08T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At SINGAPORE. Hull was found in clean condition. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "299249144190708014",
+            "vesselName": "HAFNIA LIONESS",
+            "age": 12.3,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95.14,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93.50,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "299249144190708014",
+                    "voyageId": "-77058732519597174",
+                    "voyageNumber": 24,
+                    "voyageCode": "BW LIONESS - 24",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 91,
+                    "commencePortName": "VERACRUZ",
+                    "completePortName": "VERACRUZ",
+                    "commenceDate": "2022-12-11T15:30:00",
+                    "completeDate": "2023-01-04T15:30:00"
+                },
+                {
+                    "vesselId": "299249144190708014",
+                    "voyageId": "637717270008576187",
+                    "voyageNumber": 23,
+                    "voyageCode": "BW LIONESS - 23",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "TUXPAN",
+                    "completePortName": "VERACRUZ",
+                    "commenceDate": "2022-10-08T05:48:00",
+                    "completeDate": "2022-12-11T15:30:00"
+                },
+                {
+                    "vesselId": "299249144190708014",
+                    "voyageId": "268283949482373593",
+                    "voyageNumber": 22,
+                    "voyageCode": "BW LIONESS - 22",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "VERACRUZ",
+                    "completePortName": "TUXPAN",
+                    "commenceDate": "2022-09-08T14:30:00",
+                    "completeDate": "2022-10-08T05:48:00"
+                },
+                {
+                    "vesselId": "299249144190708014",
+                    "voyageId": "-31045948408929176",
+                    "voyageNumber": 21,
+                    "voyageCode": "BW LIONESS - 21",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "NEW HAVEN",
+                    "completePortName": "VERACRUZ",
+                    "commenceDate": "2022-07-14T02:48:00",
+                    "completeDate": "2022-09-08T14:30:00"
+                },
+                {
+                    "vesselId": "299249144190708014",
+                    "voyageId": "386263142359950360",
+                    "voyageNumber": 20,
+                    "voyageCode": "BW LIONESS - 20",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "NEW HAVEN",
+                    "commenceDate": "2022-06-02T05:00:00",
+                    "completeDate": "2022-07-14T02:48:00"
+                }
+            ],
+            "events": [
+                
+            ]
+        },
+        {
+            "vesselId": "-42949158072759017",
+            "vesselName": "LYSIAS",
+            "age": 17.8,
+            "participant": "GRACE SHIP MANAGEMENT",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 92.38,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 87,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 100,
+                    "bucket": 1,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94.50,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "-33654571674519009",
+                    "voyageNumber": 57,
+                    "voyageCode": "LYSIAS - 57",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "ABIDJAN",
+                    "completePortName": "MINDELO",
+                    "commenceDate": "2022-11-29T10:30:00",
+                    "completeDate": "2022-12-24T10:30:00"
+                },
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "-67023662881155625",
+                    "voyageNumber": 56,
+                    "voyageCode": "LYSIAS - 56",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "ABIDJAN",
+                    "completePortName": "ABIDJAN",
+                    "commenceDate": "2022-10-28T09:00:00",
+                    "completeDate": "2022-11-29T10:30:00"
+                },
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "-83380689529316395",
+                    "voyageNumber": 54,
+                    "voyageCode": "LYSIAS - 54",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "ANTWERP",
+                    "completePortName": "TEMA",
+                    "commenceDate": "2022-09-06T00:42:00",
+                    "completeDate": "2022-10-10T09:30:00"
+                },
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "-46987518952468233",
+                    "voyageNumber": 53,
+                    "voyageCode": "LYSIAS - 53",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "RIO HAINA",
+                    "completePortName": "ANTWERP",
+                    "commenceDate": "2022-08-10T17:30:00",
+                    "completeDate": "2022-09-06T00:42:00"
+                },
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "650308415525364245",
+                    "voyageNumber": 52,
+                    "voyageCode": "LYSIAS - 52",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 93.50,
+                    "commencePortName": "TUXPAN",
+                    "completePortName": "RIO HAINA",
+                    "commenceDate": "2022-07-25T09:00:00",
+                    "completeDate": "2022-08-10T17:30:00"
+                },
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "-89964988125533007",
+                    "voyageNumber": 51,
+                    "voyageCode": "LYSIAS - 51",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 87,
+                    "commencePortName": "PROGRESO",
+                    "completePortName": "TUXPAN",
+                    "commenceDate": "2022-06-17T19:00:00",
+                    "completeDate": "2022-07-25T09:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-42949158072759017",
+                    "voyageId": "650308415525364245",
+                    "commencePortName": "TUXPAN",
+                    "completePortName": "RIO HAINA",
+                    "eventDate": "2022-07-30T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At HOUSTON. Vertical sides covered with slime of 100% area. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "-45196122654186699",
+            "vesselName": "HAFNIA LYNX",
+            "age": 12.5,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 94.33,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93.33,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "900904122140451167",
+                    "voyageNumber": 38,
+                    "voyageCode": "BW LYNX - 38",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 93,
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "WAKAYAMA",
+                    "commenceDate": "2022-10-13T01:48:00",
+                    "completeDate": "2022-12-16T00:00:00"
+                },
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "115769035887001557",
+                    "voyageNumber": 37,
+                    "voyageCode": "BW LYNX - 37",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "DAKAR",
+                    "completePortName": "NEW YORK",
+                    "commenceDate": "2022-09-07T12:00:00",
+                    "completeDate": "2022-10-13T01:48:00"
+                },
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "-48469205268720506",
+                    "voyageNumber": 36,
+                    "voyageCode": "BW LYNX - 36",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "LOME",
+                    "completePortName": "DAKAR",
+                    "commenceDate": "2022-08-18T09:12:00",
+                    "completeDate": "2022-09-07T12:00:00"
+                },
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "-22482834046242682",
+                    "voyageNumber": 35,
+                    "voyageCode": "BW LYNX - 35",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "MINDELO",
+                    "completePortName": "LOME",
+                    "commenceDate": "2022-07-05T13:30:00",
+                    "completeDate": "2022-08-18T09:12:00"
+                },
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "264136536172831618",
+                    "voyageNumber": 34,
+                    "voyageCode": "BW LYNX - 34",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "CASABLANCA",
+                    "completePortName": "MINDELO",
+                    "commenceDate": "2022-06-17T02:30:00",
+                    "completeDate": "2022-07-05T13:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-45196122654186699",
+                    "voyageId": "900904122140451167",
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "WAKAYAMA",
+                    "eventDate": "2022-11-13T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At Balboa. Vertical sides moderate fouled of area about 60%. Flat bottom: Moderate fouled of area 50%. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "492917164689030852",
+            "vesselName": "HAFNIA OSPREY",
+            "age": 10.5,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 96,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 99,
+                    "bucket": 1,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95.50,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "-27786311387971042",
+                    "voyageNumber": 22,
+                    "voyageCode": "BW OSPREY - 22",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "PENGERANG",
+                    "completePortName": "JAKARTA",
+                    "commenceDate": "2022-11-29T07:18:00",
+                    "completeDate": "2022-12-17T04:12:00"
+                },
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "303755652549688901",
+                    "voyageNumber": 20,
+                    "voyageCode": "BW OSPREY - 20",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "CHITTAGONG",
+                    "completePortName": "KWINANA",
+                    "commenceDate": "2022-10-10T09:30:00",
+                    "completeDate": "2022-11-13T00:00:00"
+                },
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "198943203548609335",
+                    "voyageNumber": 19,
+                    "voyageCode": "BW OSPREY - 19",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97.50,
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "CHITTAGONG",
+                    "commenceDate": "2022-08-11T20:00:00",
+                    "completeDate": "2022-10-10T09:30:00"
+                },
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "567352654023820560",
+                    "voyageNumber": 18,
+                    "voyageCode": "BW OSPREY - 18",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "AT SEA",
+                    "completePortName": "GUAYMAS",
+                    "commenceDate": "2022-06-03T10:00:00",
+                    "completeDate": "2022-08-11T20:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "198943203548609335",
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "CHITTAGONG",
+                    "eventDate": "2022-08-16T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At Long Beach. Hull was found in clean condition. Source: Divers report."
+                },
+                {
+                    "vesselId": "492917164689030852",
+                    "voyageId": "-27786311387971042",
+                    "commencePortName": "PENGERANG",
+                    "completePortName": "JAKARTA",
+                    "eventDate": "2022-11-30T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At SINGAPORE. Source: Hull was found in clean condition. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "558529106315527947",
+            "vesselName": "HAFNIA PETREL",
+            "age": 10.3,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 94.63,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "558529106315527947",
+                    "voyageId": "675490880082995969",
+                    "voyageNumber": 40,
+                    "voyageCode": "HAFNIA PETREL - 40",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "OFFSHORE LOME",
+                    "completePortName": "NEW YORK",
+                    "commenceDate": "2022-11-25T04:18:00",
+                    "completeDate": "2023-01-06T01:18:00"
+                },
+                {
+                    "vesselId": "558529106315527947",
+                    "voyageId": "-13374614421856945",
+                    "voyageNumber": 39,
+                    "voyageCode": "HAFNIA PETREL - 39",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "GAVLE",
+                    "completePortName": "OFFSHORE LOME",
+                    "commenceDate": "2022-10-17T00:30:00",
+                    "completeDate": "2022-11-25T04:18:00"
+                },
+                {
+                    "vesselId": "558529106315527947",
+                    "voyageId": "665169201200812575",
+                    "voyageNumber": 38,
+                    "voyageCode": "HAFNIA PETREL - 38",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 93.50,
+                    "commencePortName": "DAR ES SALAAM",
+                    "completePortName": "GAVLE",
+                    "commenceDate": "2022-08-26T11:30:00",
+                    "completeDate": "2022-10-17T00:30:00"
+                },
+                {
+                    "vesselId": "558529106315527947",
+                    "voyageId": "415224879813181067",
+                    "voyageNumber": 37,
+                    "voyageCode": "HAFNIA PETREL - 37",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "DAR ES SALAAM",
+                    "completePortName": "DAR ES SALAAM",
+                    "commenceDate": "2022-07-22T14:30:00",
+                    "completeDate": "2022-08-26T11:30:00"
+                },
+                {
+                    "vesselId": "558529106315527947",
+                    "voyageId": "-45890033722424925",
+                    "voyageNumber": 36,
+                    "voyageCode": "HAFNIA PETREL - 36",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "JEBEL ALI",
+                    "completePortName": "DAR ES SALAAM",
+                    "commenceDate": "2022-06-24T18:24:00",
+                    "completeDate": "2022-07-22T14:30:00"
+                }
+            ],
+            "events": [
+                
+            ]
+        },
+        {
+            "vesselId": "564701722186814828",
+            "vesselName": "HAFNIA LEOPARD",
+            "age": 12.2,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95.29,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95.50,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "-99543939056816870",
+                    "voyageNumber": 25,
+                    "voyageCode": "BW LEOPARD - 25",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.50,
+                    "commencePortName": "DOCK SUD",
+                    "completePortName": "ROTTERDAM",
+                    "commenceDate": "2022-11-28T04:06:00",
+                    "completeDate": "2023-01-15T04:30:00"
+                },
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "347338221998804375",
+                    "voyageNumber": 24,
+                    "voyageCode": "BW LEOPARD - 24",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "LAGOS (NIGERIA)",
+                    "completePortName": "DOCK SUD",
+                    "commenceDate": "2022-10-26T15:30:00",
+                    "completeDate": "2022-11-28T04:06:00"
+                },
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "-14076157549778445",
+                    "voyageNumber": 23,
+                    "voyageCode": "BW LEOPARD - 23",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "ANTWERP",
+                    "completePortName": "LAGOS (NIGERIA)",
+                    "commenceDate": "2022-09-13T08:48:00",
+                    "completeDate": "2022-10-26T15:30:00"
+                },
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "833550976336502930",
+                    "voyageNumber": 22,
+                    "voyageCode": "BW LEOPARD - 22",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "TEMA",
+                    "completePortName": "ANTWERP",
+                    "commenceDate": "2022-08-13T08:48:00",
+                    "completeDate": "2022-09-13T08:48:00"
+                },
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "752830179448957472",
+                    "voyageNumber": 21,
+                    "voyageCode": "BW LEOPARD - 21",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "AMSTERDAM",
+                    "completePortName": "TEMA",
+                    "commenceDate": "2022-07-10T16:00:00",
+                    "completeDate": "2022-08-13T08:48:00"
+                },
+                {
+                    "vesselId": "564701722186814828",
+                    "voyageId": "716967449518720751",
+                    "voyageNumber": 20,
+                    "voyageCode": "BW LEOPARD - 20",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "YOSU",
+                    "completePortName": "AMSTERDAM",
+                    "commenceDate": "2022-05-03T14:30:00",
+                    "completeDate": "2022-07-10T16:00:00"
+                }
+            ],
+            "events": [
+                
+            ]
+        },
+        {
+            "vesselId": "-57101569917007395",
+            "vesselName": "ANGEL STAR",
+            "age": 19.9,
+            "participant": "CHARTWORLD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 91.50,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 88,
+                    "bucket": 4,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 88,
+                    "bucket": 4,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-57101569917007395",
+                    "voyageId": "-29836915976445002",
+                    "voyageNumber": 9,
+                    "voyageCode": "ANGEL STAR - 9",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92.67,
+                    "commencePortName": "ROSARITO TERMINAL",
+                    "completePortName": "PORT KLANG",
+                    "commenceDate": "2022-10-10T04:36:00",
+                    "completeDate": "2022-12-04T14:48:00"
+                },
+                {
+                    "vesselId": "-57101569917007395",
+                    "voyageId": "-56617677175122306",
+                    "voyageNumber": 8,
+                    "voyageCode": "ANGEL STAR - 8",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90.50,
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "ROSARITO TERMINAL",
+                    "commenceDate": "2022-07-02T01:30:00",
+                    "completeDate": "2022-10-10T04:36:00"
+                },
+                {
+                    "vesselId": "-57101569917007395",
+                    "voyageId": "425425504128371312",
+                    "voyageNumber": 7,
+                    "voyageCode": "ANGEL STAR - 7",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "SUEZ",
+                    "completePortName": "NEW YORK",
+                    "commenceDate": "2022-05-22T09:00:00",
+                    "completeDate": "2022-07-02T01:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-57101569917007395",
+                    "voyageId": "-56617677175122306",
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "ROSARITO TERMINAL",
+                    "eventDate": "2022-07-25T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At PANAMA CANAL. Vertical sides fouled of area about 50% of length 1-3 mm. Flat bottom not cleaned due to draft restriction. Source: Divers report."
+                },
+                {
+                    "vesselId": "-57101569917007395",
+                    "voyageId": "-29836915976445002",
+                    "commencePortName": "ROSARITO TERMINAL",
+                    "completePortName": "PORT KLANG",
+                    "eventDate": "2022-10-13T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At LONG BEACH. Source: Chartworld."
+                }
+            ]
+        },
+        {
+            "vesselId": "-62087793206561790",
+            "vesselName": "HAFNIA LEO",
+            "age": 12.4,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95.50,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94.67,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96.67,
+                    "bucket": 2,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-80207450341098327",
+                    "voyageNumber": 86,
+                    "voyageCode": "HAFNIA LEO - 86",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 98,
+                    "commencePortName": "KHOR FAKKAN",
+                    "completePortName": "CAPE TOWN",
+                    "commenceDate": "2022-12-16T21:24:00",
+                    "completeDate": "2023-02-10T01:36:00"
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "286270594103517722",
+                    "voyageNumber": 84,
+                    "voyageCode": "HAFNIA LEO - 84",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "WALVIS BAY",
+                    "completePortName": "MUNDRA",
+                    "commenceDate": "2022-10-09T14:48:00",
+                    "completeDate": "2022-11-08T16:48:00"
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-48379999932535370",
+                    "voyageNumber": 83,
+                    "voyageCode": "HAFNIA LEO - 83",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "GIZAN",
+                    "completePortName": "WALVIS BAY",
+                    "commenceDate": "2022-08-23T04:24:00",
+                    "completeDate": "2022-10-09T14:48:00"
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-68701907525080213",
+                    "voyageNumber": 82,
+                    "voyageCode": "HAFNIA LEO - 82",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 98,
+                    "commencePortName": "RAS TANURA",
+                    "completePortName": "GIZAN",
+                    "commenceDate": "2022-07-07T00:12:00",
+                    "completeDate": "2022-08-23T04:24:00"
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-94379426220049196",
+                    "voyageNumber": 81,
+                    "voyageCode": "HAFNIA LEO - 81",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 91,
+                    "commencePortName": "DAR ES SALAAM",
+                    "completePortName": "RAS TANURA",
+                    "commenceDate": "2022-06-23T04:48:00",
+                    "completeDate": "2022-07-07T00:12:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-68701907525080213",
+                    "commencePortName": "RAS TANURA",
+                    "completePortName": "GIZAN",
+                    "eventDate": "2022-07-16T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At FUJAIRAH. Verticals: Fouled with 40% acorn barnacles & 90% slime. Flat Bottom: Fouled with 60% acorn barnacles & 40% slime. Source: Divers report."
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-48379999932535370",
+                    "commencePortName": "GIZAN",
+                    "completePortName": "WALVIS BAY",
+                    "eventDate": "2022-09-09T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At FUJAIRAH. Source: Vessel report."
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-81157357817914896",
+                    "commencePortName": "MUNDRA",
+                    "completePortName": "KHOR FAKKAN",
+                    "eventDate": "2022-12-14T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At KHORFAKKAN. Verticals: Approx. 50% sea grass & 80% marine slime. Flat bottom: About 10% tube worms & 30% marine slime. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "-62087793206561790",
+            "vesselName": "HAFNIA LEO",
+            "age": 12.4,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> CM",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "686487820799308370"
+            ],
+            "speedPercentage": 96,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94.67,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96.67,
+                    "bucket": 2,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-81157357817914896",
+                    "voyageNumber": 85,
+                    "voyageCode": "HAFNIA LEO - 85",
+                    "segment": "MR",
+                    "pool": "HAMR -> CM",
+                    "speedPercentage": 96,
+                    "commencePortName": "MUNDRA",
+                    "completePortName": "KHOR FAKKAN",
+                    "commenceDate": "2022-11-08T16:48:00",
+                    "completeDate": "2022-12-16T21:24:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-68701907525080213",
+                    "commencePortName": "RAS TANURA",
+                    "completePortName": "GIZAN",
+                    "eventDate": "2022-07-16T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At FUJAIRAH. Verticals: Fouled with 40% acorn barnacles & 90% slime. Flat Bottom: Fouled with 60% acorn barnacles & 40% slime. Source: Divers report."
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-48379999932535370",
+                    "commencePortName": "GIZAN",
+                    "completePortName": "WALVIS BAY",
+                    "eventDate": "2022-09-09T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At FUJAIRAH. Source: Vessel report."
+                },
+                {
+                    "vesselId": "-62087793206561790",
+                    "voyageId": "-81157357817914896",
+                    "commencePortName": "MUNDRA",
+                    "completePortName": "KHOR FAKKAN",
+                    "eventDate": "2022-12-14T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At KHORFAKKAN. Verticals: Approx. 50% sea grass & 80% marine slime. Flat bottom: About 10% tube worms & 30% marine slime. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "-63590529799106912",
+            "vesselName": "ORIENT INNOVATION",
+            "age": 8.8,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 95.13,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 88,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95.33,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "-84251487302992762",
+                    "voyageNumber": 57,
+                    "voyageCode": "ORIENT INNOVATION - 57",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "PORT HEDLAND",
+                    "completePortName": "ADELAIDE",
+                    "commenceDate": "2022-11-25T13:30:00",
+                    "completeDate": "2022-12-27T23:00:00"
+                },
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "346605351568782072",
+                    "voyageNumber": 56,
+                    "voyageCode": "ORIENT INNOVATION - 56",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "MARSDEN POINT",
+                    "completePortName": "PORT HEDLAND",
+                    "commenceDate": "2022-10-21T03:00:00",
+                    "completeDate": "2022-11-25T13:30:00"
+                },
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "533115743571547395",
+                    "voyageNumber": 55,
+                    "voyageCode": "ORIENT INNOVATION - 55",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "MARSDEN POINT",
+                    "completePortName": "MARSDEN POINT",
+                    "commenceDate": "2022-09-09T08:18:00",
+                    "completeDate": "2022-10-21T03:00:00"
+                },
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "-79743816547757384",
+                    "voyageNumber": 54,
+                    "voyageCode": "ORIENT INNOVATION - 54",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "SINGAPORE",
+                    "completePortName": "MARSDEN POINT",
+                    "commenceDate": "2022-07-27T22:54:00",
+                    "completeDate": "2022-09-09T08:18:00"
+                },
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "339263203845381065",
+                    "voyageNumber": 53,
+                    "voyageCode": "ORIENT INNOVATION - 53",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 88,
+                    "commencePortName": "CHITA",
+                    "completePortName": "SINGAPORE",
+                    "commenceDate": "2022-06-27T10:30:00",
+                    "completeDate": "2022-07-27T22:54:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-63590529799106912",
+                    "voyageId": "-79743816547757384",
+                    "commencePortName": "SINGAPORE",
+                    "completePortName": "MARSDEN POINT",
+                    "eventDate": "2022-08-03T00:00:00",
+                    "eventType": "Docking",
+                    "comment": "At SINGAPORE. Source: Vessel email."
+                }
+            ]
+        },
+        {
+            "vesselId": "-65872148931398786",
+            "vesselName": "ORIENT CHALLENGE",
+            "age": 8.9,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 94.55,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 90,
+                    "bucket": 4,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "742008300186517089",
+                    "voyageNumber": 54,
+                    "voyageCode": "ORIENT CHALLENGE - 54",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "BRISBANE",
+                    "completePortName": "CHITTAGONG",
+                    "commenceDate": "2022-11-04T10:00:00",
+                    "completeDate": "2022-12-18T15:30:00"
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "826392364790153606",
+                    "voyageNumber": 53,
+                    "voyageCode": "ORIENT CHALLENGE - 53",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 98,
+                    "commencePortName": "MARSDEN POINT",
+                    "completePortName": "BRISBANE",
+                    "commenceDate": "2022-10-24T13:30:00",
+                    "completeDate": "2022-11-04T10:00:00"
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "-45907766045784215",
+                    "voyageNumber": 52,
+                    "voyageCode": "ORIENT CHALLENGE - 52",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.50,
+                    "commencePortName": "MAP TA PHUT",
+                    "completePortName": "MARSDEN POINT",
+                    "commenceDate": "2022-09-09T01:00:00",
+                    "completeDate": "2022-10-24T13:30:00"
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "-79048012276749832",
+                    "voyageNumber": 51,
+                    "voyageCode": "ORIENT CHALLENGE - 51",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "SINGAPORE",
+                    "completePortName": "MAP TA PHUT",
+                    "commenceDate": "2022-08-26T21:30:00",
+                    "completeDate": "2022-09-09T01:00:00"
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "-26471232003319963",
+                    "voyageNumber": 50,
+                    "voyageCode": "ORIENT CHALLENGE - 50",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "BEIRA",
+                    "completePortName": "SINGAPORE",
+                    "commenceDate": "2022-07-07T21:00:00",
+                    "completeDate": "2022-08-26T21:30:00"
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "174553963926085757",
+                    "voyageNumber": 49,
+                    "voyageCode": "ORIENT CHALLENGE - 49",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "HALDIA",
+                    "completePortName": "BEIRA",
+                    "commenceDate": "2022-05-18T21:00:00",
+                    "completeDate": "2022-07-07T21:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "-26471232003319963",
+                    "commencePortName": "BEIRA",
+                    "completePortName": "SINGAPORE",
+                    "eventDate": "2022-07-21T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At FUJAIRAH. Source: Vessel report."
+                },
+                {
+                    "vesselId": "-65872148931398786",
+                    "voyageId": "-45907766045784215",
+                    "commencePortName": "MAP TA PHUT",
+                    "completePortName": "MARSDEN POINT",
+                    "eventDate": "2022-09-19T00:00:00",
+                    "eventType": "Docking",
+                    "comment": "At PASIR GUDANG. Source: Vessel report."
+                }
+            ]
+        },
+        {
+            "vesselId": "733366577340352378",
+            "vesselName": "HAFNIA PANTHER",
+            "age": 11.8,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 91.22,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 77.50,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "733366577340352378",
+                    "voyageId": "262340929726257095",
+                    "voyageNumber": 34,
+                    "voyageCode": "BW PANTHER - 34",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 88.50,
+                    "commencePortName": "LAZARO CARDENAS",
+                    "completePortName": "QUINTERO",
+                    "commenceDate": "2022-11-13T10:00:00",
+                    "completeDate": "2023-01-01T21:00:00"
+                },
+                {
+                    "vesselId": "733366577340352378",
+                    "voyageId": "856310829471580933",
+                    "voyageNumber": 33,
+                    "voyageCode": "BW PANTHER - 33",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92.75,
+                    "commencePortName": "LA PAZ",
+                    "completePortName": "LAZARO CARDENAS",
+                    "commenceDate": "2022-07-29T04:00:00",
+                    "completeDate": "2022-11-13T10:00:00"
+                },
+                {
+                    "vesselId": "733366577340352378",
+                    "voyageId": "-27598179720116534",
+                    "voyageNumber": 32,
+                    "voyageCode": "BW PANTHER - 32",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 96,
+                    "commencePortName": "PAJARITOS",
+                    "completePortName": "LA PAZ",
+                    "commenceDate": "2022-05-08T17:00:00",
+                    "completeDate": "2022-07-29T04:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "733366577340352378",
+                    "voyageId": "856310829471580933",
+                    "commencePortName": "LA PAZ",
+                    "completePortName": "LAZARO CARDENAS",
+                    "eventDate": "2022-08-06T00:00:00",
+                    "eventType": "InWaterHullCleaning",
+                    "comment": "At Cristobal. Source: HafniaBw."
+                },
+                {
+                    "vesselId": "733366577340352378",
+                    "voyageId": "262340929726257095",
+                    "commencePortName": "LAZARO CARDENAS",
+                    "completePortName": "QUINTERO",
+                    "eventDate": "2022-11-21T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Panama. Hull was heavy fouled of barnacles. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "755985085740928325",
+            "vesselName": "HAFNIA TIGER",
+            "age": 12.1,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 93.75,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93.50,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "-50731271131746339",
+                    "voyageNumber": 26,
+                    "voyageCode": "BW TIGER - 26",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 91,
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "BALBOA",
+                    "commenceDate": "2022-11-10T00:00:00",
+                    "completeDate": "2023-01-02T23:54:00"
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "304418114253330980",
+                    "voyageNumber": 25,
+                    "voyageCode": "BW TIGER - 25",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90.50,
+                    "commencePortName": "TEMA",
+                    "completePortName": "NEW YORK",
+                    "commenceDate": "2022-10-06T08:36:00",
+                    "completeDate": "2022-11-10T00:00:00"
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "430833307898719788",
+                    "voyageNumber": 24,
+                    "voyageCode": "BW TIGER - 24",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "TEMA",
+                    "completePortName": "TEMA",
+                    "commenceDate": "2022-09-23T09:54:00",
+                    "completeDate": "2022-10-06T08:36:00"
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "-54942896126824710",
+                    "voyageNumber": 23,
+                    "voyageCode": "BW TIGER - 23",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 97,
+                    "commencePortName": "LAGOS (NIGERIA)",
+                    "completePortName": "TEMA",
+                    "commenceDate": "2022-08-29T19:48:00",
+                    "completeDate": "2022-09-23T09:54:00"
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "-17100818216134799",
+                    "voyageNumber": 22,
+                    "voyageCode": "BW TIGER - 22",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "RIO HAINA",
+                    "completePortName": "LAGOS (NIGERIA)",
+                    "commenceDate": "2022-07-12T13:30:00",
+                    "completeDate": "2022-08-29T19:48:00"
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "614653871390942485",
+                    "voyageNumber": 21,
+                    "voyageCode": "BW TIGER - 21",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "MONTREAL",
+                    "completePortName": "RIO HAINA",
+                    "commenceDate": "2022-06-11T20:30:00",
+                    "completeDate": "2022-07-12T13:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "-17100818216134799",
+                    "commencePortName": "RIO HAINA",
+                    "completePortName": "LAGOS (NIGERIA)",
+                    "eventDate": "2022-08-02T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At GIBRALTAR. Hull was light to moderate fouled of area 30%- 60%. Source: Divers report."
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "304418114253330980",
+                    "commencePortName": "TEMA",
+                    "completePortName": "NEW YORK",
+                    "eventDate": "2022-10-17T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Gibraltar. Source: HafniaBw."
+                },
+                {
+                    "vesselId": "755985085740928325",
+                    "voyageId": "-50731271131746339",
+                    "commencePortName": "NEW YORK",
+                    "completePortName": "BALBOA",
+                    "eventDate": "2022-12-23T00:00:00",
+                    "eventType": "InWaterHullCleaning",
+                    "comment": "At Balboa. Source: Vessel email."
+                }
+            ]
+        },
+        {
+            "vesselId": "-78466904839073353",
+            "vesselName": "HAFNIA MYNA",
+            "age": 10.5,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 96,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 99,
+                    "bucket": 1,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 97,
+                    "bucket": 2,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 95,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 98,
+                    "bucket": 1,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-78466904839073353",
+                    "voyageId": "-44927983189164356",
+                    "voyageNumber": 26,
+                    "voyageCode": "BW MYNA - 26",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.75,
+                    "commencePortName": "MANZANILLO (MEXICO)",
+                    "completePortName": "ULSAN",
+                    "commenceDate": "2022-10-30T13:00:00",
+                    "completeDate": "2023-01-09T22:12:00"
+                },
+                {
+                    "vesselId": "-78466904839073353",
+                    "voyageId": "359775522137215210",
+                    "voyageNumber": 25,
+                    "voyageCode": "BW MYNA - 25",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95.50,
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "MANZANILLO (MEXICO)",
+                    "commenceDate": "2022-07-29T15:30:00",
+                    "completeDate": "2022-10-30T13:00:00"
+                },
+                {
+                    "vesselId": "-78466904839073353",
+                    "voyageId": "-35850806979510318",
+                    "voyageNumber": 24,
+                    "voyageCode": "BW MYNA - 24",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 99,
+                    "commencePortName": "CIUDAD MADERO",
+                    "completePortName": "GUAYMAS",
+                    "commenceDate": "2022-05-01T00:48:00",
+                    "completeDate": "2022-07-29T15:30:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-78466904839073353",
+                    "voyageId": "359775522137215210",
+                    "commencePortName": "GUAYMAS",
+                    "completePortName": "MANZANILLO (MEXICO)",
+                    "eventDate": "2022-08-06T00:00:00",
+                    "eventType": "InWaterPropellerCleaning",
+                    "comment": "At LONG BEACH. Vertical sides: Fouled with heavy slime with light scattered of barnacles. Source: Divers report."
+                },
+                {
+                    "vesselId": "-78466904839073353",
+                    "voyageId": "-44927983189164356",
+                    "commencePortName": "MANZANILLO (MEXICO)",
+                    "completePortName": "ULSAN",
+                    "eventDate": "2022-11-08T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Panama. Hull was light to moderate fouled of area about 40-70%. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "-82168221029408137",
+            "vesselName": "HAFNIA PUMA",
+            "age": 12.4,
+            "participant": "HAFNIA",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 92.40,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 93.50,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 89,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 96,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-82168221029408137",
+                    "voyageId": "698035246651917749",
+                    "voyageNumber": 22,
+                    "voyageCode": "HAFNIA PUMA - 22",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 91.80,
+                    "commencePortName": "MANZANILLO (MEXICO)",
+                    "completePortName": "WAKAYAMA",
+                    "commenceDate": "2022-10-29T16:30:00",
+                    "completeDate": "2023-01-04T22:42:00"
+                },
+                {
+                    "vesselId": "-82168221029408137",
+                    "voyageId": "-40448033099756436",
+                    "voyageNumber": 21,
+                    "voyageCode": "HAFNIA PUMA - 21",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92.50,
+                    "commencePortName": "SAN JUAN",
+                    "completePortName": "MANZANILLO (MEXICO)",
+                    "commenceDate": "2022-07-14T00:00:00",
+                    "completeDate": "2022-10-29T16:30:00"
+                },
+                {
+                    "vesselId": "-82168221029408137",
+                    "voyageId": "-90615301717106421",
+                    "voyageNumber": 20,
+                    "voyageCode": "HAFNIA PUMA - 20",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 95,
+                    "commencePortName": "AMSTERDAM",
+                    "completePortName": "SAN JUAN",
+                    "commenceDate": "2022-06-20T05:00:00",
+                    "completeDate": "2022-07-14T00:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "-82168221029408137",
+                    "voyageId": "698035246651917749",
+                    "commencePortName": "MANZANILLO (MEXICO)",
+                    "completePortName": "WAKAYAMA",
+                    "eventDate": "2022-11-07T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At Balboa. Source: HafniaBW."
+                }
+            ]
+        },
+        {
+            "vesselId": "826467255974798996",
+            "vesselName": "MP MR TANKER 3",
+            "age": 15.4,
+            "participant": "M PALLONJI SHIPPING SINGAPORE PTE LTD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 93.20,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "459915476446606520",
+                    "voyageNumber": 20,
+                    "voyageCode": "MP MR TANKER 3 - 20",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "TOLO HARBOUR",
+                    "completePortName": "MUARA",
+                    "commenceDate": "2022-09-28T03:42:00",
+                    "completeDate": "2022-11-04T11:42:00"
+                },
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "244836423671994016",
+                    "voyageNumber": 18,
+                    "voyageCode": "MP MR TANKER 3 - 18",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "PORT KLANG",
+                    "completePortName": "DAVAO",
+                    "commenceDate": "2022-08-23T06:12:00",
+                    "completeDate": "2022-09-05T14:30:00"
+                },
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "-78373560061009913",
+                    "voyageNumber": 16,
+                    "voyageCode": "MP MR TANKER 3 - 16",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 93,
+                    "commencePortName": "CHITTAGONG",
+                    "completePortName": "KWINANA",
+                    "commenceDate": "2022-07-11T04:00:00",
+                    "completeDate": "2022-08-07T06:12:00"
+                },
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "295266345548466244",
+                    "voyageNumber": 15,
+                    "voyageCode": "MP MR TANKER 3 - 15",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 91,
+                    "commencePortName": "OITA",
+                    "completePortName": "CHITTAGONG",
+                    "commenceDate": "2022-05-02T05:40:00",
+                    "completeDate": "2022-07-11T04:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "-78373560061009913",
+                    "commencePortName": "CHITTAGONG",
+                    "completePortName": "KWINANA",
+                    "eventDate": "2022-07-17T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At SINGAPORE. Vertical Sides: Light fouling of 10% coverage. Flat bottom: Medium to Heavy fouling of 60% coverage. Source: Divers report."
+                }
+            ]
+        },
+        {
+            "vesselId": "826467255974798996",
+            "vesselName": "MP MR TANKER 3",
+            "age": 15.4,
+            "participant": "M PALLONJI SHIPPING SINGAPORE PTE LTD",
+            "segment": "MR",
+            "pool": "HAOP -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "666089229535863830"
+            ],
+            "speedPercentage": 94,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 91,
+                    "bucket": 4,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 94,
+                    "bucket": 3,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "554373647038291130",
+                    "voyageNumber": 21,
+                    "voyageCode": "MP MR TANKER 3 - 21",
+                    "segment": "MR",
+                    "pool": "HAOP -> A-POOL",
+                    "speedPercentage": 94,
+                    "commencePortName": "MUARA",
+                    "completePortName": "PASIR GUDANG ANCHORAGE",
+                    "commenceDate": "2022-11-04T11:42:00",
+                    "completeDate": "2024-09-26T06:00:00"
+                }
+            ],
+            "events": [
+                {
+                    "vesselId": "826467255974798996",
+                    "voyageId": "-78373560061009913",
+                    "commencePortName": "CHITTAGONG",
+                    "completePortName": "KWINANA",
+                    "eventDate": "2022-07-17T00:00:00",
+                    "eventType": "InWaterHullAndPropellerCleaning",
+                    "comment": "At SINGAPORE. Vertical Sides: Light fouling of 10% coverage. Flat bottom: Medium to Heavy fouling of 60% coverage. Source: Divers report."
+                }
+            ]
+        }
+    ],
+    "eventTypes": [
+        "InWaterHullAndPropellerCleaning",
+        "InWaterPropellerCleaning",
+        "InWaterHullCleaning",
+        "Docking"
+    ],
+    "noDataVessels": [
+        
+    ],
+    "monthlyNoDataVessels": [
+        
+    ]
+}

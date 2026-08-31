@@ -1,0 +1,13 @@
+{
+  "country" : "NG",
+  "requestId" : "3kiPucJRZ",
+  "accountType" : "Savings",
+  "name" : "BO_xtaie CarLoan_lroyt",
+  "creatorId" : "n/a",
+  "bankName" : "Get Gari",
+  "fileUrl" : "",
+  "accountNumber" : "1001713926",
+  "accountHolderName" : "AutoChek",
+  "userId" : "kpMngdaMZ",
+  "email" : "businessOwnercarloane2e_0838744@gmail.com"
+}

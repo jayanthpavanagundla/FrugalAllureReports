@@ -1,0 +1,91 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:06:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+server: hide
+
+{
+    "message": "Success"
+}
+HTTP/1.1 401 Unauthorized
+Date: Wed, 11 Mar 2026 06:07:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 146
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"92-F/HLhW4N+UZYMcOZezA/31PzT5s"
+server: hide
+
+{
+    "error": "Session is invalid",
+    "message": "Session is invalid",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/users/me"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:07:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Imd4RFpzaTBFVFlMdzh0UVRPOE1VIiwiand0SWQiOiJqNXNPeWh1SUJ2QVQ1d2RjVGxlQiIsImlhdCI6MTc3MzIwOTIyMSwiZXhwIjoxODA0NzQ1MjIxfQ.y8IE29HPnYSYtHiioayNqvYtMciB4521v_87SrZchuY; Max-Age=3600; Path=/; Expires=Wed, 11 Mar 2026 07:07:01 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=2a83968292d77ecbdc1de0f44b471bbdb913675502d133448133717fc5cfc25d346f3dd0db38118c5ef6cf2c319e21c3504f91349a32c4bd7866703aad811cd8; Max-Age=2592000; Path=/; Expires=Fri, 10 Apr 2026 06:07:01 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-/C8y133bT1vW5uIZsrOYMkZyWsc"
+server: hide
+
+{
+    "message": "Success",
+    "data": {
+        "id": "VwTbQ2Lf15FIuaTQ4bLC",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6Imd4RFpzaTBFVFlMdzh0UVRPOE1VIiwiand0SWQiOiJqNXNPeWh1SUJ2QVQ1d2RjVGxlQiIsImlhdCI6MTc3MzIwOTIyMSwiZXhwIjoxODA0NzQ1MjIxfQ.y8IE29HPnYSYtHiioayNqvYtMciB4521v_87SrZchuY",
+        "refreshToken": "2a83968292d77ecbdc1de0f44b471bbdb913675502d133448133717fc5cfc25d346f3dd0db38118c5ef6cf2c319e21c3504f91349a32c4bd7866703aad811cd8",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}

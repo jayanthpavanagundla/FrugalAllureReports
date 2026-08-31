@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/equity/initiate-direct-debit-and-charge
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJwZVltY05UWHc1THdzZk5VOW1BMiIsImp3dElkIjoiN091bjFQUE9leFpzd2N5SW0ySVMiLCJpYXQiOjE3NzQ1MzA4MzUsImV4cCI6MTgwNjA2NjgzNX0.2kDrQLF1VBcgp3tSuK7N0Yg0CBdS4-1JKUkDlw3bPEc
+				Accept=application/json
+				X-autochek-app=dealerplus
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "bank_code": "058",
+    "account_number": "0128034955",
+    "loan_id": "OR4S4vvo-"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJwZVltY05UWHc1THdzZk5VOW1BMiIsImp3dElkIjoiN091bjFQUE9leFpzd2N5SW0ySVMiLCJpYXQiOjE3NzQ1MzA4MzUsImV4cCI6MTgwNjA2NjgzNX0.2kDrQLF1VBcgp3tSuK7N0Yg0CBdS4-1JKUkDlw3bPEc
+				refresh_token=072c63fab3f6928ff93abbdfceb6f143f778de87e9a823c76f4e09ab7ff2ca3be940bdbc136d26de361afb6baead44c3fd31d2635388db1abf8503cb734fc56f
+Multiparts:		<none>
+Body:			<none>

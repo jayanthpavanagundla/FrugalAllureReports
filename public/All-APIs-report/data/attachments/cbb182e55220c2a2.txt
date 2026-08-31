@@ -1,0 +1,6 @@
+The following asserts failed:
+	Response code of Post Enable user should be 200 | Expected: 200, Actual: 500 expected [200] but found [500],
+	Assertion failed for Response body should contain 'enabled successfully' expected [true] but found [false],
+	Enabled user should be able to login again | Expected: 200, Actual: 403 expected [200] but found [403],
+	Enabled user's access token should be active/valid | Expected: 200, Actual: 401 expected [200] but found [401],
+	Enabled user's refresh token should be active/valid | Expected: 200, Actual: 401 expected [200] but found [401]

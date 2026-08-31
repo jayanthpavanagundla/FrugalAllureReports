@@ -1,0 +1,33 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 11 Mar 2026 06:06:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 293
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"125-Vt9xTWrh2ZWWGR0Qn+pF1WOBo8Q"
+server: hide
+
+{
+    "code": 400,
+    "error": "Error fetching accepted offer: No loan was found for id: %^&*()!",
+    "message": "Error fetching accepted offer: No loan was found for id: %^&*()!",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/origination/loans/%25%5E%26*%28%29%21/accepted-offer"
+        }
+    ]
+}

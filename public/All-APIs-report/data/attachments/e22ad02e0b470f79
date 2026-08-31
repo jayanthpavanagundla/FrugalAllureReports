@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:59:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 266
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"10a-u2plvEiuGAU62VoVmZn3FVgagSY"
+server: hide
+
+{
+    "obds": [
+        {
+            "code": "B1200"
+        },
+        {
+            "code": "B1201"
+        },
+        {
+            "code": "B1202"
+        },
+        {
+            "code": "B1203"
+        },
+        {
+            "code": "B1204"
+        },
+        {
+            "code": "B1205"
+        },
+        {
+            "code": "B1206"
+        },
+        {
+            "code": "B1207"
+        },
+        {
+            "code": "B1208"
+        },
+        {
+            "code": "B1209"
+        }
+    ],
+    "pagination": {
+        "total": 3223,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 323
+    }
+}

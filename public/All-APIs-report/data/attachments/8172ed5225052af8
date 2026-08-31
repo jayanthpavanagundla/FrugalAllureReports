@@ -1,0 +1,73 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:57:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 386
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"182-WvVhhzSiDUcOW48gkzT25CoPY5o"
+server: hide
+
+{
+    "bodyTypeList": [
+        {
+            "id": 9,
+            "name": "Bus"
+        },
+        {
+            "id": 4,
+            "name": "Convertible"
+        },
+        {
+            "id": 7,
+            "name": "Coupe"
+        },
+        {
+            "id": 10,
+            "name": "Crossover"
+        },
+        {
+            "id": 5,
+            "name": "Hatchback"
+        },
+        {
+            "id": 19,
+            "name": "Liftback"
+        },
+        {
+            "id": 2,
+            "name": "Minivan"
+        },
+        {
+            "id": 16,
+            "name": "MPV"
+        },
+        {
+            "id": 22,
+            "name": "Multi-Purpose Vehicle (MPV)"
+        },
+        {
+            "id": 20,
+            "name": "Notchback"
+        }
+    ],
+    "pagination": {
+        "total": 19,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 2
+    }
+}

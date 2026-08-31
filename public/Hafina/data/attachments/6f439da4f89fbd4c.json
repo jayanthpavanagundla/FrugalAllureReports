@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/GlobalMap/updatehistoricalroutefromsearoute?voyageId=-45722336148084463
+Proxy:			<none>
+Request params:	<none>
+Query params:	voyageId=-45722336148084463
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

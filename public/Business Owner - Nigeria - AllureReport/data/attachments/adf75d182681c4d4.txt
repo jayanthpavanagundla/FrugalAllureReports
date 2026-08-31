@@ -1,0 +1,147 @@
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "K8YV2OryR3",
+                    "status": "pending",
+                    "createdAt": "Thu Mar 26 2026 13:03:07 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "inspectionReviews": [
+                
+            ],
+            "id": "cy-YhWM2k",
+            "carTitle": "Audi A5 2015",
+            "modelId": 87,
+            "vin": "EUP1KCGRRSQTWMYX0",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-03-26T13:03:07.731Z",
+            "updatedAt": "2026-03-26T13:03:07.731Z",
+            "carId": "z5VnE-qw7",
+            "userId": "oV3yYl2hPuuLuBLrhLud",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "402650420034872",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "z5VnE-qw7",
+                "year": 2015,
+                "insured": false,
+                "mileage": 10,
+                "vin": "EUP1KCGRRSQTWMYX0",
+                "licensePlate": "BD01LZ0605",
+                "engineNumber": "69059278555",
+                "price": 5000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 5000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Thu Mar 26 2026 12:59:42 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/WqNBepsy.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "state": "Niger",
+                "country": "NG",
+                "address": "Chanchaga City",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Chanchaga",
+                "marketplaceOldPrice": 5000000,
+                "createdAt": "Thu Mar 26 2026 12:58:32 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 26 2026 12:59:43 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 3,
+                "installment": 250186,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3853053,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/z5VnE-qw7",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "4.4",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false,
+                "auction": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,3487 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:13:01 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+[
+    {
+        "currentPosition": {
+            "longitude": 31.379883,
+            "latitude": -29.72195
+        },
+        "vessel": {
+            "vesselId": "-87448578845121017",
+            "vesselName": "HAFNIA EGRET"
+        },
+        "fromPort": "PHILADELPHIA",
+        "toPort": "TUXPAN",
+        "commenceDate": "2021-06-18T17:42:00",
+        "completeDate": "2021-08-08T02:00:00",
+        "speed": "1.08",
+        "course": "219.50",
+        "eta": "-6",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-27877286366365403",
+        "voyageNumber": 20,
+        "voyageCode": "BW EGRET - 20",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9607174",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:01.836434",
+        "draft": 11.60,
+        "isActive": true,
+        "vesselCode": "00227"
+    },
+    {
+        "currentPosition": {
+            "longitude": -75.929445,
+            "latitude": 15.660895
+        },
+        "vessel": {
+            "vesselId": "-85804714506294846",
+            "vesselName": "CHIOS STAR"
+        },
+        "fromPort": "ALEXANDRIA (EGYPT)",
+        "toPort": "AMSTERDAM",
+        "commenceDate": "2021-06-27T09:30:00",
+        "completeDate": "2021-08-18T11:06:00",
+        "speed": "13.39",
+        "course": "342.50",
+        "eta": "-21",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-82871562893468972",
+        "participant": "CHARTWORLD",
+        "country": "Marshall Islands",
+        "countryCode": "MH",
+        "voyageId": "-14243332024502249",
+        "voyageNumber": 22,
+        "voyageCode": "CHIOS STAR - 22",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9827566",
+        "speedPercentage": 93,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:01.321497",
+        "draft": 8.60,
+        "isActive": true,
+        "vesselCode": "00282"
+    },
+    {
+        "currentPosition": {
+            "longitude": 144.386705,
+            "latitude": -38.088815
+        },
+        "vessel": {
+            "vesselId": "-82168221029408137",
+            "vesselName": "HAFNIA PUMA"
+        },
+        "fromPort": "CHARLESTON",
+        "toPort": "CRISTOBAL",
+        "commenceDate": "2021-03-02T18:18:00",
+        "completeDate": "2022-02-11T15:27:00",
+        "speed": "0",
+        "course": "133.10",
+        "eta": "-16",
+        "events": [
+            "InWaterHullAndPropellerCleaning",
+            "InWaterHullCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-15130592035341121",
+        "voyageNumber": 15,
+        "voyageCode": "BW PUMA - 15",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9635810",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:15.662444",
+        "draft": 10.70,
+        "isActive": true,
+        "vesselCode": "00235"
+    },
+    {
+        "currentPosition": {
+            "longitude": 103.802325,
+            "latitude": 1.255278
+        },
+        "vessel": {
+            "vesselId": "-78466904839073353",
+            "vesselName": "HAFNIA MYNA"
+        },
+        "fromPort": "BEIRUT",
+        "toPort": "AT SEA",
+        "commenceDate": "2020-10-26T20:00:00",
+        "completeDate": "2021-07-02T06:00:00",
+        "speed": "0",
+        "course": "42.80",
+        "eta": "-2",
+        "events": [
+            "Bunkering",
+            "Docking",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "167921370117043191",
+        "voyageNumber": 16,
+        "voyageCode": "BW MYNA - 16",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9708083",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:04.14012",
+        "draft": 9.10,
+        "isActive": true,
+        "vesselCode": "00226"
+    },
+    {
+        "currentPosition": {
+            "longitude": 4.026972,
+            "latitude": 5.499405
+        },
+        "vessel": {
+            "vesselId": "-74912722542201860",
+            "vesselName": "HAFNIA YARRA"
+        },
+        "fromPort": "NEW YORK",
+        "toPort": "TRAMANDAI",
+        "commenceDate": "2021-05-31T00:30:00",
+        "completeDate": "2021-07-27T01:30:00",
+        "speed": "11.29",
+        "course": "80.80",
+        "eta": "-6",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-29736724903537719",
+        "voyageNumber": 20,
+        "voyageCode": "BW YARRA - 20",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9766229",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:21.315114",
+        "draft": 8.20,
+        "isActive": true,
+        "vesselCode": "00258"
+    },
+    {
+        "currentPosition": {
+            "longitude": -96.123222,
+            "latitude": 19.205355
+        },
+        "vessel": {
+            "vesselId": "-71293131391657890",
+            "vesselName": "HAFNIA EAGLE"
+        },
+        "fromPort": "TAICANG",
+        "toPort": "ROSARITO TERMINAL",
+        "commenceDate": "2021-06-09T18:30:00",
+        "completeDate": "2021-07-28T22:00:00",
+        "speed": "0",
+        "course": "145.40",
+        "eta": "-10",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-62879033707011433",
+        "voyageNumber": 21,
+        "voyageCode": "BW EAGLE - 21",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9708071",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:42.121289",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00225"
+    },
+    {
+        "currentPosition": {
+            "longitude": -1.242068,
+            "latitude": 46.158512
+        },
+        "vessel": {
+            "vesselId": "-71287628204392995",
+            "vesselName": "HAFNIA NESO"
+        },
+        "fromPort": "YIU LIAN",
+        "toPort": "LA PALLICE",
+        "commenceDate": "2019-10-05T10:00:00",
+        "completeDate": "2023-09-22T03:00:00",
+        "speed": "0",
+        "course": "59.90",
+        "eta": "-5",
+        "events": [
+            "Bunkering",
+            "InWaterHullCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-67365306781811509",
+        "voyageNumber": 1,
+        "voyageCode": "BW NESO - 1",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9800312",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:15.711316",
+        "draft": 14.60,
+        "isActive": true,
+        "vesselCode": "00269"
+    },
+    {
+        "currentPosition": {
+            "longitude": 22.873923,
+            "latitude": -35.340648
+        },
+        "vessel": {
+            "vesselId": "-69646049770195698",
+            "vesselName": "HAFNIA SOYA"
+        },
+        "fromPort": "THAMESHAVEN",
+        "toPort": "DONGES",
+        "commenceDate": "2021-06-16T22:00:00",
+        "completeDate": "2021-07-07T16:30:00",
+        "speed": "10.10",
+        "course": "258.80",
+        "eta": "-15",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "112671119057473817"
+        ],
+        "segment": "HANDY",
+        "pool": "HAHP -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-88845668266325096",
+        "voyageNumber": 104,
+        "voyageCode": "HAFNIA SOYA - 104",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9729271",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:36.463347",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00122"
+    },
+    {
+        "currentPosition": {
+            "longitude": 103.799212,
+            "latitude": 1.205898
+        },
+        "vessel": {
+            "vesselId": "-69275482370602038",
+            "vesselName": "HAFNIA FALCON"
+        },
+        "fromPort": "NEW YORK",
+        "toPort": "LAS PALMAS",
+        "commenceDate": "2021-06-28T13:00:00",
+        "completeDate": "2021-07-22T22:30:00",
+        "speed": "0",
+        "course": "57.10",
+        "eta": "-9",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-30150490564340751",
+        "voyageNumber": 26,
+        "voyageCode": "BW FALCON - 26",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9607186",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:35.290695",
+        "draft": 13.30,
+        "isActive": true,
+        "vesselCode": "00228"
+    },
+    {
+        "currentPosition": {
+            "longitude": -38.2243,
+            "latitude": -1.971873
+        },
+        "vessel": {
+            "vesselId": "-65872148931398786",
+            "vesselName": "ORIENT CHALLENGE"
+        },
+        "fromPort": "LOS ANGELES",
+        "toPort": "ACAJUTLA",
+        "commenceDate": "2021-05-26T12:00:00",
+        "completeDate": "2021-07-02T02:30:00",
+        "speed": "12.58",
+        "course": "123.20",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-59349093184105777",
+        "voyageNumber": 38,
+        "voyageCode": "ORIENT CHALLENGE - 38",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9793375",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:23.301806",
+        "draft": 12.30,
+        "isActive": true,
+        "vesselCode": "00162"
+    },
+    {
+        "currentPosition": {
+            "longitude": 4.747787,
+            "latitude": 52.414483
+        },
+        "vessel": {
+            "vesselId": "-65013197940497289",
+            "vesselName": "SHANNON STAR"
+        },
+        "fromPort": "BREST",
+        "toPort": "LAVERA",
+        "commenceDate": "2021-06-19T20:00:00",
+        "completeDate": "2021-07-06T22:30:00",
+        "speed": "0",
+        "course": "290.90",
+        "eta": "-9",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "639982008642841908",
+        "voyageNumber": 24,
+        "voyageCode": "SHANNON STAR - 24",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9503926",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:45.720644",
+        "draft": 7.60,
+        "isActive": true,
+        "vesselCode": "00316"
+    },
+    {
+        "currentPosition": {
+            "longitude": -97.12645,
+            "latitude": 27.831422
+        },
+        "vessel": {
+            "vesselId": "-63590529799106912",
+            "vesselName": "ORIENT INNOVATION"
+        },
+        "fromPort": "GROOTE EYLANDT",
+        "toPort": "TANJUNG BIN",
+        "commenceDate": "2021-06-01T22:00:00",
+        "completeDate": "2021-07-05T04:00:00",
+        "speed": "11.18",
+        "course": "77.70",
+        "eta": "-4",
+        "events": [
+            "Bunkering",
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "349904557110936359",
+        "voyageNumber": 42,
+        "voyageCode": "ORIENT INNOVATION - 42",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9793387",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:54.944132",
+        "draft": 11.90,
+        "isActive": true,
+        "vesselCode": "00163"
+    },
+    {
+        "currentPosition": {
+            "longitude": -118.150465,
+            "latitude": 33.73492
+        },
+        "vessel": {
+            "vesselId": "-62087793206561790",
+            "vesselName": "HAFNIA LEO"
+        },
+        "fromPort": "SOHAR",
+        "toPort": "BEIRA",
+        "commenceDate": "2021-05-27T17:24:00",
+        "completeDate": "2021-07-12T17:18:00",
+        "speed": "0.11",
+        "course": "355.20",
+        "eta": "-14",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-41159331967964652",
+        "voyageNumber": 69,
+        "voyageCode": "HAFNIA LEO - 69",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9476824",
+        "speedPercentage": 92,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:57.206206",
+        "draft": 8.00,
+        "isActive": true,
+        "vesselCode": "00072"
+    },
+    {
+        "currentPosition": {
+            "longitude": 72.380553,
+            "latitude": 18.921587
+        },
+        "vessel": {
+            "vesselId": "-56942871621553839",
+            "vesselName": "HAFNIA TAGUS"
+        },
+        "fromPort": "LUANDA",
+        "toPort": "SANTOS",
+        "commenceDate": "2021-06-11T08:18:00",
+        "completeDate": "2021-07-22T17:36:00",
+        "speed": "0",
+        "course": "340.20",
+        "eta": "-14",
+        "events": [
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-42809580200702315",
+        "voyageNumber": 13,
+        "voyageCode": "BW TAGUS - 13",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9766205",
+        "speedPercentage": 94,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:19.05727",
+        "draft": 12.10,
+        "isActive": true,
+        "vesselCode": "00248"
+    },
+    {
+        "currentPosition": {
+            "longitude": 144.256938,
+            "latitude": 1.343783
+        },
+        "vessel": {
+            "vesselId": "-54269224608378838",
+            "vesselName": "HAFNIA MIKALA"
+        },
+        "fromPort": "PAJARITOS",
+        "toPort": "PROGRESO",
+        "commenceDate": "2021-05-24T18:30:00",
+        "completeDate": "2021-07-05T17:00:00",
+        "speed": "11.88",
+        "course": "339.00",
+        "eta": "-15",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "842722658770863777",
+        "voyageNumber": 52,
+        "voyageCode": "HAFNIA MIKALA - 52",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9732709",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:29.374759",
+        "draft": 8.20,
+        "isActive": true,
+        "vesselCode": "00108"
+    },
+    {
+        "currentPosition": {
+            "longitude": -69.82416,
+            "latitude": 47.797462
+        },
+        "vessel": {
+            "vesselId": "-54176710029083287",
+            "vesselName": "HAFNIA DAISY"
+        },
+        "fromPort": "GUANGZHOU",
+        "toPort": "GIBRALTAR",
+        "commenceDate": "2016-08-12T16:01:00",
+        "completeDate": "2021-07-14T03:30:00",
+        "speed": "12.53",
+        "course": "34.50",
+        "eta": "-4",
+        "events": [
+            "Bunkering",
+            "InWaterHullAndPropellerCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-46016736233742194"
+        ],
+        "segment": "MR",
+        "pool": "HTSM -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-13188681430135381",
+        "voyageNumber": 1,
+        "voyageCode": "HAFNIA DAISY - 1",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9709788",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:51.836208",
+        "draft": 11.50,
+        "isActive": true,
+        "vesselCode": "00102"
+    },
+    {
+        "currentPosition": {
+            "longitude": -80.447988,
+            "latitude": 20.161517
+        },
+        "vessel": {
+            "vesselId": "-53443898745100793",
+            "vesselName": "HAFNIA CRUX"
+        },
+        "fromPort": "GALVESTON",
+        "toPort": "TUXPAN",
+        "commenceDate": "2021-05-28T17:00:00",
+        "completeDate": "2021-07-14T16:00:00",
+        "speed": "13.61",
+        "course": "286.00",
+        "eta": "-16",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Denmark",
+        "countryCode": "DK",
+        "voyageId": "-35498281821424103",
+        "voyageNumber": 55,
+        "voyageCode": "HAFNIA CRUX - 55",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9461697",
+        "speedPercentage": 93,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:57.725512",
+        "draft": 7.20,
+        "isActive": true,
+        "vesselCode": "00118"
+    },
+    {
+        "currentPosition": {
+            "longitude": -10.188443,
+            "latitude": 42.143517
+        },
+        "vessel": {
+            "vesselId": "-50631506967548497",
+            "vesselName": "MISSISSIPPI STAR"
+        },
+        "fromPort": "FOS",
+        "toPort": "LAVERA",
+        "commenceDate": "2021-06-22T01:48:00",
+        "completeDate": "2021-07-11T14:42:00",
+        "speed": "11.12",
+        "course": "180.40",
+        "eta": "-17",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-87619957632542723",
+        "voyageNumber": 26,
+        "voyageCode": "MISSISSIPPI STAR - 26",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9527623",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:12.208859",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00313"
+    },
+    {
+        "currentPosition": {
+            "longitude": 28.90273,
+            "latitude": 40.802897
+        },
+        "vessel": {
+            "vesselId": "-50623107510218015",
+            "vesselName": "HAFNIA BERING"
+        },
+        "fromPort": "DONGES",
+        "toPort": "LAS PALMAS",
+        "commenceDate": "2021-06-28T04:00:00",
+        "completeDate": "2021-07-12T13:42:00",
+        "speed": "1.40",
+        "course": "257.90",
+        "eta": "-18",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "112671119057473817"
+        ],
+        "segment": "HANDY",
+        "pool": "HAHP -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "748564858178901991",
+        "voyageNumber": 106,
+        "voyageCode": "HAFNIA BERING - 106",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9725603",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:14.071285",
+        "draft": 8.00,
+        "isActive": true,
+        "vesselCode": "00109"
+    },
+    {
+        "currentPosition": {
+            "longitude": -19.426122,
+            "latitude": 47.710215
+        },
+        "vessel": {
+            "vesselId": "-45196122654186699",
+            "vesselName": "HAFNIA LYNX"
+        },
+        "fromPort": "NEW HAVEN",
+        "toPort": "SAN LORENZO (HONDURAS)",
+        "commenceDate": "2021-06-08T10:30:00",
+        "completeDate": "2021-07-09T09:12:00",
+        "speed": "12.80",
+        "course": "80.90",
+        "eta": "-23",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "384437362949675776",
+        "voyageNumber": 21,
+        "voyageCode": "BW LYNX - 21",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9635808",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:17.903203",
+        "draft": 12.20,
+        "isActive": true,
+        "vesselCode": "00222"
+    },
+    {
+        "currentPosition": {
+            "longitude": 15.25806,
+            "latitude": 37.1244
+        },
+        "vessel": {
+            "vesselId": "-42949158072759017",
+            "vesselName": "LYSIAS"
+        },
+        "fromPort": "COLON",
+        "toPort": "SAN JUAN",
+        "commenceDate": "2021-06-24T09:24:00",
+        "completeDate": "2021-07-18T16:00:00",
+        "speed": "0",
+        "course": "335.90",
+        "eta": "-16",
+        "events": [
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "192166407352442469",
+        "participant": "GRACE SHIP MANAGEMENT",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-54961341308034994",
+        "voyageNumber": 39,
+        "voyageCode": "LYSIAS - 39",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9397511",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:14.557456",
+        "draft": 8.40,
+        "isActive": true,
+        "vesselCode": "00181"
+    },
+    {
+        "currentPosition": {
+            "longitude": 31.196628,
+            "latitude": -31.445057
+        },
+        "vessel": {
+            "vesselId": "-33041429694107690",
+            "vesselName": "HAFNIA SHANGHAI"
+        },
+        "fromPort": "PENGERANG",
+        "toPort": "CAPE CANAVERAL",
+        "commenceDate": "2021-06-21T05:42:00",
+        "completeDate": "2021-08-17T06:36:00",
+        "speed": "6.48",
+        "course": "186.20",
+        "eta": "-1",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-14800806745601206",
+        "voyageNumber": 21,
+        "voyageCode": "HAFNIA SHANGHAI - 21",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9830290",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:37.611676",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00260"
+    },
+    {
+        "currentPosition": {
+            "longitude": 111.898878,
+            "latitude": -6.711785
+        },
+        "vessel": {
+            "vesselId": "-31364650798037758",
+            "vesselName": "HAFNIA LOTTE"
+        },
+        "fromPort": "ROTTERDAM",
+        "toPort": "ROTTERDAM",
+        "commenceDate": "2021-02-27T15:18:00",
+        "completeDate": "2021-07-10T04:12:00",
+        "speed": "0.11",
+        "course": "247.90",
+        "eta": "-4",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-14287866942565651",
+        "voyageNumber": 40,
+        "voyageCode": "HAFNIA LOTTE - 40",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9732694",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:31.836196",
+        "draft": 8.60,
+        "isActive": true,
+        "vesselCode": "00107"
+    },
+    {
+        "currentPosition": {
+            "longitude": 83.44291,
+            "latitude": 17.576062
+        },
+        "vessel": {
+            "vesselId": "-28901690987005272",
+            "vesselName": "HAFNIA RAVEN"
+        },
+        "fromPort": "YOSU",
+        "toPort": "CHITTAGONG",
+        "commenceDate": "2021-06-18T06:30:00",
+        "completeDate": "2021-07-11T06:00:00",
+        "speed": "12.42",
+        "course": "143.20",
+        "eta": "-2",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-29548212432191807",
+        "voyageNumber": 26,
+        "voyageCode": "BW RAVEN - 26",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9706061",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:41.142871",
+        "draft": 10.40,
+        "isActive": true,
+        "vesselCode": "00233"
+    },
+    {
+        "currentPosition": {
+            "longitude": 39.334452,
+            "latitude": -6.732798
+        },
+        "vessel": {
+            "vesselId": "-28487869728084161",
+            "vesselName": "IONIAN STAR"
+        },
+        "fromPort": "WILLEMSTAD",
+        "toPort": "KINGSTON (JAMAICA)",
+        "commenceDate": "2021-06-23T15:00:00",
+        "completeDate": "2021-07-10T13:30:00",
+        "speed": "0.11",
+        "course": "246.50",
+        "eta": "-18",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-82871562893468972",
+        "participant": "CHARTWORLD",
+        "country": "Marshall Islands",
+        "countryCode": "MH",
+        "voyageId": "234136848591868066",
+        "voyageNumber": 25,
+        "voyageCode": "IONIAN STAR - 25",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9828895",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:16.783734",
+        "draft": 11.50,
+        "isActive": true,
+        "vesselCode": "00280"
+    },
+    {
+        "currentPosition": {
+            "longitude": 91.713335,
+            "latitude": 22.23202
+        },
+        "vessel": {
+            "vesselId": "-28222555639917546",
+            "vesselName": "HAFNIA MERLIN"
+        },
+        "fromPort": "KO SI CHANG",
+        "toPort": "TANJUNG BIN",
+        "commenceDate": "2021-03-27T12:42:00",
+        "completeDate": "2023-01-21T01:12:00",
+        "speed": "0.32",
+        "course": "206.70",
+        "eta": "-7",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-80880794335819734",
+        "voyageNumber": 21,
+        "voyageCode": "BW MERLIN - 21",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9682239",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:37.60814",
+        "draft": 7.80,
+        "isActive": true,
+        "vesselCode": "00231"
+    },
+    {
+        "currentPosition": {
+            "longitude": 91.751165,
+            "latitude": 22.259362
+        },
+        "vessel": {
+            "vesselId": "-26938122904516016",
+            "vesselName": "HAFNIA CHEETAH"
+        },
+        "fromPort": "PORT VILA",
+        "toPort": "PENGERANG",
+        "commenceDate": "2021-06-12T21:36:00",
+        "completeDate": "2023-02-21T00:01:00",
+        "speed": "0.22",
+        "course": "160.70",
+        "eta": "-8",
+        "events": [
+            "Bunkering",
+            "InWaterHullCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "11846083635473095",
+        "voyageNumber": 21,
+        "voyageCode": "BW CHEETAH - 21",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9635834",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:25.599645",
+        "draft": 10.80,
+        "isActive": true,
+        "vesselCode": "00217"
+    },
+    {
+        "currentPosition": {
+            "longitude": -18.052588,
+            "latitude": 50.347222
+        },
+        "vessel": {
+            "vesselId": "-23474338342597102",
+            "vesselName": "BULLDOG"
+        },
+        "fromPort": "DALIAN",
+        "toPort": "TANJUNG BIN",
+        "commenceDate": "2021-06-23T03:30:00",
+        "completeDate": "2021-07-14T01:00:00",
+        "speed": "13.12",
+        "course": "261.80",
+        "eta": "-7",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-42144826857740501",
+        "voyageNumber": 15,
+        "voyageCode": "BULLDOG - 15",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9858072",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:46.694676",
+        "draft": 11.30,
+        "isActive": true,
+        "vesselCode": "00276"
+    },
+    {
+        "currentPosition": {
+            "longitude": -82.975052,
+            "latitude": 7.343677
+        },
+        "vessel": {
+            "vesselId": "-21348347934041917",
+            "vesselName": "OINOUSSIAN STAR"
+        },
+        "fromPort": "PAJARITOS",
+        "toPort": "DUNKIRK",
+        "commenceDate": "2021-06-09T15:30:00",
+        "completeDate": "2021-07-05T03:00:00",
+        "speed": "13.17",
+        "course": "112.90",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-82871562893468972",
+        "participant": "CHARTWORLD",
+        "country": "Marshall Islands",
+        "countryCode": "MH",
+        "voyageId": "125844814765339845",
+        "voyageNumber": 16,
+        "voyageCode": "OINOUSSIAN STAR - 16",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9827578",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:54.708714",
+        "draft": 8.60,
+        "isActive": true,
+        "vesselCode": "00304"
+    },
+    {
+        "currentPosition": {
+            "longitude": -5.559588,
+            "latitude": 48.979308
+        },
+        "vessel": {
+            "vesselId": "-18563793884822203",
+            "vesselName": "GANGES STAR"
+        },
+        "fromPort": "HUELVA",
+        "toPort": "FOS",
+        "commenceDate": "2021-06-24T07:12:00",
+        "completeDate": "2021-07-07T22:48:00",
+        "speed": "12.20",
+        "course": "239.50",
+        "eta": "-9",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "900933175713337234",
+        "voyageNumber": 19,
+        "voyageCode": "GANGES STAR - 19",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9496692",
+        "speedPercentage": 94,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:42.313065",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00311"
+    },
+    {
+        "currentPosition": {
+            "longitude": 103.888557,
+            "latitude": 1.091695
+        },
+        "vessel": {
+            "vesselId": "-17605794161800607",
+            "vesselName": "VS LEIA"
+        },
+        "fromPort": "ALGECIRAS",
+        "toPort": "CONSTANTZA",
+        "commenceDate": "2021-06-22T14:42:00",
+        "completeDate": "2021-09-30T14:30:00",
+        "speed": "0",
+        "course": "360.00",
+        "eta": "-17",
+        "events": [
+            "Docking"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "112671119057473817"
+        ],
+        "segment": "HANDY",
+        "pool": "HAHP -> A-POOL",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Isle of Man",
+        "countryCode": "IM",
+        "voyageId": "-49718430163970607",
+        "voyageNumber": 49,
+        "voyageCode": "VS LEIA - 49",
+        "status": "Completed",
+        "colorByPerformance": "#DE334A",
+        "imoNumber": "9303730",
+        "speedPercentage": 89,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:15.226591",
+        "draft": 10.80,
+        "isActive": true,
+        "vesselCode": "00279"
+    },
+    {
+        "currentPosition": {
+            "longitude": -95.163873,
+            "latitude": 29.740915
+        },
+        "vessel": {
+            "vesselId": "-13501195815314615",
+            "vesselName": "HAFNIA AUSTRALIA"
+        },
+        "fromPort": "SITRA",
+        "toPort": "KHOR AL ZUBAIR",
+        "commenceDate": "2021-06-15T18:30:00",
+        "completeDate": "2021-07-19T08:00:00",
+        "speed": "0",
+        "course": "73.90",
+        "eta": "0",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "110556079893824394",
+        "voyageNumber": 29,
+        "voyageCode": "HAFNIA AUSTRALIA - 29",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9467794",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:22.438491",
+        "draft": 9.00,
+        "isActive": true,
+        "vesselCode": "00145"
+    },
+    {
+        "currentPosition": {
+            "longitude": -95.159867,
+            "latitude": 29.737972
+        },
+        "vessel": {
+            "vesselId": "-12722329822176486",
+            "vesselName": "BLUEBIRD"
+        },
+        "fromPort": "TOKUYAMA",
+        "toPort": "KHOR AL ZUBAIR",
+        "commenceDate": "2021-06-09T04:00:00",
+        "completeDate": "2021-08-27T10:00:00",
+        "speed": "0",
+        "course": "77.50",
+        "eta": "-22",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-43723819723267440",
+        "participant": "LARINE TANKERS PTE. LTD",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "247411032984623879",
+        "voyageNumber": 40,
+        "voyageCode": "BLUEBIRD - 40",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9737515",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:34.121798",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00164"
+    },
+    {
+        "currentPosition": {
+            "longitude": -25.582875,
+            "latitude": 36.721305
+        },
+        "vessel": {
+            "vesselId": "110510961707209453",
+            "vesselName": "AEGEAN STAR"
+        },
+        "fromPort": "CIUDAD MADERO",
+        "toPort": "ROSARITO TERMINAL",
+        "commenceDate": "2021-06-09T16:00:00",
+        "completeDate": "2021-08-13T18:00:00",
+        "speed": "12.69",
+        "course": "97.80",
+        "eta": "-14",
+        "events": [
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-82871562893468972",
+        "participant": "CHARTWORLD",
+        "country": "Marshall Islands",
+        "countryCode": "MH",
+        "voyageId": "-51610276495996603",
+        "voyageNumber": 24,
+        "voyageCode": "AEGEAN STAR - 24",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9828900",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:07.584245",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00290"
+    },
+    {
+        "currentPosition": {
+            "longitude": -94.697353,
+            "latitude": 29.044975
+        },
+        "vessel": {
+            "vesselId": "133925842584707402",
+            "vesselName": "HAFNIA AFRICA"
+        },
+        "fromPort": "JEBEL ALI",
+        "toPort": "DJIBOUTI",
+        "commenceDate": "2021-06-28T11:00:00",
+        "completeDate": "2021-08-07T16:30:00",
+        "speed": "0",
+        "course": "50.00",
+        "eta": "-15",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-12122804024595401",
+        "voyageNumber": 55,
+        "voyageCode": "HAFNIA AFRICA - 55",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9467811",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:21.479836",
+        "draft": 8.90,
+        "isActive": true,
+        "vesselCode": "00143"
+    },
+    {
+        "currentPosition": {
+            "longitude": -4.397105,
+            "latitude": 55.892158
+        },
+        "vessel": {
+            "vesselId": "137090450544488010",
+            "vesselName": "AMUR STAR"
+        },
+        "fromPort": "THAMESHAVEN",
+        "toPort": "LEIXOES",
+        "commenceDate": "2021-06-21T14:30:00",
+        "completeDate": "2021-07-04T05:42:00",
+        "speed": "0",
+        "course": "127.50",
+        "eta": "-2",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "644512888843196247",
+        "voyageNumber": 23,
+        "voyageCode": "AMUR STAR - 23",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9480368",
+        "speedPercentage": 94,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:37.549453",
+        "draft": 7.90,
+        "isActive": true,
+        "vesselCode": "00309"
+    },
+    {
+        "currentPosition": {
+            "longitude": 102.901655,
+            "latitude": 1.56401
+        },
+        "vessel": {
+            "vesselId": "146581829089380564",
+            "vesselName": "HAFNIA HENRIETTE"
+        },
+        "fromPort": "HAIFA",
+        "toPort": "AGIOI THEODOROI",
+        "commenceDate": "2021-06-22T10:42:00",
+        "completeDate": "2021-08-02T08:12:00",
+        "speed": "9.72",
+        "course": "121.60",
+        "eta": "0",
+        "events": [
+            "Bunkering",
+            "Docking"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-81034393932128447",
+        "voyageNumber": 52,
+        "voyageCode": "HAFNIA HENRIETTE - 52",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9726607",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:34.09911",
+        "draft": 8.90,
+        "isActive": true,
+        "vesselCode": "00103"
+    },
+    {
+        "currentPosition": {
+            "longitude": -19.836043,
+            "latitude": 15.860192
+        },
+        "vessel": {
+            "vesselId": "172777982611178546",
+            "vesselName": "HAFNIA ANE"
+        },
+        "fromPort": "ROTTERDAM",
+        "toPort": "ZARATE",
+        "commenceDate": "2021-05-26T10:06:00",
+        "completeDate": "2021-07-08T23:00:00",
+        "speed": "11.72",
+        "course": "4.20",
+        "eta": "-9",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-34461614917762001",
+        "voyageNumber": 32,
+        "voyageCode": "HAFNIA ANE - 32",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9709776",
+        "speedPercentage": 102,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:21.62522",
+        "draft": 11.60,
+        "isActive": true,
+        "vesselCode": "00101"
+    },
+    {
+        "currentPosition": {
+            "longitude": -130.83273,
+            "latitude": -16.338743
+        },
+        "vessel": {
+            "vesselId": "241257653754851309",
+            "vesselName": "HAFNIA DESPINA"
+        },
+        "fromPort": "ONSAN",
+        "toPort": "LAVERA",
+        "commenceDate": "2020-09-15T00:18:00",
+        "completeDate": "2021-08-18T01:00:00",
+        "speed": "12.58",
+        "course": "243.30",
+        "eta": "-7",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "227674462020350617",
+        "voyageNumber": 2,
+        "voyageCode": "BW DESPINA - 2",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9796494",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:18.677394",
+        "draft": 13.70,
+        "isActive": true,
+        "vesselCode": "00264"
+    },
+    {
+        "currentPosition": {
+            "longitude": -87.087012,
+            "latitude": 25.627187
+        },
+        "vessel": {
+            "vesselId": "245825894131887317",
+            "vesselName": "HAFNIA LISE"
+        },
+        "fromPort": "GUANGZHOU",
+        "toPort": "AT SEA",
+        "commenceDate": "2016-09-12T17:00:00",
+        "completeDate": "2021-08-01T16:36:00",
+        "speed": "13.01",
+        "course": "141.10",
+        "eta": "-15",
+        "events": [
+            "Bunkering",
+            "InWaterHullAndPropellerCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-46016736233742194"
+        ],
+        "segment": "MR",
+        "pool": "HTSM -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "899837774618556074",
+        "voyageNumber": 1,
+        "voyageCode": "HAFNIA LISE - 1",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9726621",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:02.926845",
+        "draft": 12.10,
+        "isActive": true,
+        "vesselCode": "00106"
+    },
+    {
+        "currentPosition": {
+            "longitude": 33.12,
+            "latitude": 28.701667
+        },
+        "vessel": {
+            "vesselId": "287067389875781581",
+            "vesselName": "HAFNIA SHENZHEN"
+        },
+        "fromPort": "JORF LASFAR",
+        "toPort": "ARATU",
+        "commenceDate": "2021-05-29T10:18:00",
+        "completeDate": "2021-07-09T02:00:00",
+        "speed": "0",
+        "course": "15.10",
+        "eta": "-6",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "213849675211303010",
+        "voyageNumber": 11,
+        "voyageCode": "HAFNIA SHENZHEN - 11",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9863223",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:00.569735",
+        "draft": 12.10,
+        "isActive": true,
+        "vesselCode": "00327"
+    },
+    {
+        "currentPosition": {
+            "longitude": -70.270355,
+            "latitude": 11.659818
+        },
+        "vessel": {
+            "vesselId": "288673696523745142",
+            "vesselName": "HAFNIA ASIA"
+        },
+        "fromPort": "TAMATAVE",
+        "toPort": "SOHAR",
+        "commenceDate": "2021-03-09T07:00:00",
+        "completeDate": "2022-05-02T06:42:00",
+        "speed": "0",
+        "course": "334.40",
+        "eta": "-1",
+        "events": [
+            "Bunkering",
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "826932463824378909",
+        "voyageNumber": 55,
+        "voyageCode": "HAFNIA ASIA - 55",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9467809",
+        "speedPercentage": 101,
+        "lastPositionUpdateFromSeaRoute": "2026-05-04T07:04:47.905921",
+        "draft": 8.70,
+        "isActive": true,
+        "vesselCode": "00144"
+    },
+    {
+        "currentPosition": {
+            "longitude": 4.34521,
+            "latitude": 51.26348
+        },
+        "vessel": {
+            "vesselId": "288889763635493276",
+            "vesselName": "LAMENTIN"
+        },
+        "fromPort": "ROUEN",
+        "toPort": "VLAARDINGEN",
+        "commenceDate": "2021-06-01T23:00:00",
+        "completeDate": "2021-08-03T03:00:00",
+        "speed": "0",
+        "course": "150.20",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-28441395311697136",
+        "voyageNumber": 16,
+        "voyageCode": "LAMENTIN - 16",
+        "status": "Completed",
+        "colorByPerformance": "#DE334A",
+        "imoNumber": "9377054",
+        "speedPercentage": 88,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:08.386561",
+        "draft": 5.50,
+        "isActive": true,
+        "vesselCode": "00393"
+    },
+    {
+        "currentPosition": {
+            "longitude": 37.468295,
+            "latitude": 23.46521
+        },
+        "vessel": {
+            "vesselId": "295136653983930729",
+            "vesselName": "HAFNIA GUANGZHOU"
+        },
+        "fromPort": "ARATU",
+        "toPort": "SANTOS",
+        "commenceDate": "2021-05-25T20:00:00",
+        "completeDate": "2021-07-30T03:01:00",
+        "speed": "1.40",
+        "course": "103.90",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "270787505922012849",
+        "voyageNumber": 16,
+        "voyageCode": "HAFNIA GUANGZHOU - 16",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9856622",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:00.182134",
+        "draft": 8.80,
+        "isActive": true,
+        "vesselCode": "00261"
+    },
+    {
+        "currentPosition": {
+            "longitude": -89.330232,
+            "latitude": 24.762222
+        },
+        "vessel": {
+            "vesselId": "295594070411029302",
+            "vesselName": "HAFNIA COUGAR"
+        },
+        "fromPort": "ANNABA",
+        "toPort": "NEW YORK",
+        "commenceDate": "2021-06-11T16:30:00",
+        "completeDate": "2021-07-13T18:00:00",
+        "speed": "2.11",
+        "course": "349.70",
+        "eta": "-14",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "714975730558798481",
+        "voyageNumber": 18,
+        "voyageCode": "BW COUGAR - 18",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9675494",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:46.94381",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00218"
+    },
+    {
+        "currentPosition": {
+            "longitude": 38.215145,
+            "latitude": -21.933242
+        },
+        "vessel": {
+            "vesselId": "299249144190708014",
+            "vesselName": "HAFNIA LIONESS"
+        },
+        "fromPort": "NEW YORK",
+        "toPort": "POZOS COLORADOS",
+        "commenceDate": "2021-02-11T05:30:00",
+        "completeDate": "2022-02-10T09:36:00",
+        "speed": "13.88",
+        "course": "32.30",
+        "eta": "-22",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-43981556935559747",
+        "voyageNumber": 15,
+        "voyageCode": "BW LIONESS - 15",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9675509",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:02.975558",
+        "draft": 8.00,
+        "isActive": true,
+        "vesselCode": "00221"
+    },
+    {
+        "currentPosition": {
+            "longitude": -74.935647,
+            "latitude": 15.846047
+        },
+        "vessel": {
+            "vesselId": "316601522484677697",
+            "vesselName": "HAFNIA HONG KONG"
+        },
+        "fromPort": "ROTTERDAM",
+        "toPort": "DAKAR",
+        "commenceDate": "2021-06-28T06:42:00",
+        "completeDate": "2021-09-03T19:12:00",
+        "speed": "8.59",
+        "course": "280.60",
+        "eta": "-13",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "819795891806773067",
+        "voyageNumber": 29,
+        "voyageCode": "HAFNIA HONG KONG - 29",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9830288",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:20.311475",
+        "draft": 8.20,
+        "isActive": true,
+        "vesselCode": "00259"
+    },
+    {
+        "currentPosition": {
+            "longitude": -93.311337,
+            "latitude": 30.182873
+        },
+        "vessel": {
+            "vesselId": "319697113151312198",
+            "vesselName": "HAFNIA CATERINA"
+        },
+        "fromPort": "REUNION",
+        "toPort": "LONG BEACH",
+        "commenceDate": "2021-05-03T01:00:00",
+        "completeDate": "2021-07-11T19:00:00",
+        "speed": "0",
+        "course": "307.10",
+        "eta": "-13",
+        "events": [
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "352195382004963796",
+        "voyageNumber": 8,
+        "voyageCode": "HAFNIA CATERINA - 8",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9688427",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:10.007243",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00300"
+    },
+    {
+        "currentPosition": {
+            "longitude": -126.277,
+            "latitude": 47.3385
+        },
+        "vessel": {
+            "vesselId": "324947794642311079",
+            "vesselName": "HAFNIA GALATEA"
+        },
+        "fromPort": "AT SEA",
+        "toPort": "GIBRALTAR",
+        "commenceDate": "2021-03-21T12:00:00",
+        "completeDate": "2022-03-29T22:18:00",
+        "speed": "12.20",
+        "course": "13.70",
+        "eta": "-9",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "494850334092890966",
+        "voyageNumber": 3,
+        "voyageCode": "BW GALATEA - 3",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9796975",
+        "speedPercentage": 92,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:19.348021",
+        "draft": 8.80,
+        "isActive": true,
+        "vesselCode": "00265"
+    },
+    {
+        "currentPosition": {
+            "longitude": -81.166023,
+            "latitude": 6.896223
+        },
+        "vessel": {
+            "vesselId": "330191950091192369",
+            "vesselName": "HAFNIA LENE"
+        },
+        "fromPort": "DURBAN",
+        "toPort": "JUBAIL",
+        "commenceDate": "2021-06-13T06:06:00",
+        "completeDate": "2022-07-29T00:00:00",
+        "speed": "13.28",
+        "course": "90.90",
+        "eta": "-8",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "332744052734701568",
+        "voyageNumber": 40,
+        "voyageCode": "HAFNIA LENE - 40",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9726619",
+        "speedPercentage": 104,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:09.528727",
+        "draft": 7.80,
+        "isActive": true,
+        "vesselCode": "00105"
+    },
+    {
+        "currentPosition": {
+            "longitude": 31.0436,
+            "latitude": -29.883938
+        },
+        "vessel": {
+            "vesselId": "362936048052243014",
+            "vesselName": "HAFNIA JAGUAR"
+        },
+        "fromPort": "PENGERANG",
+        "toPort": "DAESAN",
+        "commenceDate": "2021-06-07T00:12:00",
+        "completeDate": "2021-07-26T03:36:00",
+        "speed": "0",
+        "course": "188.30",
+        "eta": "-4",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "218860031544414413",
+        "voyageNumber": 20,
+        "voyageCode": "BW JAGUAR - 20",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9635858",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:38.694849",
+        "draft": 8.00,
+        "isActive": true,
+        "vesselCode": "00219"
+    },
+    {
+        "currentPosition": {
+            "longitude": 12.13077,
+            "latitude": 54.15639
+        },
+        "vessel": {
+            "vesselId": "366749168262882148",
+            "vesselName": "HAFNIA TRITON"
+        },
+        "fromPort": "JIANGSU",
+        "toPort": "YOSU",
+        "commenceDate": "2019-11-17T16:01:00",
+        "completeDate": "2023-12-17T03:00:00",
+        "speed": "0",
+        "course": "100.00",
+        "eta": "-5",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-89322405262981813",
+        "voyageNumber": 1,
+        "voyageCode": "BW TRITON - 1",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9800336",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:25.920145",
+        "draft": 13.00,
+        "isActive": true,
+        "vesselCode": "00273"
+    },
+    {
+        "currentPosition": {
+            "longitude": -12.295898,
+            "latitude": 36.635398
+        },
+        "vessel": {
+            "vesselId": "389286348579480430",
+            "vesselName": "BEAGLE"
+        },
+        "fromPort": "TANJUNG BIN",
+        "toPort": "CHITTAGONG",
+        "commenceDate": "2021-06-30T11:30:00",
+        "completeDate": "2021-08-01T15:30:00",
+        "speed": "12.10",
+        "course": "194.40",
+        "eta": "-16",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Panama",
+        "countryCode": null,
+        "voyageId": "718317895401707651",
+        "voyageNumber": 28,
+        "voyageCode": "BEAGLE - 28",
+        "status": "Completed",
+        "colorByPerformance": "#DE334A",
+        "imoNumber": "9814181",
+        "speedPercentage": 91,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:43.445104",
+        "draft": 11.60,
+        "isActive": true,
+        "vesselCode": "00266"
+    },
+    {
+        "currentPosition": {
+            "longitude": 144.817245,
+            "latitude": -37.981075
+        },
+        "vessel": {
+            "vesselId": "391527396570446484",
+            "vesselName": "HAFNIA BOBCAT"
+        },
+        "fromPort": "PROGRESO",
+        "toPort": "CIUDAD MADERO",
+        "commenceDate": "2021-06-10T13:00:00",
+        "completeDate": "2021-07-26T13:00:00",
+        "speed": "0",
+        "course": "96.50",
+        "eta": "-19",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-53460900809907314",
+        "voyageNumber": 21,
+        "voyageCode": "BW BOBCAT - 21",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9694476",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:22.757111",
+        "draft": 10.40,
+        "isActive": true,
+        "vesselCode": "00216"
+    },
+    {
+        "currentPosition": {
+            "longitude": -97.326125,
+            "latitude": 20.96183
+        },
+        "vessel": {
+            "vesselId": "464339007878088619",
+            "vesselName": "MP MR TANKER 2"
+        },
+        "fromPort": "CJK",
+        "toPort": "AT SEA",
+        "commenceDate": "2020-11-07T16:01:00",
+        "completeDate": "2022-11-08T00:01:00",
+        "speed": "0",
+        "course": "183.60",
+        "eta": "-8",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "655419518634547199"
+        ],
+        "segment": "MR",
+        "pool": "HAOP -> CM",
+        "participantId": "-57015203093975296",
+        "participant": "M PALLONJI SHIPPING SINGAPORE PTE LTD",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "703241448187632453",
+        "voyageNumber": 17,
+        "voyageCode": "MP MR TANKER 2 - 17",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9425526",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:01.762545",
+        "draft": 10.50,
+        "isActive": true,
+        "vesselCode": "00298"
+    },
+    {
+        "currentPosition": {
+            "longitude": -79.695272,
+            "latitude": 1.318835
+        },
+        "vessel": {
+            "vesselId": "484132675821829892",
+            "vesselName": "HAFNIA ANDREA"
+        },
+        "fromPort": "KAWASAKI",
+        "toPort": "CAIRNS",
+        "commenceDate": "2021-06-18T01:30:00",
+        "completeDate": "2021-07-20T06:30:00",
+        "speed": "13.61",
+        "course": "2.70",
+        "eta": "-1",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-79078596933418561",
+        "voyageNumber": 24,
+        "voyageCode": "HAFNIA ANDREA - 24",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9688415",
+        "speedPercentage": 103,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:56.074687",
+        "draft": 8.40,
+        "isActive": true,
+        "vesselCode": "00299"
+    },
+    {
+        "currentPosition": {
+            "longitude": -11.253037,
+            "latitude": 30.888273
+        },
+        "vessel": {
+            "vesselId": "492917164689030852",
+            "vesselName": "HAFNIA OSPREY"
+        },
+        "fromPort": "SAN PEDRO DE MACORIS",
+        "toPort": "AT SEA",
+        "commenceDate": "2021-01-22T14:30:00",
+        "completeDate": "2022-06-03T10:00:00",
+        "speed": "11.72",
+        "course": "35.40",
+        "eta": "-22",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "361961913769533244",
+        "voyageNumber": 17,
+        "voyageCode": "BW OSPREY - 17",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9682241",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:19.820157",
+        "draft": 11.00,
+        "isActive": true,
+        "vesselCode": "00232"
+    },
+    {
+        "currentPosition": {
+            "longitude": -95.020547,
+            "latitude": 29.728287
+        },
+        "vessel": {
+            "vesselId": "494339296531581579",
+            "vesselName": "HAFNIA KIRSTEN"
+        },
+        "fromPort": "HOUSTON",
+        "toPort": "PAJARITOS",
+        "commenceDate": "2021-06-20T22:54:00",
+        "completeDate": "2021-08-30T08:12:00",
+        "speed": "0",
+        "course": "39.70",
+        "eta": "0",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "531696699777954843",
+        "voyageNumber": 31,
+        "voyageCode": "HAFNIA KIRSTEN - 31",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9732682",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-05-04T11:42:56.486294",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00104"
+    },
+    {
+        "currentPosition": {
+            "longitude": 0.40441,
+            "latitude": 53.590695
+        },
+        "vessel": {
+            "vesselId": "517608512054952377",
+            "vesselName": "PECHORA STAR"
+        },
+        "fromPort": "MISSISSAUGA",
+        "toPort": "FOS",
+        "commenceDate": "2021-06-14T05:48:00",
+        "completeDate": "2021-07-14T14:06:00",
+        "speed": "0.59",
+        "course": "48.70",
+        "eta": "-18",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "557291223921093719",
+        "voyageNumber": 17,
+        "voyageCode": "PECHORA STAR - 17",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9488322",
+        "speedPercentage": 92,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:16.378775",
+        "draft": 6.20,
+        "isActive": true,
+        "vesselCode": "00315"
+    },
+    {
+        "currentPosition": {
+            "longitude": 139.961702,
+            "latitude": 35.5695
+        },
+        "vessel": {
+            "vesselId": "539947859274984701",
+            "vesselName": "STARLING"
+        },
+        "fromPort": "YANBU",
+        "toPort": "PORT QASIM",
+        "commenceDate": "2021-05-30T22:30:00",
+        "completeDate": "2021-07-03T10:00:00",
+        "speed": "0",
+        "course": "323.00",
+        "eta": "-22",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-43723819723267440",
+        "participant": "LARINE TANKERS PTE. LTD",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "446718614358290985",
+        "voyageNumber": 30,
+        "voyageCode": "STARLING - 30",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9737527",
+        "speedPercentage": 94,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:07.250926",
+        "draft": 9.70,
+        "isActive": true,
+        "vesselCode": "00165"
+    },
+    {
+        "currentPosition": {
+            "longitude": 167.214712,
+            "latitude": -32.681015
+        },
+        "vessel": {
+            "vesselId": "558529106315527947",
+            "vesselName": "HAFNIA PETREL"
+        },
+        "fromPort": "DURBAN",
+        "toPort": "TRAMANDAI",
+        "commenceDate": "2021-06-23T08:30:00",
+        "completeDate": "2021-08-09T18:48:00",
+        "speed": "13.28",
+        "course": "104.30",
+        "eta": "-13",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "484455697572372162",
+        "voyageNumber": 26,
+        "voyageCode": "BW PETREL - 26",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9706073",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:24.729534",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00234"
+    },
+    {
+        "currentPosition": {
+            "longitude": -74.884658,
+            "latitude": 28.848528
+        },
+        "vessel": {
+            "vesselId": "564211807606893782",
+            "vesselName": "HAFNIA LARISSA"
+        },
+        "fromPort": "MOMBASA",
+        "toPort": "DONGES",
+        "commenceDate": "2021-03-09T09:42:00",
+        "completeDate": "2022-02-21T09:18:00",
+        "speed": "13.01",
+        "course": "61.80",
+        "eta": "-22",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "324710411257293222",
+        "voyageNumber": 3,
+        "voyageCode": "BW LARISSA - 3",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9800300",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:05.965383",
+        "draft": 14.60,
+        "isActive": true,
+        "vesselCode": "00268"
+    },
+    {
+        "currentPosition": {
+            "longitude": -97.470503,
+            "latitude": 14.36335
+        },
+        "vessel": {
+            "vesselId": "564701722186814828",
+            "vesselName": "HAFNIA LEOPARD"
+        },
+        "fromPort": "OFFSHORE LOME",
+        "toPort": "FUJAIRAH",
+        "commenceDate": "2021-01-26T21:24:00",
+        "completeDate": "2022-02-15T21:00:00",
+        "speed": "14.69",
+        "course": "117.00",
+        "eta": "-11",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-58752192364549412",
+        "voyageNumber": 17,
+        "voyageCode": "BW LEOPARD - 17",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9635822",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:11.137423",
+        "draft": 10.50,
+        "isActive": true,
+        "vesselCode": "00220"
+    },
+    {
+        "currentPosition": {
+            "longitude": 95.261913,
+            "latitude": 6.247323
+        },
+        "vessel": {
+            "vesselId": "581543115210130248",
+            "vesselName": "PELAGIC TURBOT"
+        },
+        "fromPort": "CHITA",
+        "toPort": "FUJAIRAH",
+        "commenceDate": "2021-05-29T03:48:00",
+        "completeDate": "2021-07-12T21:12:00",
+        "speed": "12.69",
+        "course": "284.70",
+        "eta": "-11",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-16026103476282541",
+        "participant": "DONNELLY TANKERS",
+        "country": "Cyprus",
+        "countryCode": "CY",
+        "voyageId": "-70966112029633057",
+        "voyageNumber": 37,
+        "voyageCode": "SUMMIT AFRICA - 37",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9550709",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:05.27668",
+        "draft": 8.20,
+        "isActive": true,
+        "vesselCode": "00182"
+    },
+    {
+        "currentPosition": {
+            "longitude": 13.194342,
+            "latitude": 32.90707
+        },
+        "vessel": {
+            "vesselId": "660776904447544958",
+            "vesselName": "VS SPIRIT"
+        },
+        "fromPort": "GAETA",
+        "toPort": "ZAHRANI TERMINAL",
+        "commenceDate": "2021-06-10T15:30:00",
+        "completeDate": "2021-07-15T13:30:00",
+        "speed": "0",
+        "course": "272.70",
+        "eta": "-18",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "112671119057473817"
+        ],
+        "segment": "HANDY",
+        "pool": "HAHP -> A-POOL",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Isle of Man",
+        "countryCode": "IM",
+        "voyageId": "386311071445699400",
+        "voyageNumber": 28,
+        "voyageCode": "VS SPIRIT - 28",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9339636",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:26.082648",
+        "draft": 10.20,
+        "isActive": true,
+        "vesselCode": "00305"
+    },
+    {
+        "currentPosition": {
+            "longitude": -82.50809,
+            "latitude": 19.119255
+        },
+        "vessel": {
+            "vesselId": "682277843433843424",
+            "vesselName": "HAFNIA NANJING"
+        },
+        "fromPort": "NEW YORK",
+        "toPort": "SAO LUIS",
+        "commenceDate": "2021-06-29T22:30:00",
+        "completeDate": "2021-08-10T06:30:00",
+        "speed": "14.90",
+        "course": "308.80",
+        "eta": "-1",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-57060106384941862",
+        "voyageNumber": 8,
+        "voyageCode": "HAFNIA NANJING - 8",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9863235",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:26.162866",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00351"
+    },
+    {
+        "currentPosition": {
+            "longitude": -103.48406,
+            "latitude": 17.831993
+        },
+        "vessel": {
+            "vesselId": "716557183975312715",
+            "vesselName": "HAFNIA SWIFT"
+        },
+        "fromPort": "DUBA",
+        "toPort": "JEDDAH",
+        "commenceDate": "2021-06-25T21:30:00",
+        "completeDate": "2021-07-08T07:42:00",
+        "speed": "13.39",
+        "course": "121.10",
+        "eta": "0",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "602435232763547181",
+        "voyageNumber": 21,
+        "voyageCode": "BW SWIFT - 21",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9713844",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:15.654789",
+        "draft": 8.30,
+        "isActive": true,
+        "vesselCode": "00236"
+    },
+    {
+        "currentPosition": {
+            "longitude": 8.119328,
+            "latitude": 54.043815
+        },
+        "vessel": {
+            "vesselId": "720530427470488969",
+            "vesselName": "KONGO STAR"
+        },
+        "fromPort": "AMSTERDAM",
+        "toPort": "HAMBURG",
+        "commenceDate": "2021-06-13T08:05:00",
+        "completeDate": "2021-07-08T04:00:00",
+        "speed": "0",
+        "course": "184.40",
+        "eta": "-4",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "344669341461850012",
+        "voyageNumber": 24,
+        "voyageCode": "KONGO STAR - 24",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9508823",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:31.856973",
+        "draft": 6.20,
+        "isActive": true,
+        "vesselCode": "00312"
+    },
+    {
+        "currentPosition": {
+            "longitude": 103.81587,
+            "latitude": 1.232173
+        },
+        "vessel": {
+            "vesselId": "733366577340352378",
+            "vesselName": "HAFNIA PANTHER"
+        },
+        "fromPort": "SAVANNAH GA",
+        "toPort": "TEMA",
+        "commenceDate": "2021-06-05T17:30:00",
+        "completeDate": "2021-07-13T11:42:00",
+        "speed": "0.11",
+        "course": "77.90",
+        "eta": "-20",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "443269286452878749",
+        "voyageNumber": 23,
+        "voyageCode": "BW PANTHER - 23",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9694464",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:29.536708",
+        "draft": 8.40,
+        "isActive": true,
+        "vesselCode": "00223"
+    },
+    {
+        "currentPosition": {
+            "longitude": -122.413113,
+            "latitude": 37.92491
+        },
+        "vessel": {
+            "vesselId": "734741599263991465",
+            "vesselName": "HAFNIA HAWK"
+        },
+        "fromPort": "PORT LOUIS",
+        "toPort": "DAR ES SALAAM",
+        "commenceDate": "2021-05-19T10:06:00",
+        "completeDate": "2021-07-06T05:00:00",
+        "speed": "0",
+        "course": "107.90",
+        "eta": "-3",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "358037834097516510",
+        "voyageNumber": 21,
+        "voyageCode": "BW HAWK - 21",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9607198",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:38.782105",
+        "draft": 8.00,
+        "isActive": true,
+        "vesselCode": "00229"
+    },
+    {
+        "currentPosition": {
+            "longitude": -109.231822,
+            "latitude": 25.525732
+        },
+        "vessel": {
+            "vesselId": "736986402784765171",
+            "vesselName": "HAFNIA KESTREL"
+        },
+        "fromPort": "GALVESTON NO 2 LZ",
+        "toPort": "PAUILLAC",
+        "commenceDate": "2021-06-05T05:01:00",
+        "completeDate": "2021-07-06T03:00:00",
+        "speed": "0",
+        "course": "106.50",
+        "eta": "-5",
+        "events": [
+            "Bunkering"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-31559818954450351",
+        "voyageNumber": 12,
+        "voyageCode": "BW KESTREL - 12",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9607203",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:39.909235",
+        "draft": 10.90,
+        "isActive": true,
+        "vesselCode": "00230"
+    },
+    {
+        "currentPosition": {
+            "longitude": -79.573897,
+            "latitude": 8.952143
+        },
+        "vessel": {
+            "vesselId": "741986556876200011",
+            "vesselName": "MP MR TANKER 1"
+        },
+        "fromPort": "LA PAZ",
+        "toPort": "HOUSTON",
+        "commenceDate": "2021-06-10T02:00:00",
+        "completeDate": "2021-07-11T21:30:00",
+        "speed": "0",
+        "course": "177.60",
+        "eta": "-10",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-57015203093975296",
+        "participant": "M PALLONJI SHIPPING SINGAPORE PTE LTD",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-64464206572238916",
+        "voyageNumber": 23,
+        "voyageCode": "MP MR TANKER 1 - 23",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9472763",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:29.568448",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00191"
+    },
+    {
+        "currentPosition": {
+            "longitude": 103.912533,
+            "latitude": 1.262425
+        },
+        "vessel": {
+            "vesselId": "755985085740928325",
+            "vesselName": "HAFNIA TIGER"
+        },
+        "fromPort": "SINGAPORE",
+        "toPort": "AT SEA",
+        "commenceDate": "2021-01-22T04:42:00",
+        "completeDate": "2022-01-22T16:48:00",
+        "speed": "0",
+        "course": "46.10",
+        "eta": "-15",
+        "events": [
+            "Bunkering",
+            "InWaterHullCleaning",
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-58992638868937553",
+        "voyageNumber": 14,
+        "voyageCode": "BW TIGER - 14",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9635846",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:52.990027",
+        "draft": 10.70,
+        "isActive": true,
+        "vesselCode": "00224"
+    },
+    {
+        "currentPosition": {
+            "longitude": 29.274302,
+            "latitude": 40.8362
+        },
+        "vessel": {
+            "vesselId": "757768005554479446",
+            "vesselName": "MURRAY STAR"
+        },
+        "fromPort": "LA PALLICE",
+        "toPort": "ANTWERP",
+        "commenceDate": "2021-06-26T19:00:00",
+        "completeDate": "2021-07-06T02:30:00",
+        "speed": "0",
+        "course": "252.00",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-50848219374884410",
+        "voyageNumber": 19,
+        "voyageCode": "MURRAY STAR - 19",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9527635",
+        "speedPercentage": 93,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:03:11.802217",
+        "draft": 4.50,
+        "isActive": true,
+        "vesselCode": "00314"
+    },
+    {
+        "currentPosition": {
+            "longitude": -92.793362,
+            "latitude": 28.12736
+        },
+        "vessel": {
+            "vesselId": "761804855198726044",
+            "vesselName": "HAFNIA KALLANG"
+        },
+        "fromPort": "OFFSHORE LOME",
+        "toPort": "WAKAYAMA",
+        "commenceDate": "2021-05-18T12:00:00",
+        "completeDate": "2021-08-20T08:30:00",
+        "speed": "12.53",
+        "course": "322.80",
+        "eta": "-23",
+        "events": [
+            "Bunkering",
+            "InWaterHullAndPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "326215230235496406",
+        "voyageNumber": 12,
+        "voyageCode": "BW KALLANG - 12",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9766190",
+        "speedPercentage": 95,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:24.925236",
+        "draft": 12.00,
+        "isActive": true,
+        "vesselCode": "00249"
+    },
+    {
+        "currentPosition": {
+            "longitude": 42.919933,
+            "latitude": -32.136027
+        },
+        "vessel": {
+            "vesselId": "763969320844079593",
+            "vesselName": "HAFNIA THALASSA"
+        },
+        "fromPort": "JIANGSU",
+        "toPort": "TEESPORT",
+        "commenceDate": "2019-11-16T11:00:00",
+        "completeDate": "2023-12-07T04:48:00",
+        "speed": "13.28",
+        "course": "83.80",
+        "eta": "-3",
+        "events": [
+            "Bunkering",
+            "InWaterHullCleaning",
+            "InWaterPropellerCleaning",
+            "UnderwaterInspection"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "-18668847917802287"
+        ],
+        "segment": "LR2",
+        "pool": "HACM -> TC",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-19790168705909043",
+        "voyageNumber": 1,
+        "voyageCode": "BW THALASSA - 1",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9800324",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:28.391693",
+        "draft": 13.40,
+        "isActive": true,
+        "vesselCode": "00272"
+    },
+    {
+        "currentPosition": {
+            "longitude": -95.910773,
+            "latitude": 22.894332
+        },
+        "vessel": {
+            "vesselId": "780073279120377493",
+            "vesselName": "BOXER"
+        },
+        "fromPort": "AMSTERDAM",
+        "toPort": "NEW YORK",
+        "commenceDate": "2021-06-10T23:12:00",
+        "completeDate": "2021-07-05T03:00:00",
+        "speed": "12.31",
+        "course": "80.70",
+        "eta": "-5",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "908887582554139913",
+        "voyageNumber": 20,
+        "voyageCode": "BOXER - 20",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9814193",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:07.619542",
+        "draft": 7.50,
+        "isActive": true,
+        "vesselCode": "00267"
+    },
+    {
+        "currentPosition": {
+            "longitude": -99.468943,
+            "latitude": 10.754718
+        },
+        "vessel": {
+            "vesselId": "785023482434498034",
+            "vesselName": "HAFNIA BEIJING"
+        },
+        "fromPort": "LAGOS (NIGERIA)",
+        "toPort": "ISLE OF GRAIN",
+        "commenceDate": "2021-06-23T16:36:00",
+        "completeDate": "2021-07-31T13:18:00",
+        "speed": "14.69",
+        "course": "281.20",
+        "eta": "-18",
+        "events": [
+            "InWaterPropellerCleaning"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-88234221597019803",
+        "voyageNumber": 15,
+        "voyageCode": "HAFNIA BEIJING - 15",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9856634",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:45.535986",
+        "draft": 11.30,
+        "isActive": true,
+        "vesselCode": "00262"
+    },
+    {
+        "currentPosition": {
+            "longitude": 147.214328,
+            "latitude": -4.885833
+        },
+        "vessel": {
+            "vesselId": "816290581988027738",
+            "vesselName": "HAFNIA WREN"
+        },
+        "fromPort": "OFFSHORE MALTA",
+        "toPort": "BRAKE",
+        "commenceDate": "2021-04-10T14:18:00",
+        "completeDate": "2021-11-02T03:30:00",
+        "speed": "11.83",
+        "course": "149.40",
+        "eta": "-4",
+        "events": [
+            "Bunkering",
+            "Docking"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "10365569532787708",
+        "voyageNumber": 20,
+        "voyageCode": "BW WREN - 20",
+        "status": "Completed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9713856",
+        "speedPercentage": 98,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:02:49.185916",
+        "draft": 11.30,
+        "isActive": true,
+        "vesselCode": "00237"
+    },
+    {
+        "currentPosition": {
+            "longitude": 151.871803,
+            "latitude": -33.69873
+        },
+        "vessel": {
+            "vesselId": "826467255974798996",
+            "vesselName": "MP MR TANKER 3"
+        },
+        "fromPort": "DAMPIER",
+        "toPort": "DAMPIER",
+        "commenceDate": "2021-06-26T04:00:00",
+        "completeDate": "2021-07-22T01:00:00",
+        "speed": "13.12",
+        "course": "47.30",
+        "eta": "-7",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-57015203093975296",
+        "participant": "M PALLONJI SHIPPING SINGAPORE PTE LTD",
+        "country": "India",
+        "countryCode": "IN",
+        "voyageId": "175307672084899274",
+        "voyageNumber": 4,
+        "voyageCode": "MP MR TANKER 3 - 4",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9573684",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:27.283937",
+        "draft": 8.50,
+        "isActive": true,
+        "vesselCode": "00360"
+    },
+    {
+        "currentPosition": {
+            "longitude": 133.483415,
+            "latitude": 24.808673
+        },
+        "vessel": {
+            "vesselId": "832603506992310468",
+            "vesselName": "BASSET"
+        },
+        "fromPort": "VAN PHONG BAY",
+        "toPort": "GORE BAY",
+        "commenceDate": "2021-06-10T14:30:00",
+        "completeDate": "2021-07-29T05:00:00",
+        "speed": "12.90",
+        "course": "247.20",
+        "eta": "-3",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "220857232727871654",
+        "voyageNumber": 20,
+        "voyageCode": "BASSET - 20",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9858060",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:23.576222",
+        "draft": 10.90,
+        "isActive": true,
+        "vesselCode": "00274"
+    },
+    {
+        "currentPosition": {
+            "longitude": -5.902398,
+            "latitude": 50.00367
+        },
+        "vessel": {
+            "vesselId": "904605132248613176",
+            "vesselName": "COLORADO STAR"
+        },
+        "fromPort": "LA PALLICE",
+        "toPort": "ANTWERP",
+        "commenceDate": "2021-06-29T16:36:00",
+        "completeDate": "2021-07-10T15:00:00",
+        "speed": "9.50",
+        "course": "353.20",
+        "eta": "-17",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "593827789125652670"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> CM",
+        "participantId": "-73481902580422679",
+        "participant": "VALLOEBY",
+        "country": "Malta",
+        "countryCode": "MT",
+        "voyageId": "-70834613065870171",
+        "voyageNumber": 22,
+        "voyageCode": "COLORADO STAR - 22",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9527609",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:59.564217",
+        "draft": 5.00,
+        "isActive": true,
+        "vesselCode": "00310"
+    },
+    {
+        "currentPosition": {
+            "longitude": -43.33558,
+            "latitude": 1.90389
+        },
+        "vessel": {
+            "vesselId": "907402830155724167",
+            "vesselName": "KARIMATA"
+        },
+        "fromPort": "NEW YORK",
+        "toPort": "YOSU",
+        "commenceDate": "2021-05-16T12:12:00",
+        "completeDate": "2021-07-16T06:24:00",
+        "speed": "12.53",
+        "course": "119.30",
+        "eta": "-1",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Panama",
+        "countryCode": null,
+        "voyageId": "585967949032801543",
+        "voyageNumber": 16,
+        "voyageCode": "KARIMATA - 16",
+        "status": "Completed",
+        "colorByPerformance": "#58A768",
+        "imoNumber": "9806158",
+        "speedPercentage": 97,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:04.304326",
+        "draft": 11.70,
+        "isActive": true,
+        "vesselCode": "00271"
+    },
+    {
+        "currentPosition": {
+            "longitude": -6.719395,
+            "latitude": -3.93685
+        },
+        "vessel": {
+            "vesselId": "915407888103072126",
+            "vesselName": "SUNDA"
+        },
+        "fromPort": "PORT EVERGLADES",
+        "toPort": "ROTTERDAM",
+        "commenceDate": "2021-06-27T08:00:00",
+        "completeDate": "2021-07-31T16:00:00",
+        "speed": "14.42",
+        "course": "323.00",
+        "eta": "-16",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "participantId": "-47311463948867559",
+        "participant": "HAFNIA",
+        "country": "Panama",
+        "countryCode": null,
+        "voyageId": "-40230959871365898",
+        "voyageNumber": 18,
+        "voyageCode": "SUNDA - 18",
+        "status": "Completed",
+        "colorByPerformance": "#EE744F",
+        "imoNumber": "9806146",
+        "speedPercentage": 96,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:01:53.810947",
+        "draft": 7.80,
+        "isActive": true,
+        "vesselCode": "00270"
+    }
+]

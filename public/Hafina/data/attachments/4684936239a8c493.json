@@ -1,0 +1,37 @@
+Request method:	POST
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/CompareData/comparevessels
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "startDate": "2021-07-01",
+    "endDate": "2021-12-31",
+    "vessels": [
+        {
+            "vesselId": "110510961707209453",
+            "distributionPoolIds": [
+                "612098905453271305"
+            ]
+        },
+        {
+            "vesselId": "-14304622086065054",
+            "distributionPoolIds": [
+                "612098905453271305"
+            ]
+        },
+        {
+            "vesselId": "-27318018895422634",
+            "distributionPoolIds": [
+                "612098905453271305"
+            ]
+        }
+    ]
+}

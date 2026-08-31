@@ -1,0 +1,1604 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:29:48 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "dashboardId": null,
+    "participants": [
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "234980657055561835",
+            "participantName": "ASIATIC LLOYD MARITIME LLP"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-82871562893468972",
+            "participantName": "CHARTWORLD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "619994181971942265",
+            "participantName": "CIDO SHIPPING"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-84612909263661099",
+            "participantName": "COMPAÑÍA MARÍTIMA CHILENA S.A."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "190083253679094668",
+            "participantName": "EMINENCE SHIPPING LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-16205124666787710",
+            "participantName": "FEDERATED MARITIME LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-19296786915451724",
+            "participantName": "FORMICA NAVIGATION LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "192166407352442469",
+            "participantName": "GRACE SHIP MANAGEMENT"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-15727671286101414",
+            "participantName": "HADLEY SHIPPING GROUP LIMITED"
+        },
+        {
+            "currentParticipant": true,
+            "isSelected": false,
+            "participantId": "-47311463948867559",
+            "participantName": "HAFNIA"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-57015203093975296",
+            "participantName": "M PALLONJI SHIPPING SINGAPORE PTE LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-79495581728427147",
+            "participantName": "OXYGEN MARITIME INC."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "701037085353615277",
+            "participantName": "PAN OCEAN"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "266277703104769572",
+            "participantName": "SCHOELLER HOLDINGS LTD."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-15166724405673359",
+            "participantName": "THE GREAT EASTERN SHIPPING COMPANY LIMITED"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "-49805312755136075",
+            "participantName": "TRADEWIND TANKERS"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": false,
+            "participantId": "273577988461715511",
+            "participantName": "TRANSOCEAN SHIPPING"
+        }
+    ],
+    "distributionPools": [
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-18668847917802287"
+            ],
+            "segment": "LR2",
+            "pool": "TC",
+            "sortOrder": 48,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "203531346728192032",
+                "686281037384653924",
+                "-12065347305919812",
+                "701743618326250600",
+                "560846101457899941"
+            ],
+            "segment": "LR2",
+            "pool": "A-POOL",
+            "sortOrder": 45,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "152764542786713849",
+                "-27738876588125401",
+                "-18739966710047681"
+            ],
+            "segment": "LR1",
+            "pool": "CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-19655121025421168"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "764635203481262641",
+                "752719185050851064",
+                "611660162580838450",
+                "-34534476148919557",
+                "627517044250464163",
+                "-79523950719146887",
+                "-72139711811924499",
+                "-58878424063648899",
+                "-26973637614063540",
+                "-78479195572620410"
+            ],
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-23985571871460933"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "859862815914074624",
+                "190309850048015550"
+            ],
+            "segment": "CCMR",
+            "pool": "CM",
+            "sortOrder": 39,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "555092955589526033",
+                "-83448792471551526",
+                "-83976030507777133"
+            ],
+            "segment": "CCMR",
+            "pool": "A-POOL",
+            "sortOrder": 37,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "655419518634547199",
+                "686487820799308370",
+                "-50818955871511383"
+            ],
+            "segment": "MR",
+            "pool": "CM",
+            "sortOrder": 35,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "601318902066733393",
+                "666089229535863830",
+                "-46016736233742194",
+                "612098905453271305",
+                "518098001397033383",
+                "-74813931600378344",
+                "749034340079593356",
+                "813542616302792881"
+            ],
+            "segment": "MR",
+            "pool": "A-POOL",
+            "sortOrder": 33,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "809480004192634983",
+                "653686787701568780"
+            ],
+            "segment": "CCHA",
+            "pool": "CM",
+            "sortOrder": 31,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-44111786755562942",
+                "493109983061697046",
+                "313377279304486080",
+                "715581210007034870",
+                "723182079742905760"
+            ],
+            "segment": "CCHA",
+            "pool": "A-POOL",
+            "sortOrder": 29,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-77161446373509158"
+            ],
+            "segment": "HANDY",
+            "pool": "CM",
+            "sortOrder": 27,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "738755405439462287",
+                "-77817149514474402",
+                "112671119057473817",
+                "-14937330710324107",
+                "-62108511188487257"
+            ],
+            "segment": "HANDY",
+            "pool": "A-POOL",
+            "sortOrder": 25,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "396660413991446478",
+                "666274403957002907",
+                "661877391291836527",
+                "-79941386569364996"
+            ],
+            "segment": "SPEZ",
+            "pool": "A-POOL",
+            "sortOrder": 13,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "459429812726234748",
+                "593827789125652670",
+                "-21683679789529324",
+                "680955058086644949"
+            ],
+            "segment": "SPEZ",
+            "pool": "CM",
+            "sortOrder": 11,
+            "colorCode": null,
+            "has_data": null
+        }
+    ],
+    "yards": [
+        
+    ],
+    "vessels": [
+        
+    ],
+    "vesselsForComparison": null,
+    "latestPeriod": {
+        "ppStartDate": "2021-07-01T00:00:00",
+        "ppEndDate": "2021-12-31T00:00:00",
+        "earningStartDate": "2021-07-01T00:00:00",
+        "earningEndDate": "2021-12-31T00:00:00",
+        "psStartDate": "2021-07-01T00:00:00",
+        "psEndDate": "2021-12-31T00:00:00",
+        "spStartDate": "2021-07-01T00:00:00",
+        "spEndDate": "2021-12-31T00:00:00",
+        "eventStartDate": "2021-07-01T00:00:00",
+        "eventEndDate": "2021-12-31T00:00:00",
+        "top3EarningStartDate": "2021-07-01T00:00:00",
+        "top3EarningEndDate": "2021-12-31T00:00:00"
+    },
+    "startDate": "2021-07-01T00:00:00",
+    "endDate": "2021-12-31T00:00:00"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:29:51 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "dashboardId": null,
+    "participants": [
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "234980657055561835",
+            "participantName": "ASIATIC LLOYD MARITIME LLP"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-82871562893468972",
+            "participantName": "CHARTWORLD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "619994181971942265",
+            "participantName": "CIDO SHIPPING"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-84612909263661099",
+            "participantName": "COMPAÑÍA MARÍTIMA CHILENA S.A."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "190083253679094668",
+            "participantName": "EMINENCE SHIPPING LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-16205124666787710",
+            "participantName": "FEDERATED MARITIME LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-19296786915451724",
+            "participantName": "FORMICA NAVIGATION LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "192166407352442469",
+            "participantName": "GRACE SHIP MANAGEMENT"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-15727671286101414",
+            "participantName": "HADLEY SHIPPING GROUP LIMITED"
+        },
+        {
+            "currentParticipant": true,
+            "isSelected": true,
+            "participantId": "-47311463948867559",
+            "participantName": "HAFNIA"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-57015203093975296",
+            "participantName": "M PALLONJI SHIPPING SINGAPORE PTE LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-79495581728427147",
+            "participantName": "OXYGEN MARITIME INC."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "701037085353615277",
+            "participantName": "PAN OCEAN"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "266277703104769572",
+            "participantName": "SCHOELLER HOLDINGS LTD."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-15166724405673359",
+            "participantName": "THE GREAT EASTERN SHIPPING COMPANY LIMITED"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-49805312755136075",
+            "participantName": "TRADEWIND TANKERS"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "273577988461715511",
+            "participantName": "TRANSOCEAN SHIPPING"
+        }
+    ],
+    "distributionPools": [
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-18668847917802287"
+            ],
+            "segment": "LR2",
+            "pool": "TC",
+            "sortOrder": 48,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "203531346728192032",
+                "686281037384653924",
+                "-12065347305919812",
+                "701743618326250600",
+                "560846101457899941"
+            ],
+            "segment": "LR2",
+            "pool": "A-POOL",
+            "sortOrder": 45,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "152764542786713849",
+                "-27738876588125401",
+                "-18739966710047681"
+            ],
+            "segment": "LR1",
+            "pool": "CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-19655121025421168"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "764635203481262641",
+                "752719185050851064",
+                "611660162580838450",
+                "-34534476148919557",
+                "627517044250464163",
+                "-79523950719146887",
+                "-72139711811924499",
+                "-58878424063648899",
+                "-26973637614063540",
+                "-78479195572620410"
+            ],
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-23985571871460933"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "859862815914074624",
+                "190309850048015550"
+            ],
+            "segment": "CCMR",
+            "pool": "CM",
+            "sortOrder": 39,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "555092955589526033",
+                "-83448792471551526",
+                "-83976030507777133"
+            ],
+            "segment": "CCMR",
+            "pool": "A-POOL",
+            "sortOrder": 37,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "655419518634547199",
+                "686487820799308370",
+                "-50818955871511383"
+            ],
+            "segment": "MR",
+            "pool": "CM",
+            "sortOrder": 35,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "601318902066733393",
+                "666089229535863830",
+                "-46016736233742194",
+                "612098905453271305",
+                "518098001397033383",
+                "-74813931600378344",
+                "749034340079593356",
+                "813542616302792881"
+            ],
+            "segment": "MR",
+            "pool": "A-POOL",
+            "sortOrder": 33,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "809480004192634983",
+                "653686787701568780"
+            ],
+            "segment": "CCHA",
+            "pool": "CM",
+            "sortOrder": 31,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-44111786755562942",
+                "493109983061697046",
+                "313377279304486080",
+                "715581210007034870",
+                "723182079742905760"
+            ],
+            "segment": "CCHA",
+            "pool": "A-POOL",
+            "sortOrder": 29,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-77161446373509158"
+            ],
+            "segment": "HANDY",
+            "pool": "CM",
+            "sortOrder": 27,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "738755405439462287",
+                "-77817149514474402",
+                "112671119057473817",
+                "-14937330710324107",
+                "-62108511188487257"
+            ],
+            "segment": "HANDY",
+            "pool": "A-POOL",
+            "sortOrder": 25,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "396660413991446478",
+                "666274403957002907",
+                "661877391291836527",
+                "-79941386569364996"
+            ],
+            "segment": "SPEZ",
+            "pool": "A-POOL",
+            "sortOrder": 13,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "459429812726234748",
+                "593827789125652670",
+                "-21683679789529324",
+                "680955058086644949"
+            ],
+            "segment": "SPEZ",
+            "pool": "CM",
+            "sortOrder": 11,
+            "colorCode": null,
+            "has_data": null
+        }
+    ],
+    "yards": [
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-13982000336852856",
+            "yardName": "SPP Shipbuilding"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "141468978463692999",
+            "yardName": "HYUNDAI MIPO DOCKYARD Co"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-15537101931337774",
+            "yardName": "STX Shipbuilding Co., Ltd"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "192708900418119984",
+            "yardName": "HYUNDAI MIPO DOCKYARD, SOUTH KOREA"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-20621220671836133",
+            "yardName": "STX Shipbuilding Co.Ltd"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-20907417416729160",
+            "yardName": "Hyundai Vinashin SHIPYARD, VIETNAM"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-24247090245474467",
+            "yardName": "ONOMICHI DOCKYARD CO. LTD"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-24830454712593915",
+            "yardName": "Onomichi Dockyard Co.,LTD."
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "258545955115518650",
+            "yardName": "ONOMICHI DOCKYARD CO. LTD, JAPAN"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "266544722516801115",
+            "yardName": "HYUNDAI MIPO DOCKYARD - ULSAN SOUTH KOREA"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "276947396683717378",
+            "yardName": "Japan Marine United"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-30119799057653550",
+            "yardName": "CSSC Chengxi Shipyard Co., Ltd, China"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "310518890261216132",
+            "yardName": "JMU SHIPYARD, MAIZURU JAPAN"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "367716363492066011",
+            "yardName": "STX Shipbuilding"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "425230639490104176",
+            "yardName": "SHIN KURUSHIMA DOCKYARD CO., LTD"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-44698572364372925",
+            "yardName": "Guangzhou Shipyard International Co., Guangzhou, China."
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "453552040167040040",
+            "yardName": "GSI/ GUANGZHOU SHIPYARD INTERNATIONAL CO.LTD"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-46636620683664925",
+            "yardName": "SPP Shipbuilding Co. Ltd, S.Korea"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-47460602127997477",
+            "yardName": "MAIZURU SHIPYARD, JAPAN"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "478265737595200761",
+            "yardName": "STX OFFSHORE & SHIPBUILDING , KOREA"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-48386530807416262",
+            "yardName": "Hyundai Mipo Dockyard Co,Ltd South Korea"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-50820785600618580",
+            "yardName": "HD HYUNDAI MIPO"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-54476955642549623",
+            "yardName": "Hyundai Mipo Dockyard"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "565893866519293447",
+            "yardName": "Hyundai Mipo Dockyard Co.Ltd, South Korea"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-57278585005518323",
+            "yardName": "HYUNDAI MIPO"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-60123677977778091",
+            "yardName": "SPP Shipbuilding Co. Ltd, Korea"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-63193451761074558",
+            "yardName": "GUANGZHOU SHIPYARD INTERNATIONAL CO. LTD., CHINA"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "-67370933315522024",
+            "yardName": "SPP Shipbuilding Co. Ltd, S. Korea"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "709232903072459205",
+            "yardName": "Guangzhou Shipyard"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "709764710199600891",
+            "yardName": "Iwagi Zosen"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-73099983976449214",
+            "yardName": "SLS Ship Building Company. Ltd. South KOREA"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "733749448981092514",
+            "yardName": "SPP SHIPBUILDING CO. LTD."
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "775810156511000065",
+            "yardName": "Onomichi Shipyard"
+        },
+        {
+            "myYard": true,
+            "isSelected": true,
+            "yardId": "803036507585772991",
+            "yardName": "HYUNDAI VINASHIN DOCKYARD, VIETNAM"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "817199433832639423",
+            "yardName": "HYUNDAI MIPPO"
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "843729704599413748",
+            "yardName": "HYUNDAI MIPO DOCKYARD CO Ltd."
+        },
+        {
+            "myYard": false,
+            "isSelected": true,
+            "yardId": "-89968303940231222",
+            "yardName": "Hyundai Vietnam Shipbuilding Co. Ltd, Vietnam"
+        }
+    ],
+    "vessels": [
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00290",
+            "vesselId": "110510961707209453",
+            "vesselName": "AEGEAN STAR"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00670",
+            "vesselId": "-14304622086065054",
+            "vesselName": "ALLIED ATLANTIC"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00583",
+            "vesselId": "-27318018895422634",
+            "vesselName": "ALPINE MARINA"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00422",
+            "vesselId": "-57101569917007395",
+            "vesselName": "ANGEL STAR"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00621",
+            "vesselId": "676025700875493535",
+            "vesselName": "ATALANTA T"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00650",
+            "vesselId": "-74014118319095417",
+            "vesselName": "ATLANTIC INFINITY"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00673",
+            "vesselId": "117737186902504998",
+            "vesselName": "ATLANTIC RAINBOW"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00652",
+            "vesselId": "331029997095844209",
+            "vesselName": "ATLANTIC ROSA"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00654",
+            "vesselId": "880495599563654510",
+            "vesselName": "ATLANTIC SUNFLOWER"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00651",
+            "vesselId": "-22736968311178621",
+            "vesselName": "ATLANTIC SUNSHINE"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00589",
+            "vesselId": "-44888786969953126",
+            "vesselName": "BANTRY BAY"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00274",
+            "vesselId": "832603506992310468",
+            "vesselName": "BASSET"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00266",
+            "vesselId": "389286348579480430",
+            "vesselName": "BEAGLE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00267",
+            "vesselId": "780073279120377493",
+            "vesselName": "BOXER"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00276",
+            "vesselId": "-23474338342597102",
+            "vesselName": "BULLDOG"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00661",
+            "vesselId": "-22380168002148281",
+            "vesselName": "CAPE BILBAO"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00674",
+            "vesselId": "-19447702521421032",
+            "vesselName": "CEPOLIS"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00282",
+            "vesselId": "-85804714506294846",
+            "vesselName": "CHIOS STAR"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00563",
+            "vesselId": "603850701516050619",
+            "vesselName": "CMC ANCUD"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00647",
+            "vesselId": "613335816500308645",
+            "vesselName": "FLORA MARIS"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00659",
+            "vesselId": "862239692614978253",
+            "vesselName": "GRAND ACE6"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00299",
+            "vesselId": "484132675821829892",
+            "vesselName": "HAFNIA ANDREA"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00101",
+            "vesselId": "172777982611178546",
+            "vesselName": "HAFNIA ANE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00216",
+            "vesselId": "391527396570446484",
+            "vesselName": "HAFNIA BOBCAT"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00300",
+            "vesselId": "319697113151312198",
+            "vesselName": "HAFNIA CATERINA"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00217",
+            "vesselId": "-26938122904516016",
+            "vesselName": "HAFNIA CHEETAH"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00218",
+            "vesselId": "295594070411029302",
+            "vesselName": "HAFNIA COUGAR"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00118",
+            "vesselId": "-53443898745100793",
+            "vesselName": "HAFNIA CRUX"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00102",
+            "vesselId": "-54176710029083287",
+            "vesselName": "HAFNIA DAISY"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00225",
+            "vesselId": "-71293131391657890",
+            "vesselName": "HAFNIA EAGLE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00227",
+            "vesselId": "-87448578845121017",
+            "vesselName": "HAFNIA EGRET"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00228",
+            "vesselId": "-69275482370602038",
+            "vesselName": "HAFNIA FALCON"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00229",
+            "vesselId": "734741599263991465",
+            "vesselName": "HAFNIA HAWK"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00103",
+            "vesselId": "146581829089380564",
+            "vesselName": "HAFNIA HENRIETTE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00219",
+            "vesselId": "362936048052243014",
+            "vesselName": "HAFNIA JAGUAR"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00230",
+            "vesselId": "736986402784765171",
+            "vesselName": "HAFNIA KESTREL"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00104",
+            "vesselId": "494339296531581579",
+            "vesselName": "HAFNIA KIRSTEN"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00105",
+            "vesselId": "330191950091192369",
+            "vesselName": "HAFNIA LENE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00072",
+            "vesselId": "-62087793206561790",
+            "vesselName": "HAFNIA LEO"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00220",
+            "vesselId": "564701722186814828",
+            "vesselName": "HAFNIA LEOPARD"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00221",
+            "vesselId": "299249144190708014",
+            "vesselName": "HAFNIA LIONESS"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00106",
+            "vesselId": "245825894131887317",
+            "vesselName": "HAFNIA LISE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00107",
+            "vesselId": "-31364650798037758",
+            "vesselName": "HAFNIA LOTTE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00222",
+            "vesselId": "-45196122654186699",
+            "vesselName": "HAFNIA LYNX"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00231",
+            "vesselId": "-28222555639917546",
+            "vesselName": "HAFNIA MERLIN"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00108",
+            "vesselId": "-54269224608378838",
+            "vesselName": "HAFNIA MIKALA"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00226",
+            "vesselId": "-78466904839073353",
+            "vesselName": "HAFNIA MYNA"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00232",
+            "vesselId": "492917164689030852",
+            "vesselName": "HAFNIA OSPREY"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00223",
+            "vesselId": "733366577340352378",
+            "vesselName": "HAFNIA PANTHER"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00234",
+            "vesselId": "558529106315527947",
+            "vesselName": "HAFNIA PETREL"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00235",
+            "vesselId": "-82168221029408137",
+            "vesselName": "HAFNIA PUMA"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00233",
+            "vesselId": "-28901690987005272",
+            "vesselName": "HAFNIA RAVEN"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00236",
+            "vesselId": "716557183975312715",
+            "vesselName": "HAFNIA SWIFT"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00224",
+            "vesselId": "755985085740928325",
+            "vesselName": "HAFNIA TIGER"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00237",
+            "vesselId": "816290581988027738",
+            "vesselName": "HAFNIA WREN"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00669",
+            "vesselId": "735666857853961200",
+            "vesselName": "HOKKAIDO"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00280",
+            "vesselId": "-28487869728084161",
+            "vesselName": "IONIAN STAR"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00587",
+            "vesselId": "147791756168466098",
+            "vesselName": "JAG PARTH"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00612",
+            "vesselId": "650169365870627246",
+            "vesselName": "JAG PRACHI"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00625",
+            "vesselId": "614645964671236878",
+            "vesselName": "JAG PRIYA"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00632",
+            "vesselId": "385598035072178663",
+            "vesselName": "JAG PRIYANKA"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00499",
+            "vesselId": "42704600912782297",
+            "vesselName": "JAG PUNIT"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00181",
+            "vesselId": "-42949158072759017",
+            "vesselName": "LYSIAS"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00191",
+            "vesselId": "741986556876200011",
+            "vesselName": "MP MR TANKER 1"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00298",
+            "vesselId": "464339007878088619",
+            "vesselName": "MP MR TANKER 2"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00360",
+            "vesselId": "826467255974798996",
+            "vesselName": "MP MR TANKER 3"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00304",
+            "vesselId": "-21348347934041917",
+            "vesselName": "OINOUSSIAN STAR"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00162",
+            "vesselId": "-65872148931398786",
+            "vesselName": "ORIENT CHALLENGE"
+        },
+        {
+            "myVessel": true,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00163",
+            "vesselId": "-63590529799106912",
+            "vesselName": "ORIENT INNOVATION"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00635",
+            "vesselId": "664173268919437757",
+            "vesselName": "PHILOXENIA"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00590",
+            "vesselId": "-18353704907083326",
+            "vesselName": "RICH RAINBOW"
+        },
+        {
+            "myVessel": false,
+            "isSelected": true,
+            "isActive": true,
+            "vesselCode": "00675",
+            "vesselId": "185471225658885476",
+            "vesselName": "TRADEWIND ENDURANCE"
+        }
+    ],
+    "vesselsForComparison": null,
+    "latestPeriod": {
+        "ppStartDate": "2021-07-01T00:00:00",
+        "ppEndDate": "2021-12-31T00:00:00",
+        "earningStartDate": "2021-07-01T00:00:00",
+        "earningEndDate": "2021-12-31T00:00:00",
+        "psStartDate": "2021-07-01T00:00:00",
+        "psEndDate": "2021-12-31T00:00:00",
+        "spStartDate": "2021-07-01T00:00:00",
+        "spEndDate": "2021-12-31T00:00:00",
+        "eventStartDate": "2021-07-01T00:00:00",
+        "eventEndDate": "2021-12-31T00:00:00",
+        "top3EarningStartDate": "2021-07-01T00:00:00",
+        "top3EarningEndDate": "2021-12-31T00:00:00"
+    },
+    "startDate": "2021-07-01T00:00:00",
+    "endDate": "2021-12-31T00:00:00"
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:29:51 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.startDate": [
+            "The JSON value could not be converted to System.DateTime. Path: $.startDate | LineNumber: 2 | BytePositionInLine: 27."
+        ]
+    },
+    "traceId": "00-ea04d2b707cf1e772eb121686dc4d4ea-5ff2b2608c0783a0-00"
+}

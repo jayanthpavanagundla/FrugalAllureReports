@@ -1,0 +1,123 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:10:35 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+[
+    {
+        "distributionPoolIds": [
+            "-44111786755562942"
+        ],
+        "segment": "CCHA",
+        "pool": "CHHP -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2025-10-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "723182079742905760"
+        ],
+        "segment": "CCHA",
+        "pool": "HCHP -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "493109983061697046"
+        ],
+        "segment": "CCHA",
+        "pool": "HCOP -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "555092955589526033"
+        ],
+        "segment": "CCMR",
+        "pool": "CHMR -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2025-06-30T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "-83976030507777133"
+        ],
+        "segment": "CCMR",
+        "pool": "HCMR -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "112671119057473817"
+        ],
+        "segment": "HANDY",
+        "pool": "HAHP -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "-23985571871460933"
+        ],
+        "segment": "LR1",
+        "pool": "HAPA -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "611660162580838450"
+        ],
+        "segment": "LR1",
+        "pool": "STLR -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "686281037384653924"
+        ],
+        "segment": "LR2",
+        "pool": "STL2 -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "612098905453271305"
+        ],
+        "segment": "MR",
+        "pool": "HAMR -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-03-31T00:00:00"
+    },
+    {
+        "distributionPoolIds": [
+            "396660413991446478"
+        ],
+        "segment": "SPEZ",
+        "pool": "HACI -> A-POOL",
+        "sortOrder": null,
+        "colorCode": null,
+        "latestPeriod": "2026-02-28T00:00:00"
+    }
+]

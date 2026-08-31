@@ -1,0 +1,195 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:30 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselReport": [
+        {
+            "chartererName": "ADMIC",
+            "awcEarning": -6000,
+            "rtEarning": 25500,
+            "voyageDays": 28,
+            "waitDays": 0,
+            "cargoDate": "2024-10-09T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-17T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX KAWASAKI",
+            "trade": "RUWAIS/JEBEL ALI",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "-67470361486451687",
+            "vesselName": "KAMOME VICTORIA"
+        },
+        {
+            "chartererName": "SHELL",
+            "awcEarning": 16000,
+            "rtEarning": 23000,
+            "voyageDays": 10,
+            "waitDays": 2,
+            "cargoDate": "2024-10-10T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-16T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX JEBEL ALI",
+            "trade": "RAS LAFFAN/SOHAR",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "-21018802731306906",
+            "vesselName": "HAFNIA EXPRESS"
+        },
+        {
+            "chartererName": "CHEVRON",
+            "awcEarning": 37964,
+            "rtEarning": 18018,
+            "voyageDays": 31,
+            "waitDays": 2,
+            "cargoDate": "2024-10-16T00:00:00",
+            "cargoSize": "LR1",
+            "status": "SUBS",
+            "statusDate": "2024-10-18T20:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX JEBEL ALI",
+            "trade": "KUWAIT/SING-JAPAN RANGE",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "169359306129936959",
+            "vesselName": "HAFNIA PROVIDENCE"
+        },
+        {
+            "chartererName": "SHELL",
+            "awcEarning": 2000,
+            "rtEarning": 16000,
+            "voyageDays": 28,
+            "waitDays": 0,
+            "cargoDate": "2024-10-10T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-15T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX CHITA",
+            "trade": "NEW MANGALORE/SINGAPORE",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "287067389875781581",
+            "vesselName": "HAFNIA SHENZHEN"
+        },
+        {
+            "chartererName": "CLEARLAKE",
+            "awcEarning": 43415,
+            "rtEarning": 26142,
+            "voyageDays": 30,
+            "waitDays": 0,
+            "cargoDate": "2024-10-17T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-17T18:00:00",
+            "region": "FAR EAST",
+            "comment": "EX YANGPU",
+            "trade": "ULSAN + MAILIAO/BOTANY BAY + HASTINGS",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "316601522484677697",
+            "vesselName": "HAFNIA HONG KONG"
+        },
+        {
+            "chartererName": "ARAMCO",
+            "awcEarning": 30000,
+            "rtEarning": 50000,
+            "voyageDays": 15,
+            "waitDays": 5,
+            "cargoDate": "2024-10-14T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-17T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX AIN SUKHNA",
+            "trade": "RABIGH/AIN SUKHNA",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "363996008821395080",
+            "vesselName": "HAFNIA EXPERIENCE"
+        },
+        {
+            "chartererName": "EXXON",
+            "awcEarning": 50425,
+            "rtEarning": 26694,
+            "voyageDays": 24,
+            "waitDays": 3,
+            "cargoDate": "2024-10-15T00:00:00",
+            "cargoSize": "LR1",
+            "status": "SUBS",
+            "statusDate": "2024-10-18T18:00:00",
+            "region": "SEAOZ",
+            "comment": "EX SINGAPORE",
+            "trade": "SINGAPORE/AUSTRALIA-NEW ZEALAND (INT MARSDEN POINT)",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "785023482434498034",
+            "vesselName": "HAFNIA BEIJING"
+        },
+        {
+            "chartererName": "SHELL",
+            "awcEarning": -3100,
+            "rtEarning": 0,
+            "voyageDays": 35,
+            "waitDays": 1,
+            "cargoDate": "2024-10-10T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-15T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX BOTANY BAY",
+            "trade": "NEW MANGALORE/JEBEL ALI",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "840537531187803874",
+            "vesselName": "HAFNIA EXCEL"
+        },
+        {
+            "chartererName": "CSSSA",
+            "awcEarning": 20000,
+            "rtEarning": 30000,
+            "voyageDays": 11,
+            "waitDays": 3,
+            "cargoDate": "2024-10-14T00:00:00",
+            "cargoSize": "LR1",
+            "status": "FIXED",
+            "statusDate": "2024-10-17T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX SOHAR",
+            "trade": "JUBAIL/FUJAIRAH",
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "vesselId": "847448039341134438",
+            "vesselName": "HAFNIA PRECISION"
+        }
+    ],
+    "statuses": [
+        "All Status",
+        "FIXED",
+        "SUBS"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:31 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "statusCode": 400,
+    "error": "invalid request: segment name is required and cannot be null or empty."
+}

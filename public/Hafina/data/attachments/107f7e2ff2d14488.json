@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Vessel/alleventsummary?vesselId=-69646049770195698&isBunkeringEventIncluded=true
+Proxy:			<none>
+Request params:	<none>
+Query params:	vesselId=-69646049770195698
+				isBunkeringEventIncluded=true
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

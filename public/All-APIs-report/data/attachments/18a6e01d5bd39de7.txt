@@ -1,0 +1,20 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "apiautomation20260311113647@test.com",
+    "password": "FrugalTest@1",
+    "firstName": "API",
+    "lastName": "Testing123",
+    "country": "KE",
+    "phoneNumber": "+2349176078182"
+}

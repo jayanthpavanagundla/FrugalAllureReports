@@ -1,0 +1,12 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Filter/poolindexfilter?currentParticipantId=-47311463948867559
+Proxy:			<none>
+Request params:	<none>
+Query params:	currentParticipantId=-47311463948867559
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

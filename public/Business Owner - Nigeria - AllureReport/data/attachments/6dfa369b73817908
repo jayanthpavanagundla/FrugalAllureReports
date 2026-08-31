@@ -1,0 +1,445 @@
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:08:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJDTk9qNDdidUVJTFczQmhpVmtydCIsImp3dElkIjoicmlOMU5lbENZd3NjRlpUVWlzRWsiLCJpYXQiOjE3NzQ1MzA1MzYsImV4cCI6MTgwNjA2NjUzNn0.Fk98u0a_QfDQipXWnIlyy7Cnxy2r4qfgQdZ4ZZOkNJ0; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 14:08:56 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=b706804a664bd3b10ee1e51e2dcc6986ce684dee84592984b7f3e2f2219d75d2d1890c505c99ae490609aa28d5c0b698c356cd0775f461ecbd294ed8501b1b68; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 13:08:56 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-Z1YU5Qa4J2VJz3OQVGWCI+xy++o"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJDTk9qNDdidUVJTFczQmhpVmtydCIsImp3dElkIjoicmlOMU5lbENZd3NjRlpUVWlzRWsiLCJpYXQiOjE3NzQ1MzA1MzYsImV4cCI6MTgwNjA2NjUzNn0.Fk98u0a_QfDQipXWnIlyy7Cnxy2r4qfgQdZ4ZZOkNJ0",
+        "refreshToken": "b706804a664bd3b10ee1e51e2dcc6986ce684dee84592984b7f3e2f2219d75d2d1890c505c99ae490609aa28d5c0b698c356cd0775f461ecbd294ed8501b1b68",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 409 Conflict
+Date: Thu, 26 Mar 2026 13:08:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 426
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"1aa-IF0152Gs9Ve1chHuiNUgQrQA4Ls"
+
+{
+    "code": 4090,
+    "error": "There is a pending inspection request with the same VIN: EUP1KCGRRSQTWMYX0. Complete or cancel the existing request before creating a new one.",
+    "message": "There is a pending inspection request with the same VIN: EUP1KCGRRSQTWMYX0. Complete or cancel the existing request before creating a new one.",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:08:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2766
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"ace-PRik9gHFqv7ji78qJW2anrBHQ/c"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "K8YV2OryR3",
+                    "status": "pending",
+                    "createdAt": "Thu Mar 26 2026 13:03:07 GMT+0000 (Coordinated Universal Time)"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "inspectionReviews": [
+                
+            ],
+            "id": "cy-YhWM2k",
+            "carTitle": "Audi A5 2015",
+            "modelId": 87,
+            "vin": "EUP1KCGRRSQTWMYX0",
+            "isExistingCar": true,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "pending",
+            "createdAt": "2026-03-26T13:03:07.731Z",
+            "updatedAt": "2026-03-26T13:03:07.731Z",
+            "carId": "z5VnE-qw7",
+            "userId": "oV3yYl2hPuuLuBLrhLud",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "loanType": "Decision Engine Loan",
+            "reference": "402650420034872",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "z5VnE-qw7",
+                "year": 2015,
+                "insured": false,
+                "mileage": 10,
+                "vin": "EUP1KCGRRSQTWMYX0",
+                "licensePlate": "BD01LZ0605",
+                "engineNumber": "69059278555",
+                "price": 5000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 5000000,
+                "marketplaceVisible": true,
+                "marketplaceVisibleDate": "Thu Mar 26 2026 12:59:42 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/WqNBepsy.webp",
+                "ownerId": "-lh7_mmKJ",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "state": "Niger",
+                "country": "NG",
+                "address": "Chanchaga City",
+                "carManagerId": "kpMngdaMZ",
+                "ownerType": "self",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "city": "Chanchaga",
+                "marketplaceOldPrice": 5000000,
+                "createdAt": "Thu Mar 26 2026 12:58:32 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Thu Mar 26 2026 12:59:43 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 3,
+                "installment": 250186,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3853053,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/z5VnE-qw7",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "approved",
+                "summary": "This is an automated test car listing created using Selenium automation.",
+                "listingScore": "4.4",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false,
+                "auction": false
+            }
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:08:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IkVOUFd4bjRTeHpnWm9ZTlBURHAwIiwiand0SWQiOiJFbUFrdkEwV0ptclBaVDl5YWJjTiIsImlhdCI6MTc3NDUzMDUzOSwiZXhwIjoxODA2MDY2NTM5fQ.mEMBybpqqTxpu4ufQplNyYVlwIsgE5Do8tm0HnlATQ4; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 14:08:59 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=bae8cd1ab301cf3c0341e5867499c3e9f291c21f20f9936dca6c9eaed174ac8820b9061be780359db10fd3240882491337290ee754b414047e6c54a81258107b; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 13:08:59 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-Eo8vO2apGLRNqTDaIul2U15bVx4"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "LwsavTyeq1oNbEHFVm4l",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IkVOUFd4bjRTeHpnWm9ZTlBURHAwIiwiand0SWQiOiJFbUFrdkEwV0ptclBaVDl5YWJjTiIsImlhdCI6MTc3NDUzMDUzOSwiZXhwIjoxODA2MDY2NTM5fQ.mEMBybpqqTxpu4ufQplNyYVlwIsgE5Do8tm0HnlATQ4",
+        "refreshToken": "bae8cd1ab301cf3c0341e5867499c3e9f291c21f20f9936dca6c9eaed174ac8820b9061be780359db10fd3240882491337290ee754b414047e6c54a81258107b",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:09:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 16
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "success": true
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:09:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2435
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"983-J6uAKHP7YPlJiDezFDz9oc/5V5A"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "requestStatus": [
+        {
+            "id": "K8YV2OryR3",
+            "status": "pending",
+            "createdAt": "Thu Mar 26 2026 13:03:07 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+            "id": "unEFrqwrn4",
+            "status": "scheduled",
+            "createdAt": "Thu Mar 26 2026 13:09:00 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "inspectionRequestSummary": [
+        {
+            "id": "L9Z7B8L9a",
+            "assigneeId": "LwsavTyeq1oNbEHFVm4l",
+            "inspectionStatus": "pending",
+            "createdAt": "Thu Mar 26 2026 13:09:00 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Thu Mar 26 2026 13:09:00 GMT+0000 (Coordinated Universal Time)"
+        }
+    ],
+    "inspectionReviews": [
+        
+    ],
+    "id": "cy-YhWM2k",
+    "carTitle": "Audi A5 2015",
+    "modelId": 87,
+    "vin": "EUP1KCGRRSQTWMYX0",
+    "isExistingCar": true,
+    "assigneeId": "LwsavTyeq1oNbEHFVm4l",
+    "franchiseId": "kpMngdaMZ",
+    "franchiseName": "100% Automobile Nig.",
+    "franchisePhoneNumber": "234791975858",
+    "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+    "inspectionRequestStatus": "scheduled",
+    "inspectionProcessStatus": "pending",
+    "requestAssignedAt": "Thu Mar 26 2026 13:09:00 GMT+0000 (Coordinated Universal Time)",
+    "assignmentLastUpdatedAt": "Thu Mar 26 2026 13:09:00 GMT+0000 (Coordinated Universal Time)",
+    "createdAt": "2026-03-26T13:03:07.731Z",
+    "updatedAt": "2026-03-26T13:09:00.363Z",
+    "country": "NG",
+    "inspectionRequestType": "warranty",
+    "carId": "z5VnE-qw7",
+    "summaryId": "L9Z7B8L9a",
+    "userId": "oV3yYl2hPuuLuBLrhLud",
+    "source": "franchise",
+    "franchiseType": "dealer",
+    "loanId": "OR4S4vvo-",
+    "sla": "NaN",
+    "loanType": "Decision Engine Loan",
+    "reference": "402650420034872",
+    "summary": "{\"sms\":[{\"text\":\"Hello 100% Automobile Nig., this is Jayanth Inspector from Autochek. I tried reaching you regarding the vehicle inspection for Audi A5 2015, , but I was unable to get through. Kindly let me know a convenient time to connect. Thank you.\",\"order\":\"1\",\"title\":\"Phone unreableble\"},{\"text\":\"Hello 100% Automobile Nig., this is Jayanth Inspector from Autochek. I’ve been trying to call you regarding the vehicle inspection for Audi A5 2015, but haven’t been able to reach you. Please call me back at your earliest convenience. Thanks.\",\"order\":\"2\",\"title\":\"Not picking up call\"},{\"text\":\"Hello 100% Automobile Nig., this is Jayanth Inspector from Autochek. I tried contacting you regarding the vehicle inspection for Audi A5 2015, but your phone appears to be switched off. Kindly contact me when you are available or provide an alternative contact number. Thank you.\",\"order\":\"3\",\"title\":\"Phone switched off\"}],\"call\":[]}"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:09:05 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 16
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "success": true
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:09:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:09:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}

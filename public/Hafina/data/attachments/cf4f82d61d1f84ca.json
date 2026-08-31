@@ -1,0 +1,233 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:24:48 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselCount": [
+        {
+            "period": {
+                "monthNumber": 12,
+                "month": "December ",
+                "year": 2022
+            },
+            "vesselCount": 0
+        },
+        {
+            "period": {
+                "monthNumber": 11,
+                "month": "November ",
+                "year": 2022
+            },
+            "vesselCount": 0
+        },
+        {
+            "period": {
+                "monthNumber": 8,
+                "month": "August   ",
+                "year": 2022
+            },
+            "vesselCount": 0
+        },
+        {
+            "period": {
+                "monthNumber": 7,
+                "month": "July     ",
+                "year": 2022
+            },
+            "vesselCount": 0
+        },
+        {
+            "period": {
+                "monthNumber": 10,
+                "month": "October  ",
+                "year": 2022
+            },
+            "vesselCount": 0
+        },
+        {
+            "period": {
+                "monthNumber": 9,
+                "month": "September",
+                "year": 2022
+            },
+            "vesselCount": 0
+        }
+    ],
+    "monthlySpeedPercentage": [
+        {
+            "speedPercentage": 92,
+            "bucket": 3,
+            "monthNumber": 7,
+            "month": "July     ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 92,
+            "bucket": 3,
+            "monthNumber": 8,
+            "month": "August   ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 93,
+            "bucket": 3,
+            "monthNumber": 9,
+            "month": "September",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 92,
+            "bucket": 3,
+            "monthNumber": 10,
+            "month": "October  ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 90,
+            "bucket": 4,
+            "monthNumber": 11,
+            "month": "November ",
+            "year": 2022
+        },
+        {
+            "speedPercentage": 87,
+            "bucket": 4,
+            "monthNumber": 12,
+            "month": "December ",
+            "year": 2022
+        }
+    ],
+    "speedPercentageByVessel": [
+        {
+            "vesselId": "-85804714506294846",
+            "vesselName": "CHIOS STAR",
+            "age": 7.8,
+            "participant": "CHARTWORLD",
+            "segment": "MR",
+            "pool": "HAMR -> A-POOL",
+            "fullColorCode": null,
+            "extremeColorCode": null,
+            "distributionPoolIds": [
+                "612098905453271305"
+            ],
+            "speedPercentage": 90.86,
+            "monthlySpeedPercentage": [
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 7,
+                    "month": "July     ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 8,
+                    "month": "August   ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 93,
+                    "bucket": 3,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 92,
+                    "bucket": 3,
+                    "monthNumber": 10,
+                    "month": "October  ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 90,
+                    "bucket": 4,
+                    "monthNumber": 11,
+                    "month": "November ",
+                    "year": 2022
+                },
+                {
+                    "speedPercentage": 87,
+                    "bucket": 4,
+                    "monthNumber": 12,
+                    "month": "December ",
+                    "year": 2022
+                }
+            ],
+            "voyages": [
+                {
+                    "vesselId": "-85804714506294846",
+                    "voyageId": "-10650049308122589",
+                    "voyageNumber": 31,
+                    "voyageCode": "CHIOS STAR - 31",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 87,
+                    "commencePortName": "FAWLEY",
+                    "completePortName": "ZONA COMUN",
+                    "commenceDate": "2022-11-28T11:00:00",
+                    "completeDate": "2023-01-13T09:06:00"
+                },
+                {
+                    "vesselId": "-85804714506294846",
+                    "voyageId": "214036621607875695",
+                    "voyageNumber": 30,
+                    "voyageCode": "CHIOS STAR - 30",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 90,
+                    "commencePortName": "CIUDAD MADERO",
+                    "completePortName": "FAWLEY",
+                    "commenceDate": "2022-10-13T22:30:00",
+                    "completeDate": "2022-11-28T11:00:00"
+                },
+                {
+                    "vesselId": "-85804714506294846",
+                    "voyageId": "-27327818885560019",
+                    "voyageNumber": 29,
+                    "voyageCode": "CHIOS STAR - 29",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92.33,
+                    "commencePortName": "LA LIBERTAD (ECUADOR)",
+                    "completePortName": "CIUDAD MADERO",
+                    "commenceDate": "2022-07-13T14:00:00",
+                    "completeDate": "2022-10-13T22:30:00"
+                },
+                {
+                    "vesselId": "-85804714506294846",
+                    "voyageId": "-30822744692806211",
+                    "voyageNumber": 28,
+                    "voyageCode": "CHIOS STAR - 28",
+                    "segment": "MR",
+                    "pool": "HAMR -> A-POOL",
+                    "speedPercentage": 92,
+                    "commencePortName": "LOS ANGELES",
+                    "completePortName": "LA LIBERTAD (ECUADOR)",
+                    "commenceDate": "2022-04-20T19:00:00",
+                    "completeDate": "2022-07-13T14:00:00"
+                }
+            ],
+            "events": [
+                
+            ]
+        }
+    ],
+    "eventTypes": [
+        
+    ],
+    "noDataVessels": [
+        
+    ],
+    "monthlyNoDataVessels": [
+        
+    ]
+}

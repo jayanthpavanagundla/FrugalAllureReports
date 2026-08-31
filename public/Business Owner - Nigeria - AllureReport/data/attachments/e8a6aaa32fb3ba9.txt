@@ -1,0 +1,15 @@
+{
+  "incomeMonth6" : "20000000",
+  "incomeMonth5" : "20000000",
+  "incomeMonth4" : "20000000",
+  "incomeMonth3" : "20000000",
+  "incomeMonth2" : "20000000",
+  "incomeMonth1" : "20000000",
+  "accountType" : "Personal",
+  "averageMonthlySpendOnSavingsAndInvestments" : "",
+  "accountNumber" : "25773813107",
+  "accountHolderName" : "Testing ZZZ",
+  "statementKey" : "071381",
+  "statementType" : "BUSINESS",
+  "primaryBank" : "Nigeria Test"
+}

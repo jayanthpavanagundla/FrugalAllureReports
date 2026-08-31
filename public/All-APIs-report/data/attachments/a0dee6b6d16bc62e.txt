@@ -1,0 +1,309 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiIxQjBnU1FFSzd0eURvUUcyeHc5TSIsImp3dElkIjoiMkg4aXFzZUJFQUtWckU0dHkxazciLCJpYXQiOjE3NzMyMDc0NjIsImV4cCI6MTgwNDc0MzQ2Mn0.O5QkwReXoT9506yEBUfMVhBq7szQ8Jy49JSzxwxL3E8
+				x-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "profile": [
+        {
+            "name": "sourceDataId",
+            "value": "kpMngdaMZ",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "sourceData",
+            "value": "100% Automobile Nig.",
+            "type": "email",
+            "valid": true
+        },
+        {
+            "name": "source",
+            "value": "FRANCHISE",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "referrerSource",
+            "value": "Franchise",
+            "valid": true
+        },
+        {
+            "name": "referrerData",
+            "value": "100% Automobile Nig.",
+            "valid": true
+        },
+        {
+            "name": "referrerDataId",
+            "value": "kpMngdaMZ",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "firstName",
+            "value": "APIe86f42cd",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "lastName",
+            "value": "Testingf3737971",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "telephone",
+            "value": "2349845194798",
+            "type": "tel",
+            "valid": true
+        },
+        {
+            "name": "email",
+            "value": "APIa4a553@test.com",
+            "type": "email",
+            "valid": true
+        },
+        {
+            "name": "description",
+            "value": "Salary earner",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "monthlyGrossIncome",
+            "value": "1299117.0",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "sourceOfFunds",
+            "value": "Wages, bonuses, dividends, and other income from employment",
+            "valid": true
+        },
+        {
+            "name": "dob",
+            "value": "1990-01-01",
+            "type": "date",
+            "valid": true
+        },
+        {
+            "name": "nin",
+            "value": "12345678901",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "BVN",
+            "value": "12345678901",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "gender",
+            "value": "Male",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "nationality",
+            "value": "Nigeria",
+            "valid": true
+        },
+        {
+            "name": "nationalityStatus",
+            "value": "Citizen",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "state",
+            "value": "Abuja",
+            "valid": true
+        },
+        {
+            "name": "employmentType",
+            "value": "Permanent",
+            "valid": true
+        },
+        {
+            "name": "industry",
+            "value": "Consultancy",
+            "valid": true
+        },
+        {
+            "name": "employerName",
+            "value": "Test",
+            "valid": true
+        },
+        {
+            "name": "employerAddress",
+            "value": "Test Address",
+            "valid": true
+        },
+        {
+            "name": "yearWithEmployer",
+            "value": "1",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "sideBusiness",
+            "value": "No",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "primaryBank",
+            "value": "Globus Bank Limited",
+            "valid": true
+        },
+        {
+            "name": "primaryBank",
+            "value": "Globus Bank Limited",
+            "valid": true
+        },
+        {
+            "name": "accountHolderName",
+            "value": "testingtesting",
+            "type": "text",
+            "valid": true
+        },
+        {
+            "name": "accountNumber",
+            "value": "8938655680",
+            "type": "number",
+            "valid": true
+        },
+        {
+            "name": "accountType",
+            "value": "Savings",
+            "valid": true
+        },
+        {
+            "name": "monthlyExpenses",
+            "value": "65000",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "monthlyGrossIncome2",
+            "value": "1299117.0",
+            "type": "amount",
+            "valid": true
+        },
+        {
+            "name": "vehicleUse",
+            "value": "Personal",
+            "type": "radio",
+            "valid": true
+        }
+    ],
+    "loan_fields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "excludeTintPermit",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "upfrontRoadsideAssistance",
+            "value": false,
+            "valid": true
+        },
+        {
+            "name": "creditCheckConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "financeAndVehicleConsent",
+            "value": "Yes",
+            "valid": true
+        },
+        {
+            "name": "platformPolicy",
+            "value": "Yes",
+            "valid": true
+        }
+    ],
+    "car_id": "iUbf2edkh",
+    "user_id": "BQlQBbLTW",
+    "product_id": "hj43BXLXe",
+    "country": "NG",
+    "is_draft": false,
+    "captcha_token": "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+}

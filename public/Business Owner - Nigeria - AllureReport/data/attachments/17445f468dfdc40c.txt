@@ -1,0 +1,296 @@
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/app/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "MTWTPQxpuzUfg3Vz59oa",
+    "roles": [
+        "LOAN ADMIN",
+        "CREDIT_OFFICER",
+        "CREDIT_ADMIN"
+    ],
+    "email": "eshareddy+underwriter@frugaltestingin.com"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ0V1R6Mkk3QlVHcTJWc1lwcElhMCIsImp3dElkIjoiZGdTd2ZueFhRNWxkRmdNNDFQYU0iLCJpYXQiOjE3NzQ1MzEyNDIsImV4cCI6MTgwNjA2NzI0Mn0.LYgoNM7R2fJZOv5ss1jOowvBDKbxJBJH7Gaam-QcneE
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/accepted-offer/Z_ttbM0iI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "acceptedOfferMatch": "Yes",
+    "loanId": "OR4S4vvo-"
+}
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/payment-requests/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ0V1R6Mkk3QlVHcTJWc1lwcElhMCIsImp3dElkIjoiZGdTd2ZueFhRNWxkRmdNNDFQYU0iLCJpYXQiOjE3NzQ1MzEyNDIsImV4cCI6MTgwNjA2NzI0Mn0.LYgoNM7R2fJZOv5ss1jOowvBDKbxJBJH7Gaam-QcneE
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/beneficiaries
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "requestId": "3kiPucJRZ",
+    "accountType": "Savings",
+    "name": "BO_xtaie CarLoan_lroyt",
+    "creatorId": "n/a",
+    "bankName": "Get Gari",
+    "fileUrl": "",
+    "accountNumber": "1001713926",
+    "accountHolderName": "AutoChek",
+    "userId": "kpMngdaMZ",
+    "email": "businessOwnercarloane2e_0838744@gmail.com"
+}
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/beneficiaries/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "requestId": "3kiPucJRZ",
+    "accountType": "Savings",
+    "name": "BO_xtaie CarLoan_lroyt",
+    "creatorId": "n/a",
+    "bankName": "Get Gari",
+    "fileUrl": "",
+    "accountNumber": "1001713926",
+    "accountHolderName": "AutoChek",
+    "userId": "kpMngdaMZ",
+    "email": "businessOwnercarloane2e_0838744@gmail.com"
+}
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/beneficiaries
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "requestId": "Zp9yMYolgs",
+    "dealerId": "kpMngdaMZ",
+    "accountType": "Savings",
+    "name": "BO_xtaie CarLoan_lroyt",
+    "creatorId": "n/a",
+    "bankName": "Get Gari",
+    "fileUrl": "",
+    "accountNumber": "1001713926",
+    "accountHolderName": "AutoChek",
+    "userId": "kpMngdaMZ",
+    "email": "businessOwnercarloane2e_0838744@gmail.com"
+}
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/beneficiaries/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "requestId": "Zp9yMYolgs",
+    "dealerId": "kpMngdaMZ",
+    "accountType": "Savings",
+    "name": "BO_xtaie CarLoan_lroyt",
+    "creatorId": "n/a",
+    "bankName": "Get Gari",
+    "fileUrl": "",
+    "accountNumber": "1001713926",
+    "accountHolderName": "AutoChek",
+    "userId": "kpMngdaMZ",
+    "email": "businessOwnercarloane2e_0838744@gmail.com"
+}
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/payment-request
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "country": "NG",
+    "recipientType": "DEALER",
+    "supplierId": "[002419]",
+    "requestType": "FULL_PAYMENT",
+    "dealId": "017788:021285",
+    "purchaseOrderUrl": null,
+    "creatorId": "MTWTPQxpuzUfg3Vz59oa",
+    "comment": "E2E Testing",
+    "deductions": "",
+    "loanId": "OR4S4vvo-",
+    "carValue": "5000000"
+}
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/acquire/deals/payment-request/manager-review/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzEyNDEsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.evF3PX5BAiHfiH-WhyK-nr__X7iPgR6IAl3gUXHY4sU
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "approverId": "MTWTPQxpuzUfg3Vz59oa",
+    "requestId": null,
+    "declineReason": "",
+    "status": "APPROVED_BY_MANAGER"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJ0V1R6Mkk3QlVHcTJWc1lwcElhMCIsImp3dElkIjoiZGdTd2ZueFhRNWxkRmdNNDFQYU0iLCJpYXQiOjE3NzQ1MzEyNDIsImV4cCI6MTgwNjA2NzI0Mn0.LYgoNM7R2fJZOv5ss1jOowvBDKbxJBJH7Gaam-QcneE
+				refresh_token=f3a4408869f1ba893d4e293dc1fb815de203618dcd40920a510cbd16a21b653038606f7c8eae3a8f18f8961b20d4d3287e4cb15b8788437fefc1ab524b51a3aa
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,22 @@
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:11:12 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.pullVesselsForComparison": [
+            "'no$!@,\n  \"minAge\":0,\n  \"maxAge\":30,\n  \"triggeredBy\":3,\n  \"module\":4,\n  \"defaultView\":false,\n  \"level1Priority\":2,\n  \"level2Priority\":4,\n}' is an invalid JSON literal. Expected the literal 'null'. Path: $.pullVesselsForComparison | LineNumber: 9 | BytePositionInLine: 30."
+        ]
+    },
+    "traceId": "00-0d69c79755334e8ed22343647a85a9aa-f4e5376c53e9b25d-00"
+}

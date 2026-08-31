@@ -1,0 +1,18 @@
+Request method:	POST
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/MarketData/vesselpositions
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "segmentName": "LR1",
+    "weekNumber": 46,
+    "year": 2024
+}

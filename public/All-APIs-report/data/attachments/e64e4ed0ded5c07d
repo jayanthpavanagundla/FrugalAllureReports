@@ -1,0 +1,33 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 11 Mar 2026 05:58:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 211
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"d3-ytqghZN/w5sUz+TPGv/6654mK8M"
+server: hide
+
+{
+    "code": 4000,
+    "error": "Invalid relations provided",
+    "message": "Invalid relations provided",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/car?country=NG&relations=model-make"
+        }
+    ]
+}

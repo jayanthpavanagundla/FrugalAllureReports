@@ -1,0 +1,79 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:28:17 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselId": "492917164689030852",
+    "poolPoints": [
+        
+    ],
+    "earnings": [
+        
+    ],
+    "performance": [
+        
+    ],
+    "speedPercentage": [
+        
+    ],
+    "earningsDistribution": [
+        
+    ],
+    "latestEarningDistributionPeriod": null,
+    "latestEarningDistribution": null,
+    "isLatestDistributionEstimated": false,
+    "latestOnHireDays": null,
+    "poolPointColor": null,
+    "earningColor": null,
+    "usdExcessConsumptionColor": null,
+    "co2EmissionColor": null,
+    "potentialFuelSavingColor": null,
+    "speedPercentageColor": "#de334a",
+    "avgBunkerPriceColor": null,
+    "latestPoolPoint": null,
+    "latestPoolPointPeriod": null,
+    "latestEarning": null,
+    "latestEarningPeriod": null,
+    "latestUsdExcessConsumption": null,
+    "latestUsdExcessConsumptionPeriod": null,
+    "latestUsdExcessConsumptionVLSFO": null,
+    "latestUsdExcessConsumptionVLSFOPeriod": null,
+    "latestCo2Emission": null,
+    "latestCo2EmissionPeriod": null,
+    "latestPotentialFuelSaving": null,
+    "latestPotentialFuelSavingPeriod": null,
+    "latestSpeedPercentage": null,
+    "latestSpeedPercentagePeriod": null,
+    "latestAvgBunkerPrice": null,
+    "latestAvgBunkerPricePeriod": null,
+    "latestPoolPointColor": null,
+    "latestEarningColor": null,
+    "latestUsdExcessConsumptionColor": null,
+    "latestCo2EmissionColor": null,
+    "latestPotentialFuelSavingColor": null,
+    "latestSpeedPercentageColor": "#de334a",
+    "latestAvgBunkerPriceColor": null,
+    "averagePoolPoint": null,
+    "averageEarning": null,
+    "averageUsdExcessConsumption": null,
+    "averageUsdExcessConsumptionAtVLSFO": null,
+    "averageCo2Emission": null,
+    "averagePotentialFuelSaving": null,
+    "averageSpeedPercentage": null,
+    "averageBunkerPrice": null,
+    "poolPointComparedToPreviousMonth": 0,
+    "earningComparedToPreviousMonth": 0,
+    "usdExcessConsumptionComparedToPreviousMonth": 0,
+    "co2EmissionComparedToPreviousMonth": 0,
+    "potentialFuelSavingComparedToPreviousMonth": 0,
+    "speedPercentageComparedToPreviousMonth": 0,
+    "bunkerPriceComparedToPreviousMonth": 0,
+    "averagePotentialFuelSavingsPerSellingDays": null
+}

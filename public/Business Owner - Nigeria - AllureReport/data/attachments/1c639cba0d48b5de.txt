@@ -1,0 +1,52 @@
+{
+  "reviews" : [ {
+    "name" : "utilityBill",
+    "id" : "eM4MJREX8",
+    "status" : "APPROVED"
+  }, {
+    "name" : "cacForm7",
+    "id" : "CXv1Mi1Cmu",
+    "status" : "APPROVED"
+  }, {
+    "name" : "personalBankStatement12Months",
+    "id" : "Z-TH9CERkM",
+    "status" : "APPROVED"
+  }, {
+    "name" : "cacCertificate",
+    "id" : "HeHEewOyQJ",
+    "status" : "APPROVED"
+  }, {
+    "name" : "cacForm2",
+    "id" : "Si2zVeQGVr",
+    "status" : "APPROVED"
+  }, {
+    "name" : "businessBankStatement",
+    "id" : "qMgZAGDLcn",
+    "status" : "APPROVED"
+  }, {
+    "name" : "dealerInvoice",
+    "id" : "D5CNEmDf05",
+    "status" : "APPROVED"
+  }, {
+    "name" : "bn1Document",
+    "id" : "bF3YFi31-5",
+    "status" : "APPROVED"
+  }, {
+    "name" : "personalBankStatement",
+    "id" : "4sZAuCiiTc",
+    "status" : "APPROVED"
+  }, {
+    "name" : "identity",
+    "id" : "dfGN3yqfiK",
+    "status" : "APPROVED"
+  }, {
+    "name" : "businessBankStatement12Months",
+    "id" : "oo_o9HCemF",
+    "status" : "APPROVED"
+  }, {
+    "name" : "borrower-indemnity-customs-indemnity-only",
+    "id" : "LCD-IDY2ogluO",
+    "status" : "APPROVED"
+  } ],
+  "loan_id" : "OR4S4vvo-"
+}

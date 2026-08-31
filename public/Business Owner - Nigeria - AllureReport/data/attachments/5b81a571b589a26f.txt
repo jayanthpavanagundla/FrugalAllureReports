@@ -1,0 +1,216 @@
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/app/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "MTWTPQxpuzUfg3Vz59oa",
+    "roles": [
+        "LOAN ADMIN",
+        "CREDIT_OFFICER",
+        "CREDIT_ADMIN"
+    ],
+    "email": "eshareddy+underwriter@frugaltestingin.com"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJQdFRGYXVNbkpIbEhLcGhEWGZTTCIsImp3dElkIjoiQmQyb2wxOFNkWFNQa3BYdFZJQlUiLCJpYXQiOjE3NzQ1MzA3MTUsImV4cCI6MTgwNjA2NjcxNX0.6qZgM_ksxmeO4838KwPg7Eb_BpepNrcGtzWFzJjOWnU
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/assessor-review/Z_ttbM0iI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "overrideCE041": "No",
+    "address": "Niger",
+    "gender": "Male",
+    "nationality": "Nigeria",
+    "city": "Nigeria",
+    "confirmedBy": "",
+    "overrideCE035": "No",
+    "overrideCE025": "No",
+    "overrideCE047": "No",
+    "title": "Mr",
+    "overrideCE034": "No",
+    "cityTownBusiness": "Testing"
+}
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/periculum-override/Z_ttbM0iI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "incomeMonth6": "20000000",
+    "incomeMonth5": "20000000",
+    "incomeMonth4": "20000000",
+    "incomeMonth3": "20000000",
+    "incomeMonth2": "20000000",
+    "incomeMonth1": "20000000",
+    "accountType": "Personal",
+    "averageMonthlySpendOnSavingsAndInvestments": "",
+    "accountNumber": "25773813107",
+    "accountHolderName": "Testing ZZZ",
+    "statementKey": "071381",
+    "statementType": "BUSINESS",
+    "primaryBank": "Nigeria Test"
+}
+Request method:	PUT
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/validation-review/Z_ttbM0iI
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "amlIndicator": "No",
+    "pepsIndicator": "No",
+    "pipsIndicator": "No",
+    "workIDDocumentValidation": "Yes",
+    "employmentConfirmationLetterDocumentValidation": "Yes",
+    "employmentLetterDocumentValidation": "Yes",
+    "payslipDocumentValidation": "Yes",
+    "bankStatementDocumentValidation": "Yes",
+    "mobileMoneyStatementDocumentValidation": "Yes",
+    "idDocumentValidation": "Yes",
+    "residencyWorkPermitDocumentValidation": "Yes",
+    "utilityBillDocumentValidation": "Yes",
+    "cacCertificateDocumentValidation": "Yes",
+    "cacForm2DocumentValidation": "Yes",
+    "registrationPapersDocumentValidation": "Yes",
+    "financialStatementsDocumentValidation": "Yes",
+    "cleanCRMSDocumentValidation": "Yes",
+    "cacForm7DocumentValidation": "Yes",
+    "bn1FormDocumentValidation": "Yes",
+    "paidDutiesPapersDocumentValidation": "Yes",
+    "validatedDealerDiscountInvoice": "Not Validated",
+    "paidUpLetterDocumentValidation": "Yes"
+}
+Request method:	GET
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offer-by-loan-id/OR4S4vvo-/accessbankng
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	loanId=OR4S4vvo-
+				bankCode=accessbankng
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJQdFRGYXVNbkpIbEhLcGhEWGZTTCIsImp3dElkIjoiQmQyb2wxOFNkWFNQa3BYdFZJQlUiLCJpYXQiOjE3NzQ1MzA3MTUsImV4cCI6MTgwNjA2NjcxNX0.6qZgM_ksxmeO4838KwPg7Eb_BpepNrcGtzWFzJjOWnU
+				x-autochek-app=dealerplus
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://81l3dcfgqe.execute-api.us-east-1.amazonaws.com/stage/decision-engine/offers/Z_ttbM0iI/submit-simulated-offer
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInJvbGVzIjpbIkxPQU4gQURNSU4iLCJDUkVESVRfT0ZGSUNFUiIsIkNSRURJVF9BRE1JTiJdLCJpYXQiOjE3NzQ1MzA3MTMsImF1ZCI6IkF1dG9jaGVrIiwiaXNzIjoiQXV0b2NoZWsiLCJzdWIiOiJBdXRvY2hlay1BRlMtSW50ZWdyYXRpb24gMS4wIn0.8dntzIX4LbFO6Qc3NiVLmGzjifmOv0LdStQf1xd8C_Q
+				x-api-key=y53gD0eyhQuLbp9jfM376iLcGwQy6EU4KcjxGTgd
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJQdFRGYXVNbkpIbEhLcGhEWGZTTCIsImp3dElkIjoiQmQyb2wxOFNkWFNQa3BYdFZJQlUiLCJpYXQiOjE3NzQ1MzA3MTUsImV4cCI6MTgwNjA2NjcxNX0.6qZgM_ksxmeO4838KwPg7Eb_BpepNrcGtzWFzJjOWnU
+				refresh_token=80e47e84d6107d60c950ac508d4e13513f60fe5b033ece0546de708d3e55682115bf046a1ad88bf677b0236092a90312f14883e32023b7f7a83f31f0359310de
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,13 @@
+Request method:	POST
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Notification/unreadnotificationcounts?userId=689
+Proxy:			<none>
+Request params:	<none>
+Query params:	userId=689
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer xx.xx.xx-xx-xx-xx-oY4-xx-xx-xx
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,12 @@
+Request method:	DELETE
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Dashboard/remove?dashboardId=5744
+Proxy:			<none>
+Request params:	<none>
+Query params:	dashboardId=5744
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

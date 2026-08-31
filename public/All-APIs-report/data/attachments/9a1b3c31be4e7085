@@ -1,0 +1,243 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:57:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2872
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"b38-FKzgfjOEpy7OmeACeXmL8SuW/XY"
+server: hide
+
+{
+    "modelList": [
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 11,
+            "name": "Punto Evo",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 10,
+            "name": "Grande Punto",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 9,
+            "name": "695C",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 8,
+            "name": "695",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 7,
+            "name": "595 Turismo",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 6,
+            "name": "595 Competizione",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 5,
+            "name": "595C",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 4,
+            "name": "595",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 3,
+            "name": "500C",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        },
+        {
+            "modelFeatures": [
+                
+            ],
+            "trimFeatures": [
+                
+            ],
+            "trims": [
+                
+            ],
+            "id": 2,
+            "name": "500",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 1,
+                "name": "ABARTH",
+                "imageUrl": "https://storage.googleapis.com/img.autochek.africa/c638e191-1e1c-48bf-a29b-e18c01038ce4-30359-Fiat-Abarth.png"
+            },
+            "popular": false
+        }
+    ],
+    "pagination": {
+        "total": 3353,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 336
+    }
+}

@@ -1,0 +1,72 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:57:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1128
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"468-AO06lhlfuGK0SxHgztqjIvzOGKA"
+server: hide
+
+{
+    "bodyTypeList": [
+        {
+            "name": "Bus",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Bus.svg"
+        },
+        {
+            "name": "Convertible",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+        },
+        {
+            "name": "Coupe",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+        },
+        {
+            "name": "Crossover",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Crossover.svg"
+        },
+        {
+            "name": "Hatchback",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+        },
+        {
+            "name": "Liftback",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/07af363e-d815-4bd2-b064-7ed8c0bc6e6a-SUV.svg"
+        },
+        {
+            "name": "Minivan",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Mini-van.svg"
+        },
+        {
+            "name": "MPV",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/83ad30c2-6dfb-4ccf-8e87-39f2acc859c9-MPV.svg"
+        },
+        {
+            "name": "Multi-Purpose Vehicle (MPV)"
+        },
+        {
+            "name": "Notchback",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/af60dc31-789e-4a4c-9b5f-5f3f0161c0e0-Notchback.svg"
+        }
+    ],
+    "pagination": {
+        "total": 19,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 2
+    }
+}

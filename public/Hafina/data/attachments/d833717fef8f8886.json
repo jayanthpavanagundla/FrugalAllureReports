@@ -1,0 +1,90 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:19 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "AMSTERDAM/THAMES/AMSTERDAM",
+            "route": "X-CONT",
+            "rate": "WS 182.5",
+            "tce": "25292.17",
+            "weekNumber": 50,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "18150.30",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "AMSTERDAM/LAVERA/GIBRALTAR",
+            "route": "CONT-MED",
+            "rate": "WS 172.5",
+            "tce": "23978.03",
+            "weekNumber": 50,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "17565.47",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "LA NOUVELLE/SARROCH/LA NOUVELLE",
+            "route": "X-MED",
+            "rate": "WS 210.0",
+            "tce": "24267.30",
+            "weekNumber": 50,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "23269.77",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "CHITTAGONG/SPORE/CHITTAGONG",
+            "route": "FAR EAST",
+            "rate": "$ 675,000",
+            "tce": "30301.11",
+            "weekNumber": 50,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "30015.50",
+            "trend": "0"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:19 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.weekNumber": [
+            "',' is an invalid start of a value. Path: $.weekNumber | LineNumber: 2 | BytePositionInLine: 15."
+        ]
+    },
+    "traceId": "00-df0a89f44789b39a18dd79d87dd6d967-0c005ceb2624fcdd-00"
+}

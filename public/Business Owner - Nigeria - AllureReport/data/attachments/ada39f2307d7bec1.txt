@@ -1,0 +1,8 @@
+{
+    "userId": "oV3yYl2hPuuLuBLrhLud",
+    "email": "businessownercarloane2e_0838744@gmail.com",
+    "bankCode": "058",
+    "accountNumber": "0128034955",
+    "redirectUrl": "https://sign.staging.myautochek.com/widget/debit-mandate?access_code=dyeeg9abq2o1wam&loanId=OR4S4vvo-",
+    "redirectUrlExpiresAt": "2026-03-26T14:13:56.348Z"
+}

@@ -1,0 +1,99 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:05:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1343
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"53f-PV34hJ6/EUApEHMmdLGy6DuzNoU"
+server: hide
+
+{
+    "banks": [
+        {
+            "id": "408",
+            "name": "Access Bank Plc",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/eac36d84-ae80-4e25-bc5b-f2da11bcbe7d-Access.png",
+            "country": "NG",
+            "active": true,
+            "code": "ACCESSBANKNG",
+            "paymentEngineCode": "044"
+        },
+        {
+            "id": "409",
+            "name": "Accion Microfinance Bank",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/3c366832-25de-4a55-923a-56d814821cf9-accion.png",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "410",
+            "name": "Advans La Fayette Microfinance Bank",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "411",
+            "name": "Citibank Nigeria Limited",
+            "country": "NG",
+            "active": true,
+            "paymentEngineCode": "023"
+        },
+        {
+            "id": "412",
+            "name": "Coronation Merchant Bank",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "413",
+            "name": "Covenant Microfinance Bank Ltd",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "414",
+            "name": "Ecobank Nigeria Plc",
+            "logo": "https://storage.googleapis.com/img.autochek.africa/c768230c-767c-4d5e-a575-43397c0eb24c-Ecobank%20Logo.png",
+            "country": "NG",
+            "active": true,
+            "paymentEngineCode": "050"
+        },
+        {
+            "id": "415",
+            "name": "Empire Trust Microfinance Bank",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "700",
+            "name": "FairMoney Microfinance Bank",
+            "logo": "https://media.autochek.africa/file/prodPublic/fairmoney-logo.png",
+            "country": "NG",
+            "active": true
+        },
+        {
+            "id": "416",
+            "name": "FBNQuest Merchant Bank",
+            "country": "NG",
+            "active": true
+        }
+    ],
+    "pagination": {
+        "total": 56,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

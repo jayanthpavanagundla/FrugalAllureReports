@@ -1,0 +1,11 @@
+{
+    "code": 4090,
+    "error": "There is a pending inspection request with the same VIN: EUP1KCGRRSQTWMYX0. Complete or cancel the existing request before creating a new one.",
+    "message": "There is a pending inspection request with the same VIN: EUP1KCGRRSQTWMYX0. Complete or cancel the existing request before creating a new one.",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request"
+        }
+    ]
+}

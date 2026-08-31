@@ -1,0 +1,24 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 11 Mar 2026 06:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 251
+Connection: keep-alive
+X-Powered-By: Express
+ETag: W/"fb-9DpY40WxVnPqhBXrHJC3SILzLx8"
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+server: hide
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+
+{
+    "code": 400,
+    "error": "Expected ',' or '}' after property value in JSON at position 743",
+    "message": "Expected ',' or '}' after property value in JSON at position 743",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inspection"
+        }
+    ]
+}

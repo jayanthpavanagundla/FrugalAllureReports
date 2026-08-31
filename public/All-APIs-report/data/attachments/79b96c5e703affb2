@@ -1,0 +1,94 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:01:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1337
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"539-ly8eO7XwGi/i/cYQhmEzHN+mFtg"
+server: hide
+
+{
+    "features": [
+        
+    ],
+    "carFeatures": [
+        
+    ],
+    "modelFeatures": [
+        
+    ],
+    "delistReason": [
+        
+    ],
+    "damageMedia": [
+        
+    ],
+    "damages": [
+        
+    ],
+    "carMedias": [
+        
+    ],
+    "media": [
+        
+    ],
+    "id": "zijkW88jD",
+    "year": 2020,
+    "insured": false,
+    "mileage": 2555,
+    "vin": "0000977859283718555",
+    "licensePlate": "PLATE1234567890123456",
+    "engineNumber": "12348",
+    "price": 909900,
+    "createdBy": "BQlQBbLTW",
+    "marketplacePrice": 909900,
+    "marketplaceVisible": false,
+    "isFeatured": false,
+    "imageUrl": "https://media.autochek.africa/file/w_812,q_100/X0siggWk.webp",
+    "ownerId": "-lh7_mmKJ",
+    "state": "Abuja",
+    "country": "NG",
+    "address": "test",
+    "carManagerId": "kpMngdaMZ",
+    "ownerType": "self",
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "sellingCondition": "new",
+    "city": "Airport Junction Citec",
+    "marketplaceOldPrice": 0,
+    "createdAt": "Wed Mar 11 2026 06:01:00 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Mar 11 2026 06:01:10 GMT+0000 (Coordinated Universal Time)",
+    "mileageUnit": "km",
+    "hasWarranty": false,
+    "hasFinancing": true,
+    "interiorColor": "blue",
+    "exteriorColor": "green",
+    "engineType": "2-cylinder(I2)",
+    "gradeScore": 4.5,
+    "installment": 110094,
+    "depositReceived": false,
+    "isFirstOwner": false,
+    "loanValue": 1265276,
+    "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/corolla/toyota/zijkW88jD",
+    "sold": false,
+    "hasThreeDImage": false,
+    "isUpgraded": false,
+    "ccMeasurement": 1,
+    "moderated": false,
+    "accidented": false,
+    "isDraft": true,
+    "tradeIn": false
+}

@@ -1,0 +1,23 @@
+HTTP/1.1 503 Service Temporarily Unavailable
+Date: Wed, 11 Mar 2026 05:55:35 GMT
+Content-Type: text/html
+Content-Length: 190
+Connection: keep-alive
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+server: hide
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+
+<html>
+  <head>
+    <title>503 Service Temporarily Unavailable</title>
+  </head>
+  <body>
+    <center>
+      <h1>503 Service Temporarily Unavailable</h1>
+    </center>
+    <hr/>
+    <center>nginx</center>
+  </body>
+</html>

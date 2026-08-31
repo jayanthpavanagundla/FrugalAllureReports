@@ -1,0 +1,327 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:48:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 6066
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"17b2-gnHCdCGjNpDcsrqZPcPzNEIBYhY"
+server: hide
+
+{
+    "equities": [
+        
+    ],
+    "offers": [
+        
+    ],
+    "loanFields": [
+        {
+            "name": "desiredLoanCurrency",
+            "value": "NGN",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        }
+    ],
+    "carFields": [
+        
+    ],
+    "yangoCarDetails": [
+        
+    ],
+    "id": "n86CzwvtT",
+    "email": "APIb41142@test.com",
+    "phone": "2343404443156",
+    "carId": "0zV7bPoNG",
+    "country": "NG",
+    "firstName": "APId506117f",
+    "lastName": "Testingb0dee054",
+    "lastSeen": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "firstSeen": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "status": "APPLICATION_NOT_COMPLETED",
+    "car": {
+        "id": "0zV7bPoNG",
+        "year": 2016,
+        "insured": false,
+        "mileage": 3200,
+        "vin": "TOYOTATOYOTATOYOT",
+        "price": 12000000,
+        "createdBy": "xgWQ5CfoC",
+        "marketplacePrice": 12015000,
+        "marketplaceVisible": false,
+        "isFeatured": false,
+        "imageUrl": "https://media.autochek.africa/file/ZAc1dQPp.webp",
+        "ownerId": "1NaFsurUW",
+        "model": {
+            "id": 507,
+            "name": "250",
+            "imageUrl": "",
+            "wheelType": "2WD",
+            "make": {
+                "id": 35,
+                "name": "Ferrari",
+                "imageUrl": ""
+            },
+            "popular": false
+        },
+        "state": "Abia ",
+        "country": "NG",
+        "address": "Aba South,Abia ",
+        "carManagerId": "kpMngdaMZ",
+        "ownerType": "company",
+        "transmission": "automatic",
+        "fuelType": "petrol",
+        "sellingCondition": "foreign",
+        "bodyType": {
+            "id": 8,
+            "name": "Sedan",
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+        },
+        "city": "Aba South",
+        "marketplaceOldPrice": 0,
+        "createdAt": "Wed Aug 13 2025 08:45:01 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Tue Sep 02 2025 18:21:48 GMT+0000 (Coordinated Universal Time)",
+        "mileageUnit": "km",
+        "hasWarranty": false,
+        "hasFinancing": true,
+        "interiorColor": "ash",
+        "exteriorColor": "ash",
+        "engineType": "3-cylinder(I3)",
+        "gradeScore": 5,
+        "installment": 551643,
+        "depositReceived": false,
+        "isFirstOwner": false,
+        "loanValue": 9665921,
+        "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/250-ferrari-ref-0zV7bPoNG",
+        "sold": false,
+        "hasThreeDImage": false,
+        "isUpgraded": false,
+        "ccMeasurement": 1200,
+        "carManagerName": "100% Automobile Nig.",
+        "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}"
+    },
+    "sourceId": "kpMngdaMZ",
+    "loanValue": 9665921,
+    "productType": "Decision Engine Loan",
+    "source": "FRANCHISE",
+    "sourceData": "100% Automobile Nig.",
+    "customer": {
+        "profile": [
+            {
+                "name": "sourceDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "sourceData",
+                "value": "100% Automobile Nig.",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "source",
+                "value": "FRANCHISE",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerSource",
+                "value": "Franchise",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerData",
+                "value": "100% Automobile Nig.",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "firstName",
+                "value": "APId506117f",
+                "type": "text",
+                "label": "First name",
+                "valid": true
+            },
+            {
+                "name": "lastName",
+                "value": "Testingb0dee054",
+                "type": "text",
+                "label": "Last name",
+                "valid": true
+            },
+            {
+                "name": "telephone",
+                "value": "2343404443156",
+                "type": "tel",
+                "label": "Phone number",
+                "valid": true
+            },
+            {
+                "name": "email",
+                "value": "APIb41142@test.com",
+                "type": "email",
+                "label": "Email address",
+                "valid": true
+            },
+            {
+                "name": "description",
+                "value": "Salary earner",
+                "type": "radio",
+                "label": "What best describes you",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome",
+                "value": "217840.36",
+                "type": "amount",
+                "label": "Total Take-Home Pay (after salary deductions) (₦)",
+                "valid": true
+            },
+            {
+                "name": "sourceOfFunds",
+                "value": "Wages, bonuses, dividends, and other income from employment",
+                "label": "Source of Funds",
+                "valid": true
+            }
+        ],
+        "utmParams": [
+            
+        ],
+        "id": "3viEx_DoT",
+        "userId": "sPIytzWgxRp8mH1azo4z",
+        "country": "NG",
+        "createdAt": "Wed Mar 11 2026 05:48:41 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Wed Mar 11 2026 05:48:41 GMT+0000 (Coordinated Universal Time)",
+        "prequalification": {
+            
+        }
+    },
+    "expired": false,
+    "preQualified": false,
+    "product": {
+        "requestedDocuments": [
+            
+        ],
+        "id": "hj43BXLXe",
+        "name": "Decision Engine Loan",
+        "country": "NG",
+        "active": true
+    },
+    "createdAt": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "createdBy": "BQlQBbLTW",
+    "version": 3,
+    "creator": {
+        "id": "BQlQBbLTW",
+        "firstname": "Frugal",
+        "lastname": "test123",
+        "email": "suhail+1@frugaltestingin.com",
+        "primaryPhone": "+2347778889991"
+    },
+    "disburseAmount": 0,
+    "collateralDocuments": {
+        
+    },
+    "referrerSource": "Franchise",
+    "referrerData": "100% Automobile Nig.",
+    "referrerDataId": "kpMngdaMZ",
+    "expiredOfferCount": "0/0",
+    "rejectedByOrigination": false,
+    "loanCurrency": "NGN",
+    "potentialGmv": "Low",
+    "app": "marketplace_web",
+    "customerType": "SALARY EARNER",
+    "isAccion": false
+}

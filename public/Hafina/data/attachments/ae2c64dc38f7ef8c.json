@@ -1,0 +1,15 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/GlobalMap/projectedroute?voyageId=-34905985422042820&includePassingPoints=true&pullLiveData=false
+Proxy:			<none>
+Request params:	<none>
+Query params:	voyageId=-34905985422042820
+				includePassingPoints=true
+				pullLiveData=false
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

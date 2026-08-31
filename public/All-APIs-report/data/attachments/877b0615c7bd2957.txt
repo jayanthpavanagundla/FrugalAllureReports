@@ -1,0 +1,27 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v1/inspection
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJMd3NhdlR5ZXExb05iRUhGVm00bCIsInNlc3Npb25JZCI6IklaVjZGRmc4MXVhQUVXdHlZQThJIiwiand0SWQiOiJING1COENIWXJTUmVWWHJ2UzEyaSIsImlhdCI6MTc3MzIwODg1MiwiZXhwIjoxODA0NzQ0ODUyfQ.zWmyik3Xo4JuuKBXa7UDRr3l4EYv20HIwi9_OBXcli8
+				x-autochek-app=workshop
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "form_id": "3",
+    "form_data": "{\"sections\":[{\"comment\":\"\",\"items\":[{\"entry\":\"Toyota\",\"name\":\"make\"},{\"entry\":\"Camry\",\"name\":\"model\"},{\"entry\":\"2024\",\"name\":\"year\"},{\"entry\":\"TOYOTATOYOTATOYOT\",\"name\":\"vin\"},{\"entry\":\"3200\",\"name\":\"odometer\"},{\"entry\":\"km\",\"name\":\"odometerUnit\"},{\"entry\":\"13/08/2025\",\"name\":\"inspectionDate\"},{\"entry\":\"Daniel inspector qa\",\"name\":\"inspectorName\"},{\"entry\":\"215/60R16\",\"name\":\"tyreCode\"}],\"name\":\"intro\"}]}",
+    "car_id": "BR4xnMe8T",
+    "inspection_request_summary_id": "pqan1KCfh",
+    "inspection_request_id": "5I_Hf_MDg",
+    "location": "lat:37.4219972,long:-122.084135",
+    "inspection_type": "warranty",
+    "completed": "true",
+    "wheel_type": "4WD/AWD",
+    "id": "3",
+    "country": "123"
+}

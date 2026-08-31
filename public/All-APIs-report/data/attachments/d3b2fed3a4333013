@@ -1,0 +1,361 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:59:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 8106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"1faa-wdDCahO7gtudXMVhx7itcs3rl8U"
+server: hide
+
+{
+    "inspectionRequests": [
+        {
+            "requestStatus": [
+                {
+                    "id": "zjuw25kC1J",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 08:09:39 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "BkNqySyVu",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T08:09:39.212Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "gkGyptq1Vp",
+                    "status": "cancelled",
+                    "createdAt": "Fri Sep 26 2025 11:15:13 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "xgWQ5CfoC"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "43UqQHsY3",
+            "carTitle": "Toyota Venza 2020",
+            "modelId": 2172,
+            "isExistingCar": false,
+            "franchiseId": "vLwy8k05l",
+            "franchiseName": "Robert International Autos",
+            "franchisePhoneNumber": "2347045454573",
+            "franchiseAddress": "Kilometre 1, berger bus stop, by 3rd mainland bridge, oworo junction",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-09-26T11:15:13.118Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "xgWQ5CfoC",
+            "userName": "Daniel  inspector qa",
+            "userPhoneNumber": "+2348100705431",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "54aP7YsVuy",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 08:14:46 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "_eo5OZU4l",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T08:14:46.010Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "5qEGAF4UDK",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 10:01:50 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "dgoNBf8WZ",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T10:01:50.466Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "7TyFhrFKt8",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 11:56:22 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "1sjIXtia2",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T11:56:22.406Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "jobQd38X_n",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 16 2025 09:54:40 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "83LPLcTk4",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-16T09:54:40.481Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "DxOG6ad7Rf",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 11:31:56 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "IkzXrHLw0"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "EkCuF135j",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T11:31:56.187Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "IkzXrHLw0",
+            "userName": "Esha Reddy01",
+            "userPhoneNumber": "+2347778889999",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "Ok9vUOPp0d",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 11:37:52 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "B0P7G-oFV",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T11:37:52.488Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "kzm0qF3w1",
+                    "status": "cancelled",
+                    "createdAt": "Thu Oct 09 2025 11:50:10 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "0fI0WwtI3",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-09T11:50:10.025Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        },
+        {
+            "requestStatus": [
+                {
+                    "id": "HZ2wls4fUt",
+                    "status": "cancelled",
+                    "createdAt": "Fri Oct 10 2025 04:56:51 GMT+0000 (Coordinated Universal Time)",
+                    "createdBy": "BQlQBbLTW"
+                }
+            ],
+            "inspectionRequestSummary": [
+                
+            ],
+            "id": "Al6u9qUSt",
+            "carTitle": "Toyota Corolla 2016",
+            "modelId": 1891,
+            "isExistingCar": false,
+            "franchiseId": "kpMngdaMZ",
+            "franchiseName": "100% Automobile Nig.",
+            "franchisePhoneNumber": "234791975858",
+            "franchiseAddress": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+            "inspectionRequestStatus": "cancelled",
+            "createdAt": "2025-10-10T04:56:50.949Z",
+            "updatedAt": "2026-01-29T09:02:17.936Z",
+            "uninspectReason": "expired request - not completed within 7 days",
+            "userId": "BQlQBbLTW",
+            "userName": "Frugal test123",
+            "userPhoneNumber": "+2347778889991",
+            "source": "franchise",
+            "franchiseType": "dealer",
+            "sla": "",
+            "paymentStatus": "",
+            "reference": ""
+        }
+    ],
+    "pagination": {
+        "total": 26,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

@@ -1,0 +1,184 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:16:24 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "fromPort": {
+        "portId": "192566588615631246",
+        "portName": "SITRA",
+        "portFunction": "COMMENCING",
+        "longitude": 50.61666488647461,
+        "latitude": 26.133333206176758
+    },
+    "toPort": {
+        "portId": "-60732527124876794",
+        "portName": "KHOR AL ZUBAIR",
+        "portFunction": "DISCHARGING",
+        "longitude": 47.900001525878906,
+        "latitude": 30.183332443237305
+    },
+    "intermediatePosition": [
+        
+    ],
+    "projectedRoute": [
+        
+    ],
+    "vesselOnMapDetail": {
+        "currentPosition": {
+            "longitude": -95.16387176513672,
+            "latitude": 29.740915298461914
+        },
+        "vessel": {
+            "vesselId": "-13501195815314615",
+            "vesselName": "HAFNIA AUSTRALIA"
+        },
+        "fromPort": "SITRA",
+        "toPort": "KHOR AL ZUBAIR",
+        "commenceDate": "2021-06-15T18:30:00",
+        "completeDate": "2021-07-19T08:00:00",
+        "speed": "0",
+        "course": "73.9",
+        "eta": "-42016.271010580556",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            
+        ],
+        "segment": "LR1",
+        "pool": "A-POOL",
+        "participantId": null,
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "110556079893824394",
+        "voyageNumber": 29,
+        "voyageCode": "HAFNIA AUSTRALIA - 29",
+        "status": "Closed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9467794",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:22.438491",
+        "draft": 9.00,
+        "isActive": false,
+        "vesselCode": null
+    },
+    "intermediatePorts": [
+        {
+            "portId": null,
+            "portName": "SOHAR",
+            "portFunction": "LOADING",
+            "longitude": 56.75400161743164,
+            "latitude": 24.42530059814453
+        },
+        {
+            "portId": null,
+            "portName": "SITRA",
+            "portFunction": "WAITING",
+            "longitude": 50.61666488647461,
+            "latitude": 26.133333206176758
+        }
+    ],
+    "distinctIntermediatePorts": [
+        {
+            "portId": null,
+            "portName": "KHOR AL ZUBAIR",
+            "isCommencedPort": false,
+            "isCompletedPort": true,
+            "nextFunction": "DISCHARGING",
+            "portFunction": [
+                {
+                    "eta": "2021-07-13T16:54:00",
+                    "etd": "2021-07-19T08:00:00",
+                    "ata": "2021-07-13T19:54:00",
+                    "atd": "2021-07-19T11:00:00",
+                    "portFunction": "DISCHARGING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 47.900001525878906,
+            "latitude": 30.183332443237305
+        },
+        {
+            "portId": null,
+            "portName": "SOHAR",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "LOADING",
+            "portFunction": [
+                {
+                    "eta": "2021-07-07T05:24:00",
+                    "etd": "2021-07-11T18:48:00",
+                    "ata": "2021-07-07T09:24:00",
+                    "atd": "2021-07-11T22:48:00",
+                    "portFunction": "LOADING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 56.75400161743164,
+            "latitude": 24.42530059814453
+        },
+        {
+            "portId": null,
+            "portName": "SITRA",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "WAITING",
+            "portFunction": [
+                {
+                    "eta": null,
+                    "etd": "2021-06-15T18:30:00",
+                    "ata": null,
+                    "atd": "2021-06-15T21:30:00",
+                    "portFunction": "COMMENCING",
+                    "isCompleted": true
+                },
+                {
+                    "eta": "2021-06-15T21:30:00",
+                    "etd": "2021-07-05T10:00:00",
+                    "ata": "2021-06-16T00:30:00",
+                    "atd": "2021-07-05T13:00:00",
+                    "portFunction": "WAITING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 50.61666488647461,
+            "latitude": 26.133333206176758
+        },
+        {
+            "portId": null,
+            "portName": "SITRA",
+            "isCommencedPort": true,
+            "isCompletedPort": false,
+            "nextFunction": "WAITING",
+            "portFunction": [
+                {
+                    "eta": null,
+                    "etd": "2021-06-15T18:30:00",
+                    "ata": null,
+                    "atd": "2021-06-15T21:30:00",
+                    "portFunction": "COMMENCING",
+                    "isCompleted": true
+                },
+                {
+                    "eta": "2021-06-15T21:30:00",
+                    "etd": "2021-07-05T10:00:00",
+                    "ata": "2021-06-16T00:30:00",
+                    "atd": "2021-07-05T13:00:00",
+                    "portFunction": "WAITING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 50.61666488647461,
+            "latitude": 26.133333206176758
+        }
+    ]
+}

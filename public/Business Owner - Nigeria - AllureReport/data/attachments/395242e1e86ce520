@@ -1,0 +1,387 @@
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJxSDByWUFwM1hoSXZ4dlZuRU5yeCIsImp3dElkIjoidTJURzBPN2lQSDBDN3ozVHh4c2UiLCJpYXQiOjE3NzQ1MjI3ODUsImV4cCI6MTgwNjA1ODc4NX0.WJs-S8hVDyfqynWaYeY4AoWjKsOVZKqYKSJQiv-Go9g; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 11:59:45 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=b52da2734aebd25bf170dafbd50b6d99e3ab033cdffb0902a68d9077d315d5f2f27174071689cba98f96f11867856e2bbe35e8d405133748918d75bbc22b3edb; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 10:59:45 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-IaMpveOfguLwQLF2w7TVXrkyPVI"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJxSDByWUFwM1hoSXZ4dlZuRU5yeCIsImp3dElkIjoidTJURzBPN2lQSDBDN3ozVHh4c2UiLCJpYXQiOjE3NzQ1MjI3ODUsImV4cCI6MTgwNjA1ODc4NX0.WJs-S8hVDyfqynWaYeY4AoWjKsOVZKqYKSJQiv-Go9g",
+        "refreshToken": "b52da2734aebd25bf170dafbd50b6d99e3ab033cdffb0902a68d9077d315d5f2f27174071689cba98f96f11867856e2bbe35e8d405133748918d75bbc22b3edb",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 535
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6ImpSQVlhMTZaeUdzUVZBSGpHR0VPIiwiand0SWQiOiIySjZhdGRreklmVkpqY1NpVW53eiIsImlhdCI6MTc3NDUyMjc4NiwiZXhwIjoxODA2MDU4Nzg2fQ.wyTUbQXLJWqtF_PIqrC7sq8gLZdaQkfFArD7CGvc40M; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 11:59:46 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=1ca66b84e906c0cfc636a4634695624517e3f8d9215814363ea731b1da68066591596e57426a3031705471b6536b8d35d7a8d885c23ea7521603d00b70e5f5fd; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 10:59:46 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"217-y1K2xE2fz7IlfT8qX8A9DndH/ig"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "MTWTPQxpuzUfg3Vz59oa",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6ImpSQVlhMTZaeUdzUVZBSGpHR0VPIiwiand0SWQiOiIySjZhdGRreklmVkpqY1NpVW53eiIsImlhdCI6MTc3NDUyMjc4NiwiZXhwIjoxODA2MDU4Nzg2fQ.wyTUbQXLJWqtF_PIqrC7sq8gLZdaQkfFArD7CGvc40M",
+        "refreshToken": "1ca66b84e906c0cfc636a4634695624517e3f8d9215814363ea731b1da68066591596e57426a3031705471b6536b8d35d7a8d885c23ea7521603d00b70e5f5fd",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJBRjhPa3JlbzI1VnFrMXo4dVVKVyIsImp3dElkIjoieUFDTElPUTdGa0l5UTltbXYxZHciLCJpYXQiOjE3NzQ1MjI3ODYsImV4cCI6MTgwNjA1ODc4Nn0.hGJv4JaNMWR7A1ItAyGbW4iOvm9v64ag96KzVPEio7E; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 11:59:46 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=61e04900e0dadba7f49e812bac435e34e12432fba8e35edaa029c833ef8f075bd897156ae7f7c16730b575c15e00a864eb80fc0c953a4fb319369b0d6ed4428f; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 10:59:46 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-hXdb33011XyGaiK5KhB/RiJ0p64"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "j4e5uyic2",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJBRjhPa3JlbzI1VnFrMXo4dVVKVyIsImp3dElkIjoieUFDTElPUTdGa0l5UTltbXYxZHciLCJpYXQiOjE3NzQ1MjI3ODYsImV4cCI6MTgwNjA1ODc4Nn0.hGJv4JaNMWR7A1ItAyGbW4iOvm9v64ag96KzVPEio7E",
+        "refreshToken": "61e04900e0dadba7f49e812bac435e34e12432fba8e35edaa029c833ef8f075bd897156ae7f7c16730b575c15e00a864eb80fc0c953a4fb319369b0d6ed4428f",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 657
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"291-St8Dj6vKsnV9+0ZC3ooatdYhN7U"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "customsDocuments": [
+        {
+            "reviews": [
+                
+            ],
+            "id": "sss61REj4",
+            "carId": "1Vn-CWhjL",
+            "name": "customs-document",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/b4b596ac-cd34-4193-b89f-e4f996cebc85-test.pdf",
+            "password": "Autochek@123",
+            "description": "",
+            "approvalStatus": "Pending",
+            "cNumber": "987654987656789",
+            "portOfEntry": "GSHHSBSH6213871682DFG",
+            "createdBy": "BQlQBbLTW",
+            "createdAt": "Thu Mar 26 2026 10:59:42 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Thu Mar 26 2026 10:59:42 GMT+0000 (Coordinated Universal Time)",
+            "country": "NG",
+            "dateOfEntry": "2026-03-26",
+            "loanId": "ZzGDSfYz1",
+            "app": "dealerplus"
+        }
+    ],
+    "pagination": {
+        "total": 1,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1320
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"528-SpjcbU4V1j98KJDOVWMpQSKlsWE"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "reviews": [
+        {
+            "question": "Is the customs paid up to 50% of the assessed duty or above",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage",
+            "value": "Yes"
+        },
+        {
+            "question": "Is Autochek financing the top-up",
+            "value": "No"
+        },
+        {
+            "question": "Is the Dealer providing the collateral",
+            "value": "Yes"
+        },
+        {
+            "question": "Required Duty Amount",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Paid",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Shortfall",
+            "value": "0.00"
+        },
+        {
+            "question": "Customs Document Comment",
+            "value": "Testing E2E "
+        }
+    ],
+    "id": "sss61REj4",
+    "carId": "1Vn-CWhjL",
+    "name": "customs-document",
+    "fileUrl": "https://storage.googleapis.com/autochek-staging/b4b596ac-cd34-4193-b89f-e4f996cebc85-test.pdf",
+    "password": "Autochek@123",
+    "description": "",
+    "approvalStatus": "Valid",
+    "cNumber": "987654987656789",
+    "portOfEntry": "GSHHSBSH6213871682DFG",
+    "approvedBy": "Test Testing 123",
+    "createdBy": "BQlQBbLTW",
+    "createdAt": "Thu Mar 26 2026 10:59:42 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Thu Mar 26 2026 10:59:49 GMT+0000 (Coordinated Universal Time)",
+    "country": "NG",
+    "dateOfEntry": "2026-03-26",
+    "loanId": "ZzGDSfYz1",
+    "app": "dealerplus"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:51 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1316
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"524-b6C2r30TKZZM/RIqddEmqtY1vyg"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "reviews": [
+        {
+            "question": "Is the customs paid up to 50% of the assessed duty or above",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage",
+            "value": "Yes"
+        },
+        {
+            "question": "Is Autochek financing the top-up",
+            "value": "No"
+        },
+        {
+            "question": "Is the Dealer providing the collateral",
+            "value": "Yes"
+        },
+        {
+            "question": "Required Duty Amount",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Paid",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Shortfall",
+            "value": "0.00"
+        },
+        {
+            "question": "Customs Document Comment",
+            "value": "Testing E2E "
+        }
+    ],
+    "id": "sss61REj4",
+    "carId": "1Vn-CWhjL",
+    "name": "customs-document",
+    "fileUrl": "https://storage.googleapis.com/autochek-staging/b4b596ac-cd34-4193-b89f-e4f996cebc85-test.pdf",
+    "password": "Autochek@123",
+    "description": "",
+    "approvalStatus": "Valid",
+    "cNumber": "987654987656789",
+    "portOfEntry": "GSHHSBSH6213871682DFG",
+    "approvedBy": "Suhail Ahmed",
+    "createdBy": "BQlQBbLTW",
+    "createdAt": "Thu Mar 26 2026 10:59:42 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Thu Mar 26 2026 10:59:51 GMT+0000 (Coordinated Universal Time)",
+    "country": "NG",
+    "dateOfEntry": "2026-03-26",
+    "loanId": "ZzGDSfYz1",
+    "app": "dealerplus"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:52 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 10:59:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}

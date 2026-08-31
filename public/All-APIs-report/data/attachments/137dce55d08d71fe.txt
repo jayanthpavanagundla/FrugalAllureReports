@@ -1,0 +1,11 @@
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v2/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6IlRZbHpaOHVWeFNXZ1hReU90a1EyIiwiand0SWQiOiJTbU1NQXNBWkt2clhOaGt6clBzNiIsImlhdCI6MTc3MzIwOTE4NSwiZXhwIjoxODA0NzQ1MTg1fQ.iPFM2qozCtjTr53QOMoBXIFDoiZkBbRFizBO23lqniU
+Multiparts:		<none>
+Body:			<none>

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LR1 Market Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+    <style type="text/css">
+
+        :root {
+            --font: "Roboto", sans-serif;
+            --primary: #154068;
+            --secondary: #20669F;
+            --bg-main: #FFFFFF;
+            --bg-2: #F7F9FE;
+            --bg-highlight: #E9EDF2;
+            --text-main: #303030;
+            --text-2: #8D909B;
+            --text-3: #FFFFFF;
+            --border: #E0E6F0;
+        }
+
+        * {
+            font-family: var(--font);
+            color: var(--text-main);
+            margin: 0px;
+        }
+
+        body {
+            background: var(--bg-2);
+            padding-bottom: 60px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        section {
+            background: var(--bg-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 8px;
+            box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        .section-content {
+            padding: 20px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        h2 {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            padding: 16px 20px;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-main);
+            line-height: 1.25;
+            box-sizing: border-box;
+            border-bottom: 1px solid var(--border);
+        }
+
+        {
+            width: 100%;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            justify-content: center;
+            align-content: center;
+            color: var(--text-3);
+        }
+
+        .main-header {
+            background: var(--primary);
+            width: 100%;
+            padding: 20px 0px;
+        }
+
+            .main-header > .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+        .logo {
+            height: 60px;
+        }
+
+            .logo img {
+                width: auto;
+                height: 100%;
+            }
+
+        .header-text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        h1 {
+            color: var(--bg-highlight);
+            font-size: 36px;
+            text-align: right;
+        }
+
+        .header-text > span {
+            color: var(--text-3);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .market-summary {
+            background: var(--secondary);
+            padding: 20px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .market-summary p {
+                text-align: center;
+                color: var(--text-3);
+            }
+
+
+        .caption {
+            display: inline-block;
+            box-sizing: border-box;
+            font-size: 12px;
+            font-style: italic;
+            color: var(--text-main);
+            font-weight: 400;
+            margin-top: 16px;
+        }
+
+        p {
+            text-align: left;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .pool-earnings .pool-table {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+        }
+
+        .pool-table > div {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .pool-table h3 {
+            text-align: center;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 4px;
+            background: var(--primary);
+            width: 100%;
+            color: var(--text-3);
+            font-size: 16px;
+            margin: 0px 4px;
+        }
+
+        /* Tables */
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            width: auto;
+            text-align: center;
+            padding: 4px;
+            font-weight: 400;
+        }
+
+        thead th {
+            background: var(--primary);
+            color: var(--text-3);
+            padding: 4px;
+            font-weight: 700;
+        }
+
+        tr:nth-child(2n+1) {
+            background: var(--bg-highlight);
+        }
+
+        tfoot td {
+            background: var(--bg-main);
+            font-weight: 700;
+        }
+
+        /* Lists and Stats*/
+
+        ul.stats {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            padding: 0px;
+        }
+
+            ul.stats li {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+            }
+
+                ul.stats li b {
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+
+                ul.stats li span {
+                    font-size: 24px;
+                }
+
+        ul.commentary {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            list-style-type: none;
+            flex-wrap: wrap;
+            padding: 0px;
+        }
+
+            ul.commentary li {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                min-width: 400px;
+                background: var(--bg-2);
+                padding: 16px;
+            }
+
+
+        .market-a-tables {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Meta Informations -->
+    <header>
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <img src="https://pool-participants-web-app-dev.azurewebsites.net/assets/darkLogo-Cq8jquz6.svg">
+                </div>
+
+                <div class="header-text">
+                    <h1>LR1 Weekly Report</h1>
+                    <span>Week 39: 22 Sep 2024 - 28 Sep 2024</span>
+                </div>
+            </div>
+        </div>
+        <div class="market-summary">
+            <div class="container">
+                <p>“The obtainable combination earnings for the Western hemisphere are valued at $21,000 per day, with a stable sentiment.”
+
+“The obtainable combination earnings for the Middle and Far East are valued at $34,000 per day, with a stable sentiment."</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Pool Earnings -->
+        <section class="pool-earnings">
+            <h2>Pool Earnings</h2>
+            <div class="section-content">
+                <div class="pool-table">
+                    <div>
+                        <h3>A-POOL</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Month</th>
+                                    <th>Fixed</th>
+                                    <th>Net TCE</th>
+                                    <th>Mthly Est. TCE</th>
+                                    <th>YTD Net TCE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h3>B-POOL</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Month</th>
+                                    <th>Fixed</th>
+                                    <th>Net TCE</th>
+                                    <th>Mthly Est. TCE</th>
+                                    <th>YTD Net TCE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vessel Positions -->
+        <section class="vessel-positions">
+            <h2>Vessel Positions</h2>
+            <div class="section-content">
+                <ul class="stats">
+                    <li>
+                        <b>Americas</b>
+                        <span>3</span>
+                    </li>
+                    <li>
+                        <b>UKC/MED</b>
+                        <span>4/0</span>
+                    </li>
+                    <li>
+                        <b>Middle East</b>
+                        <span>12</span>
+                    </li>
+                    <li>
+                        <b>Far East</b>
+                        <span>16</span>
+                    </li>
+                    <li>
+                        <b>Time Charter</b>
+                        <span>0</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Commentary -->
+        <section class="commentary">
+            <h2>Commentary</h2>
+            <div class="section-content">
+                <ul class="commentary">
+                    <li><b>Europe/Mediterranean</b></br><span>A rather unexciting week for LR1s. MRs have continued to soften to the lowest level in two years (37kt ARA/USAC concluded at WS90), making it difficult for LR1s to compete on USD/PMT on intra-west runs and muting demand for LR1s to West Africa or South America. There are, however, still charterers seeking to move gasoline or clean condensate to the Middle East on LR1s, but the amount of demand is not going to move the market, with only two firm cargoes being quoted, this week. Tonnage remains in short supply, but owners will be mindful of finding a way out of the West, so we expect the market to stay flat, at best.</span></li><li><b>Far East</b></br><span>MR market finally started improving, which will invite Charterers to explore for bigger size. Despite no natural LR1 cargo in North Asia, sentiments are improving on the back of an improved AG market. Korea to Singapore freight assessment improved for MRs to $650k. While LR1 & LR2 remains unchanged at $700k for this week with a lack of activity but theoretical assessment should improve to the range of $750-800k considering MRs and the front haul market. On long haul business, LR2s are preferred for Australia, but MRs for westbound. In South East Asia, a couple of gasoline cargoes worked loading from Singapore region to discharge in Pakistan and Indonesia.</span></li><li><b>Americas</b></br><span>It has been a week without a single LR1 fixture, but it was not for a lack of interest or inquiries quoted, but merely a lack of charterers able to commit to firm barrels. A are LR2 cargo on the other hand was confirmed, a sharp WS95 for TA.
+On the DPP markets, the rates have remained more or less flat at the bottom throughout the week; Aframaxes still around WS100 for TA and very low 80s for short hauls in the Americas, and Panamaxes around the WS130 mark for ECMex to USG. Limited downside if any on especially the larger size where TCEs are nearing zero, whereas Panamaxes might still have some room to drop.</span></li><li><b>Middle East</b></br><span>As outlined in last week’s report, we anticipated freight increases across all routes based on the positive fundamentals and sentiment from last week. We have seen TC5 (LR1 AG/Japan) increase from WS157.5 to WS170 and TC1 (LR2 AG/Japan) increase from WS140 to WS150. The LR1 and LR2 remain positive in isolation, but the soft MR segment is currently creating a glass ceiling for both segments. At the end of this week, we have seen a handful of cargoes being split into MR size and expect this to be the ongoing trend next week as the MR segment is cheaper USD/MT. Both LR1 and LR2 are currently capped at current levels because of the soft MR segment and we need strong overperformance to turn this around. Until then, we don’t expect any upside for the LR1 and LR2 segments but call the market flat at current levels with a slightly negative sentiment caused by the MR segment.</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Market Assessment -->
+
+        <section class="market-assessment">
+            <h2>Market Assessments</h2>
+            <div class="section-content">
+                <div class='market-a-tables'><h3>CLEAN WEST MARKET</h3><table><thead><tr><th>Route</th><th>Route Leg</th><th>Rate(s)</th><th>TCE</th><th>Trend</th></tr></thead><tbody><tr><td>ARA/WAF</td><td>LAGOS/AMSTERDAM/LAGOS</td><td>WS 105.0</td><td>$20113.10000</td><td>&#x2198;</td></tr><tr><td>UKC/AG + AG/UKC</td><td>AVONMOUTH/ARA/JEBEL/JUBAIL/AVONMOUTH</td><td></td><td>$38295.10000</td><td>&#x2197;</td></tr><tr><td>MED/JAPAN</td><td>WAF/SKIKDA/CHIBA</td><td>$ 2,500,000</td><td>$21050.71000</td><td>&#x2192;</td></tr><tr><td>USG/BRAZIL</td><td>TRAMANDAI/HOUSTON/TRAMANDAI</td><td>WS 135.0</td><td>$24871.82000</td><td>&#x2192;</td></tr><tr><td>USG/SKOREA</td><td>TRAMANDAI/HOUSTON/YOSU</td><td>$ 2,600,000</td><td>$26261.12000</td><td>&#x2198;</td></tr></tbody></table></div><br/><div class='market-a-tables'><h3>CLEAN EAST MARKET</h3><table><thead><tr><th>Route</th><th>Route Leg</th><th>Rate(s)</th><th>TCE</th><th>Trend</th></tr></thead><tbody><tr><td>TC5 + BACKHAUL</td><td>SPORE/JUBAIL/CHIBA/YOSU/SPORE</td><td></td><td>$34301.84000</td><td>&#x2192;</td></tr><tr><td>SIKKA/SPORE</td><td>SPORE/SIKKA/SPORE</td><td>WS 165.0</td><td>$30994.24000</td><td>&#x2192;</td></tr><tr><td>AG/JAPAN</td><td>CHIBA/JUBAIL/CHIBA</td><td>WS 165.0</td><td>$26945.74000</td><td>&#x2192;</td></tr><tr><td>AG/UKC</td><td>SPORE/JUBAIL/AVONMOUTH</td><td>$ 4,000,000</td><td>$48855.94000</td><td>&#x2197;</td></tr><tr><td>AG/JAPAN</td><td>SPORE/JUBAIL/CHIBA</td><td>WS 165.0</td><td>$37152.33000</td><td>&#x2192;</td></tr></tbody></table></div><br/><div class='market-a-tables'><h3>DIRTY WEST MARKET</h3><table><thead><tr><th>Route</th><th>Route Leg</th><th>Rate(s)</th><th>TCE</th><th>Trend</th></tr></thead><tbody><tr><td>CARIBS/USG</td><td>HOUSTON/MAMONAL/HOUSTON</td><td>WS 130.0</td><td>$15619.90000</td><td>&#x2192;</td></tr><tr><td>DPP COMBO</td><td>USG/CBS CBS/USG</td><td></td><td>$24914.67000</td><td>&#x2192;</td></tr></tbody></table></div><br/>
+                <span class="caption">* Trend arrow indicates the change from last assessment until today.</span>
+            </div>
+        </section>
+
+        <!-- Bunker Price -->
+        <section class="bunker-price">
+            <h2>Bunker Prices</h2>
+            <div class="section-content">
+                <ul class="stats">
+                    <li>
+                        <b>HOUSTON</b>
+                        <span>$520.75000 /MT</span>
+                    </li>
+                    <li>
+                        <b>ROTTERDAM</b>
+                        <span>$525.00000 /MT</span>
+                    </li>
+                    <li>
+                        <b>SINGAPORE</b>
+                        <span>$597.00000 /MT</span>
+                    </li>
+                    <li>
+                        <b>FUJAIRAH</b>
+                        <span>$579.00000 /MT</span>
+                    </li>
+                </ul>
+                <span class="caption">Source: Hafnia Bunkers</span>
+            </div>
+        </section>
+
+        <!-- Fixtures -->
+
+        <section class="fixtures">
+            <h2>Fixtures</h2>
+            <div class="section-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Vessels</th>
+                            <th>Charterer</th>
+                            <th>Trade</th>
+                            <th>AWC Earning</th>
+                            <th>RT Earning</th>
+                            <th>Voyage Days</th>
+                            <th>Comment</th>
+                            <th>Wait Days</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>FIXED</td><td>HAFNIA SHANGHAI</td><td>IDEMITSU</td><td>RAS LAFFAN/CHIBA</td><td>39,000.00</td><td>28,000.00</td><td>40.0</td><td>EX SINGAPORE</td><td>0.0</td></tr><tr><td>FIXED</td><td>HAFNIA EXCELSIOR</td><td>ARAMCO</td><td>JUBAIL/RAS TANURA</td><td>71,700.00</td><td>87,200.00</td><td>7.0</td><td>EX JEBEL ALI</td><td>0.0</td></tr><tr><td>FIXED</td><td>HAFNIA KALLANG</td><td>ADMIC</td><td>PUNTA EUROPA/KOREA</td><td>21,699.00</td><td>0.00</td><td>58.0</td><td>EX AVONMOUTH</td><td>2.0</td></tr>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>WEIGHTED AVERAGE TCE</td>
+                            <td>44133.0</td>
+                            <td></td>
+                            <td>35.0</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:20 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "AMSTERDAM/THAMES/AMSTERDAM",
+            "route": "X-CONT",
+            "rate": "WS 132.5",
+            "tce": "12270.48",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "13590.99",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "AMSTERDAM/LAVERA/GIBRALTAR",
+            "route": "CONT-MED",
+            "rate": "WS 125.0",
+            "tce": "12573.92",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "12991.20",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN MARKET",
+            "reportLeg": "LA NOUVELLE/SARROCH/LA NOUVELLE",
+            "route": "X-MED",
+            "rate": "WS 145.0",
+            "tce": "10247.78",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "10060.21",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "CHITTAGONG/SPORE/CHITTAGONG",
+            "route": "FAR EAST",
+            "rate": "$ 730,000",
+            "tce": "33128.44",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "HANDY",
+            "previousTCE": "34299.18",
+            "trend": "0"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:20 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "statusCode": 400,
+    "error": "invalid request: year number cannot be greater than two years (2028)."
+}

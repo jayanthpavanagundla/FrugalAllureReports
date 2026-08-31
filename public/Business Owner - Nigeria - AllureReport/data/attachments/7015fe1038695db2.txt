@@ -1,0 +1,249 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+underwriter@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/origination/loans/OR4S4vvo-?loanId=OR4S4vvo-
+Proxy:			<none>
+Request params:	<none>
+Query params:	loanId=OR4S4vvo-
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJna3hEejg1Wm1WYlN3RVRSY2pWZyIsImp3dElkIjoiSWRBTGt2SFdCOUJxSHAwVTZBM1EiLCJpYXQiOjE3NzQ1MzExNzAsImV4cCI6MTgwNjA2NzE3MH0.8jXQd76JZyA5aaR1mlUZjtgl8itIeLQVL1yNUP5Qq5k
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJna3hEejg1Wm1WYlN3RVRSY2pWZyIsImp3dElkIjoiSWRBTGt2SFdCOUJxSHAwVTZBM1EiLCJpYXQiOjE3NzQ1MzExNzAsImV4cCI6MTgwNjA2NzE3MH0.8jXQd76JZyA5aaR1mlUZjtgl8itIeLQVL1yNUP5Qq5k
+				refresh_token=2abcd766ecc1b848f8a51361afcd59c4857ed147019de3ad382bc6e7c057a01547b05dbbc25e1b4fccd76ca0923dc10add270db63d585fd59707b510dd20f977
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/loanDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6IlFSVklnQTlpWFVlU3QzSjA0YTdjIiwiand0SWQiOiIyb0w1aldFVlJHZmxRN1ZTZHFrRCIsImlhdCI6MTc3NDUzMTE2OCwiZXhwIjoxODA2MDY3MTY4fQ.xfmTX4odaF53wFjGYAon1P0Esie7IUaYMrmX9vGENkc
+				X-autochek-app=AFS_MIDDLEWARE_RETOOL
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "vehicle-inspection-agreement",
+            "id": "43422",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Repayment Schedule",
+            "id": "43414",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Debit Mandate",
+            "id": "43415",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Debit_Mandate_Payment_Proof",
+            "id": "43416",
+            "status": "APPROVED"
+        },
+        {
+            "name": "account opening individual",
+            "id": "43421",
+            "status": "APPROVED"
+        },
+        {
+            "name": "partnership-consent-letter",
+            "id": "43423",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Loan Agreement",
+            "id": "43412",
+            "status": "APPROVED"
+        },
+        {
+            "name": "warranty",
+            "id": "43417",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Roadside Assistance Terms and Conditions",
+            "id": "43418",
+            "status": "APPROVED"
+        },
+        {
+            "name": "maintenance",
+            "id": "43419",
+            "status": "APPROVED"
+        },
+        {
+            "name": "caution_fee",
+            "id": "43420",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "OR4S4vvo-"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/loanDocuments/review
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ0aG5Bdm5nd09GVHNyaVcwTXplYiIsImp3dElkIjoiMkU0ZElQcHBiQmJtWlRjb1hOc1YiLCJpYXQiOjE3NzQ1MzExNjksImV4cCI6MTgwNjA2NzE2OX0.xJ9GkwD27oOu6FluDcHza4U5VseU6y5qNL4b6y8TRdU
+				X-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "reviews": [
+        {
+            "name": "vehicle-inspection-agreement",
+            "id": "43422",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Repayment Schedule",
+            "id": "43414",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Debit Mandate",
+            "id": "43415",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Debit_Mandate_Payment_Proof",
+            "id": "43416",
+            "status": "APPROVED"
+        },
+        {
+            "name": "account opening individual",
+            "id": "43421",
+            "status": "APPROVED"
+        },
+        {
+            "name": "partnership-consent-letter",
+            "id": "43423",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Loan Agreement",
+            "id": "43412",
+            "status": "APPROVED"
+        },
+        {
+            "name": "warranty",
+            "id": "43417",
+            "status": "APPROVED"
+        },
+        {
+            "name": "Roadside Assistance Terms and Conditions",
+            "id": "43418",
+            "status": "APPROVED"
+        },
+        {
+            "name": "maintenance",
+            "id": "43419",
+            "status": "APPROVED"
+        },
+        {
+            "name": "caution_fee",
+            "id": "43420",
+            "status": "APPROVED"
+        }
+    ],
+    "loan_id": "OR4S4vvo-"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJ0aG5Bdm5nd09GVHNyaVcwTXplYiIsImp3dElkIjoiMkU0ZElQcHBiQmJtWlRjb1hOc1YiLCJpYXQiOjE3NzQ1MzExNjksImV4cCI6MTgwNjA2NzE2OX0.xJ9GkwD27oOu6FluDcHza4U5VseU6y5qNL4b6y8TRdU
+				refresh_token=9e650caeb00ee05f860c9d1840bf08b1e620a7370d6098c7209a02a134c7287425bd9e03cf2649d8fdeb27e72f14f2f167457c5e587f8e81e5c45d8e7da7e3b7
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6IlFSVklnQTlpWFVlU3QzSjA0YTdjIiwiand0SWQiOiIyb0w1aldFVlJHZmxRN1ZTZHFrRCIsImlhdCI6MTc3NDUzMTE2OCwiZXhwIjoxODA2MDY3MTY4fQ.xfmTX4odaF53wFjGYAon1P0Esie7IUaYMrmX9vGENkc
+				refresh_token=307883dab3720178b645429206ac3a29dc2bec0ec92716a3185a569555f254bfc859cd63f45b79e500c9740123d4da16f5d68aebef78ff85fcdecad33eb5bf40
+Multiparts:		<none>
+Body:			<none>

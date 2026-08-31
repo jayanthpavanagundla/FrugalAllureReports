@@ -1,0 +1,127 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:11 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "AMSTERDAM/SKIKDA/CHIBA",
+            "route": "MED/JAPAN",
+            "rate": "$ 3,150,000",
+            "tce": "33119.43",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "33318.66",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "LAGOS/AMSTERDAM/LAGOS",
+            "route": "UKC/WAF",
+            "rate": "WS 100.0",
+            "tce": "31834.70",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "31990.56",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/CHIBA",
+            "route": "AG/JAPAN",
+            "rate": "WS 110.0",
+            "tce": "22023.65",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "22597.34",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/AMSTERDAM",
+            "route": "AG/UKC",
+            "rate": "$ 3,100,000",
+            "tce": "26605.38",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "30111.76",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "BOTANY/YOSU/BOTANY BAY",
+            "route": "CPP SK/AUS",
+            "rate": "WS 115.0",
+            "tce": "23137.37",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "23574.92",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "LAVERA/ISKENDERUN/LAVERA",
+            "route": "X MED",
+            "rate": "WS 155.0",
+            "tce": "52544.53",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "47343.46",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "SPORE/MINA AL AHMADI/SPORE",
+            "route": "AG/SING",
+            "rate": "WS 140.0",
+            "tce": "28251.74",
+            "weekNumber": 51,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "28815.73",
+            "trend": "0"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN WEST MARKET",
+        "CLEAN EAST MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:11 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.segmentName": [
+            "The JSON value could not be converted to System.String. Path: $.segmentName | LineNumber: 1 | BytePositionInLine: 18."
+        ]
+    },
+    "traceId": "00-ae5dac8cd59f248fc58c67e1a042e4c6-ecb09e8094c6a4a6-00"
+}

@@ -1,0 +1,110 @@
+{
+    "documents": [
+        {
+            "id": "eM4MJREX8",
+            "name": "utilityBill",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/2234e912-175b-4c40-9e97-b6ba08956a5f-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "utilityBill",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "CXv1Mi1Cmu",
+            "name": "cacForm7",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/80b75bad-bf8b-4643-b0a6-bede94322ac8-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "cacForm7",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "Z-TH9CERkM",
+            "name": "personalBankStatement12Months",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/08f18d30-25af-4d0d-a3ed-deb1219c5e78-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "personalBankStatement12Months",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "HeHEewOyQJ",
+            "name": "cacCertificate",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/7151120d-a1cc-4ec2-8f19-233dcc391945-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "cacCertificate",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "Si2zVeQGVr",
+            "name": "cacForm2",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/fd00a785-45f3-42d9-88e6-10f1f5b4e271-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "cacForm2",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "qMgZAGDLcn",
+            "name": "businessBankStatement",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/d2f8a4b0-0d00-4eb3-a27f-04ddfe511821-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "businessBankStatement",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "D5CNEmDf05",
+            "name": "dealerInvoice",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/b7da516c-2db2-44b4-885f-d939b4946b74-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "dealerInvoice",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "bF3YFi31-5",
+            "name": "bn1Document",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/440b29db-b8b9-42a4-816b-15815db208bd-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "bn1Document",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "4sZAuCiiTc",
+            "name": "personalBankStatement",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/656513b0-cb80-4939-8fa8-ccd10db3d4e2-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "personalBankStatement",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "dfGN3yqfiK",
+            "name": "identity",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/4001626c-f4c4-4b1c-8f53-ba30b7aca412-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "National ID",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "oo_o9HCemF",
+            "name": "businessBankStatement12Months",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/251b316a-d3d8-43ea-870e-da0fbc7f7f05-test.pdf",
+            "status": "IN-REVIEW",
+            "description": "businessBankStatement12Months",
+            "password": "",
+            "app": "dealerplus"
+        },
+        {
+            "id": "LCD-IDY2ogluO",
+            "name": "borrower-indemnity-customs-indemnity-only",
+            "fileUrl": "https://storage.googleapis.com/autochek-staging/b20975fc-7d2e-447d-a451-ea4dc3226d64-test.pdf",
+            "status": "IN-REVIEW",
+            "app": "ORIGINATION_SVC"
+        }
+    ]
+}

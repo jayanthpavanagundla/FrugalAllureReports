@@ -1,0 +1,91 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:05:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 699
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"2bb-wetmzfNTTLgrls32BgirbbvbOUc"
+server: hide
+
+{
+    "sources": [
+        {
+            "label": "Walk In",
+            "name": "Walk In",
+            "id": 1,
+            "country": "NG"
+        },
+        {
+            "label": "Loan Desk",
+            "name": "Loan Desk",
+            "id": 2,
+            "country": "NG"
+        },
+        {
+            "label": "Instagram",
+            "name": "Instagram",
+            "id": 3,
+            "country": "NG"
+        },
+        {
+            "label": "Facebook",
+            "name": "Facebook",
+            "id": 4,
+            "country": "NG"
+        },
+        {
+            "label": "LinkedIn",
+            "name": "LinkedIn",
+            "id": 5,
+            "country": "NG"
+        },
+        {
+            "label": "Twitter",
+            "name": "Twitter",
+            "id": 6,
+            "country": "NG"
+        },
+        {
+            "label": "Other Social Media",
+            "name": "Other Social Media",
+            "id": 7,
+            "country": "NG"
+        },
+        {
+            "label": "Bank",
+            "name": "Bank",
+            "id": 8,
+            "country": "NG"
+        },
+        {
+            "label": "Dealer",
+            "name": "Dealer",
+            "id": 9,
+            "country": "NG"
+        },
+        {
+            "label": "Direct Sales Agent (DSA)",
+            "name": "DSA",
+            "id": 10,
+            "country": "NG"
+        }
+    ],
+    "pagination": {
+        "total": 16,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

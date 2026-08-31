@@ -1,0 +1,119 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:09 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "AMSTERDAM/SKIKDA/CHIBA",
+            "route": "MED/JAPAN",
+            "rate": "$ 2,925,000",
+            "tce": "29122.35",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "28251.27",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "LAGOS/AMSTERDAM/LAGOS",
+            "route": "UKC/WAF",
+            "rate": "WS 90.0",
+            "tce": "27005.50",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "29783.26",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/CHIBA",
+            "route": "AG/JAPAN",
+            "rate": "WS 105.0",
+            "tce": "19792.39",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "24539.73",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/AMSTERDAM",
+            "route": "AG/UKC",
+            "rate": "$ 3,900,000",
+            "tce": "37960.55",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "40318.05",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "BOTANY/YOSU/BOTANY BAY",
+            "route": "CPP SK/AUS",
+            "rate": "WS 110.0",
+            "tce": "20614.88",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "24215.25",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "LAVERA/ISKENDERUN/LAVERA",
+            "route": "X MED",
+            "rate": "WS 122.5",
+            "tce": "34748.03",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "58837.52",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "SPORE/MINA AL AHMADI/SPORE",
+            "route": "AG/SING",
+            "rate": "WS 170.0",
+            "tce": "39210.13",
+            "weekNumber": 44,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "33877.85",
+            "trend": "1"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN WEST MARKET",
+        "CLEAN EAST MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 401 Unauthorized
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:09 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "statusCode": 401,
+    "error": "You are not authorized."
+}

@@ -1,0 +1,72 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:57:38 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1012
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"3f4-6Y0VXG4EhVojtOc2iO57+bgZ1no"
+server: hide
+
+{
+    "bodyTypeList": [
+        {
+            "id": 9,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Bus.svg"
+        },
+        {
+            "id": 4,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Convertible.svg"
+        },
+        {
+            "id": 7,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+        },
+        {
+            "id": 10,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Crossover.svg"
+        },
+        {
+            "id": 5,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+        },
+        {
+            "id": 19,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/07af363e-d815-4bd2-b064-7ed8c0bc6e6a-SUV.svg"
+        },
+        {
+            "id": 2,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Mini-van.svg"
+        },
+        {
+            "id": 16,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/83ad30c2-6dfb-4ccf-8e87-39f2acc859c9-MPV.svg"
+        },
+        {
+            "id": 22
+        },
+        {
+            "id": 20,
+            "imageUrl": "https://storage.googleapis.com/img.autochek.africa/af60dc31-789e-4a4c-9b5f-5f3f0161c0e0-Notchback.svg"
+        }
+    ],
+    "pagination": {
+        "total": 19,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 2
+    }
+}

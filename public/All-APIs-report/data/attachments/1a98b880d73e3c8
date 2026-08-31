@@ -1,0 +1,337 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:43:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 7814
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"1e86-fnKWKAtqk+FTFDIvPK9nm4b1F0s"
+server: hide
+
+{
+    "customerPreferences": [
+        {
+            "name": "vehicleDiscount",
+            "value": "1%",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "dealDiscount",
+            "value": "2%",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "desiredLoanCurrency",
+            "value": "null",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "interestRateType",
+            "value": "Floating/Variable",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "interestRate",
+            "value": "28",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "residualPercentage",
+            "value": "0%",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "term",
+            "value": "12 months",
+            "type": "selection",
+            "valid": true
+        },
+        {
+            "name": "includeRoadworthinessFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "includeLicenceRenewalFees",
+            "value": "Yes",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "feePaymentMethod",
+            "value": "Upfront",
+            "type": "radio",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleRegistration",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontInsurance",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontVehicleTracking",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontMaintenancePlan",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontCreditLifeInsurance",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontWarranty",
+            "value": "false",
+            "type": "checkbox",
+            "valid": true
+        },
+        {
+            "name": "upfrontTyres",
+            "value": "true",
+            "type": "checkbox",
+            "valid": true
+        }
+    ],
+    "id": "FhuOdneKs",
+    "loanId": "mPnQZ-Umd",
+    "carId": "iUbf2edkh",
+    "partnerId": "1hPgj5dgh",
+    "simulationRequest": {
+        "term": 12,
+        "interest": 0.2800000011920929,
+        "residualValue": 0,
+        "requestedDealerDiscountPercentage": 0.009999999776482582,
+        "excludeRoadworthinessFees": "No",
+        "excludeLicenceRenewalFees": "No",
+        "payUpfrontVehicleRegistrationRequest": "Yes",
+        "payUpfrontTrackerRequest": "Yes",
+        "payUpfrontInsuranceRequest": "Yes",
+        "payUpfrontAnnualMaintenanceContractRequest": "Yes",
+        "payUpfrontSpareKeyRequest": "No",
+        "payUpfrontWarrantyRequest": "No",
+        "payUpfrontCreditLifeInsuranceRequest": "Yes",
+        "excludeAnnualMaintenance": "No",
+        "excludeInsuranceRequest": "No",
+        "excludeSpareKey": "No",
+        "bankingPartner": "STANBICNG",
+        "loanId": "mPnQZ-Umd"
+    },
+    "simulationResponse": {
+        "standardRateOffer36MDeal": "0.393",
+        "standardRateOffer48MDeal": "0.393",
+        "commissionType": "Dealer Incentive Commission",
+        "dealerDicTier": "Tier 1",
+        "dicMultiple": "0.900",
+        "instalmentOffer": "217443",
+        "upfrontPaymentOffer": "8253158",
+        "financeTermOffer": "12",
+        "rateOffer": "0.3925",
+        "residualOffer": "0.0000",
+        "insuranceTermOffer": "12",
+        "excludeAMCMoth13PlusOffer": "No",
+        "excludeInsuranceMoth13PlusOffer": "No",
+        "assessorMonthlyInstalmentOffer": "431270",
+        "assessorUpfrontOffer": "8253158",
+        "assessorFinanceTerm": "12",
+        "assessorRateOffer": "0.3925",
+        "assessorResidual": "0.0000",
+        "assessorExcludeAMCMoth13Plus": "No",
+        "assessorExcludeInsuranceMoth13Plus": "No",
+        "offer": {
+            "allProductsSold": "All Products",
+            "annualMaintenanceContract": "430720",
+            "accountManagerOffer": "59317.80",
+            "autochekServiceCharge": "415000",
+            "baseDealerIncentiveCommission": "24876.40",
+            "clientMonthlyFinanceInstalment": "401146",
+            "totalMonthlyInstalment": "431270",
+            "commissionPenalty": "0.00",
+            "creditLifeInsurance": "39250",
+            "dealerDsaOffer": "0.00",
+            "dealerIncentiveCommission": "24876.40",
+            "equityContribution": "6175000",
+            "independentDsaOffer": "0.00",
+            "insurance": "550000",
+            "leadManagerOffer": "0.00",
+            "lessPartialProductDICPenalties": "0.00",
+            "logisticFees": "0",
+            "mgAttribution": "0",
+            "maxPrincipalDebt": "3925000",
+            "plusProfitShareDICOnRate": "0.00",
+            "principalDebt": "3929221",
+            "rateAboveOrBelowStandard": "On Standard",
+            "totalFinanceableValue": "10104221",
+            "totalUpfrontPayment": "8253158",
+            "trackerTelematics": "230000",
+            "vehicleRegistration": "152500",
+            "warranty": "268750",
+            "upfrontFeesAndCharges": "1881908",
+            "proRataInterest": "4221",
+            "spareKey": "100000",
+            "firstInstallmentDate": "11-Apr-26",
+            "purchasePrice": "10000000",
+            "roadworthinessMonthlyFees": "2250",
+            "vehicleLicenceRenewalMonthlyFees": "417",
+            "roadworthinessRenewalAmount": "13500",
+            "insuranceRenewalAmount": "0",
+            "amcRenewalAmount": "0",
+            "licenceRenewalAmount": "0",
+            "monthlyFees": "0",
+            "acquirePrincipalDebt": "3925000",
+            "proRataAmounts": "7202",
+            "unpaidServiceCharges": "0",
+            "residualValueAmount": "0",
+            "effectiveInterestRate": "0.3925",
+            "upfrontLogisticFees": "0",
+            "upfrontMGAttribution": "0",
+            "upfrontAutochekServiceCharge": "215000",
+            "upfrontVehicleRegistration": "152500",
+            "upfrontTracker": "189904",
+            "upfrontInsurance": "551507",
+            "upfrontAnnualMaintenanceContract": "430720",
+            "upfrontCreditLifeInsurance": "39358",
+            "upfrontSpareKey": "0",
+            "upfrontTrackerAirtime": "40726",
+            "upfrontProRataTrackerTelematics": "0",
+            "upfrontProRataInsurance": "0",
+            "upfrontProRataAnnualMaintenanceContract": "0",
+            "upfrontProRataCreditLifeInsurance": "0",
+            "upfrontProRataWarranty": "0",
+            "proRataInsurance": "1507",
+            "proRataWarranty": "736",
+            "proRataAnnualMaintenanceContract": "0",
+            "proRataCreditLifeInsurance": "108",
+            "proRataTrackerTelematics": "630",
+            "monthlyAutochekServiceCharge": "0",
+            "monthlyLogisticFees": "0",
+            "monthlyMGAttribution": "0",
+            "acquireEquityContribution": "6175000",
+            "financedVehicleRegistration": "0",
+            "financedTracker": "0",
+            "financedTrackerAirtime": "0",
+            "financedInsurance": "0",
+            "financedAnnualMaintenanceContract": "0",
+            "financedSpareKey": "100000",
+            "financedCreditLifeInsurance": "0",
+            "totalRepaymentAmount": "13428402",
+            "spreadToBaseRate": "0.1450",
+            "partnerManagementFee": "42194",
+            "monthlyPartnerManagementFee": "0",
+            "upfrontPartnerManagementFee": "42194",
+            "financedProRataTrackerTelematics": "0",
+            "financedProRataCreditLifeInsurance": "0",
+            "importDuties": "0",
+            "financedImportDuties": "0",
+            "financedWarranty": "0",
+            "warrantyMonthly": "22457",
+            "tangibleEquityContributionPercentage": "0.618",
+            "tyres": "0",
+            "financedTyres": "0",
+            "upfrontWarranty": "0",
+            "securityDeposit": "196250",
+            "thirdPartyArrearsBalance": "0",
+            "monthlyImportProvision": "0",
+            "upfrontImportProvision": "200000",
+            "importProvision": "200000",
+            "upfrontTyres": "0",
+            "upfrontLONIfacilitationfee": "0",
+            "upfrontCustomValidationCharge": "20000",
+            "monthlyCustomValidationCharge": "0",
+            "monthlyCustomTopUpFee": "0",
+            "roadsideAssistanceMonthly": "5000",
+            "insuranceMonthly": "0",
+            "annualMaintenanceMonthly": "0",
+            "customValidationCharge": "20000",
+            "customTopUpFee": "0"
+        },
+        "excludeRoadworthinessFeesOffer": "No",
+        "excludeLicenceRenewalFeesOffer": "No",
+        "finalpayUpfrontAnnualMaintenanceContractOffer": "Yes",
+        "finalpayUpfrontVehicleRegistrationRequestOffer": "Yes",
+        "finalpayUpfrontTrackerRequestOffer": "Yes",
+        "finalpayUpfrontInsuranceOffer": "Yes",
+        "finalpayUpfrontSpareKeyOffer": "No",
+        "finalpayUpfrontWarrantyOffer": "No",
+        "finalpayUpfrontCreditLifeInsuranceOffer": "Yes",
+        "finalinstalmentOffer": "431270",
+        "finalupfrontPaymentOffer": "8253158",
+        "finalfinanceTermOffer": "12",
+        "finalinterestRateOffer": "0.3925",
+        "finalresidualOffer": "0.0000",
+        "finalinsuranceTermOffer": "12",
+        "finalexcludeAMCMoth13PlusOffer": "No",
+        "finalexcludeInsuranceMoth13PlusOffer": "No",
+        "finalExcludeRoadworthinessFees": "No",
+        "finalExcludeLicenceRenewalFees": "No",
+        "finalrepaymentDateOffer": "11",
+        "finalExcludeInsuranceOffer": "No",
+        "finalExcludeCreditLifeOffer": "No",
+        "finalExcludeAnnualMaintenanceOffer": "No",
+        "finalExcludeWarrantyOffer": "No",
+        "finalCreditDecision": "APPROVE",
+        "declineReasons": {
+            "ageReasons": "0",
+            "scoreReasons": "0",
+            "affordabilityReasons": "0",
+            "vehicleReasons": "0",
+            "validationReasons": "0",
+            "otherReasons": "0"
+        },
+        "finalDesiredLoanAmountOffer": "0",
+        "finalPayUpfrontFeesandChargesOffer": "Yes",
+        "finalExcludeTyres": "Yes",
+        "finalNumberOfTyres": "0",
+        "finalPayUpfrontTyres": "No",
+        "numberOfTyresOffer": "0",
+        "securityDepositDealIndicator": "1",
+        "thirdPartyArrearsBalanceIndicator": "0",
+        "finalExcludeRoadsideAssistance": "No"
+    },
+    "status": "created",
+    "country": "NG",
+    "creatorId": "BQlQBbLTW",
+    "createdAt": "Wed Mar 11 2026 05:43:32 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Mar 11 2026 05:43:33 GMT+0000 (Coordinated Universal Time)",
+    "partner": {
+        "id": "1hPgj5dgh",
+        "name": "Stanbic IBTC Bank Nigeria",
+        "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3ac9c3ea-78d4-4c74-9621-605f7b40e0de-stanbic-ibtc-bank-logo-512.png",
+        "active": true,
+        "createdAt": "Tue Feb 27 2024 09:48:09 GMT+0000 (Coordinated Universal Time)",
+        "popular": false,
+        "code": "stanbicng"
+    }
+}

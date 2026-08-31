@@ -1,0 +1,222 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:16:34 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "fromPort": {
+        "portId": "-57106478790385880",
+        "portName": "ANYER TERMINAL",
+        "portFunction": "COMMENCING",
+        "longitude": 105.93333435058594,
+        "latitude": -6.0333333015441895
+    },
+    "toPort": {
+        "portId": "192566588615631246",
+        "portName": "SITRA",
+        "portFunction": "DISCHARGING",
+        "longitude": 50.61666488647461,
+        "latitude": 26.133333206176758
+    },
+    "intermediatePosition": [
+        
+    ],
+    "projectedRoute": [
+        
+    ],
+    "vesselOnMapDetail": {
+        "currentPosition": {
+            "longitude": -95.16387176513672,
+            "latitude": 29.740915298461914
+        },
+        "vessel": {
+            "vesselId": "-13501195815314615",
+            "vesselName": "HAFNIA AUSTRALIA"
+        },
+        "fromPort": "ANYER TERMINAL",
+        "toPort": "SITRA",
+        "commenceDate": "2021-05-14T20:00:00",
+        "completeDate": "2021-06-15T18:30:00",
+        "speed": "0",
+        "course": "73.9",
+        "eta": "-42827.273958866389",
+        "events": [
+            "Bunkering",
+            "InWaterPropellerCleaning",
+            "UnderwaterInspection"
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            
+        ],
+        "segment": "LR1",
+        "pool": "A-POOL",
+        "participantId": null,
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "747440978314373009",
+        "voyageNumber": 28,
+        "voyageCode": "HAFNIA AUSTRALIA - 28",
+        "status": "Closed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9467794",
+        "speedPercentage": 99,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:22.438491",
+        "draft": 9.00,
+        "isActive": false,
+        "vesselCode": null
+    },
+    "intermediatePorts": [
+        {
+            "portId": null,
+            "portName": "JEBEL ALI",
+            "portFunction": "DISCHARGING",
+            "longitude": 55.04999923706055,
+            "latitude": 25.016666412353516
+        },
+        {
+            "portId": null,
+            "portName": "SIKKA",
+            "portFunction": "LOADING",
+            "longitude": 69.80000305175781,
+            "latitude": 22.516666412353516
+        },
+        {
+            "portId": null,
+            "portName": "SINGAPORE",
+            "portFunction": "BUNKERING",
+            "longitude": 103.83333587646484,
+            "latitude": 1.2666599750518799
+        },
+        {
+            "portId": null,
+            "portName": "SINGAPORE STRAIT",
+            "portFunction": "PASSING",
+            "longitude": 104.28333282470703,
+            "latitude": 1.25
+        }
+    ],
+    "distinctIntermediatePorts": [
+        {
+            "portId": null,
+            "portName": "SITRA",
+            "isCommencedPort": false,
+            "isCompletedPort": true,
+            "nextFunction": "DISCHARGING",
+            "portFunction": [
+                {
+                    "eta": "2021-06-10T11:18:00",
+                    "etd": "2021-06-15T18:30:00",
+                    "ata": "2021-06-10T14:18:00",
+                    "atd": "2021-06-15T21:30:00",
+                    "portFunction": "DISCHARGING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 50.61666488647461,
+            "latitude": 26.133333206176758
+        },
+        {
+            "portId": null,
+            "portName": "JEBEL ALI",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "DISCHARGING",
+            "portFunction": [
+                {
+                    "eta": "2021-06-06T18:30:00",
+                    "etd": "2021-06-09T04:18:00",
+                    "ata": "2021-06-06T22:30:00",
+                    "atd": "2021-06-09T08:18:00",
+                    "portFunction": "DISCHARGING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 55.04999923706055,
+            "latitude": 25.016666412353516
+        },
+        {
+            "portId": null,
+            "portName": "SIKKA",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "LOADING",
+            "portFunction": [
+                {
+                    "eta": "2021-05-31T09:18:00",
+                    "etd": "2021-06-03T14:30:00",
+                    "ata": "2021-05-31T14:48:00",
+                    "atd": "2021-06-03T20:00:00",
+                    "portFunction": "LOADING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 69.80000305175781,
+            "latitude": 22.516666412353516
+        },
+        {
+            "portId": null,
+            "portName": "SINGAPORE",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "BUNKERING",
+            "portFunction": [
+                {
+                    "eta": "2021-05-18T00:00:00",
+                    "etd": "2021-05-19T05:48:00",
+                    "ata": "2021-05-18T08:00:00",
+                    "atd": "2021-05-19T13:48:00",
+                    "portFunction": "BUNKERING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 103.83333587646484,
+            "latitude": 1.2666599750518799
+        },
+        {
+            "portId": null,
+            "portName": "SINGAPORE STRAIT",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "PASSING",
+            "portFunction": [
+                {
+                    "eta": null,
+                    "etd": null,
+                    "ata": null,
+                    "atd": null,
+                    "portFunction": "PASSING",
+                    "isCompleted": false
+                }
+            ],
+            "longitude": 104.28333282470703,
+            "latitude": 1.25
+        },
+        {
+            "portId": null,
+            "portName": "ANYER TERMINAL",
+            "isCommencedPort": true,
+            "isCompletedPort": false,
+            "nextFunction": "COMMENCING",
+            "portFunction": [
+                {
+                    "eta": null,
+                    "etd": "2021-05-14T20:00:00",
+                    "ata": null,
+                    "atd": "2021-05-15T03:00:00",
+                    "portFunction": "COMMENCING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 105.93333435058594,
+            "latitude": -6.0333333015441895
+        }
+    ]
+}

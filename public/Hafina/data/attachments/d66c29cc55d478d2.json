@@ -1,0 +1,852 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:06:07 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "earningBySegment": [
+        {
+            "distributionPool": {
+                "distributionPoolIds": [
+                    "601318902066733393",
+                    "666089229535863830",
+                    "-46016736233742194",
+                    "612098905453271305",
+                    "518098001397033383",
+                    "-74813931600378344",
+                    "749034340079593356",
+                    "813542616302792881",
+                    "655419518634547199",
+                    "686487820799308370",
+                    "-50818955871511383"
+                ],
+                "segment": "MR",
+                "pool": null,
+                "sortOrder": null,
+                "colorCode": "#9E3850",
+                "has_data": null
+            },
+            "earningByVessel": [
+                
+            ],
+            "earning": {
+                "netEarnings": 254055306.70,
+                "projectedEarnings": null,
+                "netTCEPerDay": 25519.55,
+                "onHireDays": 9955.32,
+                "earningDistribution": 254055306.70,
+                "extremeColorCode": null,
+                "fullColorCode": null,
+                "vesselcount": null
+            },
+            "monthlyEarningsForFilter": [
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 7,
+                                "month": "July",
+                                "year": 2025
+                            },
+                            "netEarnings": 40921731.00,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25331.32,
+                            "onHireDays": 1615.46,
+                            "earningDistribution": 40921731.00,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 7,
+                        "month": "July",
+                        "year": 2025
+                    },
+                    "netEarnings": 40921731.00,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25331.32,
+                    "onHireDays": 1615.46,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 55
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 8,
+                                "month": "August",
+                                "year": 2025
+                            },
+                            "netEarnings": 44116705.20,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25817.96,
+                            "onHireDays": 1708.76,
+                            "earningDistribution": 44116705.20,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 57
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 8,
+                        "month": "August",
+                        "year": 2025
+                    },
+                    "netEarnings": 44116705.20,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25817.96,
+                    "onHireDays": 1708.76,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 57
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 9,
+                                "month": "September",
+                                "year": 2025
+                            },
+                            "netEarnings": 38017653.00,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24249.35,
+                            "onHireDays": 1567.78,
+                            "earningDistribution": 38017653.00,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 9,
+                        "month": "September",
+                        "year": 2025
+                    },
+                    "netEarnings": 38017653.00,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 24249.35,
+                    "onHireDays": 1567.78,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 55
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 10,
+                                "month": "October",
+                                "year": 2025
+                            },
+                            "netEarnings": 40311726.70,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24598.62,
+                            "onHireDays": 1638.78,
+                            "earningDistribution": 40311726.70,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 56
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 10,
+                        "month": "October",
+                        "year": 2025
+                    },
+                    "netEarnings": 40311726.70,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 24598.62,
+                    "onHireDays": 1638.78,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 56
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 11,
+                                "month": "November",
+                                "year": 2025
+                            },
+                            "netEarnings": 43162903.90,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25645.95,
+                            "onHireDays": 1683.03,
+                            "earningDistribution": 43162903.90,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 58
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 11,
+                        "month": "November",
+                        "year": 2025
+                    },
+                    "netEarnings": 43162903.90,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25645.95,
+                    "onHireDays": 1683.03,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 58
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 12,
+                                "month": "December",
+                                "year": 2025
+                            },
+                            "netEarnings": 47524586.90,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 27289.30,
+                            "onHireDays": 1741.51,
+                            "earningDistribution": 47524586.90,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 59
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 12,
+                        "month": "December",
+                        "year": 2025
+                    },
+                    "netEarnings": 47524586.90,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 27289.30,
+                    "onHireDays": 1741.51,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": 59
+                }
+            ],
+            "monthlyEarnings": [
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 7,
+                                "month": "July",
+                                "year": 2025
+                            },
+                            "netEarnings": 40921700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25331.30,
+                            "onHireDays": 1615.46,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 7,
+                        "month": "July",
+                        "year": 2025
+                    },
+                    "netEarnings": 40921700,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25331.30,
+                    "onHireDays": 1615.46,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 8,
+                                "month": "August",
+                                "year": 2025
+                            },
+                            "netEarnings": 44116700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25817.96,
+                            "onHireDays": 1708.76,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 8,
+                        "month": "August",
+                        "year": 2025
+                    },
+                    "netEarnings": 44116700,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25817.96,
+                    "onHireDays": 1708.76,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 9,
+                                "month": "September",
+                                "year": 2025
+                            },
+                            "netEarnings": 38017700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24249.38,
+                            "onHireDays": 1567.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 9,
+                        "month": "September",
+                        "year": 2025
+                    },
+                    "netEarnings": 38017700,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 24249.38,
+                    "onHireDays": 1567.78,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 10,
+                                "month": "October",
+                                "year": 2025
+                            },
+                            "netEarnings": 40311700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24598.60,
+                            "onHireDays": 1638.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 10,
+                        "month": "October",
+                        "year": 2025
+                    },
+                    "netEarnings": 40311700,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 24598.60,
+                    "onHireDays": 1638.78,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 11,
+                                "month": "November",
+                                "year": 2025
+                            },
+                            "netEarnings": 43162900,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25645.95,
+                            "onHireDays": 1683.03,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 11,
+                        "month": "November",
+                        "year": 2025
+                    },
+                    "netEarnings": 43162900,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 25645.95,
+                    "onHireDays": 1683.03,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                },
+                {
+                    "distributionPool": null,
+                    "poolLevelEarning": [
+                        {
+                            "distributionPool": {
+                                "distributionPoolIds": [
+                                    "612098905453271305"
+                                ],
+                                "segment": "MR",
+                                "pool": "HAMR -> A-POOL",
+                                "sortOrder": null,
+                                "colorCode": null,
+                                "has_data": null
+                            },
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 12,
+                                "month": "December",
+                                "year": 2025
+                            },
+                            "netEarnings": 47524600,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 27289.31,
+                            "onHireDays": 1741.51,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": null
+                        }
+                    ],
+                    "period": {
+                        "monthNumber": 12,
+                        "month": "December",
+                        "year": 2025
+                    },
+                    "netEarnings": 47524600,
+                    "projectedEarnings": null,
+                    "netTCEPerDay": 27289.31,
+                    "onHireDays": 1741.51,
+                    "earningDistribution": null,
+                    "extremeColorCode": null,
+                    "fullColorCode": null,
+                    "vesselcount": null
+                }
+            ],
+            "earningByPool": [
+                {
+                    "distributionPool": {
+                        "distributionPoolIds": [
+                            "612098905453271305"
+                        ],
+                        "segment": "MR",
+                        "pool": "HAMR -> A-POOL",
+                        "sortOrder": null,
+                        "colorCode": "#9E3850",
+                        "has_data": null
+                    },
+                    "earningByVessel": [
+                        
+                    ],
+                    "earning": {
+                        "netEarnings": 254055306.70,
+                        "projectedEarnings": null,
+                        "netTCEPerDay": 25519.55,
+                        "onHireDays": 9955.32,
+                        "earningDistribution": 254055306.70,
+                        "extremeColorCode": null,
+                        "fullColorCode": null,
+                        "vesselcount": null
+                    },
+                    "monthlyEarningsForFilter": [
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 7,
+                                "month": "July",
+                                "year": 2025
+                            },
+                            "netEarnings": 40921731.00,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25331.32,
+                            "onHireDays": 1615.46,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 8,
+                                "month": "August",
+                                "year": 2025
+                            },
+                            "netEarnings": 44116705.20,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25817.96,
+                            "onHireDays": 1708.76,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 57
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 9,
+                                "month": "September",
+                                "year": 2025
+                            },
+                            "netEarnings": 38017653.00,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24249.35,
+                            "onHireDays": 1567.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 10,
+                                "month": "October",
+                                "year": 2025
+                            },
+                            "netEarnings": 40311726.70,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24598.62,
+                            "onHireDays": 1638.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 56
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 11,
+                                "month": "November",
+                                "year": 2025
+                            },
+                            "netEarnings": 43162903.90,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25645.95,
+                            "onHireDays": 1683.03,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 58
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": null,
+                            "pool": null,
+                            "period": {
+                                "monthNumber": 12,
+                                "month": "December",
+                                "year": 2025
+                            },
+                            "netEarnings": 47524586.90,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 27289.30,
+                            "onHireDays": 1741.51,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 59
+                        }
+                    ],
+                    "monthlyEarnings": [
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 7,
+                                "month": "July",
+                                "year": 2025
+                            },
+                            "netEarnings": 40921700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25331.30,
+                            "onHireDays": 1615.46,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 8,
+                                "month": "August",
+                                "year": 2025
+                            },
+                            "netEarnings": 44116700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25817.96,
+                            "onHireDays": 1708.76,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 57
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 9,
+                                "month": "September",
+                                "year": 2025
+                            },
+                            "netEarnings": 38017700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24249.38,
+                            "onHireDays": 1567.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 55
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 10,
+                                "month": "October",
+                                "year": 2025
+                            },
+                            "netEarnings": 40311700,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 24598.60,
+                            "onHireDays": 1638.78,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 56
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 11,
+                                "month": "November",
+                                "year": 2025
+                            },
+                            "netEarnings": 43162900,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 25645.95,
+                            "onHireDays": 1683.03,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 58
+                        },
+                        {
+                            "distributionPool": null,
+                            "segment": "MR",
+                            "pool": "HAMR -> A-POOL",
+                            "period": {
+                                "monthNumber": 12,
+                                "month": "December",
+                                "year": 2025
+                            },
+                            "netEarnings": 47524600,
+                            "projectedEarnings": null,
+                            "netTCEPerDay": 27289.31,
+                            "onHireDays": 1741.51,
+                            "earningDistribution": null,
+                            "extremeColorCode": null,
+                            "fullColorCode": null,
+                            "vesselcount": 59
+                        }
+                    ],
+                    "vesselCount": 0
+                }
+            ],
+            "vesselCount": 65
+        }
+    ],
+    "noDataVessels": [
+        
+    ],
+    "monthlyNoDataVessels": [
+        
+    ],
+    "segmentsWithNoDataVessels": {
+        
+    }
+}

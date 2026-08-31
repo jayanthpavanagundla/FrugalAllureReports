@@ -1,0 +1,91 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:03:28 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+[
+    {
+        "companyCode": "CHHP",
+        "totalPurchase": 27191,
+        "allocated": 26710.12007761,
+        "unallocated": 480.879922389984
+    },
+    {
+        "companyCode": "CHMR",
+        "totalPurchase": 13302.0199890137,
+        "allocated": 15044.0200835466,
+        "unallocated": -1742.00009453297
+    },
+    {
+        "companyCode": "HACI",
+        "totalPurchase": 70000,
+        "allocated": 57222.0500035286,
+        "unallocated": 12777.9499964714
+    },
+    {
+        "companyCode": "HAHP",
+        "totalPurchase": 86750,
+        "allocated": 79888.7901643515,
+        "unallocated": 6861.20983564854
+    },
+    {
+        "companyCode": "HAMR",
+        "totalPurchase": 147992,
+        "allocated": 125904.239931464,
+        "unallocated": 22087.7600685358
+    },
+    {
+        "companyCode": "HAOP",
+        "totalPurchase": 3000,
+        "allocated": 11552.629989028,
+        "unallocated": -8552.62998902798
+    },
+    {
+        "companyCode": "HAPA",
+        "totalPurchase": 20000,
+        "allocated": 19769.4100799561,
+        "unallocated": 230.589920043945
+    },
+    {
+        "companyCode": "HASM",
+        "totalPurchase": 500,
+        "allocated": 483.949993133545,
+        "unallocated": 16.0500068664551
+    },
+    {
+        "companyCode": "HCHP",
+        "totalPurchase": 49700,
+        "allocated": 29237.5998526812,
+        "unallocated": 20462.4001473188
+    },
+    {
+        "companyCode": "HCMR",
+        "totalPurchase": 25302.0199890137,
+        "allocated": 16105.6200590134,
+        "unallocated": 9196.3999300003
+    },
+    {
+        "companyCode": "HTSM",
+        "totalPurchase": 1207,
+        "allocated": null,
+        "unallocated": 1207
+    },
+    {
+        "companyCode": "STL2",
+        "totalPurchase": 30300,
+        "allocated": 23192.2398653775,
+        "unallocated": 7107.76013462246
+    },
+    {
+        "companyCode": "STLR",
+        "totalPurchase": 37000,
+        "allocated": 29323.6900115013,
+        "unallocated": 7676.30998849869
+    }
+]

@@ -1,0 +1,229 @@
+[
+    {
+        "id": "3kiPucJRZ",
+        "amountPaid": "0.00",
+        "requestedAmount": "31480.33",
+        "carValue": "0.00",
+        "vat": "0.00",
+        "recipientId": "kpMngdaMZ",
+        "country": "NG",
+        "recipientType": "DEALER_DSA_COMMISSION",
+        "loanId": "OR4S4vvo-",
+        "status": "DRAFT",
+        "creatorId": "n/a",
+        "isPartialPayment": false,
+        "requestType": "FULL_PAYMENT",
+        "deductions": "0.00",
+        "createdAt": "2026-03-26T13:21:03.139Z",
+        "updatedAt": "2026-03-26T13:21:03.139Z"
+    },
+    {
+        "id": "Zp9yMYolgs",
+        "supplier": {
+            "id": "AEBISIRJ9",
+            "code": "002419",
+            "name": "100 Automobile Nig",
+            "dicTier": "Tier 1",
+            "dealerId": "kpMngdaMZ",
+            "country": "NG",
+            "status": "SUPPLIER_MODIFIED",
+            "bankName": "SofriLoans",
+            "accountHolderName": "Vera",
+            "accountType": "Savings",
+            "accountNumber": "4478237465",
+            "acquireRequest": {
+                "supplierId": "002419",
+                "supplier": {
+                    "CompInd": "C",
+                    "BusType": "017",
+                    "StructCode": "00",
+                    "Country": "NG",
+                    "ResidInd": "Y",
+                    "Region": "NG_LAGOS",
+                    "Language": "E",
+                    "LongNam": "100 AUTOMOBILE NIG",
+                    "ShortNam": "100 AUTOMOBILE NIG",
+                    "RegistNum": "kpMngdaMZ",
+                    "IDNo": "kpMngdaMZ",
+                    "ExterAccNo": "kpMngdaMZ",
+                    "ActTypeStatus-MV": [
+                        {
+                            "Type": "S",
+                            "IdxActorStatus": "PER"
+                        }
+                    ],
+                    "Contact-MV": [
+                        {
+                            "ContactType": "TC",
+                            "ContactDet": "+2348033152151",
+                            "PrefContactInd": "Y",
+                            "ContactName": "Arinzechukwu",
+                            "ContactSeqNo": "01"
+                        },
+                        {
+                            "ContactType": "EM",
+                            "ContactDet": "ef_jesta@yahoo.com",
+                            "PrefContactInd": "N",
+                            "ContactName": "Arinzechukwu",
+                            "ContactSeqNo": "02"
+                        }
+                    ],
+                    "AddrList-MV": [
+                        {
+                            "AddrType": "PH",
+                            "Address": "wedfr wdefr (ij), werfgfds, wdf, Nigeria",
+                            "PostCd": "",
+                            "PrefAddrInd": "Y",
+                            "AddrSeqNo": "01"
+                        }
+                    ],
+                    "CustAddFields-MV": [
+                        {
+                            "AddFields": "DID",
+                            "AddFldValues": "kpMngdaMZ"
+                        },
+                        {
+                            "AddFields": "DIG",
+                            "AddFldValues": "Tier 1"
+                        }
+                    ]
+                }
+            },
+            "acquireResponse": {
+                "Result": {
+                    "RecordId": "002419",
+                    "CapUser": "autochekAPI",
+                    "Version": "38",
+                    "Status": "C",
+                    "CompInd": "C",
+                    "StructureCode": "00",
+                    "Country": "NG",
+                    "ResidInd": "Y",
+                    "Region": "NG_BAYELSA",
+                    "Language": "E",
+                    "LongNam": "100 AUTOMOBILE NIG",
+                    "ShortNam": "100 AUTOMOBILE NIG",
+                    "RegistNum": "kpMngdaMZ",
+                    "BusType": "017",
+                    "BusSector": "GENERAL CONTRACT AND MERCHANDISE",
+                    "SalesSource": "000001",
+                    "RiskCat": "CRG6",
+                    "NoOfRej": "0",
+                    "ExterAccNo": "kpMngdaMZ",
+                    "StatementInd": "Y",
+                    "ConsoInd": "N",
+                    "StatDay": "3",
+                    "MaritalStatus": "1",
+                    "CustClassification": "active",
+                    "NextStatementDate": "21308",
+                    "EmployeeArrangement": "P",
+                    "DateOfAppointment": "21270",
+                    "CapDet-MV": [
+                        {
+                            "CapDateTime": "21270"
+                        },
+                        {
+                            "CapDateTime": "16731.98"
+                        }
+                    ],
+                    "ActTypeStatus-MV": [
+                        {
+                            "Type": "C",
+                            "ActorStatus": "PER"
+                        },
+                        {
+                            "Type": "S",
+                            "ActorStatus": ""
+                        }
+                    ],
+                    "Director-MV": [
+                        {
+                            "Title": "MR",
+                            "Surname": "ARINZECHUKWU",
+                            "FirstNames": "ARINZECHUKWU",
+                            "Initials": "AA",
+                            "IDNo": "kpMngdaMZ",
+                            "Occup": "",
+                            "Gender": "M"
+                        }
+                    ],
+                    "AddrList-MV": [
+                        {
+                            "AddrType": "PH",
+                            "Address": "4 apapa street KolokumaOpokuma*Kolokuma/Opokuma",
+                            "PostCd": "",
+                            "PrefAddrInd": "Y",
+                            "AddrSeqNo": "01"
+                        }
+                    ],
+                    "Contact-MV": [
+                        {
+                            "ContactType": "TC",
+                            "ContactDet": "2348033152151",
+                            "PrefContactInd": "Y",
+                            "ContactName": "Arinzechukwu",
+                            "ContactSeqNo": "01"
+                        },
+                        {
+                            "ContactType": "EM",
+                            "ContactDet": "ef_jesta@yahoo.com",
+                            "PrefContactInd": "N",
+                            "ContactName": "Arinzechukwu",
+                            "ContactSeqNo": "02"
+                        }
+                    ],
+                    "BankDet-MV": [
+                        {
+                            "AccType": "S",
+                            "BankBrnCode": "",
+                            "AccNum": "1919303929",
+                            "AccHolder": "white label",
+                            "AccStatus": "A",
+                            "AccSeqNo": "1",
+                            "AccAge": ""
+                        }
+                    ],
+                    "Stat-MV-MV": [
+                        {
+                            "StatFreq": "M"
+                        },
+                        {
+                            "StatFreq": "1"
+                        }
+                    ],
+                    "CustAddFields-MV": [
+                        {
+                            "AddFields": "ISO",
+                            "AddFldValues": "Salary/Pension"
+                        },
+                        {
+                            "AddFields": "MDI",
+                            "AddFldValues": "74692737"
+                        },
+                        {
+                            "AddFields": "ORR",
+                            "AddFldValues": "CRG 6"
+                        }
+                    ]
+                }
+            },
+            "createdAt": "2024-03-06T13:22:23.802Z",
+            "updatedAt": "2026-03-26T11:31:32.960Z"
+        },
+        "amountPaid": "0.00",
+        "requestedAmount": "0.00",
+        "carValue": "0.00",
+        "vat": "0.00",
+        "recipientId": "kpMngdaMZ",
+        "country": "NG",
+        "recipientType": "DEALER",
+        "loanId": "OR4S4vvo-",
+        "status": "DRAFT",
+        "creatorId": "n/a",
+        "isPartialPayment": false,
+        "requestType": "FULL_PAYMENT",
+        "deductions": "0.00",
+        "createdAt": "2026-03-26T13:21:03.190Z",
+        "updatedAt": "2026-03-26T13:21:03.190Z"
+    }
+]

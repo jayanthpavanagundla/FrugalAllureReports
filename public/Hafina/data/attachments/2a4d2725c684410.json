@@ -1,0 +1,240 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:39 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselReport": [
+        {
+            "chartererName": "SEASWIFT",
+            "awcEarning": 20000,
+            "rtEarning": 0,
+            "voyageDays": 14,
+            "waitDays": 0,
+            "cargoDate": "2024-08-01T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-06T18:00:00",
+            "region": "FAR EAST",
+            "comment": "EX GULEI",
+            "trade": "YOSU/VIETNAM",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "-65872148931398786",
+            "vesselName": "ORIENT CHALLENGE"
+        },
+        {
+            "chartererName": "OQ",
+            "awcEarning": 21600,
+            "rtEarning": 31600,
+            "voyageDays": 64,
+            "waitDays": 0,
+            "cargoDate": "2024-07-31T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-05T18:00:00",
+            "region": "MIDDLE EAST",
+            "comment": "EX DURBAN",
+            "trade": "MINA AL AHMADI/HOUSTON",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "-62017241272409179",
+            "vesselName": "HAFNIA PHOENIX"
+        },
+        {
+            "chartererName": "VALERO",
+            "awcEarning": 29000,
+            "rtEarning": 14800,
+            "voyageDays": 17,
+            "waitDays": 1,
+            "cargoDate": "2024-08-08T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-09T18:00:00",
+            "region": "CONT",
+            "comment": "EX LORIENT",
+            "trade": "PEMBROKE/IF NEW YORK",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "-45196122654186699",
+            "vesselName": "HAFNIA LYNX"
+        },
+        {
+            "chartererName": "VALERO",
+            "awcEarning": 29000,
+            "rtEarning": 14800,
+            "voyageDays": 17,
+            "waitDays": 1,
+            "cargoDate": "2024-08-08T00:00:00",
+            "cargoSize": "MR",
+            "status": "SUBS",
+            "statusDate": "2024-08-09T18:00:00",
+            "region": "CONT",
+            "comment": "EX LORIENT",
+            "trade": "PEMBROKE/IF NEW YORK",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "-45196122654186699",
+            "vesselName": "HAFNIA LYNX"
+        },
+        {
+            "chartererName": "IDEMITSU",
+            "awcEarning": 40500,
+            "rtEarning": 19000,
+            "voyageDays": 31,
+            "waitDays": 1,
+            "cargoDate": "2024-08-05T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-08T17:00:00",
+            "region": "AMERICA",
+            "comment": "EX POZOS",
+            "trade": "ST CHARLES/VANCOUVER",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "-44888786969953126",
+            "vesselName": "BANTRY BAY"
+        },
+        {
+            "chartererName": "PHILLIPS 66",
+            "awcEarning": 20500,
+            "rtEarning": 0,
+            "voyageDays": 50,
+            "waitDays": 1,
+            "cargoDate": "2024-07-31T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-09T17:00:00",
+            "region": "AMERICA",
+            "comment": "EX ECUADOR",
+            "trade": "SAN FRANCISCO + LOS ANGELES/UKC",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "350105175653345968",
+            "vesselName": "CLEAROCEAN MILANO"
+        },
+        {
+            "chartererName": "CLEARLAKE",
+            "awcEarning": 29500,
+            "rtEarning": 0,
+            "voyageDays": 19,
+            "waitDays": 2,
+            "cargoDate": "2024-08-02T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-05T16:00:00",
+            "region": "AMERICA",
+            "comment": "EX NEW YORK (NO BALLAST)",
+            "trade": "USAC/TA",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "355010546330499046",
+            "vesselName": "CLEAROCEAN GINKGO"
+        },
+        {
+            "chartererName": "CEPSA",
+            "awcEarning": 21076,
+            "rtEarning": 21076,
+            "voyageDays": 26,
+            "waitDays": 0,
+            "cargoDate": "2024-08-05T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-07T13:00:00",
+            "region": "CONT",
+            "comment": "EX SAO LUIS",
+            "trade": "ALGECIRAS/IF NEW YORK",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "436375461197144649",
+            "vesselName": "JAG POOJA"
+        },
+        {
+            "chartererName": "PETROCHINA",
+            "awcEarning": 47600,
+            "rtEarning": 27000,
+            "voyageDays": 31,
+            "waitDays": 2,
+            "cargoDate": "2024-08-06T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-09T17:00:00",
+            "region": "AMERICA",
+            "comment": "EX WCMEX",
+            "trade": "LOS ANGELES/CORONEL",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "481041389779317187",
+            "vesselName": "KOUROS"
+        },
+        {
+            "chartererName": "VITOL",
+            "awcEarning": 9000,
+            "rtEarning": 0,
+            "voyageDays": 22,
+            "waitDays": 9,
+            "cargoDate": "2024-07-31T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-05T18:00:00",
+            "region": "FAR EAST",
+            "comment": "EX NANJING. 3RD LAST DPP. VSL ITINERARY GOT PRE-PONED. ",
+            "trade": "YOSU/VIETNAM",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "816290581988027738",
+            "vesselName": "BW WREN"
+        },
+        {
+            "chartererName": "PMI",
+            "awcEarning": 39000,
+            "rtEarning": 36500,
+            "voyageDays": 29,
+            "waitDays": 2,
+            "cargoDate": "2024-08-01T00:00:00",
+            "cargoSize": "MR",
+            "status": "FIXED",
+            "statusDate": "2024-08-05T12:00:00",
+            "region": "AMERICA",
+            "comment": "EX RODEO",
+            "trade": "LOS ANGELES+PUGET SOUND/WCMEX",
+            "segment": "MR",
+            "pool": "A-POOL",
+            "vesselId": "832603506992310468",
+            "vesselName": "BASSET"
+        }
+    ],
+    "statuses": [
+        "All Status",
+        "FIXED",
+        "SUBS"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:39 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.weekNumber": [
+            "The JSON value could not be converted to System.Int32. Path: $.weekNumber | LineNumber: 2 | BytePositionInLine: 19."
+        ]
+    },
+    "traceId": "00-d8d2f9f86572681f6c9ff5976c40c8aa-83646683d1cae8d4-00"
+}

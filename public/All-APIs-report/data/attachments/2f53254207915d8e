@@ -1,0 +1,33 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 11 Mar 2026 05:59:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 464
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"1d0-1l08ewx8c9H2cj/BH8w7I9MF9gA"
+server: hide
+
+{
+    "code": 400,
+    "error": "Error fetching inspection requests: {\"name\":\"InventoryError\",\"code\":4000,\"status\":400,\"message\":\"Invalid fields requested\"}",
+    "message": "Error fetching inspection requests: {\"name\":\"InventoryError\",\"code\":4000,\"status\":400,\"message\":\"Invalid fields requested\"}",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inventory/inspection_request?fields=id%20UNION%20SELECT%20password%20FROM%20users"
+        }
+    ]
+}

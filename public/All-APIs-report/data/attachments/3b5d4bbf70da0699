@@ -1,0 +1,167 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 06:04:42 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 3278
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"cce-8Q4xU3t0yFPkf0ptj9QItFVyz10"
+server: hide
+
+{
+    "partners": [
+        {
+            "id": "OInibI2XC",
+            "name": "Access Bank Nigeria Plc",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/9e9734d6-4a63-4fbc-a666-ef2b51d51cff-access-bank-plc-logo-512.png",
+            "code": "accessbankng",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "staging@gmail.com",
+            "partnerContactPhone": "+234090875433466",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "HzR2vY5-0",
+            "name": "Fund Quest Nigeria",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/9e9734d6-4a63-4fbc-a666-ef2b51d51cff-access-bank-plc-logo-512.png",
+            "code": "FUNDQUESTNG",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "tester123@gmail.com",
+            "partnerContactPhone": "+2349078987645683",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "kputBVnsi",
+            "name": "Unilag Micro Finance Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/c6668f92-b914-44e3-ba75-1e5c0cb46221-UMFB-LOGO-MAIN.png",
+            "code": "unilagng",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "access1@gmail.com",
+            "partnerContactPhone": "08034562710",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "zDV2IT-QV",
+            "name": "9jaPay Microfinance Bank",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/3169520f-9dee-4987-a1f9-ddb4c05641eb-9japay%20(1).jpeg",
+            "code": "9JAPAYNG",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "isNonIntegrated": false
+        },
+        {
+            "id": "y3MkqKPjG",
+            "name": "Access Bank PLCs",
+            "logoUrl": "https://storage.googleapis.com/autochek-staging/f04b65b7-1311-45cb-bd9f-ad3938f6dccd-Autochek-Africa-logo.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "access12@gmail.com",
+            "partnerContactPhone": "+2349023761298",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "-OZ6jwmYi",
+            "name": "Accion Microfinance Bank",
+            "logoUrl": "https://storage.googleapis.com/autochek-staging/8fc2e7b4-6121-4a4f-960b-a04458dfb65a-svgviewer-png-output.png",
+            "code": "accionng",
+            "equityConfig": {
+                "equityPaidTo": [
+                    "Paid_to_Dealer",
+                    "Paid_to_Autochek"
+                ]
+            },
+            "partnerContactEmail": "mary.w@autochek.africa",
+            "partnerContactPhone": "09087656783",
+            "isNonIntegrated": false
+        },
+        {
+            "id": "RXwJxTjB8",
+            "name": "Addosser Finance Limited",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/90c57087-5649-4aeb-a870-73ed37b4991d-ADDOSSER-mfb.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "harriet.n@autochek.africa",
+            "partnerContactPhone": "08076128456",
+            "isNonIntegrated": false
+        },
+        {
+            "id": "O4MfCLwfR",
+            "name": "Assension Bank",
+            "logoUrl": "https://storage.googleapis.com/autochek-staging/83cf1007-36c5-43c5-b368-7efb27288c05-Faisal%20Islamic%20Bank%20of%20Egypt.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "assen54@gmail.com",
+            "partnerContactPhone": "+23409087123897",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "MAOpW0Jud",
+            "name": "A Test Bank",
+            "logoUrl": "https://storage.googleapis.com/autochek-staging/2ab0d4a8-dffb-45ef-822f-cb6f8ce21926-tvr%20car%20logo.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "partnerContactEmail": "testertvr@gmail.com",
+            "partnerContactPhone": "+23408098763456",
+            "isNonIntegrated": true
+        },
+        {
+            "id": "KzG20A9ac",
+            "name": "Autochek",
+            "logoUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/full-color-logo-new.png",
+            "equityConfig": {
+                "equityPaidTo": [
+                    
+                ]
+            },
+            "isNonIntegrated": false
+        }
+    ],
+    "pagination": {
+        "total": 90,
+        "currentPage": 1,
+        "pageSize": 10
+    }
+}

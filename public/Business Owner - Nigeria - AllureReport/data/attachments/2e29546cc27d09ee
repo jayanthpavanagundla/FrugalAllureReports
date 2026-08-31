@@ -1,0 +1,89 @@
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:13:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 509
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJwZVltY05UWHc1THdzZk5VOW1BMiIsImp3dElkIjoiN091bjFQUE9leFpzd2N5SW0ySVMiLCJpYXQiOjE3NzQ1MzA4MzUsImV4cCI6MTgwNjA2NjgzNX0.2kDrQLF1VBcgp3tSuK7N0Yg0CBdS4-1JKUkDlw3bPEc; Max-Age=3600; Path=/; Expires=Thu, 26 Mar 2026 14:13:55 GMT; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: refresh_token=072c63fab3f6928ff93abbdfceb6f143f778de87e9a823c76f4e09ab7ff2ca3be940bdbc136d26de361afb6baead44c3fd31d2635388db1abf8503cb734fc56f; Max-Age=2592000; Path=/; Expires=Sat, 25 Apr 2026 13:13:55 GMT; HttpOnly; Secure; SameSite=Strict
+ETag: W/"1fd-PzQb8ExTL2KdJvBQR9h+3P+ylHQ"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success",
+    "data": {
+        "id": "BQlQBbLTW",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJwZVltY05UWHc1THdzZk5VOW1BMiIsImp3dElkIjoiN091bjFQUE9leFpzd2N5SW0ySVMiLCJpYXQiOjE3NzQ1MzA4MzUsImV4cCI6MTgwNjA2NjgzNX0.2kDrQLF1VBcgp3tSuK7N0Yg0CBdS4-1JKUkDlw3bPEc",
+        "refreshToken": "072c63fab3f6928ff93abbdfceb6f143f778de87e9a823c76f4e09ab7ff2ca3be940bdbc136d26de361afb6baead44c3fd31d2635388db1abf8503cb734fc56f",
+        "accountStatus": "active",
+        "accessTokenExpiresAt": "365d"
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:13:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 299
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"12b-p9Nm6R6vdlembYe61DvqJFSq5dY"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "userId": "oV3yYl2hPuuLuBLrhLud",
+    "email": "businessownercarloane2e_0838744@gmail.com",
+    "bankCode": "058",
+    "accountNumber": "0128034955",
+    "redirectUrl": "https://sign.staging.myautochek.com/widget/debit-mandate?access_code=dyeeg9abq2o1wam&loanId=OR4S4vvo-",
+    "redirectUrlExpiresAt": "2026-03-26T14:13:56.348Z"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Mar 2026 13:13:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: ALWAYS
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: ALWAYS
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: ALWAYS
+ETag: W/"15-uFFjCr0SbbbFb/CsC0M2sF++swo"
+Content-Security-Policy: upgrade-insecure-requests
+
+{
+    "message": "Success"
+}

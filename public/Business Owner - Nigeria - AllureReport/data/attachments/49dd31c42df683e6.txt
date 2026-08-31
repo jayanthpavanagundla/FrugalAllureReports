@@ -1,0 +1,56 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	PATCH
+Request URI:	https://api.staging.myautochek.com/v2/origination/loan/OR4S4vvo-/customer-validation
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJheWpzTXVPQ2ZEUTBTMEJPMklJRyIsImp3dElkIjoiQ2NJSUhjdU16dE1TMDJGWW9BRmsiLCJpYXQiOjE3NzQ1MzA1MjIsImV4cCI6MTgwNjA2NjUyMn0.ahVU4gprt6dj2LxHFei9redPi7IT7xGDuf1Yar-UXq0
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "loan_validation": {
+        "is_valid_nin": true,
+        "is_valid_bvn": true,
+        "is_valid_business_reg_no": true,
+        "is_valid_address": true,
+        "is_email_verified": true,
+        "is_ph_no_verified": true,
+        "declared_not_by_me": false,
+        "is_valid_dob": true,
+        "is_valid_gender": true,
+        "identity_mismatch_note": "Verified via automation"
+    }
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJheWpzTXVPQ2ZEUTBTMEJPMklJRyIsImp3dElkIjoiQ2NJSUhjdU16dE1TMDJGWW9BRmsiLCJpYXQiOjE3NzQ1MzA1MjIsImV4cCI6MTgwNjA2NjUyMn0.ahVU4gprt6dj2LxHFei9redPi7IT7xGDuf1Yar-UXq0
+				refresh_token=6dce35cc38f5ef3b3673981790b13ea1b8787645b26929e3069a778583159486a0128124249b0eae889aa897438c913d85b2a342f2b90fc6620bdb48228fde18
+Multiparts:		<none>
+Body:			<none>

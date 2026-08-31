@@ -1,0 +1,48 @@
+{
+  "reviews" : [ {
+    "name" : "vehicle-inspection-agreement",
+    "id" : "43422",
+    "status" : "APPROVED"
+  }, {
+    "name" : "Repayment Schedule",
+    "id" : "43414",
+    "status" : "APPROVED"
+  }, {
+    "name" : "Debit Mandate",
+    "id" : "43415",
+    "status" : "APPROVED"
+  }, {
+    "name" : "Debit_Mandate_Payment_Proof",
+    "id" : "43416",
+    "status" : "APPROVED"
+  }, {
+    "name" : "account opening individual",
+    "id" : "43421",
+    "status" : "APPROVED"
+  }, {
+    "name" : "partnership-consent-letter",
+    "id" : "43423",
+    "status" : "APPROVED"
+  }, {
+    "name" : "Loan Agreement",
+    "id" : "43412",
+    "status" : "APPROVED"
+  }, {
+    "name" : "warranty",
+    "id" : "43417",
+    "status" : "APPROVED"
+  }, {
+    "name" : "Roadside Assistance Terms and Conditions",
+    "id" : "43418",
+    "status" : "APPROVED"
+  }, {
+    "name" : "maintenance",
+    "id" : "43419",
+    "status" : "APPROVED"
+  }, {
+    "name" : "caution_fee",
+    "id" : "43420",
+    "status" : "APPROVED"
+  } ],
+  "loan_id" : "OR4S4vvo-"
+}

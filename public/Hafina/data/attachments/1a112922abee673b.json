@@ -1,0 +1,487 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:13:24 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+[
+    {
+        "imoNumber": null,
+        "voyageId": "110556079893824394",
+        "voyageNumber": 29,
+        "voyageCode": "HAFNIA AUSTRALIA - 29",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2021-06-15T21:30:00",
+        "endDate": "2021-07-19T11:00:00",
+        "durationHours": 805.50,
+        "durationDays": 33.56,
+        "idealDays": 21.06,
+        "commencePort": {
+            "portId": "192566588615631246",
+            "portName": "SITRA",
+            "portLocation": {
+                "longitude": 50.6166648864746,
+                "latitude": 26.1333332061768
+            }
+        },
+        "completePort": {
+            "portId": "-60732527124876794",
+            "portName": "KHOR AL ZUBAIR",
+            "portLocation": {
+                "longitude": 47.9000015258789,
+                "latitude": 30.1833324432373
+            }
+        },
+        "commenceDate": "2021-06-15T18:30:00",
+        "completeDate": "2021-07-19T08:00:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "611660162580838450"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": "#154068",
+            "has_data": null
+        },
+        "shipOperator": "ERIK ELZINGA (ELZ)",
+        "shipOperatorEmail": "ELZ@HAFNIA.COM",
+        "chartererName": "NIELS ZACHO (NZA)",
+        "chartererEmail": "NZA@HAFNIA.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "GASOLINE",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 1535.27,
+        "estimatedEarnings": 2605.77,
+        "avgSpeed": 8.57,
+        "distance": 1846.30,
+        "consumption": 384.79,
+        "emission": 1203.83,
+        "seaDays": 3.85,
+        "portDays": 29.71,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": null,
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    },
+    {
+        "imoNumber": null,
+        "voyageId": "747440978314373009",
+        "voyageNumber": 28,
+        "voyageCode": "HAFNIA AUSTRALIA - 28",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2021-05-15T03:00:00",
+        "endDate": "2021-06-15T21:30:00",
+        "durationHours": 766.50,
+        "durationDays": 31.94,
+        "idealDays": 1.88,
+        "commencePort": {
+            "portId": "-57106478790385880",
+            "portName": "ANYER TERMINAL",
+            "portLocation": {
+                "longitude": 105.93333435058601,
+                "latitude": -6.03333330154419
+            }
+        },
+        "completePort": {
+            "portId": "192566588615631246",
+            "portName": "SITRA",
+            "portLocation": {
+                "longitude": 50.6166648864746,
+                "latitude": 26.1333332061768
+            }
+        },
+        "commenceDate": "2021-05-14T20:00:00",
+        "completeDate": "2021-06-15T18:30:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "611660162580838450"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": "#154068",
+            "has_data": null
+        },
+        "shipOperator": "KAJ TAUSEN (KAJ)",
+        "shipOperatorEmail": "KAJ@HAFNIABW.COM",
+        "chartererName": "EMIL FABRICIUS-BJERRE (EFB)",
+        "chartererEmail": "EFB@HAFNIA.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "GASOLINE",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 2052.10,
+        "estimatedEarnings": 341.94,
+        "avgSpeed": 8.80,
+        "distance": 6028.40,
+        "consumption": 578.01,
+        "emission": 1804.74,
+        "seaDays": 19.60,
+        "portDays": 12.17,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": [
+            {
+                "countryCode": null,
+                "voyageId": "747440978314373009",
+                "voyageNumber": "28",
+                "speedPercentage": null,
+                "eventId": "-38361304426349944",
+                "eventType": "InWaterPropellerCleaning",
+                "eventDate": "2021-05-18T00:00:00",
+                "comment": "At Singapore. Source: HafniaBW Technical.",
+                "participant": "HAFNIA",
+                "segment": "LR1",
+                "pool": "STLR -> A-POOL",
+                "status": "",
+                "voyageStartDate": "05/15/2021 03:00:00",
+                "voyageEndDate": "06/15/2021 21:30:00",
+                "commencePortName": "ANYER TERMINAL",
+                "completePortName": "SITRA",
+                "vesselId": "-13501195815314615",
+                "vesselName": "HAFNIA AUSTRALIA"
+            },
+            {
+                "countryCode": null,
+                "voyageId": "747440978314373009",
+                "voyageNumber": "28",
+                "speedPercentage": null,
+                "eventId": "279679484298705380",
+                "eventType": "UnderwaterInspection",
+                "eventDate": "2021-05-18T00:00:00",
+                "comment": "At Singapore. Source: HafniaBW Technical.",
+                "participant": "HAFNIA",
+                "segment": "LR1",
+                "pool": "STLR -> A-POOL",
+                "status": "",
+                "voyageStartDate": "05/15/2021 03:00:00",
+                "voyageEndDate": "06/15/2021 21:30:00",
+                "commencePortName": "ANYER TERMINAL",
+                "completePortName": "SITRA",
+                "vesselId": "-13501195815314615",
+                "vesselName": "HAFNIA AUSTRALIA"
+            }
+        ],
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    },
+    {
+        "imoNumber": null,
+        "voyageId": "-45722336148084463",
+        "voyageNumber": 27,
+        "voyageCode": "HAFNIA AUSTRALIA - 27",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2021-04-08T23:00:00",
+        "endDate": "2021-05-15T03:00:00",
+        "durationHours": 863,
+        "durationDays": 35.96,
+        "idealDays": 3.83,
+        "commencePort": {
+            "portId": "-88029861901537746",
+            "portName": "AIN SUKHNA TERMINAL",
+            "portLocation": {
+                "longitude": 32.4000015258789,
+                "latitude": 29.533332824707
+            }
+        },
+        "completePort": {
+            "portId": "-57106478790385880",
+            "portName": "ANYER TERMINAL",
+            "portLocation": {
+                "longitude": 105.93333435058601,
+                "latitude": -6.03333330154419
+            }
+        },
+        "commenceDate": "2021-04-08T21:00:00",
+        "completeDate": "2021-05-14T20:00:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "611660162580838450"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": "#154068",
+            "has_data": null
+        },
+        "shipOperator": "KAJ TAUSEN (KAJ)",
+        "shipOperatorEmail": "KAJ@HAFNIABW.COM",
+        "chartererName": "PER JUUL (PJU)",
+        "chartererEmail": "PJU@HAFNIABW.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "NAPHTA",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 18821.07,
+        "estimatedEarnings": 17249.35,
+        "avgSpeed": 12.01,
+        "distance": 6884.70,
+        "consumption": 837.61,
+        "emission": 2611.27,
+        "seaDays": 17.63,
+        "portDays": 18.54,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": null,
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    },
+    {
+        "imoNumber": null,
+        "voyageId": "-90306316416711143",
+        "voyageNumber": 26,
+        "voyageCode": "HAFNIA AUSTRALIA - 26",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2021-03-11T01:54:00",
+        "endDate": "2021-04-08T23:00:00",
+        "durationHours": 693.10,
+        "durationDays": 28.88,
+        "idealDays": 0,
+        "commencePort": {
+            "portId": "-88029861901537746",
+            "portName": "AIN SUKHNA TERMINAL",
+            "portLocation": {
+                "longitude": 32.4000015258789,
+                "latitude": 29.533332824707
+            }
+        },
+        "completePort": {
+            "portId": "-88029861901537746",
+            "portName": "AIN SUKHNA TERMINAL",
+            "portLocation": {
+                "longitude": 32.4000015258789,
+                "latitude": 29.533332824707
+            }
+        },
+        "commenceDate": "2021-03-10T23:54:00",
+        "completeDate": "2021-04-08T21:00:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "611660162580838450"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": "#154068",
+            "has_data": null
+        },
+        "shipOperator": "KAJ TAUSEN (KAJ)",
+        "shipOperatorEmail": "KAJ@HAFNIABW.COM",
+        "chartererName": "NIELS ZACHO (NZA)",
+        "chartererEmail": "NZA@HAFNIA.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "GO",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 13919.52,
+        "estimatedEarnings": 11473.21,
+        "avgSpeed": 7.92,
+        "distance": 1023.10,
+        "consumption": 295.23,
+        "emission": 922.32,
+        "seaDays": 3.35,
+        "portDays": 25.53,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": null,
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    },
+    {
+        "imoNumber": null,
+        "voyageId": "584742467761468167",
+        "voyageNumber": 25,
+        "voyageCode": "HAFNIA AUSTRALIA - 25",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2021-02-20T23:06:00",
+        "endDate": "2021-03-11T01:54:00",
+        "durationHours": 435.80,
+        "durationDays": 18.16,
+        "idealDays": 2.25,
+        "commencePort": {
+            "portId": "-61148391056382954",
+            "portName": "DJIBOUTI",
+            "portLocation": {
+                "longitude": 43.1333351135254,
+                "latitude": 11.6000003814697
+            }
+        },
+        "completePort": {
+            "portId": "-88029861901537746",
+            "portName": "AIN SUKHNA TERMINAL",
+            "portLocation": {
+                "longitude": 32.4000015258789,
+                "latitude": 29.533332824707
+            }
+        },
+        "commenceDate": "2021-02-20T20:06:00",
+        "completeDate": "2021-03-10T23:54:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "611660162580838450"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": "#154068",
+            "has_data": null
+        },
+        "shipOperator": "KAJ TAUSEN (KAJ)",
+        "shipOperatorEmail": "KAJ@HAFNIABW.COM",
+        "chartererName": "PINTU SHAH (PSH)",
+        "chartererEmail": "PSH@HAFNIA.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "GO",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 14777.41,
+        "estimatedEarnings": 15910.94,
+        "avgSpeed": 8.87,
+        "distance": 1508.84,
+        "consumption": 247.44,
+        "emission": 772.75,
+        "seaDays": 5.32,
+        "portDays": 12.80,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": null,
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    },
+    {
+        "imoNumber": null,
+        "voyageId": "-34905985422042820",
+        "voyageNumber": 24,
+        "voyageCode": "HAFNIA AUSTRALIA - 24",
+        "status": "Closed",
+        "voyageType": "Spot",
+        "isInternalVoyage": false,
+        "startDate": "2020-12-25T03:00:00",
+        "endDate": "2021-02-20T23:06:00",
+        "durationHours": 1393.10,
+        "durationDays": 58.05,
+        "idealDays": 0.22,
+        "commencePort": {
+            "portId": "-62473434503928335",
+            "portName": "SINGAPORE",
+            "portLocation": {
+                "longitude": 103.833335876465,
+                "latitude": 1.2666599750518799
+            }
+        },
+        "completePort": {
+            "portId": "-61148391056382954",
+            "portName": "DJIBOUTI",
+            "portLocation": {
+                "longitude": 43.1333351135254,
+                "latitude": 11.6000003814697
+            }
+        },
+        "commenceDate": "2020-12-24T19:00:00",
+        "completeDate": "2021-02-20T20:06:00",
+        "company": "Hafnia Pools Pte Ltd",
+        "distributionPool": {
+            "distributionPoolIds": [
+                "152764542786713849"
+            ],
+            "segment": "LR1",
+            "pool": "STLR -> CM",
+            "sortOrder": 43,
+            "colorCode": "#A1B3C3",
+            "has_data": null
+        },
+        "shipOperator": "KAJ TAUSEN (KAJ)",
+        "shipOperatorEmail": "KAJ@HAFNIABW.COM",
+        "chartererName": "NIELS ZACHO (NZA)",
+        "chartererEmail": "NZA@HAFNIA.COM",
+        "controllerName": "SHI HAN LIM (SHL)",
+        "controllerEmail": "SHL@HAFNIA.COM",
+        "fdManagerName": null,
+        "fdManagerEmail": null,
+        "cargoGrade": "GO,JET",
+        "cargoGroup": "CP",
+        "tcCode": "",
+        "earnings": 4053.73,
+        "estimatedEarnings": 1086.46,
+        "avgSpeed": 9.48,
+        "distance": 6764.30,
+        "consumption": 726.59,
+        "emission": 2268.25,
+        "seaDays": 21.75,
+        "portDays": 36.09,
+        "voyageStatus": "Completed",
+        "earningDistribution": null,
+        "isEstimatedDistribution": null,
+        "voyageNetTCE": null,
+        "onHireDays": null,
+        "ports": null,
+        "events": null,
+        "vesselId": "-13501195815314615",
+        "vesselName": "HAFNIA AUSTRALIA"
+    }
+]
+HTTP/1.1 401 Unauthorized
+Content-Length: 0
+Date: Tue, 05 May 2026 08:13:24 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+WWW-Authenticate: Bearer
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000

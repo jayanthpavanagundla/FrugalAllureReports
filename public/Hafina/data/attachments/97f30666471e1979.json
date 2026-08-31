@@ -1,0 +1,106 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:10 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "AMSTERDAM/SKIKDA/CHIBA",
+            "route": "MED/JAPAN",
+            "rate": "$ 3,200,000",
+            "tce": "32516.05",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "34000.61",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "LAGOS/AMSTERDAM/LAGOS",
+            "route": "UKC/WAF",
+            "rate": "WS 105.0",
+            "tce": "33848.37",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "35339.30",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/CHIBA",
+            "route": "AG/JAPAN",
+            "rate": "WS 227.5",
+            "tce": "62083.04",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "54118.56",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/AMSTERDAM",
+            "route": "AG/UKC",
+            "rate": "$ 6,500,000",
+            "tce": "74549.64",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "68762.12",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "BOTANY/YOSU/BOTANY BAY",
+            "route": "CPP SK/AUS",
+            "rate": "WS 210.0",
+            "tce": "57340.84",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "57425.59",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "SPORE/MINA AL AHMADI/SPORE",
+            "route": "AG/SING",
+            "rate": "WS 195.0",
+            "tce": "47394.14",
+            "weekNumber": 19,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "47441.91",
+            "trend": "0"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN WEST MARKET",
+        "CLEAN EAST MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:10 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "statusCode": 400,
+    "error": "invalid request: segment name is required and cannot be null or empty."
+}

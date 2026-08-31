@@ -1,0 +1,3545 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:48:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37263
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"918f-GWaIRZcHGFnA9AqyLe47HO35i0E"
+server: hide
+
+{
+    "id": "n86CzwvtT",
+    "customer": {
+        "profile": [
+            {
+                "name": "sourceDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "sourceData",
+                "value": "100% Automobile Nig.",
+                "type": "email",
+                "valid": true
+            },
+            {
+                "name": "source",
+                "value": "FRANCHISE",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerSource",
+                "value": "Franchise",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerData",
+                "value": "100% Automobile Nig.",
+                "type": "selection",
+                "valid": true
+            },
+            {
+                "name": "referrerDataId",
+                "value": "kpMngdaMZ",
+                "type": "text",
+                "valid": true
+            },
+            {
+                "name": "firstName",
+                "value": "APId506117f",
+                "type": "text",
+                "label": "First name",
+                "valid": true
+            },
+            {
+                "name": "lastName",
+                "value": "Testingb0dee054",
+                "type": "text",
+                "label": "Last name",
+                "valid": true
+            },
+            {
+                "name": "telephone",
+                "value": "2343404443156",
+                "type": "tel",
+                "label": "Phone number",
+                "valid": true
+            },
+            {
+                "name": "email",
+                "value": "APIb41142@test.com",
+                "type": "email",
+                "label": "Email address",
+                "valid": true
+            },
+            {
+                "name": "description",
+                "value": "Salary earner",
+                "type": "radio",
+                "label": "What best describes you",
+                "valid": true
+            },
+            {
+                "name": "monthlyGrossIncome",
+                "value": "217840.36",
+                "type": "amount",
+                "label": "Total Take-Home Pay (after salary deductions) (₦)",
+                "valid": true
+            },
+            {
+                "name": "sourceOfFunds",
+                "value": "Wages, bonuses, dividends, and other income from employment",
+                "label": "Source of Funds",
+                "valid": true
+            }
+        ],
+        "utmParams": [
+            
+        ],
+        "id": "3viEx_DoT",
+        "userId": "sPIytzWgxRp8mH1azo4z",
+        "country": "NG",
+        "createdAt": "Wed Mar 11 2026 05:48:41 GMT+0000 (Coordinated Universal Time)",
+        "updatedAt": "Wed Mar 11 2026 05:48:41 GMT+0000 (Coordinated Universal Time)",
+        "prequalification": {
+            
+        }
+    },
+    "product": {
+        "statuses": [
+            
+        ],
+        "id": "hj43BXLXe",
+        "name": "Decision Engine Loan",
+        "country": "NG",
+        "config": {
+            "sections": [
+                {
+                    "fields": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "First name",
+                            "name": "firstName",
+                            "type": "text",
+                            "required": true,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Last name",
+                            "name": "lastName",
+                            "type": "text",
+                            "required": true,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Phone number",
+                            "name": "telephone",
+                            "type": "tel",
+                            "required": true,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Email address",
+                            "name": "email",
+                            "type": "email",
+                            "required": true,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "Salary earner",
+                                "Business owner",
+                                "Self-Employed"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Total Take-Home Pay (after salary deductions) (₦)",
+                                            "name": "monthlyGrossIncome",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true
+                                        },
+                                        {
+                                            "options": [
+                                                "Wages, bonuses, dividends, and other income from employment",
+                                                "Pension payments",
+                                                "Interest from personal savings",
+                                                "Returns on investments",
+                                                "Money from property sales",
+                                                "Legitimately acquired funds (e.g., gambling or lottery winnings)",
+                                                "Inheritance and gifts"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Source of Funds",
+                                            "name": "sourceOfFunds",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": false
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Salary earner"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Business monthly net profit (₦)",
+                                            "name": "monthlyNetProfit",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true
+                                        },
+                                        {
+                                            "options": [
+                                                "Business income / profits",
+                                                "Savings / Investments",
+                                                "Equity funding from shareholders or similar",
+                                                "Debt funding / debt facilities",
+                                                "Money from property sales",
+                                                "Government grants / subsidies",
+                                                "Revenue from business partnerships"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Source of Funds",
+                                            "name": "sourceOfFunds",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": false
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Business owner"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Business monthly net profit (₦)",
+                                            "name": "monthlyNetProfit",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true
+                                        },
+                                        {
+                                            "options": [
+                                                "Business income / profits",
+                                                "Savings / Investments",
+                                                "Equity funding from shareholders or similar",
+                                                "Debt funding / debt facilities",
+                                                "Money from property sales",
+                                                "Government grants / subsidies",
+                                                "Revenue from business partnerships"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Source of Funds",
+                                            "name": "sourceOfFunds",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": false
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Self-Employed"
+                                }
+                            ],
+                            "label": "What best describes you",
+                            "name": "description",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true
+                        }
+                    ],
+                    "label": "Quick Info",
+                    "name": "quickInfo"
+                },
+                {
+                    "fields": [
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Date of birth",
+                            "name": "dob",
+                            "type": "date",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": false
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "National Identification Number (NIN)",
+                            "name": "nin",
+                            "type": "number",
+                            "required": true,
+                            "length": 11,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Your BVN",
+                            "name": "BVN",
+                            "type": "number",
+                            "required": true,
+                            "length": 11,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "Male",
+                                "Female"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Gender",
+                            "name": "gender",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Nationality",
+                            "name": "nationality",
+                            "type": "selection",
+                            "required": true,
+                            "url": "/v1/country?page_size=1000",
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "Citizen",
+                                "Resident",
+                                "Non Resident"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "What is your nationality status",
+                            "name": "nationalityStatus",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "State of residence",
+                            "name": "state",
+                            "type": "selection",
+                            "required": true,
+                            "url": "/v1/state?country_code=NG&page_size=50",
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Select Dealer",
+                                            "name": "sourceData",
+                                            "type": "selection",
+                                            "required": true,
+                                            "url": "/v1/franchise?current_page=1&page_size=10000&country=NG",
+                                            "visibility": true
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Source ID",
+                                            "name": "sourceDataId",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": false
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Dealer"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Select Bank",
+                                            "name": "sourceData",
+                                            "type": "selection",
+                                            "required": true,
+                                            "url": "/v1/origination/banks?country=NG&active=true",
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Bank"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Select B2B",
+                                            "name": "sourceData",
+                                            "type": "selection",
+                                            "required": true,
+                                            "url": "/v1/origination/partners?country=NG",
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "B2B"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "DSA’s Email",
+                                            "name": "sourceData",
+                                            "type": "email",
+                                            "required": true,
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "DSA"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Account Manager’s Email",
+                                            "name": "sourceData",
+                                            "type": "email",
+                                            "required": true,
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "accountManager"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Lead Manager’s Email",
+                                            "name": "sourceData",
+                                            "type": "email",
+                                            "required": true,
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "leadManager"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Staff’s Email",
+                                            "name": "sourceData",
+                                            "type": "email",
+                                            "required": true,
+                                            "visibility": true
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Staff"
+                                }
+                            ],
+                            "label": "How did you hear about us?",
+                            "name": "source",
+                            "type": "selection",
+                            "required": true,
+                            "url": "/v1/origination/sources?country=NG",
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Select Franchise",
+                            "name": "referrerData",
+                            "type": "selection",
+                            "required": true,
+                            "url": "/v1/franchise?current_page=1&page_size=10000&country=NG",
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Referrer data id",
+                            "name": "referrerDataId",
+                            "type": "selection",
+                            "required": true,
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Select DSA",
+                            "name": "dsaReferrerData",
+                            "type": "selection",
+                            "required": false,
+                            "url": "/v2/users?current_page=1&page_size=10000&role_name=DSA_AGENT&country=NG",
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Dsa Referrer data id",
+                            "name": "dsaReferrerDataId",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        }
+                    ],
+                    "label": "About Me",
+                    "name": "aboutMe"
+                },
+                {
+                    "fields": [
+                        {
+                            "options": [
+                                "Salary earner",
+                                "Business owner",
+                                "Self-Employed"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                "Agriculture",
+                                                "Architecture",
+                                                "Arts, Entertainment & Recreation",
+                                                "Consultancy - Audit",
+                                                "Consultancy - Digital Marketing",
+                                                "Consultancy - Foreign Affairs",
+                                                "Consultancy - General",
+                                                "Consultancy - HR",
+                                                "Consultancy - Oil & Gas",
+                                                "Consultancy - Sales & Business Development",
+                                                "Education",
+                                                "Employee",
+                                                "Fashion - Clothing",
+                                                "Fashion - Cosmetics & Beauty",
+                                                "Fashion - Modelling",
+                                                "Financial Service - Bank",
+                                                "Financial Service - Insurance",
+                                                "Financial Service - Digital Lender",
+                                                "Financial Service - MFB/MFI",
+                                                "Food Industry",
+                                                "General Contract and Merchandise",
+                                                "Healthcare",
+                                                "Hospitality",
+                                                "Importation and Exportation of Agro Allied Products",
+                                                "Legal Services",
+                                                "Logistics & Supply Chain - Construction",
+                                                "Logistics & Supply Chain - Logistics",
+                                                "Logistics & Supply Chain - Transportation",
+                                                "Public Service - Government",
+                                                "Public Service - Security & Defence",
+                                                "Real Estate",
+                                                "Rental & Leasing",
+                                                "Technology - IT",
+                                                "Technology - Support Services",
+                                                "Trade - Energy",
+                                                "Trade - FMCG",
+                                                "Trade - Manufacturing",
+                                                "Trade - Oil & Gas",
+                                                "Travel & Tours",
+                                                "Waste Management",
+                                                "SME - Uncategorized"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Industry",
+                                            "name": "industry",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Name of business",
+                                            "name": "businessName",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Business reg. number",
+                                            "name": "registrationNumber",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Sole proprietorship",
+                                                "Limited liability company"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                "Yes",
+                                                                "No"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Is the business registered?",
+                                                            "name": "isBusinessRegistered",
+                                                            "type": "radio",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "fullWidth": false,
+                                                            "subsection": "Business Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Sole proprietorship"
+                                                }
+                                            ],
+                                            "label": "Business type",
+                                            "name": "businessType",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "1",
+                                                "2",
+                                                "3",
+                                                "More than 3"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Number of Years in Operation",
+                                            "name": "yearsInOperation",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Yes",
+                                                "No"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Business bank",
+                                                            "name": "primaryBank",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "url": "/v1/origination/banks?country=NG",
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account holder name",
+                                                            "name": "accountHolderName",
+                                                            "type": "text",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your account number",
+                                                            "name": "accountNumber",
+                                                            "type": "number",
+                                                            "required": true,
+                                                            "length": 10,
+                                                            "minValue": 0,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                "Cheque/Current",
+                                                                "Savings"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account type",
+                                                            "name": "accountType",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Yes"
+                                                },
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your bank",
+                                                            "name": "primaryBank",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "url": "/v1/origination/banks?country=NG",
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account holder name",
+                                                            "name": "accountHolderName",
+                                                            "type": "text",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your account number",
+                                                            "name": "accountNumber",
+                                                            "type": "number",
+                                                            "required": true,
+                                                            "length": 10,
+                                                            "minValue": 0,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                "Savings",
+                                                                "Current"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account type",
+                                                            "name": "accountType",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "No"
+                                                }
+                                            ],
+                                            "label": "Do you have a business bank account?",
+                                            "name": "haveBusinessBankAccount",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": false,
+                                            "subsection": "Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Yes",
+                                                "No"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Are you a director of the business?",
+                                            "name": "isCustomerDirector",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "1",
+                                                "2",
+                                                "3",
+                                                "4",
+                                                "5",
+                                                "6",
+                                                "7",
+                                                "8",
+                                                "9",
+                                                "10"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "How many directors does your Business have ?",
+                                            "name": "noBusinessDirectors",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN",
+                                            "name": "directorBVN1",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name",
+                                            "name": "directorFirstname1",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name",
+                                            "name": "directorLastname1",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN 2",
+                                            "name": "directorBVN2",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name 2",
+                                            "name": "directorFirstname2",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name 2",
+                                            "name": "directorLastname2",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN 3",
+                                            "name": "directorBVN3",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name 3",
+                                            "name": "directorFirstname3",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name 3",
+                                            "name": "directorLastname3",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Monthly gross income (before deductions) (₦)",
+                                            "name": "monthlyGrossIncome",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Finance Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Business",
+                                                "Personal"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "What will the vehicle be used for?",
+                                            "name": "vehicleUse",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Vehicle Purpose"
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Business owner"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                "Agriculture",
+                                                "Architecture",
+                                                "Arts, Entertainment & Recreation",
+                                                "Consultancy - Audit",
+                                                "Consultancy - Digital Marketing",
+                                                "Consultancy - Foreign Affairs",
+                                                "Consultancy - General",
+                                                "Consultancy - HR",
+                                                "Consultancy - Oil & Gas",
+                                                "Consultancy - Sales & Business Development",
+                                                "Education",
+                                                "Employee",
+                                                "Fashion - Clothing",
+                                                "Fashion - Cosmetics & Beauty",
+                                                "Fashion - Modelling",
+                                                "Financial Service - Bank",
+                                                "Financial Service - Insurance",
+                                                "Financial Service - Digital Lender",
+                                                "Financial Service - MFB/MFI",
+                                                "Food Industry",
+                                                "General Contract and Merchandise",
+                                                "Healthcare",
+                                                "Hospitality",
+                                                "Importation and Exportation of Agro Allied Products",
+                                                "Legal Services",
+                                                "Logistics & Supply Chain - Construction",
+                                                "Logistics & Supply Chain - Logistics",
+                                                "Logistics & Supply Chain - Transportation",
+                                                "Public Service - Government",
+                                                "Public Service - Security & Defence",
+                                                "Real Estate",
+                                                "Rental & Leasing",
+                                                "Technology - IT",
+                                                "Technology - Support Services",
+                                                "Trade - Energy",
+                                                "Trade - FMCG",
+                                                "Trade - Manufacturing",
+                                                "Trade - Oil & Gas",
+                                                "Travel & Tours",
+                                                "Waste Management",
+                                                "SME - Uncategorized"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Industry",
+                                            "name": "industry",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Name of business",
+                                            "name": "businessName",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Business reg. number",
+                                            "name": "registrationNumber",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Sole proprietorship",
+                                                "Limited liability company"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                "Yes",
+                                                                "No"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Is the business registered?",
+                                                            "name": "isBusinessRegistered",
+                                                            "type": "radio",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "fullWidth": false,
+                                                            "subsection": "Business Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Sole proprietorship"
+                                                }
+                                            ],
+                                            "label": "Business type",
+                                            "name": "businessType",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "1",
+                                                "2",
+                                                "3",
+                                                "More than 3"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Number of Years in Operation",
+                                            "name": "yearsInOperation",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Yes",
+                                                "No"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Business bank",
+                                                            "name": "primaryBank",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "url": "/v1/origination/banks?country=NG",
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account holder name",
+                                                            "name": "accountHolderName",
+                                                            "type": "text",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your account number",
+                                                            "name": "accountNumber",
+                                                            "type": "number",
+                                                            "required": true,
+                                                            "length": 10,
+                                                            "minValue": 0,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                "Cheque/Current",
+                                                                "Savings"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account type",
+                                                            "name": "accountType",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Business Bank Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Yes"
+                                                },
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your bank",
+                                                            "name": "primaryBank",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "url": "/v1/origination/banks?country=NG",
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account holder name",
+                                                            "name": "accountHolderName",
+                                                            "type": "text",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Your account number",
+                                                            "name": "accountNumber",
+                                                            "type": "number",
+                                                            "required": true,
+                                                            "length": 10,
+                                                            "minValue": 0,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                "Savings",
+                                                                "Current"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Account type",
+                                                            "name": "accountType",
+                                                            "type": "selection",
+                                                            "required": true,
+                                                            "visibility": true,
+                                                            "subsection": "Personal Bank Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "No"
+                                                }
+                                            ],
+                                            "label": "Do you have a business bank account?",
+                                            "name": "haveBusinessBankAccount",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": false,
+                                            "subsection": "Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Yes",
+                                                "No"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Are you a director of the business?",
+                                            "name": "isCustomerDirector",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "1",
+                                                "2",
+                                                "3",
+                                                "4",
+                                                "5",
+                                                "6",
+                                                "7",
+                                                "8",
+                                                "9",
+                                                "10"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "How many directors does your Business have ?",
+                                            "name": "noBusinessDirectors",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": true,
+                                            "subsection": "Business Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN",
+                                            "name": "directorBVN1",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name",
+                                            "name": "directorFirstname1",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name",
+                                            "name": "directorLastname1",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN 2",
+                                            "name": "directorBVN2",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name 2",
+                                            "name": "directorFirstname2",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name 2",
+                                            "name": "directorLastname2",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s BVN 3",
+                                            "name": "directorBVN3",
+                                            "type": "number",
+                                            "required": false,
+                                            "length": 11,
+                                            "minValue": 0,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director's first name 3",
+                                            "name": "directorFirstname3",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Director’s last name 3",
+                                            "name": "directorLastname3",
+                                            "type": "text",
+                                            "required": false,
+                                            "visibility": false,
+                                            "subsection": "Director Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Monthly gross income (before deductions) (₦)",
+                                            "name": "monthlyGrossIncome",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Business Finance Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Business",
+                                                "Personal"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "What will the vehicle be used for?",
+                                            "name": "vehicleUse",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Vehicle Purpose"
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Self-Employed"
+                                },
+                                {
+                                    "options": [
+                                        
+                                    ],
+                                    "fields": [
+                                        {
+                                            "options": [
+                                                "Permanent",
+                                                "Contract",
+                                                "Commission",
+                                                "Pensioner",
+                                                "Unemployed"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Remaining Contract Term in Months",
+                                                            "name": "remainingContractTerm",
+                                                            "type": "number",
+                                                            "required": true,
+                                                            "helpText": "The number of months you have left on your current contract",
+                                                            "visibility": true,
+                                                            "subsection": "Employer"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Contract"
+                                                }
+                                            ],
+                                            "label": "Employment type",
+                                            "name": "employmentType",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                "Agriculture",
+                                                "Architecture",
+                                                "Arts, Entertainment & Recreation",
+                                                "Consultancy - Audit",
+                                                "Consultancy - Digital Marketing",
+                                                "Consultancy - Foreign Affairs",
+                                                "Consultancy - General",
+                                                "Consultancy - HR",
+                                                "Consultancy - Oil & Gas",
+                                                "Consultancy - Sales & Business Development",
+                                                "Education",
+                                                "Employee",
+                                                "Fashion - Clothing",
+                                                "Fashion - Cosmetics & Beauty",
+                                                "Fashion - Modelling",
+                                                "Financial Service - Bank",
+                                                "Financial Service - Insurance",
+                                                "Financial Service - Digital Lender",
+                                                "Financial Service - MFB/MFI",
+                                                "Food Industry",
+                                                "General Contract and Merchandise",
+                                                "Healthcare",
+                                                "Hospitality",
+                                                "Importation and Exportation of Agro Allied Products",
+                                                "Legal Services",
+                                                "Logistics & Supply Chain - Construction",
+                                                "Logistics & Supply Chain - Logistics",
+                                                "Logistics & Supply Chain - Transportation",
+                                                "Public Service - Government",
+                                                "Public Service - Security & Defence",
+                                                "Real Estate",
+                                                "Rental & Leasing",
+                                                "Technology - IT",
+                                                "Technology - Support Services",
+                                                "Trade - Energy",
+                                                "Trade - FMCG",
+                                                "Trade - Manufacturing",
+                                                "Trade - Oil & Gas",
+                                                "Travel & Tours",
+                                                "Waste Management",
+                                                "SME - Uncategorized"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Industry",
+                                            "name": "industry",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Name of employer",
+                                            "name": "employerName",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Employer address",
+                                            "name": "employerAddress",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Year(s) with employer",
+                                            "name": "yearWithEmployer",
+                                            "type": "number",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                "Yes",
+                                                "No"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                {
+                                                    "options": [
+                                                        
+                                                    ],
+                                                    "fields": [
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Name of business",
+                                                            "name": "sideBusinessName",
+                                                            "type": "text",
+                                                            "required": false,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Business reg. number",
+                                                            "name": "sideBusinessRegistrationNumber",
+                                                            "type": "text",
+                                                            "required": false,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                "Sole proprietorship",
+                                                                "Limited liability company"
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                {
+                                                                    "options": [
+                                                                        
+                                                                    ],
+                                                                    "fields": [
+                                                                        {
+                                                                            "options": [
+                                                                                "Yes",
+                                                                                "No"
+                                                                            ],
+                                                                            "fields": [
+                                                                                
+                                                                            ],
+                                                                            "actions": [
+                                                                                
+                                                                            ],
+                                                                            "when": [
+                                                                                
+                                                                            ],
+                                                                            "label": "Is the business registered?",
+                                                                            "name": "isBusinessRegistered",
+                                                                            "type": "radio",
+                                                                            "required": true,
+                                                                            "visibility": true,
+                                                                            "fullWidth": false,
+                                                                            "subsection": "Business Details"
+                                                                        }
+                                                                    ],
+                                                                    "actions": [
+                                                                        
+                                                                    ],
+                                                                    "when": [
+                                                                        
+                                                                    ],
+                                                                    "value": "Sole proprietorship"
+                                                                }
+                                                            ],
+                                                            "label": "Business type",
+                                                            "name": "sideBusinessType",
+                                                            "type": "selection",
+                                                            "required": false,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Director’s BVN",
+                                                            "name": "sideBusinessDirectorBVN",
+                                                            "type": "number",
+                                                            "required": false,
+                                                            "length": 11,
+                                                            "minValue": 0,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Director's first name",
+                                                            "name": "sideBusinessDirectorFirstname",
+                                                            "type": "text",
+                                                            "required": false,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        },
+                                                        {
+                                                            "options": [
+                                                                
+                                                            ],
+                                                            "fields": [
+                                                                
+                                                            ],
+                                                            "actions": [
+                                                                
+                                                            ],
+                                                            "when": [
+                                                                
+                                                            ],
+                                                            "label": "Director’s last name",
+                                                            "name": "sideBusinessDirectorLastname",
+                                                            "type": "text",
+                                                            "required": false,
+                                                            "visibility": true,
+                                                            "subsection": "Business Details"
+                                                        }
+                                                    ],
+                                                    "actions": [
+                                                        
+                                                    ],
+                                                    "when": [
+                                                        
+                                                    ],
+                                                    "value": "Yes"
+                                                }
+                                            ],
+                                            "label": "Do you have a side business?",
+                                            "name": "sideBusiness",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "fullWidth": true,
+                                            "subsection": "Employer"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Your bank",
+                                            "name": "primaryBank",
+                                            "type": "selection",
+                                            "required": true,
+                                            "url": "/v1/origination/banks?country=NG",
+                                            "visibility": true,
+                                            "subsection": "Personal Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Account holder name",
+                                            "name": "accountHolderName",
+                                            "type": "text",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Personal Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Your account number",
+                                            "name": "accountNumber",
+                                            "type": "number",
+                                            "required": true,
+                                            "length": 10,
+                                            "minValue": 0,
+                                            "visibility": true,
+                                            "subsection": "Personal Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                "Savings",
+                                                "Current"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Account type",
+                                            "name": "accountType",
+                                            "type": "selection",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Personal Bank Details"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Total monthly expenses (₦)",
+                                            "name": "monthlyExpenses",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Expenses"
+                                        },
+                                        {
+                                            "options": [
+                                                
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "Total Take-Home Pay (after deductions) (₦)",
+                                            "name": "monthlyGrossIncome2",
+                                            "type": "amount",
+                                            "required": true,
+                                            "visibility": true
+                                        },
+                                        {
+                                            "options": [
+                                                "Business",
+                                                "Personal"
+                                            ],
+                                            "fields": [
+                                                
+                                            ],
+                                            "actions": [
+                                                
+                                            ],
+                                            "when": [
+                                                
+                                            ],
+                                            "label": "What will the vehicle be used for?",
+                                            "name": "vehicleUse",
+                                            "type": "radio",
+                                            "required": true,
+                                            "visibility": true,
+                                            "subsection": "Vehicle Purpose"
+                                        }
+                                    ],
+                                    "actions": [
+                                        
+                                    ],
+                                    "when": [
+                                        
+                                    ],
+                                    "value": "Salary earner"
+                                }
+                            ],
+                            "label": "What best describes you",
+                            "name": "description",
+                            "type": "radio",
+                            "required": false,
+                            "visibility": true,
+                            "fullWidth": true,
+                            "id": "myProfession_description"
+                        }
+                    ],
+                    "label": "My Profession",
+                    "name": "myProfession"
+                }
+            ],
+            "requestedDocuments": [
+                "Work ID",
+                "Government Issued ID",
+                "Utility Bill",
+                "3 Latest Payslips",
+                "6 Months Bank Statement (of current year)"
+            ],
+            "documents": [
+                {
+                    "fields": [
+                        
+                    ]
+                },
+                {
+                    "fields": [
+                        
+                    ]
+                },
+                {
+                    "fields": [
+                        
+                    ]
+                }
+            ],
+            "loanFields": [
+                {
+                    "fields": [
+                        {
+                            "options": [
+                                "0%",
+                                "1%",
+                                "2%",
+                                "3%",
+                                "4%",
+                                "5%",
+                                "6%",
+                                "7%",
+                                "8%",
+                                "9%",
+                                "10%",
+                                "11%",
+                                "12%",
+                                "13%"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Total Discount (%)",
+                            "name": "vehicleDiscount",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        },
+                        {
+                            "options": [
+                                "0%",
+                                "1%",
+                                "2%",
+                                "3%",
+                                "4%",
+                                "5%",
+                                "6%",
+                                "7%",
+                                "8%",
+                                "9%",
+                                "10%",
+                                "11%",
+                                "12%",
+                                "13%"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Discount % Applied to the Deal (the discount that will be used to reduce the client rate)",
+                            "name": "dealDiscount",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true,
+                            "channel": "dealerplus"
+                        },
+                        {
+                            "options": [
+                                "USD",
+                                "NGN"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Loan Currency",
+                            "name": "desiredLoanCurrency",
+                            "type": "selection",
+                            "required": true,
+                            "visibility": true,
+                            "defaultValue": "NGN"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Equity Contribution (₦)",
+                            "name": "equityContribution",
+                            "type": "amount",
+                            "required": false,
+                            "minValue": 0,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Monthly Payment (₦)",
+                            "name": "monthlyPayment",
+                            "type": "amount",
+                            "required": false,
+                            "minValue": 0,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "Floating/Variable",
+                                "Fixed Rate"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Interest Rate Type",
+                            "name": "interestRateType",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "Floating/Variable"
+                        },
+                        {
+                            "options": [
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24",
+                                "25",
+                                "26",
+                                "27",
+                                "28",
+                                "29",
+                                "30",
+                                "31",
+                                "32",
+                                "33",
+                                "34",
+                                "35",
+                                "36",
+                                "37",
+                                "38",
+                                "39",
+                                "40",
+                                "41",
+                                "42",
+                                "43",
+                                "44",
+                                "45",
+                                "46",
+                                "47",
+                                "48"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Interest Rate (%)",
+                            "name": "interestRate",
+                            "type": "selection",
+                            "required": false,
+                            "minValue": 22,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "0%",
+                                "10%",
+                                "20%",
+                                "30%",
+                                "40%"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Residual/Balloon Percentage (%)",
+                            "name": "residualPercentage",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "0%"
+                        },
+                        {
+                            "options": [
+                                "6 months",
+                                "12 months",
+                                "24 months",
+                                "36 months",
+                                "48 months",
+                                "60 months"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Loan Term",
+                            "name": "term",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24",
+                                "25",
+                                "26",
+                                "27",
+                                "28",
+                                "29",
+                                "30",
+                                "Last day of month"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Desired Repayment Date",
+                            "name": "desiredRepaymentDate",
+                            "type": "selection",
+                            "required": false,
+                            "visibility": true
+                        },
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Do you want to subscribe to roadworthiness for the full term of the loan?",
+                            "name": "includeRoadworthinessFees",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "defaultValue": "Yes",
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Do you want to subscribe to licence renewal for the full term of the loan?",
+                            "name": "includeLicenceRenewalFees",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "defaultValue": "Yes",
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Do you want to exclude Tint Permit as part of the loan?",
+                            "name": "excludeTintPermit",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "defaultValue": "Yes",
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                "Upfront",
+                                "Monthly"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Do you want to pay for your fees upfront or monthly as part of your installment?",
+                            "name": "feePaymentMethod",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "defaultValue": "Upfront",
+                            "fullWidth": true
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Vehicle Registration",
+                            "name": "upfrontVehicleRegistration",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Insurance (First 12 months)",
+                            "name": "upfrontInsurance",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Vehicle Tracking",
+                            "name": "upfrontVehicleTracking",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Maintenance Plan",
+                            "name": "upfrontMaintenancePlan",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Credit Life Insurance",
+                            "name": "upfrontCreditLifeInsurance",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Warranty",
+                            "name": "upfrontWarranty",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Tyres",
+                            "name": "upfrontTyres",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        },
+                        {
+                            "options": [
+                                
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Roadside Assistance",
+                            "name": "upfrontRoadsideAssistance",
+                            "type": "checkbox",
+                            "required": false,
+                            "visibility": true,
+                            "defaultValue": "false",
+                            "subsection": "Do you want to pay for any of the following items upfront instead of financing it as part of the loan?"
+                        }
+                    ],
+                    "label": "My Loan Preferences",
+                    "name": "loanPreferences"
+                },
+                {
+                    "fields": [
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "I hereby consent that Autochek is allowed to make enquiries and access my credit information regarding my credit history with any credit bureau. I also consent to Autochek sharing my credit information with their banking partners as required by law in order to finalise or fulfil my loan agreement as part of this application. \nI consent that Autochek reports the conclusion of any credit agreement with me to the relevant credit reporting regulator. I hereby declare that the information provided by me is true and correct.",
+                            "name": "creditCheckConsent",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true,
+                            "shouldBe": "Yes"
+                        },
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "Finance is subject to an approval based on your credit profile and affordability of the vehicle. The submission of this finance application will not result in the immediate reservation of this vehicle, nor will it guarantee the availability of this vehicle in the future.",
+                            "name": "financeAndVehicleConsent",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true,
+                            "shouldBe": "Yes"
+                        },
+                        {
+                            "options": [
+                                "Yes",
+                                "No"
+                            ],
+                            "fields": [
+                                
+                            ],
+                            "actions": [
+                                
+                            ],
+                            "when": [
+                                
+                            ],
+                            "label": "I agree to the: \n (a) terms and Conditions of the platform (https://autochek.africa/ng/terms-of-service) and the \n (b) privacy policy of the platform (https://autochek.africa/ng/privacy-policy)",
+                            "name": "platformPolicy",
+                            "type": "radio",
+                            "required": true,
+                            "visibility": true,
+                            "fullWidth": true,
+                            "shouldBe": "Yes"
+                        }
+                    ],
+                    "label": "Consent & Terms and Conditions",
+                    "name": "termsAndConditions"
+                }
+            ],
+            "carFields": [
+                
+            ],
+            "preference": [
+                
+            ],
+            "collateral": [
+                
+            ],
+            "termsAndConditions": [
+                
+            ],
+            "vehicle": [
+                
+            ],
+            "offer": [
+                
+            ]
+        },
+        "active": true
+    },
+    "productStatus": {
+        "id": 2152,
+        "name": "APPLICATION_NOT_COMPLETED"
+    },
+    "carId": "0zV7bPoNG",
+    "country": "NG",
+    "createdBy": "BQlQBbLTW",
+    "receiveNotification": true,
+    "isDsa": false,
+    "isFranchise": true,
+    "createdAt": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Wed Mar 11 2026 05:48:43 GMT+0000 (Coordinated Universal Time)",
+    "source": "FRANCHISE",
+    "sourceData": "100% Automobile Nig.",
+    "loanValue": 9665921,
+    "version": 3,
+    "customerType": "SALARY EARNER"
+}

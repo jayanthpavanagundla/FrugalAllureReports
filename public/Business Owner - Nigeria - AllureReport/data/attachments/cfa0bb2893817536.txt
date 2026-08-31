@@ -1,0 +1,57 @@
+{
+    "reviews": [
+        {
+            "question": "Is the customs paid up to 50% of the assessed duty or above",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?",
+            "value": "Yes"
+        },
+        {
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage",
+            "value": "Yes"
+        },
+        {
+            "question": "Is Autochek financing the top-up",
+            "value": "No"
+        },
+        {
+            "question": "Is the Dealer providing the collateral",
+            "value": "Yes"
+        },
+        {
+            "question": "Required Duty Amount",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Paid",
+            "value": "1000.00"
+        },
+        {
+            "question": "Duty Shortfall",
+            "value": "0.00"
+        },
+        {
+            "question": "Customs Document Comment",
+            "value": "Testing E2E "
+        }
+    ],
+    "id": "sss61REj4",
+    "carId": "1Vn-CWhjL",
+    "name": "customs-document",
+    "fileUrl": "https://storage.googleapis.com/autochek-staging/b4b596ac-cd34-4193-b89f-e4f996cebc85-test.pdf",
+    "password": "Autochek@123",
+    "description": "",
+    "approvalStatus": "Valid",
+    "cNumber": "987654987656789",
+    "portOfEntry": "GSHHSBSH6213871682DFG",
+    "approvedBy": "Suhail Ahmed",
+    "createdBy": "BQlQBbLTW",
+    "createdAt": "Thu Mar 26 2026 10:59:42 GMT+0000 (Coordinated Universal Time)",
+    "updatedAt": "Thu Mar 26 2026 10:59:51 GMT+0000 (Coordinated Universal Time)",
+    "country": "NG",
+    "dateOfEntry": "2026-03-26",
+    "loanId": "ZzGDSfYz1",
+    "app": "dealerplus"
+}

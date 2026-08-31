@@ -1,0 +1,13 @@
+{
+  "country" : "NG",
+  "recipientType" : "DEALER",
+  "supplierId" : "[002419]",
+  "requestType" : "FULL_PAYMENT",
+  "dealId" : "017788:021285",
+  "purchaseOrderUrl" : null,
+  "creatorId" : "MTWTPQxpuzUfg3Vz59oa",
+  "comment" : "E2E Testing",
+  "deductions" : "",
+  "loanId" : "OR4S4vvo-",
+  "carValue" : "5000000"
+}

@@ -1,0 +1,13 @@
+Request method:	GET
+Request URI:	https://app-universe-api-tst.azurewebsites.net/api/v2/Filter/eventtypes?isBunkeringEventIncluded=true
+Proxy:			<none>
+Request params:	<none>
+Query params:	isBunkeringEventIncluded=true
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

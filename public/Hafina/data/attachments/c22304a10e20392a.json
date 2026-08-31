@@ -1,0 +1,433 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:10:28 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "participants": [
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "205147364701557593",
+            "participantName": "AET TANKERS"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "234980657055561835",
+            "participantName": "ASIATIC LLOYD MARITIME LLP"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-82871562893468972",
+            "participantName": "CHARTWORLD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "619994181971942265",
+            "participantName": "CIDO SHIPPING"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-84612909263661099",
+            "participantName": "COMPAÑÍA MARÍTIMA CHILENA S.A."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-16026103476282541",
+            "participantName": "DONNELLY TANKERS"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "190083253679094668",
+            "participantName": "EMINENCE SHIPPING LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-16205124666787710",
+            "participantName": "FEDERATED MARITIME LLC"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-19296786915451724",
+            "participantName": "FORMICA NAVIGATION LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "192166407352442469",
+            "participantName": "GRACE SHIP MANAGEMENT"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-15727671286101414",
+            "participantName": "HADLEY SHIPPING GROUP LIMITED"
+        },
+        {
+            "currentParticipant": true,
+            "isSelected": true,
+            "participantId": "-47311463948867559",
+            "participantName": "HAFNIA"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "690695021440247910",
+            "participantName": "JLMR"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-43723819723267440",
+            "participantName": "LARINE TANKERS PTE. LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-57015203093975296",
+            "participantName": "M PALLONJI SHIPPING SINGAPORE PTE LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "566271052257221493",
+            "participantName": "MERCURIA SHIPPING SARL"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-86085906337199672",
+            "participantName": "NURA INTERNATIONAL SHIPPING PTE LTD"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-79495581728427147",
+            "participantName": "OXYGEN MARITIME INC."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "701037085353615277",
+            "participantName": "PAN OCEAN"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "266277703104769572",
+            "participantName": "SCHOELLER HOLDINGS LTD."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-68775995186595789",
+            "participantName": "SHINTOKU KAIUN CO., LTD."
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-15166724405673359",
+            "participantName": "THE GREAT EASTERN SHIPPING COMPANY LIMITED"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-49805312755136075",
+            "participantName": "TRADEWIND TANKERS"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "273577988461715511",
+            "participantName": "TRANSOCEAN SHIPPING"
+        },
+        {
+            "currentParticipant": false,
+            "isSelected": true,
+            "participantId": "-73481902580422679",
+            "participantName": "VALLOEBY"
+        }
+    ],
+    "distributionPools": [
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-18668847917802287"
+            ],
+            "segment": "LR2",
+            "pool": "TC",
+            "sortOrder": 48,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "203531346728192032",
+                "686281037384653924",
+                "-12065347305919812",
+                "701743618326250600",
+                "560846101457899941"
+            ],
+            "segment": "LR2",
+            "pool": "A-POOL",
+            "sortOrder": 45,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "152764542786713849",
+                "-27738876588125401",
+                "-18739966710047681"
+            ],
+            "segment": "LR1",
+            "pool": "CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-19655121025421168"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> CM",
+            "sortOrder": 43,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "764635203481262641",
+                "752719185050851064",
+                "611660162580838450",
+                "-34534476148919557",
+                "627517044250464163",
+                "-79523950719146887",
+                "-72139711811924499",
+                "-58878424063648899",
+                "-26973637614063540",
+                "-78479195572620410"
+            ],
+            "segment": "LR1",
+            "pool": "A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-23985571871460933"
+            ],
+            "segment": "LR1",
+            "pool": "HAPA -> A-POOL",
+            "sortOrder": 41,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "859862815914074624",
+                "190309850048015550"
+            ],
+            "segment": "CCMR",
+            "pool": "CM",
+            "sortOrder": 39,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "555092955589526033",
+                "-83448792471551526",
+                "-83976030507777133"
+            ],
+            "segment": "CCMR",
+            "pool": "A-POOL",
+            "sortOrder": 37,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "655419518634547199",
+                "686487820799308370",
+                "-50818955871511383"
+            ],
+            "segment": "MR",
+            "pool": "CM",
+            "sortOrder": 35,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "601318902066733393",
+                "666089229535863830",
+                "-46016736233742194",
+                "612098905453271305",
+                "518098001397033383",
+                "-74813931600378344",
+                "749034340079593356",
+                "813542616302792881"
+            ],
+            "segment": "MR",
+            "pool": "A-POOL",
+            "sortOrder": 33,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "809480004192634983",
+                "653686787701568780"
+            ],
+            "segment": "CCHA",
+            "pool": "CM",
+            "sortOrder": 31,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-44111786755562942",
+                "493109983061697046",
+                "313377279304486080",
+                "715581210007034870",
+                "723182079742905760"
+            ],
+            "segment": "CCHA",
+            "pool": "A-POOL",
+            "sortOrder": 29,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "-77161446373509158"
+            ],
+            "segment": "HANDY",
+            "pool": "CM",
+            "sortOrder": 27,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": true,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "738755405439462287",
+                "-77817149514474402",
+                "112671119057473817",
+                "-14937330710324107",
+                "-62108511188487257"
+            ],
+            "segment": "HANDY",
+            "pool": "A-POOL",
+            "sortOrder": 25,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": false,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "396660413991446478",
+                "666274403957002907",
+                "661877391291836527",
+                "-79941386569364996"
+            ],
+            "segment": "SPEZ",
+            "pool": "A-POOL",
+            "sortOrder": 13,
+            "colorCode": null,
+            "has_data": null
+        },
+        {
+            "mySegmentPool": false,
+            "isSelected": true,
+            "isDisabled": false,
+            "distributionPoolIds": [
+                "459429812726234748",
+                "593827789125652670",
+                "-21683679789529324",
+                "680955058086644949"
+            ],
+            "segment": "SPEZ",
+            "pool": "CM",
+            "sortOrder": 11,
+            "colorCode": null,
+            "has_data": null
+        }
+    ],
+    "eventTypes": [
+        "Bunkering",
+        "Docking",
+        "InWaterHullAndPropellerCleaning",
+        "InWaterHullCleaning",
+        "InWaterPropellerCleaning",
+        "NewBuilding",
+        "No Event",
+        "UnderwaterInspection"
+    ],
+    "status": [
+        "Completed",
+        "Closed",
+        "Commenced",
+        "Scheduled"
+    ]
+}

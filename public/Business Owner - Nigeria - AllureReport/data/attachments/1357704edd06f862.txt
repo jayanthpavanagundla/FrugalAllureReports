@@ -1,0 +1,14 @@
+{
+  "country" : "NG",
+  "note" : "E2E Testing",
+  "year" : "2015",
+  "franchise_id" : "kpMngdaMZ",
+  "city" : "Aba South",
+  "vin" : "EUP1KCGRRSQTWMYX0",
+  "model_id" : "A5",
+  "state" : "Niger",
+  "inspection_type" : "warranty",
+  "car_id" : "z5VnE-qw7",
+  "assignee_id" : "BQlQBbLTW",
+  "loan_id" : "OR4S4vvo-"
+}

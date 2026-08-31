@@ -1,0 +1,233 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:28:38 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "vesselId": "295136653983930729",
+    "poolPoints": [
+        
+    ],
+    "earnings": [
+        
+    ],
+    "performance": [
+        {
+            "period": {
+                "monthNumber": 7,
+                "month": "July     ",
+                "year": 2021
+            },
+            "potentialFuelSavings": null,
+            "potentialFuelSavingPer24Hr": null,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 1657.23,
+            "usdExcessConsumption": null,
+            "usdExcessConsumptionAtVLSFO": null,
+            "avgBunkerPrice": 531.63,
+            "avgVLSFOBunkerPrice": null
+        },
+        {
+            "period": {
+                "monthNumber": 8,
+                "month": "August   ",
+                "year": 2021
+            },
+            "potentialFuelSavings": null,
+            "potentialFuelSavingPer24Hr": null,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 1882.64,
+            "usdExcessConsumption": null,
+            "usdExcessConsumptionAtVLSFO": null,
+            "avgBunkerPrice": 535.39,
+            "avgVLSFOBunkerPrice": 495
+        },
+        {
+            "period": {
+                "monthNumber": 9,
+                "month": "September",
+                "year": 2021
+            },
+            "potentialFuelSavings": null,
+            "potentialFuelSavingPer24Hr": null,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 1295.72,
+            "usdExcessConsumption": null,
+            "usdExcessConsumptionAtVLSFO": null,
+            "avgBunkerPrice": 524.71,
+            "avgVLSFOBunkerPrice": null
+        },
+        {
+            "period": {
+                "monthNumber": 10,
+                "month": "October  ",
+                "year": 2021
+            },
+            "potentialFuelSavings": null,
+            "potentialFuelSavingPer24Hr": null,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 2302.56,
+            "usdExcessConsumption": null,
+            "usdExcessConsumptionAtVLSFO": null,
+            "avgBunkerPrice": 557.86,
+            "avgVLSFOBunkerPrice": 620
+        },
+        {
+            "period": {
+                "monthNumber": 11,
+                "month": "November ",
+                "year": 2021
+            },
+            "potentialFuelSavings": 20.77,
+            "potentialFuelSavingPer24Hr": 0.56,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 3144.65,
+            "usdExcessConsumption": 12448.39,
+            "usdExcessConsumptionAtVLSFO": 12005.06,
+            "avgBunkerPrice": 599.34,
+            "avgVLSFOBunkerPrice": 578
+        },
+        {
+            "period": {
+                "monthNumber": 12,
+                "month": "December ",
+                "year": 2021
+            },
+            "potentialFuelSavings": 18.41,
+            "potentialFuelSavingPer24Hr": 0.43,
+            "potentialFuelSavingsPerSellingDays": null,
+            "co2Emission": 2301.20,
+            "usdExcessConsumption": 10967.48,
+            "usdExcessConsumptionAtVLSFO": 9352.28,
+            "avgBunkerPrice": 595.73,
+            "avgVLSFOBunkerPrice": 508
+        }
+    ],
+    "speedPercentage": [
+        {
+            "speedPercentage": 98,
+            "bucket": 1,
+            "monthNumber": 7,
+            "month": "July     ",
+            "year": 2021
+        },
+        {
+            "speedPercentage": 100,
+            "bucket": 1,
+            "monthNumber": 8,
+            "month": "August   ",
+            "year": 2021
+        },
+        {
+            "speedPercentage": 99,
+            "bucket": 1,
+            "monthNumber": 9,
+            "month": "September",
+            "year": 2021
+        },
+        {
+            "speedPercentage": 99,
+            "bucket": 1,
+            "monthNumber": 10,
+            "month": "October  ",
+            "year": 2021
+        },
+        {
+            "speedPercentage": 98,
+            "bucket": 1,
+            "monthNumber": 11,
+            "month": "November ",
+            "year": 2021
+        },
+        {
+            "speedPercentage": 97,
+            "bucket": 2,
+            "monthNumber": 12,
+            "month": "December ",
+            "year": 2021
+        }
+    ],
+    "earningsDistribution": [
+        
+    ],
+    "latestEarningDistributionPeriod": null,
+    "latestEarningDistribution": null,
+    "isLatestDistributionEstimated": false,
+    "latestOnHireDays": null,
+    "poolPointColor": null,
+    "earningColor": null,
+    "usdExcessConsumptionColor": "#00876C",
+    "co2EmissionColor": "#EE944F",
+    "potentialFuelSavingColor": "#00876C",
+    "speedPercentageColor": "#97c355",
+    "avgBunkerPriceColor": "#DE334A",
+    "latestPoolPoint": null,
+    "latestPoolPointPeriod": null,
+    "latestEarning": null,
+    "latestEarningPeriod": null,
+    "latestUsdExcessConsumption": 10967.48,
+    "latestUsdExcessConsumptionPeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestUsdExcessConsumptionVLSFO": 9352.28,
+    "latestUsdExcessConsumptionVLSFOPeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestCo2Emission": 2301.20,
+    "latestCo2EmissionPeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestPotentialFuelSaving": 18.41,
+    "latestPotentialFuelSavingPeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestSpeedPercentage": 97,
+    "latestSpeedPercentagePeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestAvgBunkerPrice": 595.73,
+    "latestAvgBunkerPricePeriod": {
+        "monthNumber": 12,
+        "month": "December ",
+        "year": 2021
+    },
+    "latestPoolPointColor": null,
+    "latestEarningColor": null,
+    "latestUsdExcessConsumptionColor": "#00876C",
+    "latestCo2EmissionColor": "#EE944F",
+    "latestPotentialFuelSavingColor": "#00876C",
+    "latestSpeedPercentageColor": "#97c355",
+    "latestAvgBunkerPriceColor": "#DE334A",
+    "averagePoolPoint": null,
+    "averageEarning": null,
+    "averageUsdExcessConsumption": 11707.94,
+    "averageUsdExcessConsumptionAtVLSFO": 10678.67,
+    "averageCo2Emission": 2097.33,
+    "averagePotentialFuelSaving": 19.59,
+    "averageSpeedPercentage": 98.5,
+    "averageBunkerPrice": 557.44,
+    "poolPointComparedToPreviousMonth": 0,
+    "earningComparedToPreviousMonth": 0,
+    "usdExcessConsumptionComparedToPreviousMonth": -11.9,
+    "co2EmissionComparedToPreviousMonth": -26.8,
+    "potentialFuelSavingComparedToPreviousMonth": -11.4,
+    "speedPercentageComparedToPreviousMonth": -1.0,
+    "bunkerPriceComparedToPreviousMonth": -0.6,
+    "averagePotentialFuelSavingsPerSellingDays": null
+}

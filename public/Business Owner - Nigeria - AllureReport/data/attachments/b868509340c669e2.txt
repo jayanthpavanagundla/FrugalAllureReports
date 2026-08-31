@@ -1,0 +1,5 @@
+{
+    "message": "Invalid user ID format. User ID must be a non-empty string.",
+    "error": "Bad Request",
+    "statusCode": 400
+}

@@ -1,0 +1,1127 @@
+HTTP/1.1 200 OK
+Date: Wed, 11 Mar 2026 05:58:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 25149
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"623d-tUtSCRoWd/EY9iQMjUH3vQnn24I"
+server: hide
+
+{
+    "result": [
+        {
+            "id": "37707e6a-07af-4b5f-8c26-cb48a951b9f7",
+            "carId": "flv1kksa8",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/37707e6a-07af-4b5f-8c26-cb48a951b9f7.pdf",
+            "status": "completed",
+            "createdAt": "Mon Mar 09 2026 12:57:19 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Mon Mar 09 2026 12:57:28 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "flv1kksa8",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "SGSMGLG2RS17FLOJ0",
+                "price": 10000000,
+                "createdBy": "BQlQBbLTW",
+                "marketplacePrice": 10000000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/w_322,q_100/cV9rlV0t.webp",
+                "ownerId": "oeec-Q1T2",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 87,
+                    "name": "A5",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 9,
+                        "name": "Audi",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/audi.png"
+                    },
+                    "popular": false
+                },
+                "country": "NG",
+                "carManagerId": "f6RPb_pKP",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 7,
+                    "name": "Coupe",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Coupe.svg"
+                },
+                "marketplaceOldPrice": 10000000,
+                "createdAt": "Mon Feb 23 2026 12:40:36 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Tue Mar 10 2026 05:42:14 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "red",
+                "engineType": "2-cylinder(I2)",
+                "gradeScore": 4,
+                "installment": 433039,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 7207455,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/a5/audi/flv1kksa8",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 4000,
+                "moderated": true,
+                "moderationStatus": "pending",
+                "listingScore": "2.8",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/37707e6a-07af-4b5f-8c26-cb48a951b9f7.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "IRbnDl1q_"
+        },
+        {
+            "id": "e43b593a-dc90-4408-8e08-31a7893e7ca4",
+            "carId": "40jU2Koh8",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/e43b593a-dc90-4408-8e08-31a7893e7ca4.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 06 2026 09:49:46 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 06 2026 09:50:26 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "40jU2Koh8",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO16161616",
+                "licensePlate": "dada153",
+                "engineNumber": "4553626WTWU",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:42:10 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/ygM9okbi.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 16:01:19 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 06 2026 09:49:52 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-40jU2Koh8",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/e43b593a-dc90-4408-8e08-31a7893e7ca4.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "ei9fR3AVj"
+        },
+        {
+            "id": "d3ef1127-6c43-4138-8b29-123ab58995ef",
+            "carId": "QtfiUYOGp",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/d3ef1127-6c43-4138-8b29-123ab58995ef.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 06 2026 09:49:41 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 06 2026 09:49:59 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "QtfiUYOGp",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO1633",
+                "licensePlate": "TESKA236",
+                "engineNumber": "TESJ346626",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:37:30 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/MbR3HHDg.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 15:48:00 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 06 2026 09:49:49 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-QtfiUYOGp",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/d3ef1127-6c43-4138-8b29-123ab58995ef.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "oWuvaF36o"
+        },
+        {
+            "id": "ef253ba0-6d7e-4d59-8dd4-07d195295daa",
+            "carId": "QtfiUYOGp",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/ef253ba0-6d7e-4d59-8dd4-07d195295daa.pdf",
+            "status": "completed",
+            "createdAt": "Fri Mar 06 2026 09:38:49 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Fri Mar 06 2026 09:39:31 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "QtfiUYOGp",
+                "year": 2019,
+                "insured": false,
+                "mileage": 95800,
+                "vin": "AURISTOYO1633",
+                "licensePlate": "TESKA236",
+                "engineNumber": "TESJ346626",
+                "price": 15000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 15000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Fri Mar 06 2026 09:37:30 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/MbR3HHDg.webp",
+                "ownerId": "s-tofWtKX",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 1881,
+                    "name": "Auris",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 106,
+                        "name": "Toyota",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/marketplace/toyota.png"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ibeju-Lekki,Lagos",
+                "carManagerId": "efjxO60iO",
+                "ownerType": "individual",
+                "transmission": "manual",
+                "fuelType": "petrol",
+                "sellingCondition": "local",
+                "bodyType": {
+                    "id": 5,
+                    "name": "Hatchback",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Hatch-back.svg"
+                },
+                "city": "Ibeju-Lekki",
+                "marketplaceOldPrice": 15015000,
+                "createdAt": "Thu Nov 20 2025 15:48:00 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Mar 06 2026 09:49:49 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "blue",
+                "exteriorColor": "off-white",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 3.5,
+                "installment": 737755,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 12411443,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/auris-toyota-ref-QtfiUYOGp",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 45,
+                "moderated": false,
+                "tyreSpecs": "{\"tyres\":[{\"id\":\"tyre_f47OdP642q\",\"brand\":\"Boto\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_KsMNImWc2M\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_f47OdP642q\",\"price\":\"80000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:47.804Z\",\"updatedAt\":\"2025-07-29T07:30:33.919Z\"}],\"price\":80000},{\"id\":\"tyre_6a0nDl8ccx\",\"brand\":\"Michelin\",\"code\":\"215/60R16\",\"description\":\"215/60R16\",\"prices\":[{\"id\":\"tprice_pD3mNH0jbK\",\"vendorId\":\"PY8C-Mpx_\",\"tyreId\":\"tyre_6a0nDl8ccx\",\"price\":\"210000.00\",\"country\":\"NG\",\"city\":null,\"createdAt\":\"2025-07-29T07:29:58.095Z\",\"updatedAt\":\"2025-07-29T07:32:16.611Z\"}],\"price\":80000}],\"price\":80000,\"addOns\":[{\"name\":\"wheelAlignment\",\"price\":12000}]}",
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/ef253ba0-6d7e-4d59-8dd4-07d195295daa.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "oWuvaF36o"
+        },
+        {
+            "id": "0bcc2edb-e6b0-4a19-9637-aa78f82ab782",
+            "carId": "gQpB_IMQW",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/0bcc2edb-e6b0-4a19-9637-aa78f82ab782.pdf",
+            "status": "completed",
+            "createdAt": "Wed Jan 07 2026 12:42:35 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Jan 07 2026 12:42:45 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "gQpB_IMQW",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "VINE77Q663993",
+                "price": 3200000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 3200000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/4dPPsxWp.webp",
+                "ownerId": "kZezbPtAv",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 13,
+                    "name": "NSX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ifako-Ijaiye,Lagos",
+                "carManagerId": "qv6TB4LX_",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Ifako-Ijaiye",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Wed Jan 07 2026 12:39:49 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Jan 23 2026 11:39:55 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "blue",
+                "engineType": "3-cylinder(I3)",
+                "gradeScore": 4.5,
+                "installment": 210278,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3028018,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/nsx/acura/gQpB_IMQW",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2200,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/0bcc2edb-e6b0-4a19-9637-aa78f82ab782.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "6RuI1yM77"
+        },
+        {
+            "id": "18c1e03b-66b7-4a1f-99a0-244f11b32b80",
+            "carId": "gQpB_IMQW",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/18c1e03b-66b7-4a1f-99a0-244f11b32b80.pdf",
+            "status": "completed",
+            "createdAt": "Wed Jan 07 2026 12:42:04 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Jan 07 2026 12:42:30 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "gQpB_IMQW",
+                "year": 2020,
+                "insured": false,
+                "mileage": 23000,
+                "vin": "VINE77Q663993",
+                "price": 3200000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 3200000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/4dPPsxWp.webp",
+                "ownerId": "kZezbPtAv",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 13,
+                    "name": "NSX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ifako-Ijaiye,Lagos",
+                "carManagerId": "qv6TB4LX_",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Ifako-Ijaiye",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Wed Jan 07 2026 12:39:49 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Fri Jan 23 2026 11:39:55 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "black",
+                "exteriorColor": "blue",
+                "engineType": "3-cylinder(I3)",
+                "gradeScore": 4.5,
+                "installment": 210278,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 3028018,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car-for-sale/nsx/acura/gQpB_IMQW",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 2200,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/18c1e03b-66b7-4a1f-99a0-244f11b32b80.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "6RuI1yM77"
+        },
+        {
+            "id": "fec5789a-2307-4f86-a456-9ace5fcc9452",
+            "carId": "OeLkgJFGI",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/fec5789a-2307-4f86-a456-9ace5fcc9452.pdf",
+            "status": "completed",
+            "createdAt": "Wed Jan 07 2026 12:18:23 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Wed Jan 07 2026 12:18:55 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "OeLkgJFGI",
+                "year": 2021,
+                "insured": false,
+                "mileage": 2000,
+                "vin": "SESEDEDESWSESWSEW",
+                "price": 7000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 7000000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Wed Jan 07 2026 12:14:08 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/LdnLX1DN.webp",
+                "ownerId": "00_22LmBs",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 3239,
+                    "name": "GA3S",
+                    "imageUrl": "",
+                    "wheelType": "4WD/AWD",
+                    "make": {
+                        "id": 144,
+                        "name": "GAC ",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/dd785698-13a4-4631-8b83-c2f88020b63c-gac.png"
+                    },
+                    "popular": false
+                },
+                "state": "Bauchi ",
+                "country": "NG",
+                "address": "Bauchi,Bauchi ",
+                "carManagerId": "DpByutNNp",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "diesel",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Bauchi",
+                "marketplaceOldPrice": 7015000,
+                "createdAt": "Fri Aug 02 2024 10:02:57 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Wed Jan 07 2026 12:18:24 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "miles",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "Beige",
+                "exteriorColor": "Beige",
+                "engineType": "4-cylinder(I4)",
+                "gradeScore": 4.5,
+                "installment": 558626.375,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 9504040,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/ga3s-gac--ref-OeLkgJFGI",
+                "sold": false,
+                "hasThreeDImage": false,
+                "ccMeasurement": 1200,
+                "trimId": 1,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/fec5789a-2307-4f86-a456-9ace5fcc9452.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "ob-K1I-DV"
+        },
+        {
+            "id": "505d8440-0e82-409e-bcac-258a3950db54",
+            "carId": "cPD39Lkoz",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/505d8440-0e82-409e-bcac-258a3950db54.pdf",
+            "status": "completed",
+            "createdAt": "Sun Dec 28 2025 02:21:48 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Sun Dec 28 2025 02:22:22 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "cPD39Lkoz",
+                "year": 2024,
+                "insured": false,
+                "mileage": 10,
+                "vin": "ABSAABSAABSAABSA1",
+                "price": 34000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 34015000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/Q2vXNn0c.webp",
+                "ownerId": "-TO_apMg0",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 12,
+                    "name": "MDX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ikeja,Lagos",
+                "carManagerId": "lzeeXlOR5",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Ikeja",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Sun Dec 28 2025 02:14:22 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Mon Jan 12 2026 10:58:04 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "ash",
+                "exteriorColor": "black",
+                "engineType": "6-cylinder(V6)",
+                "gradeScore": 4.5,
+                "installment": 1629991,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 28199662,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/mdx-acura-ref-cPD39Lkoz",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 1700,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": true
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/505d8440-0e82-409e-bcac-258a3950db54.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "qBATCyKSg"
+        },
+        {
+            "id": "8654ac12-bf7d-4259-b02a-066aa8a9425e",
+            "carId": "cPD39Lkoz",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/8654ac12-bf7d-4259-b02a-066aa8a9425e.pdf",
+            "status": "completed",
+            "createdAt": "Sun Dec 28 2025 02:21:39 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Sun Dec 28 2025 02:22:15 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "cPD39Lkoz",
+                "year": 2024,
+                "insured": false,
+                "mileage": 10,
+                "vin": "ABSAABSAABSAABSA1",
+                "price": 34000000,
+                "createdBy": "HpwAuGhfY",
+                "marketplacePrice": 34015000,
+                "marketplaceVisible": false,
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/Q2vXNn0c.webp",
+                "ownerId": "-TO_apMg0",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 12,
+                    "name": "MDX",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "make": {
+                        "id": 2,
+                        "name": "Acura",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/acura.svg"
+                    },
+                    "popular": true
+                },
+                "state": "Lagos",
+                "country": "NG",
+                "address": "Ikeja,Lagos",
+                "carManagerId": "lzeeXlOR5",
+                "ownerType": "company",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Ikeja",
+                "marketplaceOldPrice": 0,
+                "createdAt": "Sun Dec 28 2025 02:14:22 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Mon Jan 12 2026 10:58:04 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "ash",
+                "exteriorColor": "black",
+                "engineType": "6-cylinder(V6)",
+                "gradeScore": 4.5,
+                "installment": 1629991,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 28199662,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/mdx-acura-ref-cPD39Lkoz",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 1700,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": true
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/8654ac12-bf7d-4259-b02a-066aa8a9425e.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "qBATCyKSg"
+        },
+        {
+            "id": "59a9254d-8f17-4381-a897-fdd83b6102c7",
+            "carId": "FzgcAlxXu",
+            "pdfReport": "https://storage.googleapis.com/inventory-inspection-report/59a9254d-8f17-4381-a897-fdd83b6102c7.pdf",
+            "status": "completed",
+            "createdAt": "Sun Dec 28 2025 02:01:32 GMT+0000 (Coordinated Universal Time)",
+            "updatedAt": "Sun Dec 28 2025 02:01:58 GMT+0000 (Coordinated Universal Time)",
+            "car": {
+                "features": [
+                    
+                ],
+                "carFeatures": [
+                    
+                ],
+                "modelFeatures": [
+                    
+                ],
+                "delistReason": [
+                    
+                ],
+                "damageMedia": [
+                    
+                ],
+                "damages": [
+                    
+                ],
+                "carMedias": [
+                    
+                ],
+                "media": [
+                    
+                ],
+                "id": "FzgcAlxXu",
+                "year": 2023,
+                "insured": false,
+                "mileage": 5000,
+                "vin": "VIN7656756444746",
+                "price": 45000000,
+                "createdBy": "1fZhUnMnh",
+                "marketplacePrice": 45015000,
+                "marketplaceVisible": false,
+                "marketplaceVisibleDate": "Sun Dec 28 2025 02:00:45 GMT+0000 (Coordinated Universal Time)",
+                "isFeatured": false,
+                "imageUrl": "https://media.autochek.africa/file/f5LcZe3N.jpg",
+                "ownerId": "DxyWpFGPt",
+                "model": {
+                    "modelFeatures": [
+                        
+                    ],
+                    "trimFeatures": [
+                        
+                    ],
+                    "trims": [
+                        
+                    ],
+                    "id": 151,
+                    "name": "1er M Coupé",
+                    "imageUrl": "",
+                    "wheelType": "2WD",
+                    "series": "1 Series",
+                    "make": {
+                        "id": 13,
+                        "name": "BMW",
+                        "imageUrl": "https://storage.googleapis.com/img.autochek.africa/brands/bmw.svg"
+                    },
+                    "popular": false
+                },
+                "state": "Abuja",
+                "country": "NG",
+                "address": "Boulivard way",
+                "carManagerId": "qv6TB4LX_",
+                "ownerType": "individual",
+                "transmission": "automatic",
+                "fuelType": "petrol",
+                "sellingCondition": "foreign",
+                "bodyType": {
+                    "id": 8,
+                    "name": "Sedan",
+                    "imageUrl": "https://storage.googleapis.com/img.autochek.africa/svg/Sedan.svg"
+                },
+                "city": "Asokoro",
+                "marketplaceOldPrice": 45015000,
+                "createdAt": "Sun Jul 28 2024 00:33:56 GMT+0000 (Coordinated Universal Time)",
+                "updatedAt": "Sun Dec 28 2025 02:01:34 GMT+0000 (Coordinated Universal Time)",
+                "mileageUnit": "km",
+                "hasWarranty": false,
+                "hasFinancing": true,
+                "interiorColor": "Red",
+                "exteriorColor": "Blue",
+                "engineType": "6-cylinder(V6)",
+                "gradeScore": 4.5,
+                "installment": 2074775,
+                "depositReceived": false,
+                "isFirstOwner": false,
+                "loanValue": 35917072,
+                "websiteUrl": "https://marketplace.staging.myautochek.com/ng/car/1er-m-coup--bmw-ref-FzgcAlxXu",
+                "sold": false,
+                "hasThreeDImage": false,
+                "isUpgraded": false,
+                "ccMeasurement": 50056554,
+                "trimId": 1,
+                "moderated": false,
+                "accidented": false,
+                "isDraft": false,
+                "tradeIn": false
+            },
+            "valuationAmount": "NaN",
+            "pdfReport2": "https://storage.googleapis.com/inventory-inspection-report/59a9254d-8f17-4381-a897-fdd83b6102c7.pdf",
+            "inspectionType": "regular",
+            "inspectionRequestId": "YjJ3q6cpI"
+        }
+    ],
+    "pagination": {
+        "total": 42937,
+        "currentPage": 1,
+        "pageSize": 10,
+        "nextPage": 2,
+        "lastPage": 4294
+    }
+}

@@ -1,0 +1,168 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:16:45 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "fromPort": {
+        "portId": "-62473434503928335",
+        "portName": "SINGAPORE",
+        "portFunction": "COMMENCING",
+        "longitude": 103.83333587646484,
+        "latitude": 1.2666599750518799
+    },
+    "toPort": {
+        "portId": "-61148391056382954",
+        "portName": "DJIBOUTI",
+        "portFunction": "DISCHARGING",
+        "longitude": 43.13333511352539,
+        "latitude": 11.600000381469727
+    },
+    "intermediatePosition": [
+        
+    ],
+    "projectedRoute": [
+        
+    ],
+    "vesselOnMapDetail": {
+        "currentPosition": {
+            "longitude": -95.16387176513672,
+            "latitude": 29.740915298461914
+        },
+        "vessel": {
+            "vesselId": "-13501195815314615",
+            "vesselName": "HAFNIA AUSTRALIA"
+        },
+        "fromPort": "SINGAPORE",
+        "toPort": "DJIBOUTI",
+        "commenceDate": "2020-12-24T19:00:00",
+        "completeDate": "2021-02-20T20:06:00",
+        "speed": "0",
+        "course": "73.9",
+        "eta": "-45501.276914693333",
+        "events": [
+            
+        ],
+        "distributionPoolId": null,
+        "distributionPoolIds": [
+            
+        ],
+        "segment": "LR1",
+        "pool": "CM",
+        "participantId": null,
+        "participant": "HAFNIA",
+        "country": "Singapore",
+        "countryCode": "SG",
+        "voyageId": "-34905985422042820",
+        "voyageNumber": 24,
+        "voyageCode": "HAFNIA AUSTRALIA - 24",
+        "status": "Closed",
+        "colorByPerformance": "#00876C",
+        "imoNumber": "9467794",
+        "speedPercentage": 100,
+        "lastPositionUpdateFromSeaRoute": "2026-04-29T06:00:22.438491",
+        "draft": 9.00,
+        "isActive": false,
+        "vesselCode": null
+    },
+    "intermediatePorts": [
+        {
+            "portId": null,
+            "portName": "MINA ABDULLA",
+            "portFunction": "LOADING",
+            "longitude": 48.18333435058594,
+            "latitude": 29.03333282470703
+        },
+        {
+            "portId": null,
+            "portName": "FUJAIRAH",
+            "portFunction": "REPAIR",
+            "longitude": 56.40250015258789,
+            "latitude": 25.16666603088379
+        }
+    ],
+    "distinctIntermediatePorts": [
+        {
+            "portId": null,
+            "portName": "DJIBOUTI",
+            "isCommencedPort": false,
+            "isCompletedPort": true,
+            "nextFunction": "DISCHARGING",
+            "portFunction": [
+                {
+                    "eta": "2021-02-13T08:00:00",
+                    "etd": "2021-02-20T20:06:00",
+                    "ata": "2021-02-13T11:00:00",
+                    "atd": "2021-02-20T23:06:00",
+                    "portFunction": "DISCHARGING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 43.13333511352539,
+            "latitude": 11.600000381469727
+        },
+        {
+            "portId": null,
+            "portName": "MINA ABDULLA",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "LOADING",
+            "portFunction": [
+                {
+                    "eta": "2021-02-02T15:48:00",
+                    "etd": "2021-02-06T09:00:00",
+                    "ata": "2021-02-02T18:48:00",
+                    "atd": "2021-02-06T12:00:00",
+                    "portFunction": "LOADING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 48.18333435058594,
+            "latitude": 29.03333282470703
+        },
+        {
+            "portId": null,
+            "portName": "FUJAIRAH",
+            "isCommencedPort": false,
+            "isCompletedPort": false,
+            "nextFunction": "REPAIR",
+            "portFunction": [
+                {
+                    "eta": "2021-01-06T09:12:00",
+                    "etd": "2021-01-31T06:00:00",
+                    "ata": "2021-01-06T13:12:00",
+                    "atd": "2021-01-31T10:00:00",
+                    "portFunction": "REPAIR",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 56.40250015258789,
+            "latitude": 25.16666603088379
+        },
+        {
+            "portId": null,
+            "portName": "SINGAPORE",
+            "isCommencedPort": true,
+            "isCompletedPort": false,
+            "nextFunction": "COMMENCING",
+            "portFunction": [
+                {
+                    "eta": null,
+                    "etd": "2020-12-24T19:00:00",
+                    "ata": null,
+                    "atd": "2020-12-25T03:00:00",
+                    "portFunction": "COMMENCING",
+                    "isCompleted": true
+                }
+            ],
+            "longitude": 103.83333587646484,
+            "latitude": 1.2666599750518799
+        }
+    ]
+}

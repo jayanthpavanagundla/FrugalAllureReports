@@ -1,0 +1,46 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/system-configs
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJWd1RiUTJMZjE1Rkl1YVRRNGJMQyIsInNlc3Npb25JZCI6InM0eVpielpKMDljU1czeGlTUzV1Iiwiand0SWQiOiIwTE5LbWYxaGJMc1lNQWlQNEs3YiIsImlhdCI6MTc3MzIwOTI1MSwiZXhwIjoxODA0NzQ1MjUxfQ.h0Ekdf_bOc0SLEAAfhDjdXWVRSOT_Y4uekvC8oToEZk
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "values": [
+        {
+            "name": "MIN_LENGTH",
+            "value": 12
+        },
+        {
+            "name": "MAX_LENGTH",
+            "value": 15
+        },
+        {
+            "name": "REQUIRE_UPPERCASE",
+            "value": false
+        },
+        {
+            "name": "REQUIRE_LOWERCASE",
+            "value": false
+        },
+        {
+            "name": "REQUIRE_NUMBER",
+            "value": false
+        },
+        {
+            "name": "REQUIRE_SPECIAL_CHAR",
+            "value": false
+        },
+        {
+            "name": "DISALLOW_WHITESPACES",
+            "value": false
+        }
+    ],
+    "name": "PASSWORD_POLICY"
+}

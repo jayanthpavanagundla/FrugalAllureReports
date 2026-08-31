@@ -1,0 +1,22 @@
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:03:23 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "euetsDataRequest": [
+            "The euetsDataRequest field is required."
+        ],
+        "$.yardIds": [
+            "'}' is an invalid start of a value. Path: $.yardIds | LineNumber: 7 | BytePositionInLine: 0."
+        ]
+    },
+    "traceId": "00-45c7e65b9da84e3f7968c03ce0c3fcfa-14e905310aa4e84f-00"
+}

@@ -1,0 +1,217 @@
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail+1@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "eshareddy+underwriter@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "suhail@frugaltestingin.com",
+    "password": "Autochek@123"
+}
+Request method:	GET
+Request URI:	https://api.staging.myautochek.com/v1/inventory/documents?loanId=OR4S4vvo-&carId=z5VnE-qw7&country=NG
+Proxy:			<none>
+Request params:	<none>
+Query params:	loanId=OR4S4vvo-
+				carId=z5VnE-qw7
+				country=NG
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJpcE1VcFNXOTlKZFFIR0NlRWFuSCIsImp3dElkIjoiRTlVTnZRV2d3OHdPRXQ1MVd3WVIiLCJpYXQiOjE3NzQ1MzAzOTIsImV4cCI6MTgwNjA2NjM5Mn0.O4523pcveNc1B172WAtVQ_Ln0NQrx32zm7eFu8g5Beg
+				X-autochek-app=dealerplus
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/documents/1x68T49Tc/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6IkZjNVE4RUJkazY2UFB0ZmVhVFJNIiwiand0SWQiOiJXYVQ0dDdaWnVjNEdmNVF0Q0syeSIsImlhdCI6MTc3NDUzMDM5MywiZXhwIjoxODA2MDY2MzkzfQ.-trmdzV6Izm7S9_b1TO9IBvFWYEt-k6p4bDr5J-izEE
+				X-autochek-app=AFS_MIDDLEWARE_RETOOL
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "approval_status": "Valid",
+    "review": [
+        {
+            "value": "Yes",
+            "question": "Is the customs paid up to 50% of the assessed duty or above"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage"
+        },
+        {
+            "value": "No",
+            "question": "Is Autochek financing the top-up"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the Dealer providing the collateral"
+        },
+        {
+            "value": "1000.00",
+            "question": "Required Duty Amount"
+        },
+        {
+            "value": "1000.00",
+            "question": "Duty Paid"
+        },
+        {
+            "value": "0.00",
+            "question": "Duty Shortfall"
+        },
+        {
+            "value": "Testing E2E ",
+            "question": "Customs Document Comment"
+        }
+    ],
+    "id": "1x68T49Tc",
+    "document_id": "1x68T49Tc"
+}
+Request method:	PUT
+Request URI:	https://api.staging.myautochek.com/v1/inventory/documents/1x68T49Tc/status
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJwbUNOMk15OGg4dW56Q2ZKZlBJciIsImp3dElkIjoiSWFLcGZYVnlUYzJQWVBjdHZEdnEiLCJpYXQiOjE3NzQ1MzAzOTQsImV4cCI6MTgwNjA2NjM5NH0.aoQPMFBV1OjGTDlqWyTPgtuIpDra2E2xlGQZMZ7pOgU
+				X-autochek-app=zoho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "approval_status": "Valid",
+    "review": [
+        {
+            "value": "Yes",
+            "question": "Is the customs paid up to 50% of the assessed duty or above"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the customs paid above 40% and did the dealer sign a master dealer agreement where we now have a floating charge over the dealer's assets?"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the customs outstanding not more than 3 million Naira, irrespective of the percentage"
+        },
+        {
+            "value": "No",
+            "question": "Is Autochek financing the top-up"
+        },
+        {
+            "value": "Yes",
+            "question": "Is the Dealer providing the collateral"
+        },
+        {
+            "value": "1000.00",
+            "question": "Required Duty Amount"
+        },
+        {
+            "value": "1000.00",
+            "question": "Duty Paid"
+        },
+        {
+            "value": "0.00",
+            "question": "Duty Shortfall"
+        },
+        {
+            "value": "Testing E2E ",
+            "question": "Customs Document Comment"
+        }
+    ],
+    "id": "1x68T49Tc",
+    "document_id": "1x68T49Tc"
+}
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJCUWxRQmJMVFciLCJzZXNzaW9uSWQiOiJpcE1VcFNXOTlKZFFIR0NlRWFuSCIsImp3dElkIjoiRTlVTnZRV2d3OHdPRXQ1MVd3WVIiLCJpYXQiOjE3NzQ1MzAzOTIsImV4cCI6MTgwNjA2NjM5Mn0.O4523pcveNc1B172WAtVQ_Ln0NQrx32zm7eFu8g5Beg
+				refresh_token=5848a11a714c21b2a412e0487c91a38bff24713a2fd04ad7fdf26836e2ea6a8e6e09d6ae146a67af8039c212d04cfa254029a7417471df715ac1face0a6a5103
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJqNGU1dXlpYzIiLCJzZXNzaW9uSWQiOiJwbUNOMk15OGg4dW56Q2ZKZlBJciIsImp3dElkIjoiSWFLcGZYVnlUYzJQWVBjdHZEdnEiLCJpYXQiOjE3NzQ1MzAzOTQsImV4cCI6MTgwNjA2NjM5NH0.aoQPMFBV1OjGTDlqWyTPgtuIpDra2E2xlGQZMZ7pOgU
+				refresh_token=f0e703b6234ef220a5001e1bce8b7aedf4c1edfedd421edfa0e90f38e3d3b11fc54743e6b76e3a3714ddc23e16b75dbf8e92f5dc1d6a6cedd1762960b72efc1d
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://api.staging.myautochek.com/v2/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNVFdUUFF4cHV6VWZnM1Z6NTlvYSIsInNlc3Npb25JZCI6IkZjNVE4RUJkazY2UFB0ZmVhVFJNIiwiand0SWQiOiJXYVQ0dDdaWnVjNEdmNVF0Q0syeSIsImlhdCI6MTc3NDUzMDM5MywiZXhwIjoxODA2MDY2MzkzfQ.-trmdzV6Izm7S9_b1TO9IBvFWYEt-k6p4bDr5J-izEE
+				refresh_token=e95dd6b0efef8b948750b34c5372be72ee7ec8638e654eae0fee36de379283ebb4f76554289d61bee7b3ce8a913f6b4ac1b94b4e5947c380773da2c45b5a3069
+Multiparts:		<none>
+Body:			<none>

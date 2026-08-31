@@ -1,0 +1,907 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:06:54 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "segmentsWithNoDataVessels": null,
+    "top3EarningByParticipant": null,
+    "earningMinMaxAvgSegment": [
+        {
+            "monthlyEarningBySegment": {
+                "segment": "HANDY",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 16235.13,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 17561.01,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 15857.42,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 18323.19,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 24565.97,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 24601.93,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 17241.20,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 18290.20,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 16482.40,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 18969.70,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 25888.20,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 26868.60,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 4672.54,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 16804.10,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 15143.20,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 17428.40,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 23264.10,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 21148,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "LR1",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 29423.51,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 28813.68,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 29705.52,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 26608.67,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 28829.13,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 34670.59,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 31393.60,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 50417.80,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 31976.50,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 30316.30,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 30445.20,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 43456.90,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 15945.50,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 20512.80,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 5399.93,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 5399.93,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 5137.26,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 25396.50,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "CCMR",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 21009.70,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 25965.84,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 26672.06,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 28577.19,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 26007.17,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 23861.05,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 22921.60,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 27643.40,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 29034.70,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 31008.80,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 27447,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 24571.10,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 19663.30,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 24345.20,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 10269.20,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 10269.20,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 24406.20,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 22479.50,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "CCHA",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 21609.12,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 21880.31,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 22747.92,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 24137.33,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 22766.15,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 23131.72,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 22431.10,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 22673.40,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 23637,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 25062.30,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 23707.20,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 24092.20,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 20543.70,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 20765.60,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 21648.10,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 23472.40,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 21712.50,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 22065,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "MR",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 25065.61,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 25720.76,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 24023.74,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 24487.58,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 25490.18,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 27211.76,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 26691.40,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 27295.90,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 26658.50,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 26847.80,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 27193.10,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 29137,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 11517.30,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 20885.80,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 8450.48,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 17122,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 17155.70,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 23895.10,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "LR2",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 35009.92,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 40291.85,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 36344.69,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 32539.22,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 33966.74,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 32885.35,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 36150.70,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 41515,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 37797.10,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 33926.10,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 34927.10,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 33918.90,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 33528.40,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 38654.30,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 34801.50,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 31137,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 32662.90,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 31720.10,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        },
+        {
+            "monthlyEarningBySegment": {
+                "segment": "SPEZ",
+                "pool": null,
+                "netTCEPerDay": null,
+                "onHireDays": null,
+                "netEarnings": null,
+                "vesselCount": null,
+                "monthNumber": 0,
+                "month": null,
+                "year": null
+            },
+            "avgEarnings": [
+                {
+                    "value": 8807.62,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 10028.59,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 6462.03,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 7844.71,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 14293.82,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 14198.76,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "maxEarnings": [
+                {
+                    "value": 9943.76,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 11936.30,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 9085.86,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 12301.20,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 19289.80,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 16371.60,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ],
+            "minEarnings": [
+                {
+                    "value": 6536.19,
+                    "monthNumber": 7,
+                    "month": "July",
+                    "year": 2025
+                },
+                {
+                    "value": 6677.02,
+                    "monthNumber": 8,
+                    "month": "August",
+                    "year": 2025
+                },
+                {
+                    "value": 2582.30,
+                    "monthNumber": 9,
+                    "month": "September",
+                    "year": 2025
+                },
+                {
+                    "value": 109.67,
+                    "monthNumber": 10,
+                    "month": "October",
+                    "year": 2025
+                },
+                {
+                    "value": 10151,
+                    "monthNumber": 11,
+                    "month": "November",
+                    "year": 2025
+                },
+                {
+                    "value": 11297.30,
+                    "monthNumber": 12,
+                    "month": "December",
+                    "year": 2025
+                }
+            ]
+        }
+    ],
+    "currentParticipantsMonthlyEarning": null
+}

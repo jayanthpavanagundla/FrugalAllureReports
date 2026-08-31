@@ -1,0 +1,115 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:17 GMT
+Content-Encoding: gzip
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+api-supported-versions: 1.0, 2.0
+
+{
+    "marketReport": [
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "AMSTERDAM/SKIKDA/CHIBA",
+            "route": "MED/JAPAN",
+            "rate": "$ 5,750,000",
+            "tce": "70076.06",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "70550.50",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN WEST MARKET",
+            "reportLeg": "LAGOS/AMSTERDAM/LAGOS",
+            "route": "UKC/WAF",
+            "rate": "WS 200.0",
+            "tce": "68410.45",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "67980.41",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/CHIBA",
+            "route": "AG/JAPAN",
+            "rate": "WS 260.0",
+            "tce": "69683.01",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "70319.43",
+            "trend": "0"
+        },
+        {
+            "reportGroup": "CLEAN EAST MARKET",
+            "reportLeg": "CHIBA/JUBAIL/AMSTERDAM",
+            "route": "AG/UKC",
+            "rate": "$ 5,500,000",
+            "tce": "72322.53",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "92203.91",
+            "trend": "-1"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "LAVERA/ISKENDERUN/LAVERA",
+            "route": "X MED",
+            "rate": "WS 195.0",
+            "tce": "69374.94",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "50871.77",
+            "trend": "1"
+        },
+        {
+            "reportGroup": "DIRTY MARKET",
+            "reportLeg": "SPORE/MINA AL AHMADI/SPORE",
+            "route": "AG/SING",
+            "rate": "WS 190.0",
+            "tce": "41753.75",
+            "weekNumber": 7,
+            "year": 2024,
+            "segment": "LR2",
+            "previousTCE": "41981.43",
+            "trend": "0"
+        }
+    ],
+    "reportGroups": [
+        "All Market",
+        "CLEAN WEST MARKET",
+        "CLEAN EAST MARKET",
+        "DIRTY MARKET"
+    ]
+}
+HTTP/1.1 400 Bad Request
+Content-Type: application/problem+json; charset=utf-8
+Date: Tue, 05 May 2026 08:19:17 GMT
+Set-Cookie: ARRAffinity=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Set-Cookie: ARRAffinitySameSite=6ac778497ca654287292287b6ecb66941f1ebf48818d2931fde0988f06490b2f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-universe-api-tst.azurewebsites.net
+Transfer-Encoding: chunked
+x-ms-middleware-request-id: 00000000-0000-0000-0000-000000000000
+
+{
+    "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+    "title": "One or more validation errors occurred.",
+    "status": 400,
+    "errors": {
+        "request": [
+            "The request field is required."
+        ],
+        "$.weekNumber": [
+            "The JSON value could not be converted to System.Int32. Path: $.weekNumber | LineNumber: 2 | BytePositionInLine: 21."
+        ]
+    },
+    "traceId": "00-e05abea2120669baedd6bbe58b622345-fd0a731eac07ceb5-00"
+}

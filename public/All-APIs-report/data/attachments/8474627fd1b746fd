@@ -1,0 +1,33 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 11 Mar 2026 06:03:40 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 241
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: set-cookie,Set-Cookie
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-DNS-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-XSS-Protection: 0
+ETag: W/"f1-VQVfW9dkexkyhnS+30zsYkVH2GA"
+server: hide
+
+{
+    "code": 400,
+    "error": "wheelType must be one of the following values: 4WD/AWD, 2WD",
+    "message": "wheelType must be one of the following values: 4WD/AWD, 2WD",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v1/inspection"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "code": 400,
+    "error": "Internal server error",
+    "message": "Internal server error",
+    "details": [
+        {
+            "type_url": "https://api.staging.myautochek.com",
+            "value": "/v2/origination/loan/customerDocuments/review"
+        }
+    ]
+}
