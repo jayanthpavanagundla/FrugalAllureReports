@@ -35,7 +35,7 @@ const REPORTS = [
   {
     id: 4,
     company: "Online Sales",
-    name: "Ads Campaign Flow – 83 Scenarios",
+    name: "Ads Campaign Flow – 83 Scen.",
     path: "OnlineSales",
     description: "Complete flow covering the Ads Campaign process.",
     color: "#2563eb",
