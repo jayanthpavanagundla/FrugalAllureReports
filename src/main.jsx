@@ -56,6 +56,14 @@ const REPORTS = [
     description: "Full Website Test Automation & Functional Validation Results",
     color: "#2563eb",
   },
+  {
+    id: 7,
+    company: "BlueElephants",
+    name: "Website Auth - 10 Websites",
+    path: "BlueElephants",
+    description: "Authentication testing results covering login and access validation across 10 websites.",
+    color: "#2563eb",
+  },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
