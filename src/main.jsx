@@ -67,9 +67,25 @@ const REPORTS = [
   {
     id: 8,
     company: "FlexiQuote",
-    name: "FlexiQuote – Web Automation (100 Scen.)",
+    name: "Web E2E Automation",
     path: "FlexiQuote",
     description: "End-to-end web automation across CSR, User, and Admin role flows.",
+    color: "#2563eb",
+  },
+  {
+    id: 9,
+    company: "Capital Now",
+    name: "Mobile Testing Journey",
+    path: "Capital Now",
+    description: "End-to-end mobile test results covering all major user journeys.",
+    color: "#2563eb",
+  },
+  {
+    id: 10,
+    company: "Titan",
+    name: "Mobile Automation Report",
+    path: "Titan",
+    description: "Automated end-to-end test results across Titan mobile app user flows.",
     color: "#2563eb",
   },
 ];

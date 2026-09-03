@@ -1,0 +1,1 @@
+Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='ADD SERVICE LINK']/following-sibling::android.view.View[1]/android.widget.TextView[contains(@text,"book.titan.email")]})
