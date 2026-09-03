@@ -64,6 +64,14 @@ const REPORTS = [
     description: "Authentication testing results covering login and access validation across 10 websites.",
     color: "#2563eb",
   },
+  {
+    id: 8,
+    company: "FlexiQuote",
+    name: "FlexiQuote – Web Automation (100 Scen.)",
+    path: "FlexiQuote",
+    description: "End-to-end web automation across CSR, User, and Admin role flows.",
+    color: "#2563eb",
+  },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
