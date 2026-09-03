@@ -58,7 +58,7 @@ const REPORTS = [
   },
   {
     id: 7,
-    company: "BlueElephants",
+    company: "Blue Elephants",
     name: "Website Auth - 10 Websites",
     path: "BlueElephants",
     description: "Authentication testing results covering login and access validation across 10 websites.",
