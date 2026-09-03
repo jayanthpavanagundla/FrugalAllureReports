@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .vercel
+
+# Allure attachment archives are too large for GitHub (100MB/file limit)
+public/**/data/attachments/*.zip
