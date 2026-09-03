@@ -100,6 +100,16 @@ const REPORTS = [
     date: "2026-02-14",
     color: "#7c3aed",
   },
+  {
+    id: 12,
+    kind: "jmeter",
+    company: "Blue Elephants",
+    name: "Load Test – Training APIs",
+    path: "Blue Elephants LT",
+    description: "JMeter load test across training, video, and AI question APIs - 85K samples, 1.83% error rate.",
+    date: "2026-09-03",
+    color: "#7c3aed",
+  },
 ];
 
 // A report is an Allure report unless it says otherwise. JMeter dashboards expose
@@ -513,7 +523,11 @@ export default function App() {
     if (dateFrom && (!date || new Date(date) < new Date(dateFrom))) return false;
     if (dateTo   && (!date || new Date(date) > new Date(`${dateTo}T23:59:59.999`))) return false;
     return true;
-  }).sort((a, b) => (reportData[b.id]?.date ?? 0) - (reportData[a.id]?.date ?? 0));
+  }).sort((a, b) => {
+    // Dates can be numeric timestamps (Allure) or ISO strings (JMeter) — coerce both.
+    const t = (d) => (d ? new Date(d).getTime() : 0);
+    return t(reportData[b.id]?.date) - t(reportData[a.id]?.date);
+  });
 
   // Split the filtered reports into their two sections.
   const allureReports = displayed.filter(r => kindOf(r) === "allure");
