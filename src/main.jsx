@@ -88,7 +88,31 @@ const REPORTS = [
     description: "Automated end-to-end test results across Titan mobile app user flows.",
     color: "#2563eb",
   },
+  {
+    id: 11,
+    kind: "jmeter",
+    company: "IPAC",
+    name: "Load Test – Social APIs (15k users)",
+    path: "IPAC",
+    description: "JMeter load test across all core APIs - 5.8M samples, 2.73% error rate.",
+    date: "2025-04-28",
+    color: "#7c3aed",
+  },
+  {
+    id: 12,
+    kind: "jmeter",
+    company: "JM Financial",
+    name: "Load Test – Trading APIs",
+    path: "JMFL",
+    description: "JMeter load test across trading, watchlist, and market-data APIs - 2.6M samples, 9.23% error rate.",
+    date: "2026-02-14",
+    color: "#7c3aed",
+  },
 ];
+
+// A report is an Allure report unless it says otherwise. JMeter dashboards expose
+// a `statistics.json` (with a "Total" row) instead of Allure's widgets/summary.json.
+const kindOf = (r) => r.kind ?? "allure";
 // ─────────────────────────────────────────────────────────────────────────────
 
 // ── Inline SVG logos (replace src attrs with your real image imports if needed)
@@ -167,6 +191,13 @@ function Metric({ value, label, bg, valueColor, borderColor }) {
   );
 }
 
+// Compact number: 5804660 → "5.8M", 15001 → "15K", 640 → "640"
+const compact = (n) =>
+  n == null ? "0"
+  : n >= 1e6 ? (n / 1e6).toFixed(1) + "M"
+  : n >= 1e3 ? (n / 1e3).toFixed(0) + "K"
+  : String(Math.round(n));
+
 // ── Report card
 function ReportCard({ report, index, visible, stats, reportDate }) {
   const handleOpen = (e) => {
@@ -174,7 +205,9 @@ function ReportCard({ report, index, visible, stats, reportDate }) {
     window.open(`/${report.path}/index.html`, "_blank", "noopener,noreferrer");
   };
 
-  const total = stats ? (stats.total ?? stats.passed + stats.failed + (stats.broken ?? 0) + (stats.skipped ?? 0)) : 0;
+  const total = stats && !stats.jmeter
+    ? (stats.total ?? stats.passed + stats.failed + (stats.broken ?? 0) + (stats.skipped ?? 0))
+    : 0;
 
   return (
     <div
@@ -258,10 +291,27 @@ function ReportCard({ report, index, visible, stats, reportDate }) {
             gap: 6,
             marginBottom: 20,
           }}>
-            <Metric value={total}         label="Total"   bg="rgba(100,116,139,0.06)" valueColor="#64748b"  borderColor="rgba(15,23,42,0.09)" />
-            <Metric value={stats.passed}  label="Passed"  bg="rgba(16,185,129,0.08)"  valueColor="#0f9d63"  borderColor="rgba(16,185,129,0.18)" />
-            <Metric value={stats.failed}  label="Failed"  bg="rgba(239,68,68,0.08)"   valueColor="#dc2626"  borderColor="rgba(239,68,68,0.18)" />
-            <Metric value={stats.broken ?? 0} label="Broken" bg="rgba(245,158,11,0.08)" valueColor="#d97706" borderColor="rgba(245,158,11,0.18)" />
+            {stats.jmeter ? (
+              <>
+                <Metric value={compact(stats.samples)} label="Samples" bg="rgba(100,116,139,0.06)" valueColor="#64748b" borderColor="rgba(15,23,42,0.09)" />
+                <Metric
+                  value={`${(stats.errorPct ?? 0).toFixed(2)}%`}
+                  label="Errors"
+                  bg={stats.errorPct > 5 ? "rgba(239,68,68,0.08)" : stats.errorPct > 1 ? "rgba(245,158,11,0.08)" : "rgba(16,185,129,0.08)"}
+                  valueColor={stats.errorPct > 5 ? "#dc2626" : stats.errorPct > 1 ? "#d97706" : "#0f9d63"}
+                  borderColor={stats.errorPct > 5 ? "rgba(239,68,68,0.18)" : stats.errorPct > 1 ? "rgba(245,158,11,0.18)" : "rgba(16,185,129,0.18)"}
+                />
+                <Metric value={`${(stats.meanResTime / 1000).toFixed(2)}s`} label="Avg Resp" bg="rgba(100,116,139,0.06)" valueColor="#64748b" borderColor="rgba(15,23,42,0.09)" />
+                <Metric value={compact(stats.throughput)} label="Req/sec" bg="rgba(37,99,235,0.08)" valueColor="#2563eb" borderColor="rgba(37,99,235,0.18)" />
+              </>
+            ) : (
+              <>
+                <Metric value={total}         label="Total"   bg="rgba(100,116,139,0.06)" valueColor="#64748b"  borderColor="rgba(15,23,42,0.09)" />
+                <Metric value={stats.passed}  label="Passed"  bg="rgba(16,185,129,0.08)"  valueColor="#0f9d63"  borderColor="rgba(16,185,129,0.18)" />
+                <Metric value={stats.failed}  label="Failed"  bg="rgba(239,68,68,0.08)"   valueColor="#dc2626"  borderColor="rgba(239,68,68,0.18)" />
+                <Metric value={stats.broken ?? 0} label="Broken" bg="rgba(245,158,11,0.08)" valueColor="#d97706" borderColor="rgba(245,158,11,0.18)" />
+              </>
+            )}
           </div>
         ) : (
           <MetricsSkeleton />
@@ -381,23 +431,38 @@ export default function App() {
     return () => document.removeEventListener("mousedown", fn);
   }, [calOpen]);
 
-  // Fetch summary.json for each report
+  // Fetch live stats for each report (Allure: widgets/summary.json, JMeter: statistics.json)
   useEffect(() => {
     REPORTS.forEach(report => {
+      const set = (stats, date) =>
+        setReportData(prev => ({ ...prev, [report.id]: { stats, date } }));
+
+      if (kindOf(report) === "jmeter") {
+        fetch(`/${report.path}/statistics.json`)
+          .then(r => r.json())
+          .then(data => {
+            const t = data.Total ?? data.total;
+            set(
+              t
+                ? {
+                    jmeter: true,
+                    samples: t.sampleCount,
+                    errorPct: t.errorPct,
+                    meanResTime: t.meanResTime,
+                    throughput: t.throughput,
+                  }
+                : null,
+              report.date ?? null,
+            );
+          })
+          .catch(() => set(null, report.date ?? null));
+        return;
+      }
+
       fetch(`/${report.path}/widgets/summary.json`)
         .then(r => r.json())
-        .then(data => {
-          setReportData(prev => ({
-            ...prev,
-            [report.id]: { stats: data.statistic, date: data.time?.stop ?? null },
-          }));
-        })
-        .catch(() => {
-          setReportData(prev => ({
-            ...prev,
-            [report.id]: { stats: null, date: null },
-          }));
-        });
+        .then(data => set(data.statistic, data.time?.stop ?? report.date ?? null))
+        .catch(() => set(null, report.date ?? null));
     });
   }, []);
 
@@ -458,8 +523,53 @@ export default function App() {
     return true;
   }).sort((a, b) => (reportData[b.id]?.date ?? 0) - (reportData[a.id]?.date ?? 0));
 
+  // Split the filtered reports into their two sections.
+  const allureReports = displayed.filter(r => kindOf(r) === "allure");
+  const htmlReports   = displayed.filter(r => kindOf(r) === "jmeter");
+
   // ── Shared tokens
   const border = "1px solid rgba(15,23,42,0.09)";
+
+  // One titled section (label + divider + card grid). Plain function, not a
+  // component, so ReportCard identity is stable across renders. `indexOffset`
+  // keeps the entrance animation cascading across both sections.
+  const renderSection = (title, items, indexOffset) =>
+    items.length === 0 ? null : (
+      <div key={title} style={{ marginBottom: 36 }}>
+        <div style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 12,
+          fontSize: ".65rem",
+          fontWeight: 600,
+          letterSpacing: ".14em",
+          textTransform: "uppercase",
+          color: "#64748b",
+          marginBottom: 20,
+          animation: "fadeDown .5s .12s ease both",
+        }}>
+          <span>{title}</span>
+          <span style={{ color: "#94a3b8", letterSpacing: "0" }}>{items.length}</span>
+          <span style={{ flex: 1, height: 1, background: "rgba(15,23,42,0.09)" }} />
+        </div>
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))",
+          gap: 16,
+        }}>
+          {items.map((report, i) => (
+            <ReportCard
+              key={report.id}
+              report={report}
+              index={indexOffset + i}
+              visible={visible}
+              stats={reportData[report.id]?.stats ?? null}
+              reportDate={reportData[report.id]?.date ?? null}
+            />
+          ))}
+        </div>
+      </div>
+    );
 
   return (
     <>
@@ -521,7 +631,7 @@ export default function App() {
               fontWeight: 700,
               color: "#0f172a",
               letterSpacing: "-.01em",
-            }}>Allure Report</span>
+            }}>Test Reports</span>
             <span style={{
               display: "flex",
               alignItems: "center",
@@ -702,46 +812,17 @@ export default function App() {
           </div>
         </div>
 
-        {/* ── SECTION LABEL */}
-        <div style={{
-          display: "flex",
-          alignItems: "center",
-          gap: 12,
-          fontSize: ".65rem",
-          fontWeight: 600,
-          letterSpacing: ".14em",
-          textTransform: "uppercase",
-          color: "#64748b",
-          marginBottom: 20,
-          animation: "fadeDown .5s .12s ease both",
-        }}>
-          <span>{displayed.length} of {REPORTS.length} reports</span>
-          <span style={{ flex:1, height:1, background:"rgba(15,23,42,0.09)" }} />
-        </div>
-
-        {/* ── REPORT GRID */}
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(290px, 1fr))",
-          gap: 16,
-        }}>
-          {displayed.length === 0 ? (
-            <div style={{ gridColumn:"1/-1", textAlign:"center", padding:"60px 20px", color:"#64748b", fontSize:".9rem" }}>
-              No reports match the current filters.
-            </div>
-          ) : (
-            displayed.map((report, i) => (
-              <ReportCard
-                key={report.id}
-                report={report}
-                index={i}
-                visible={visible}
-                stats={reportData[report.id]?.stats ?? null}
-                reportDate={reportData[report.id]?.date ?? null}
-              />
-            ))
-          )}
-        </div>
+        {/* ── REPORT SECTIONS */}
+        {allureReports.length === 0 && htmlReports.length === 0 ? (
+          <div style={{ textAlign:"center", padding:"60px 20px", color:"#64748b", fontSize:".9rem" }}>
+            No reports match the current filters.
+          </div>
+        ) : (
+          <>
+            {renderSection("Allure Reports", allureReports, 0)}
+            {renderSection("HTML Reports", htmlReports, allureReports.length)}
+          </>
+        )}
 
         {/* ── FOOTER */}
         <footer style={{
