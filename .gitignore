@@ -8,8 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+# Anchored to the repo root so this only ignores the Vite build output — a bare
+# "dist" also matches the bundled dist/ folders inside hosted HTML reports
+# (e.g. public/IPAC/sbadmin2-1.0.7/dist/), which must be committed.
+/dist
+/dist-ssr
 *.local
 
 # Editor directories and files
