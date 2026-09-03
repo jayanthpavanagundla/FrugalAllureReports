@@ -96,7 +96,7 @@ const REPORTS = [
     company: "JM Financial",
     name: "Load Test – Trading APIs",
     path: "JMFL",
-    description: "JMeter load test across trading, watchlist, and market-data APIs - 2.6M samples, 9.23% error rate.",
+    description: "JMeter load test across trading, and market-data APIs - 2.6M samples, 9.23% error rate.",
     date: "2026-02-14",
     color: "#7c3aed",
   },
@@ -812,7 +812,7 @@ export default function App() {
         ) : (
           <>
             {renderSection("Automation Test Reports", allureReports, 0)}
-            {renderSection("Load TestReports", htmlReports, allureReports.length)}
+            {renderSection("Load Test Reports", htmlReports, allureReports.length)}
           </>
         )}
 
