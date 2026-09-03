@@ -11,21 +11,13 @@ const REPORTS = [
   {
     id: 1,
     company: "AutoChek",
-    name: "Business Owner Loan Flow",
-    path: "Business Owner - Nigeria - AllureReport",
-    description: "End-to-end loan process flow for Business Owner job type.",
-    color: "#2563eb",
-  },
-  {
-    id: 2,
-    company: "AutoChek",
     name: "Loan Flow – All 3 Job Types",
     path: "ConditionalOffersIssue",
     description: "Loan flow covering the end-to-end process across all three job types.",
     color: "#2563eb",
   },
   {
-    id: 3,
+    id: 2,
     company: "AutoChek",
     name: "Autochek – All APIs Automation",
     path: "All-APIs-report",
@@ -33,7 +25,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 4,
+    id: 3,
     company: "Online Sales",
     name: "Ads Campaign Flow – 83 Scen.",
     path: "OnlineSales",
@@ -41,7 +33,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 5,
+    id: 4,
     company: "Hafnia",
     name: "Hafnia - All APIs Automation",
     path: "Hafnia",
@@ -49,7 +41,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 6,
+    id: 5,
     company: "Sacred Groves",
     name: "SG - Website Automation",
     path: "SacredGroves",
@@ -57,7 +49,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 7,
+    id: 6,
     company: "Blue Elephants",
     name: "Website Auth - 10 Websites",
     path: "BlueElephants",
@@ -65,7 +57,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 8,
+    id: 7,
     company: "FlexiQuote",
     name: "Web E2E Automation",
     path: "FlexiQuote",
@@ -73,7 +65,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 9,
+    id: 8,
     company: "Capital Now",
     name: "Mobile Testing Journey",
     path: "Capital Now",
@@ -81,7 +73,7 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 10,
+    id: 9,
     company: "Titan",
     name: "Mobile Automation Report",
     path: "Titan",
@@ -89,17 +81,17 @@ const REPORTS = [
     color: "#2563eb",
   },
   {
-    id: 11,
+    id: 10,
     kind: "jmeter",
     company: "IPAC",
-    name: "Load Test – Social APIs (15k users)",
+    name: "Load Test – Social APIs (15k)",
     path: "IPAC",
     description: "JMeter load test across all core APIs - 5.8M samples, 2.73% error rate.",
     date: "2025-04-28",
     color: "#7c3aed",
   },
   {
-    id: 12,
+    id: 11,
     kind: "jmeter",
     company: "JM Financial",
     name: "Load Test – Trading APIs",
@@ -819,8 +811,8 @@ export default function App() {
           </div>
         ) : (
           <>
-            {renderSection("Allure Reports", allureReports, 0)}
-            {renderSection("HTML Reports", htmlReports, allureReports.length)}
+            {renderSection("Automation Test Reports", allureReports, 0)}
+            {renderSection("Load TestReports", htmlReports, allureReports.length)}
           </>
         )}
 
