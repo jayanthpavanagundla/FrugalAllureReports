@@ -115,7 +115,7 @@ const REPORTS = [
     kind: "jmeter",
     company: "SIT-eDOC-Blue Elephants",
     name: "Load Test – Training APIs",
-    path: "Blue Elephants LT",
+    path: "SIT-eDOC - Blue Elephants",
     description: "JMeter load test across training, video, and AI question APIs - 85K samples, 1.83% error rate.",
     date: "2026-09-03",
     color: "#7c3aed",
