@@ -210,11 +210,65 @@ const compact = (n) =>
   : n >= 1e3 ? (n / 1e3).toFixed(0) + "K"
   : String(Math.round(n));
 
+const menuItemStyle = {
+  display: "flex",
+  alignItems: "center",
+  gap: 10,
+  width: "100%",
+  padding: "8px 10px",
+  background: "transparent",
+  border: "none",
+  borderRadius: 7,
+  color: "#0f172a",
+  fontFamily: "'Inter', sans-serif",
+  fontSize: ".74rem",
+  fontWeight: 500,
+  textAlign: "left",
+  textDecoration: "none",
+  whiteSpace: "nowrap",
+  cursor: "pointer",
+  boxSizing: "border-box",
+  transition: "background .15s",
+};
+
 // ── Report card
 function ReportCard({ report, index, visible, stats, reportDate }) {
   const handleOpen = (e) => {
     e.stopPropagation();
     window.open(`/${report.path}/index.html`, "_blank", "noopener,noreferrer");
+  };
+
+  const [pdfBusy, setPdfBusy] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  // Close the download menu on any click outside it, or on Escape.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onPointer = (e) => { if (!menuRef.current?.contains(e.target)) setMenuOpen(false); };
+    const onKey = (e) => { if (e.key === "Escape") setMenuOpen(false); };
+    document.addEventListener("pointerdown", onPointer);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("pointerdown", onPointer);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [menuOpen]);
+
+  const handlePdf = async (e) => {
+    e.stopPropagation();
+    setMenuOpen(false);
+    if (pdfBusy) return;
+    setPdfBusy(true);
+    try {
+      const { downloadReportPdf } = await import("./reportPdf.js");
+      await downloadReportPdf(report, kindOf(report));
+    } catch (err) {
+      console.error(err);
+      alert(`Couldn't create the PDF for "${report.name}".\n${err.message}`);
+    } finally {
+      setPdfBusy(false);
+    }
   };
 
   const total = stats && !stats.jmeter
@@ -352,6 +406,95 @@ function ReportCard({ report, index, visible, stats, reportDate }) {
             </span>
           ) : <span />}
 
+          <div ref={menuRef} style={{ position: "relative", display: "flex", alignItems: "stretch", gap: 8 }}>
+          {/* Download menu: anchored to this group's right edge (the card's inner
+              padding edge) and opening upward, so it never leaves the card. */}
+          {menuOpen && (
+            <div
+              role="menu"
+              onClick={e => e.stopPropagation()}
+              onKeyDown={e => e.stopPropagation()}
+              style={{
+                position: "absolute",
+                right: 0,
+                bottom: "calc(100% + 8px)",
+                zIndex: 5,
+                minWidth: 180,
+                padding: 4,
+                background: "#fff",
+                border: "1px solid rgba(15,23,42,0.12)",
+                borderRadius: 10,
+                boxShadow: "0 10px 28px rgba(15,23,42,0.14)",
+                animation: "menuIn .14s ease-out",
+              }}
+            >
+              {/* PDF summary built in the browser from the report's JSON (see reportPdf.js) */}
+              <button role="menuitem" onClick={handlePdf} style={menuItemStyle}
+                onMouseEnter={e => { e.currentTarget.style.background = `${report.color}12`; }}
+                onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={report.color} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14,2 14,8 20,8"/>
+                  <line x1="8" y1="13" x2="16" y2="13"/>
+                  <line x1="8" y1="17" x2="13" y2="17"/>
+                </svg>
+                Download PDF
+              </button>
+              {/* Full report folder, zipped at build time (see vite.config.js) */}
+              <a role="menuitem" href={`/${encodeURIComponent(report.path)}.zip`} download={`${report.company} - ${report.name}.zip`}
+                onClick={e => { e.stopPropagation(); setMenuOpen(false); }}
+                style={menuItemStyle}
+                onMouseEnter={e => { e.currentTarget.style.background = `${report.color}12`; }}
+                onMouseLeave={e => { e.currentTarget.style.background = "transparent"; }}
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke={report.color} strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 8v13H3V8"/>
+                  <rect x="1" y="3" width="22" height="5" rx="1"/>
+                  <line x1="10" y1="12" x2="14" y2="12"/>
+                </svg>
+                Download Report
+              </a>
+            </div>
+          )}
+
+          <button
+            onClick={e => { e.stopPropagation(); if (!pdfBusy) setMenuOpen(o => !o); }}
+            onKeyDown={e => e.stopPropagation()}
+            disabled={pdfBusy}
+            title={pdfBusy ? "Preparing PDF…" : "Download"}
+            aria-label={`Download options for ${report.name}`}
+            aria-haspopup="menu"
+            aria-expanded={menuOpen}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              width: 34,
+              background: "#fff",
+              color: report.color,
+              borderRadius: 8,
+              border: `1px solid ${report.color}55`,
+              flexShrink: 0,
+              cursor: pdfBusy ? "wait" : "pointer",
+              transition: "background .15s",
+            }}
+            onMouseEnter={e => { e.currentTarget.style.background = `${report.color}12`; }}
+            onMouseLeave={e => { e.currentTarget.style.background = "#fff"; }}
+          >
+            {pdfBusy ? (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" style={{ animation: "spin .8s linear infinite" }}>
+                <path d="M21 12a9 9 0 1 1-9-9"/>
+              </svg>
+            ) : (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7,10 12,15 17,10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+            )}
+          </button>
+
           <button
             className="card-btn"
             onClick={handleOpen}
@@ -380,6 +523,7 @@ function ReportCard({ report, index, visible, stats, reportDate }) {
               <line x1="10" y1="14" x2="21" y2="3"/>
             </svg>
           </button>
+          </div>
         </div>
       </div>
     </div>
@@ -613,6 +757,13 @@ export default function App() {
         }
         @keyframes fadeDown {
           from { opacity: 0; transform: translateY(-12px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+        @keyframes menuIn {
+          from { opacity: 0; transform: translateY(4px); }
           to   { opacity: 1; transform: translateY(0); }
         }
         @keyframes pulse {
