@@ -1,0 +1,15 @@
+"Outbound Campaigns" heading is visible.
+"Active campaigns" tab is visible.
+First Active/Scheduled campaign found: "Demo_Camp_1791440045925"
+Trying to cancel campaign: "Demo_Camp_1791440045925"
+Active campaigns tab is visible.
+Campaign rows found: 3
+Checking campaign: "Demo_Camp_1791440045925"
+Campaign "Demo_Camp_1791440045925" found.
+Opened campaign "Demo_Camp_1791440045925".
+Actions menu opened.
+Cancel campaign option clicked.
+Cancel Campaign confirmation dialog is visible.
+Clicked Yes.
+Campaign status updated successfully toast is visible.
+Campaign "Demo_Camp_1791440045925" successfully changed to Cancelled.

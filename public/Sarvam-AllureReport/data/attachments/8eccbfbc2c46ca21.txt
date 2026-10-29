@@ -1,0 +1,7 @@
+Open deployment: "demo-1791439862524-2026-10-08".
+Adding known callers to: demo-1791439862524-2026-10-08
+"Add known callers" dialog is open for "demo-1791439862524-2026-10-08".
+Attached "known-callers-sample.csv".
+Phone Number -> phone_number (mapped automatically by the app).
+Known-callers list "Parichit_Callers970" submitted.
+"Parichit_Callers970" reached Completed: Parichit_Callers970 Completed 1 / 1 Oct 8, 2026, 11:42 AM

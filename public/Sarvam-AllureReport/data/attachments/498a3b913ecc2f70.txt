@@ -1,0 +1,59 @@
+=================================================
+[Status Filter] Opening tab: "Past campaigns"
+=================================================
+[Status Filter] "Past campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Options offered: All statuses | Ended | Cancelled
+[Status Filter] Offered options are correct.
+[Status Filter] Dropdown is already open.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Status Filter] Showing the maximum campaigns per page
+=================================================
+[Status Filter] Per page options: 10 | 20 | 50 | 80 | 100. Choosing 100.
+[Status Filter] Showing 100 campaigns per page.
+[Status Filter] Read 1-100 of 333. Turning the page.
+[Status Filter] Read 101-200 of 333. Turning the page.
+[Status Filter] Read 201-300 of 333. Turning the page.
+[Status Filter] Read 333 campaign(s) across every page.
+[Status Filter] Pagination footer reads "301-333 of 333". Total: 333
+[Status Filter] All 333 campaign(s) were read.
+[Status Filter] Pagination footer reads "301-333 of 333". Total: 333
+=================================================
+[Status Filter] Verifying filter: "Ended"
+=================================================
+[Status Filter] Baseline expects 157 campaign(s).
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "Ended"
+[Status Filter] Every visible row is "Ended".
+[Status Filter] Read 1-100 of 157. Turning the page.
+[Status Filter] Read 157 campaign(s) across every page.
+[Status Filter] Pagination footer reads "101-157 of 157". Total: 157
+[Status Filter] SUCCESS: "Ended" has 157 campaign(s) in total, 157 on the first page, including all 157 known from the unfiltered first page.
+=================================================
+[Status Filter] Verifying filter: "Cancelled"
+=================================================
+[Status Filter] Baseline expects 176 campaign(s).
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "Cancelled"
+[Status Filter] Every visible row is "Cancelled".
+[Status Filter] Read 1-100 of 176. Turning the page.
+[Status Filter] Read 176 campaign(s) across every page.
+[Status Filter] Pagination footer reads "101-176 of 176". Total: 176
+[Status Filter] SUCCESS: "Cancelled" has 176 campaign(s) in total, 176 on the first page, including all 176 known from the unfiltered first page.
+=================================================
+[Status Filter] Verifying per-status totals add up
+=================================================
+[Status Filter] Unfiltered total: 333
+[Status Filter] Per-status totals: 157 + 176 = 333
+[Status Filter] SUCCESS: every campaign is accounted for by exactly one status.
+=================================================
+[Status Filter] Verifying reset to "All statuses"
+=================================================
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+[Status Filter] Read 1-100 of 333. Turning the page.
+[Status Filter] Read 101-200 of 333. Turning the page.
+[Status Filter] Read 201-300 of 333. Turning the page.
+[Status Filter] Read 333 campaign(s) across every page.
+[Status Filter] SUCCESS: All 333 campaign(s) restored.

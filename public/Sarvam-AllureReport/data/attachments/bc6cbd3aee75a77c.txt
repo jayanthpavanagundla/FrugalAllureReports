@@ -1,0 +1,60 @@
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Options offered: All statuses | Active | Paused | Scheduled
+[Status Filter] Offered options are correct.
+[Status Filter] Dropdown is already open.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Status Filter] Showing the maximum campaigns per page
+=================================================
+[Status Filter] No per page selector -- the list already fits on one page.
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+[Status Filter] All 2 campaign(s) were read.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+=================================================
+[Status Filter] Verifying filter: "Active"
+=================================================
+[Status Filter] Baseline expects 2 campaign(s).
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "Active"
+[Status Filter] Every visible row is "Active".
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+[Status Filter] SUCCESS: "Active" has 2 campaign(s) in total, 2 on the first page, including all 2 known from the unfiltered first page.
+=================================================
+[Status Filter] Verifying filter: "Paused"
+=================================================
+[Status Filter] Baseline expects 0 campaign(s).
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "Paused"
+[Status Filter] Every visible row is "Paused".
+[Status Filter] Read 0 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 0
+[Status Filter] SUCCESS: "Paused" has 0 campaign(s) in total, 0 on the first page, including all 0 known from the unfiltered first page.
+=================================================
+[Status Filter] Verifying filter: "Scheduled"
+=================================================
+[Status Filter] Baseline expects 0 campaign(s).
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "Scheduled"
+[Status Filter] Every visible row is "Scheduled".
+[Status Filter] Read 0 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 0
+[Status Filter] SUCCESS: "Scheduled" has 0 campaign(s) in total, 0 on the first page, including all 0 known from the unfiltered first page.
+=================================================
+[Status Filter] Verifying per-status totals add up
+=================================================
+[Status Filter] Unfiltered total: 2
+[Status Filter] Per-status totals: 2 + 0 + 0 = 2
+[Status Filter] SUCCESS: every campaign is accounted for by exactly one status.
+=================================================
+[Status Filter] Verifying reset to "All statuses"
+=================================================
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] SUCCESS: All 2 campaign(s) restored.

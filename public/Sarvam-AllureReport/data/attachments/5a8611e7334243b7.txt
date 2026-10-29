@@ -1,0 +1,4 @@
+SUCCESS: Agent created: Football_jersey8221
+SUCCESS: Football_jersey8221 opened in Draft
+SUCCESS: Football jersey instructions entered
+SUCCESS: Football_jersey8221 created and configured

@@ -1,0 +1,22 @@
+Tools page opened
+SUCCESS: Data Validator form opened
+Data Validator Tool Name: Month_check764
+Description: Checks whether the caller's stated birthday month matches December. Call this only if the caller mentions their birthday or birth month during the conversation. If it matches, let the caller know they qualify for a 50 percent discount; if not, let them know pleasantly that the discount does not apply this time.
+Data Validator name: Month_check764
+Data Validator description entered
+Input source verified: Agent variable
+Input source verified: Let the agent decide
+Input source final state = Fixed value
+Fixed value = December
+Value type verified: Number
+Value type verified: Date
+Value type verified: Time
+Value type verified: Date & time
+Value type final state = String
+Success / Fail / Error messages entered
+Include in context toggle verified. Final state = true
+Data Validator added
+Looking for Data Validator: Month Check764
+SUCCESS: Month Check764 found in Tools table
+SUCCESS: Month Check764 found using Tools search
+SUCCESS TEST 1: Data Validator Month_check764 created and verified

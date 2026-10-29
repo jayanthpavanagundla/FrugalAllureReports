@@ -1,0 +1,35 @@
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Status Filter] Showing the maximum campaigns per page
+=================================================
+[Status Filter] No per page selector -- the list already fits on one page.
+[Time Filter] Options offered: All time | This week | This month | Date range
+[Time Filter] Applied: "All time"
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+[Status Filter] All 2 campaign(s) were read.
+[Time Filter] 2 of 2 campaign time(s) readable.
+=================================================
+[Time Filter] Verifying "This week"
+=================================================
+[Time Filter] Applied: "This week"
+[Status Filter] Read 2 campaign(s) across every page.
+[Time Filter] SUCCESS: "This week" lists 2 campaign(s), none older than 7 days, including all 2 the baseline places inside. 0 too close to the edge to judge.
+=================================================
+[Time Filter] Verifying "This month"
+=================================================
+[Time Filter] Applied: "This month"
+[Status Filter] Read 2 campaign(s) across every page.
+[Time Filter] SUCCESS: "This month" lists 2 campaign(s), none older than 30 days, including all 2 the baseline places inside. 0 too close to the edge to judge.
+[Time Filter] Applied: "Date range"
+[Time Filter] Date range "Last 14 days": Sep 25, 2026 - Oct 08, 2026
+[Status Filter] Read 2 campaign(s) across every page.
+[Time Filter] SUCCESS: "Date range: Last 14 days" lists 2 campaign(s), none older than 14 days, including all 2 the baseline places inside. 0 too close to the edge to judge.
+[Time Filter] Applied: "All time"
+[Status Filter] Read 2 campaign(s) across every page.
+[Time Filter] SUCCESS: "All time" restored all 2 campaign(s).

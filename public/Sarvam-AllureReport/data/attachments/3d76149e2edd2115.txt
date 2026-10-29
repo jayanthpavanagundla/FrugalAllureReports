@@ -1,0 +1,111 @@
+Visible phone numbers found: 10
+Numbers to select: [
+  '+917971413658',
+  '+917971413918',
+  '+917965853872',
+  '+917965853454',
+  '+917965853811',
+  '+917965853577',
+  '+918065354066',
+  '+918071582911',
+  '+918071582891',
+  '+918071582826'
+]
+Selected: +917971413658
+Selected: +917971413918
+Selected: +917965853872
+Selected: +917965853454
+Selected: +917965853811
+Selected: +917965853577
+Selected: +918065354066
+Selected: +918071582911
+Selected: +918071582891
+Selected: +918071582826
+SUCCESS: Selected all 10 visible phone numbers
+SUCCESS: All 10 visible phone numbers are selected
+All visible numbers selected: [
+  '+917971413658',
+  '+917971413918',
+  '+917965853872',
+  '+917965853454',
+  '+917965853811',
+  '+917965853577',
+  '+918065354066',
+  '+918071582911',
+  '+918071582891',
+  '+918071582826'
+]
+Selected destination group: Automation Group 1791203442554
+All selected numbers moved to group: Automation Group 1791203442554
+Destination group: Automation Group 1791203442554
+SUCCESS: +917971413658 moved to "Automation Group 1791203442554"
+Added date: 15 Sept 2026, 03:58 pm
+SUCCESS: +917971413918 moved to "Automation Group 1791203442554"
+Added date: 15 Sept 2026, 02:14 pm
+SUCCESS: +917965853872 moved to "Automation Group 1791203442554"
+Added date: 10 Sept 2026, 01:53 am
+SUCCESS: +917965853454 moved to "Automation Group 1791203442554"
+Added date: 4 Sept 2026, 12:48 pm
+SUCCESS: +917965853811 moved to "Automation Group 1791203442554"
+Added date: 1 Sept 2026, 03:25 pm
+SUCCESS: +917965853577 moved to "Automation Group 1791203442554"
+Added date: 1 Sept 2026, 12:09 pm
+SUCCESS: +918065354066 moved to "Automation Group 1791203442554"
+Added date: 13 Aug 2026, 10:50 am
+SUCCESS: +918071582911 moved to "Automation Group 1791203442554"
+Added date: 4 Aug 2026, 10:28 am
+SUCCESS: +918071582891 moved to "Automation Group 1791203442554"
+Added date: 4 Aug 2026, 10:20 am
+SUCCESS: +918071582826 moved to "Automation Group 1791203442554"
+Added date: 3 Aug 2026, 04:51 pm
+SUCCESS: All 10 phone numbers moved to "Automation Group 1791203442554".
+Visible phone numbers found: 10
+Numbers to select: [
+  '+917971413658',
+  '+917971413918',
+  '+917965853872',
+  '+917965853454',
+  '+917965853811',
+  '+917965853577',
+  '+918065354066',
+  '+918071582911',
+  '+918071582891',
+  '+918071582826'
+]
+Selected: +917971413658
+Selected: +917971413918
+Selected: +917965853872
+Selected: +917965853454
+Selected: +917965853811
+Selected: +917965853577
+Selected: +918065354066
+Selected: +918071582911
+Selected: +918071582891
+Selected: +918071582826
+SUCCESS: Selected all 10 visible phone numbers
+SUCCESS: All 10 visible phone numbers are selected
+Numbers selected for unassign: [
+  '+917971413658',
+  '+917971413918',
+  '+917965853872',
+  '+917965853454',
+  '+917965853811',
+  '+917965853577',
+  '+918065354066',
+  '+918071582911',
+  '+918071582891',
+  '+918071582826'
+]
+Move to unassigned clicked
+SUCCESS: +917971413658 is now unassigned
+SUCCESS: +917971413918 is now unassigned
+SUCCESS: +917965853872 is now unassigned
+SUCCESS: +917965853454 is now unassigned
+SUCCESS: +917965853811 is now unassigned
+SUCCESS: +917965853577 is now unassigned
+SUCCESS: +918065354066 is now unassigned
+SUCCESS: +918071582911 is now unassigned
+SUCCESS: +918071582891 is now unassigned
+SUCCESS: +918071582826 is now unassigned
+SUCCESS: All 10 numbers are unassigned
+SUCCESS: Bulk group assignment and unassignment completed

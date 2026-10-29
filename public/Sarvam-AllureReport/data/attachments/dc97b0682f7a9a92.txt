@@ -1,0 +1,32 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Opened Engagement tab
+Selected metric: Avg call duration
+Selected metric: Engaged
+[Engaged] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":8,"percentage":47.06},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":0},{"time_bucket":"2026-10-08 00:00:00","value":4,"percentage":66.67}]
+[Engaged] Calculated total: 12, Card value: 12
+SUCCESS: "Engaged" card (12) matches the trend payload total (12).
+Selected metric: Avg call duration
+Selected metric: Engaged
+Selected metric: Engaged
+Selected metric: Avg call duration
+[Avg call duration] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":14.84,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":8.07,"percentage":null}]
+[Avg call duration] Connected trend (derived weights): [{"time_bucket":"2026-10-05 00:00:00","value":17,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":6,"percentage":null}]
+[Avg call duration] Connected-weighted average: 13.07391304347826 -> displayed 13, Card value: 13
+SUCCESS: "Avg call duration" card (13) matches the connected-weighted trend average (13).
+Selected metric: Avg call duration
+Selected metric: Engaged
+Selected metric: Engaged
+Selected metric: Avg attempts to engage
+[Avg attempts to engage] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":1,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":1,"percentage":null}]
+[Avg attempts to engage] Connected trend (derived weights): [{"time_bucket":"2026-10-05 00:00:00","value":17,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":6,"percentage":null}]
+[Avg attempts to engage] Connected-weighted average: 1 -> displayed 1, Card value: 1
+SUCCESS: "Avg attempts to engage" card (1) matches the connected-weighted trend average (1).
+Selected metric: Avg call duration
+Selected metric: Engaged
+Selected metric: Engaged
+Selected metric: End-to-end latency
+[End-to-end latency] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":289.77,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":191.6,"percentage":null}]
+[End-to-end latency] Connected trend (derived weights): [{"time_bucket":"2026-10-05 00:00:00","value":17,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":6,"percentage":null}]
+[End-to-end latency] Connected-weighted average: 264.1604347826087 -> displayed 264, Card value: 264
+SUCCESS: "End-to-end latency" card (264) matches the connected-weighted trend average (264).

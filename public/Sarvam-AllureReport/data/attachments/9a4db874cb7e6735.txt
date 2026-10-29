@@ -1,0 +1,53 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] The DND list is empty.
+=================================================
+[DND] Adding 2 number(s) to the DND list
+=================================================
+[DND] Adding 1 of 2: 9441354367 ("Automation 1791441354367")
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Add is correctly disabled on an empty form.
+[DND] Entered number "9441354367" with reason "Automation 1791441354367".
+[DND] Success toast shown.
+[DND] Number submitted and the dialog closed.
+=================================================
+[DND] Verifying "+919441354367" is on the list
+=================================================
+[DND] SUCCESS: +919441354367 is listed with reason "Automation 1791441354367", added by rgoel766@gmail.com, at 08 Oct 2026, 12:05 PM.
+[DND] Adding 2 of 2: 9441355234 ("Automation 1791441355234")
+[DND] Dismissed 1 toast(s).
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Entered number "9441355234" with reason "Automation 1791441355234".
+[DND] Success toast shown.
+[DND] Number submitted and the dialog closed.
+=================================================
+[DND] Verifying "+919441355234" is on the list
+=================================================
+[DND] SUCCESS: +919441355234 is listed with reason "Automation 1791441355234", added by rgoel766@gmail.com, at 08 Oct 2026, 12:05 PM.
+[DND] Added 2 number(s) in total.
+[DND] Dismissed 1 toast(s).
+[DND] Exported file: dnd-numbers-2026-10-08.csv
+[DND] Export holds 2 number(s): [ '9441354367', '9441355234' ]
+Numbers that should not be found: [ '9441356652', '9441356653' ]
+[DND] Wrote bulk delete CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\test-results\deploy-outboundcampaign-DN-aa718-rs-that-are-not-on-the-list-chromium\dnd-bulk-delete.csv
+phone_number
+9441356652
+9441356653
+
+[DND] Dismissed 1 toast(s).
+[DND] Opened the bulk delete dialog.
+[DND] Bulk delete dialog is open and Delete is disabled.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\test-results\deploy-outboundcampaign-DN-aa718-rs-that-are-not-on-the-list-chromium\dnd-bulk-delete.csv
+[DND] Toast: Bulk delete complete: 2 not found
+[DND] The bulk delete dialog closed on its own.
+[DND] +919441354367 was correctly left alone.
+[DND] +919441355234 was correctly left alone.
+[DND] Dismissed 1 toast(s).
+[DND] Removed +919441354367 from the DND list.
+[DND] Dismissed 1 toast(s).
+[DND] Removed +919441355234 from the DND list.

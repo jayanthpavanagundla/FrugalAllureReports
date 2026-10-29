@@ -1,0 +1,29 @@
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+[Status Filter] Read 2 campaign(s) across every page.
+[Campaign] First own "Active" campaign: "Demo_Camp_1791440023282"
+=================================================
+[Pause Campaign] Campaign: "Demo_Camp_1791440023282"
+=================================================
+[Pause Campaign] Outbound Campaigns page is visible.
+[Pause Campaign] Total campaign rows found: 2
+[Pause Campaign] Checking row 1: "Demo_Camp_1791440023282"
+[Pause Campaign] Campaign found: "Demo_Camp_1791440023282"
+[Pause Campaign] Opened campaign "Demo_Camp_1791440023282".
+[Pause Campaign] Campaign detail page loaded.
+[Pause Campaign] Campaign "Demo_Camp_1791440023282" is ACTIVE.
+[Pause Campaign] Proceeding with pause operation...
+[Pause Campaign] Actions menu opened.
+[Pause Campaign] "Pause" option is visible.
+[Pause Campaign] "Pause" option clicked.
+[Pause Campaign] Pause Campaign confirmation dialog is visible.
+[Pause Campaign] Correct campaign is shown in confirmation dialog.
+[Pause Campaign] Confirming pause...
+[Pause Campaign] Confirmation dialog closed.
+[Pause Campaign] SUCCESS TOAST: Campaign status updated successfully.
+[Pause Campaign] SUCCESS: Campaign "Demo_Camp_1791440023282" is PAUSED.
+Campaign "Demo_Camp_1791440023282" was paused successfully.

@@ -120,6 +120,14 @@ const REPORTS = [
     date: "2026-09-03",
     color: "#7c3aed",
   },
+  {
+    id: 14,
+    company: "sarvam",
+    name: "Sarvam AI – Web Automation",
+    path: "Sarvam-AllureReport",
+    description: "Automated end-to-end testing across Sarvam AI web application user flows.",
+    color: "#2563eb",
+  },
 ];
 
 // A report is an Allure report unless it says otherwise. JMeter dashboards expose

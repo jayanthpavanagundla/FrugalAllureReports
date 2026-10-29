@@ -1,0 +1,48 @@
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+[Status Filter] Read 2 campaign(s) across every page.
+=================================================
+[Campaign Search] Searching for: "Demo_Camp_1791440023282"
+=================================================
+[Campaign Search] Typed "Demo_Camp_1791440023282".
+[Status Filter] Read 1 campaign(s) across every page.
+=================================================
+[Pause Campaign] Campaign: "Demo_Camp_1791440023282"
+=================================================
+[Pause Campaign] Outbound Campaigns page is visible.
+[Pause Campaign] Total campaign rows found: 1
+[Pause Campaign] Checking row 1: "Demo_Camp_1791440023282"
+[Pause Campaign] Campaign found: "Demo_Camp_1791440023282"
+[Pause Campaign] Opened campaign "Demo_Camp_1791440023282".
+[Pause Campaign] Campaign detail page loaded.
+[Pause Campaign] Campaign "Demo_Camp_1791440023282" is ACTIVE.
+[Pause Campaign] Proceeding with pause operation...
+[Pause Campaign] Actions menu opened.
+[Pause Campaign] "Pause" option is visible.
+[Pause Campaign] "Pause" option clicked.
+[Pause Campaign] Pause Campaign confirmation dialog is visible.
+[Pause Campaign] Correct campaign is shown in confirmation dialog.
+[Pause Campaign] Confirming pause...
+[Pause Campaign] Confirmation dialog closed.
+[Pause Campaign] SUCCESS TOAST: Campaign status updated successfully.
+[Pause Campaign] SUCCESS: Campaign "Demo_Camp_1791440023282" is PAUSED.
+Trying to cancel campaign: "Demo_Camp_1791440023282"
+Outbound Campaigns heading is not visible. Checking for back button...
+Back button is visible. Clicking it...
+Returned to Outbound Campaigns page.
+Active campaigns tab is visible.
+Campaign rows found: 2
+Checking campaign: "Demo_Camp_1791440023282"
+Campaign "Demo_Camp_1791440023282" found.
+Opened campaign "Demo_Camp_1791440023282".
+Actions menu opened.
+Cancel campaign option clicked.
+Cancel Campaign confirmation dialog is visible.
+Clicked Yes.
+Campaign status updated successfully toast is visible.
+Campaign "Demo_Camp_1791440023282" successfully changed to Cancelled.
+Paused campaign "Demo_Camp_1791440023282" was cancelled.

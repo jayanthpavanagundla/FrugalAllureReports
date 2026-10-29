@@ -1,0 +1,10 @@
+{
+  "campaignName": "Demo_Camp_1791439774016",
+  "archivedNumbers": [
+    "+917971413658",
+    "+917965853872"
+  ],
+  "expectedStatus": "Paused",
+  "observedStatus": "Scheduled",
+  "resumeOffered": true
+}

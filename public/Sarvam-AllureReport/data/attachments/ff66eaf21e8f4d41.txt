@@ -1,0 +1,30 @@
+Login completed for Test 3
+Tools page opened
+SUCCESS: Data Validator form opened
+Data Validator name: Month_check369
+Data Validator description entered
+Input source verified: Agent variable
+Input source verified: Let the agent decide
+Input source final state = Fixed value
+Fixed value = December
+Value type verified: Number
+Value type verified: Date
+Value type verified: Time
+Value type verified: Date & time
+Value type final state = String
+Success / Fail / Error messages entered
+Include in context toggle verified. Final state = true
+Data Validator added
+Looking for Data Validator: Month Check369
+SUCCESS: Month Check369 found in Tools table
+Created Data Validator: Month_check369
+Data Validator found in @ dropdown: Month_check369
+Data Validator selected: Month_check369
+Removed auto-added "with <parameters>"
+SUCCESS: Month_check369 added to Instructions
+SUCCESS: Month_check369 persisted in Instructions after refresh
+Test Agent opened
+Test Agent opened
+Chat mode selected
+Test Agent chat started
+Message sent: My birthday month is december

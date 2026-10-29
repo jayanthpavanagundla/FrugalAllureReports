@@ -1,0 +1,44 @@
+=================================================
+[Status Filter] Opening tab: "Past campaigns"
+=================================================
+[Status Filter] "Past campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Status Filter] Showing the maximum campaigns per page
+=================================================
+[Status Filter] Per page options: 10 | 20 | 50 | 80 | 100. Choosing 100.
+[Status Filter] Showing 100 campaigns per page.
+[Time Filter] Options offered: All time | This week | This month | Date range
+[Time Filter] Applied: "All time"
+[Status Filter] Read 1-100 of 333. Turning the page.
+[Status Filter] Read 101-200 of 333. Turning the page.
+[Status Filter] Read 201-300 of 333. Turning the page.
+[Status Filter] Read 333 campaign(s) across every page.
+[Status Filter] Pagination footer reads "301-333 of 333". Total: 333
+[Status Filter] All 333 campaign(s) were read.
+[Time Filter] 333 of 333 campaign time(s) readable.
+=================================================
+[Time Filter] Verifying "This week"
+=================================================
+[Time Filter] Applied: "This week"
+[Status Filter] Read 15 campaign(s) across every page.
+[Time Filter] SUCCESS: "This week" lists 15 campaign(s), none older than 7 days, including all 14 the baseline places inside. 1 too close to the edge to judge.
+=================================================
+[Time Filter] Verifying "This month"
+=================================================
+[Time Filter] Applied: "This month"
+[Status Filter] Read 1-100 of 276. Turning the page.
+[Status Filter] Read 101-200 of 276. Turning the page.
+[Status Filter] Read 276 campaign(s) across every page.
+[Time Filter] SUCCESS: "This month" lists 276 campaign(s), none older than 30 days, including all 248 the baseline places inside. 68 too close to the edge to judge.
+[Time Filter] Applied: "Date range"
+[Time Filter] Date range "Last 14 days": Sep 25, 2026 - Oct 08, 2026
+[Status Filter] Read 34 campaign(s) across every page.
+[Time Filter] SUCCESS: "Date range: Last 14 days" lists 34 campaign(s), none older than 14 days, including all 26 the baseline places inside. 26 too close to the edge to judge.
+[Time Filter] Applied: "All time"
+[Status Filter] Read 1-100 of 333. Turning the page.
+[Status Filter] Read 101-200 of 333. Turning the page.
+[Status Filter] Read 201-300 of 333. Turning the page.
+[Status Filter] Read 333 campaign(s) across every page.
+[Time Filter] SUCCESS: "All time" restored all 333 campaign(s).

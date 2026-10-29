@@ -1,0 +1,25 @@
+Active campaigns found.
+Campaign names found: [ 'Demo_Camp_1791439774016' ]
+Processing campaign: Demo_Camp_1791439774016
+Connection section is visible
+Phone numbers found: [ '+917971413658', '+917965853872' ]
+Phone numbers for Demo_Camp_1791439774016: [ '+917971413658', '+917965853872' ]
+All phone numbers used by active campaigns: [ '+917971413658', '+917965853872' ]
+Checking number: +917971413658
+Phone number found: +917971413658
+Opened actions menu for +917971413658
+Archive attempted for +917971413658
+Archive API status for +917971413658: 409
+Archive API response for +917971413658: {"error":{"message":"(409) Conflict","type":"conflict","code":409,"data":{"details":"Operation not allowed for endpoints with active deployments: +917971413658"}}}
+[Archive] Conflict dialog for +917971413658 checked and closed.
+Conflict details for +917971413658: Operation not allowed for endpoints with active deployments: +917971413658
+SUCCESS: Archive blocked for +917971413658 because it has an active deployment
+Checking number: +917965853872
+Phone number found: +917965853872
+Opened actions menu for +917965853872
+Archive attempted for +917965853872
+Archive API status for +917965853872: 409
+Archive API response for +917965853872: {"error":{"message":"(409) Conflict","type":"conflict","code":409,"data":{"details":"Cannot remove phone numbers that are in use by active campaigns. Numbers: +917965853872. Active campaign IDs: Demo-Camp-1-275a0af7-df90"}}}
+[Archive] Conflict dialog for +917965853872 checked and closed.
+Conflict details for +917965853872: Cannot remove phone numbers that are in use by active campaigns. Numbers: +917965853872. Active campaign IDs: Demo-Camp-1-275a0af7-df90
+SUCCESS: Archive blocked for +917965853872 because it is used by an active outbound campaign

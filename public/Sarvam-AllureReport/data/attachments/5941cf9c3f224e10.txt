@@ -1,0 +1,9 @@
+Inbound calls list has at least one deployment.
+Deletable inbound: "demo-1791203446721"
+Opened inbound "demo-1791203446721".
+Delete Deployment dialog is open with Cancel, Delete and Close.
+Cancel closed the dialog; still on the deployment.
+Delete Deployment dialog is open with Cancel, Delete and Close.
+Close (x) closed the dialog; still on the deployment.
+Delete Deployment dialog is open with Cancel, Delete and Close.
+Inbound "demo-1791203446721" deleted: toast shown and gone from the list.

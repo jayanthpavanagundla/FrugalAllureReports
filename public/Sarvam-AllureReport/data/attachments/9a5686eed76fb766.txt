@@ -1,0 +1,20 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Switched to the Bulk Upload tab.
+[DND] Bulk upload drop zone is ready.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\pdf_demo.pdf
+[DND] "pdf_demo.pdf" was correctly refused.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\word_demo.docx
+[DND] "word_demo.docx" was correctly refused.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\excel_demo.xlsx
+[DND] "excel_demo.xlsx" was correctly refused.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\json_demo.json
+[DND] "json_demo.json" was correctly refused.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\text_demo.txt
+[DND] "text_demo.txt" was correctly refused.
+[DND] Add DND numbers dialog closed.

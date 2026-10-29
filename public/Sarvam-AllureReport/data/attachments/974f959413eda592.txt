@@ -1,0 +1,55 @@
+Inbound calls list has at least one deployment.
+An Active inbound is listed.
+Active inbound deployment found
+Active inbound deployment opened
+Connection block text: 1 connection · 1 number
+
++917971413918
+Copy phone numbers
+Extracted phone numbers: [ '+917971413918' ]
+Phone number used by active inbound: +917971413918
+Copied the deployment's phone numbers.
+=================================================
+[createGroupWithNumber] Number: "+917971413918"
+=================================================
+[createGroupWithNumber] +917971413918 is in "Automation Group 1791203442554". Moving it to unassigned first.
+Move to unassigned clicked
+[createGroupWithNumber] +917971413918 is now unassigned.
+=================================================
+[createGroup] Starting group creation...
+[createGroup] Phone number: "+917971413918"
+=================================================
+[createGroup] Generated group name: "Automation Group 1791439975870"
+[createGroup] Clicking "All groups"...
+[createGroup] "All groups" selector opened.
+[createGroup] Waiting for "Create group" option...
+[createGroup] "Create group" option is visible.
+[createGroup] "Create group" clicked.
+[createGroup] Waiting for "Create Group" dialog...
+[createGroup] "Create Group" dialog is visible.
+[createGroup] Opening phone number selector...
+[createGroup] Phone number selector opened.
+[createGroup] Looking for phone number "+917971413918"...
+[createGroup] Matching phone number options found: 1
+[createGroup] Phone number "+917971413918" is visible.
+[createGroup] Selected phone number: "+917971413918"
+[createGroup] Filling group name: "Automation Group 1791439975870"
+[createGroup] Group name filled.
+[createGroup] Waiting for "Create" button to become enabled...
+[createGroup] "Create" button is enabled.
+[createGroup] "Create" button clicked.
+[createGroup] Waiting for Create Group dialog to close...
+[createGroup] SUCCESS: Group "Automation Group 1791439975870" created successfully.
+[createGroup] RETURNING group name: "Automation Group 1791439975870"
+[createGroupWithNumber] SUCCESS: "Automation Group 1791439975870" holds +917971413918.
+Group "Automation Group 1791439975870" was refused: "At least one phone number is required".
+By group refused: "At least one phone number is required".
+By number refused: "+917971413918" -> "No results found".
+Cancel opened the "Discard deployment?" prompt.
+Keep editing closed the prompt; the form is still open.
+Added a connection block (2 blocks now).
+Cancel opened the "Discard deployment?" prompt.
+Close (x) closed the prompt; the form is still open.
+Removed a connection block (1 blocks now).
+Cancel opened the "Discard deployment?" prompt.
+Discard closed the form; back on the Inbound calls list.

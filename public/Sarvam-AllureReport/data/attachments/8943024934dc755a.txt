@@ -1,0 +1,7 @@
+Variable created from Instructions: instruction_var_1791439748481_642
+Default value: default_1791439748481_810
+Created Variable: instruction_var_1791439748481_642
+Default Value: default_1791439748481_810
+SUCCESS: instruction_var_1791439748481_642 found in @ dropdown after refresh
+SUCCESS: instruction_var_1791439748481_642 found in Variables page
+SUCCESS: Variable instruction_var_1791439748481_642 created from Instructions and verified

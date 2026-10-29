@@ -1,0 +1,10 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] The DND list already has numbers.
+[DND] 2 number(s) on the list: [ '+919999999999', '+919440828533' ]
+[DND] Exported file: dnd-numbers-2026-10-08.csv
+[DND] Export header: phone_number,reason,created_by,created_at
+[DND] Export matches the list: all 2 number(s) present.

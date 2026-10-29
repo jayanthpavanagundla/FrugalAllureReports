@@ -1,0 +1,11 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+Phone number that must NOT be added: 9441325226
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Entered number "9441325226" with reason "Automation 1791441325226".
+[DND] Add DND numbers dialog closed.
+[DND] +919441325226 was removed.

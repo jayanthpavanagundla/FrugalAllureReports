@@ -1,0 +1,11 @@
+Inbound calls list has at least one deployment.
+Inbound calls list has at least one deployment.
+[Restore Verification] All numbers tab opened.
+Checking Paused inbound phone number: +917971413658
+Phone number found: +917971413658
+Opened actions menu for +917971413658
+Archive attempted for +917971413658
+Archive API status for +917971413658: 409
+Archive API response for +917971413658: {"error":{"message":"(409) Conflict","type":"conflict","code":409,"data":{"details":"Operation not allowed for endpoints with active deployments: +917971413658"}}}
+[Archive] Conflict dialog for +917971413658 checked and closed.
+Archive blocked for +917971413658: it is used by a Paused inbound.

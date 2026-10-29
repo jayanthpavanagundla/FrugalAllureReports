@@ -1,0 +1,11 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Add is correctly disabled on an empty form.
+[DND] Add correctly stayed disabled for "9".
+[DND] Add correctly stayed disabled for "999999999".
+[DND] Add DND numbers dialog closed.

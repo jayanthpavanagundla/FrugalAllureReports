@@ -1,0 +1,31 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Opened Connectivity tab
+Selected metric: Failures
+Selected metric: Calls attempted
+[Calls attempted] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":29,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":7,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":11,"percentage":null}]
+[Calls attempted] Calculated total: 47, Card value: 47
+SUCCESS: "Calls attempted" card (47) matches the trend payload total (47).
+Selected metric: Calls attempted
+Selected metric: Connected
+[Connected] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":17,"percentage":58.62},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":0},{"time_bucket":"2026-10-08 00:00:00","value":6,"percentage":54.55}]
+[Connected] Calculated total: 23, Card value: 23
+SUCCESS: "Connected" card (23) matches the trend payload total (23).
+Selected metric: Calls attempted
+Selected metric: Total unique users
+[Total unique users] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":4,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":1,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":3,"percentage":null}]
+[Total unique users] Card value: 4 (valid range is [4, 8] -- a deduplicated total can't be derived exactly from per-bucket unique counts).
+SUCCESS: "Total unique users" card (4) is within the valid range [4, 8].
+Selected metric: Calls attempted
+Selected metric: Connected
+Selected metric: Calls attempted
+Selected metric: Avg attempts to connect
+[Avg attempts to connect] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":1,"percentage":null},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":null},{"time_bucket":"2026-10-08 00:00:00","value":1,"percentage":null}]
+[Connected] Trend buckets (weights): [{"time_bucket":"2026-10-05 00:00:00","value":17,"percentage":58.62},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":0},{"time_bucket":"2026-10-08 00:00:00","value":6,"percentage":54.55}]
+[Avg attempts to connect] Connected-weighted average: 1 -> displayed 1, Card value: 1
+SUCCESS: "Avg attempts to connect" card (1) matches the Connected-weighted trend average (1).
+Selected metric: Calls attempted
+Selected metric: Failures
+[Failures] Trend buckets: [{"time_bucket":"2026-10-05 00:00:00","value":0,"percentage":0},{"time_bucket":"2026-10-06 00:00:00","value":0,"percentage":0},{"time_bucket":"2026-10-08 00:00:00","value":0,"percentage":0}]
+[Failures] Calculated total: 0, Card value: 0
+SUCCESS: "Failures" card (0) matches the trend payload total (0).

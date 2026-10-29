@@ -1,0 +1,38 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Selected metric: Calls attempted
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Calls attempted
+Selected metric: Connected calls
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Connected calls
+Selected metric: Latency
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Latency
+Selected metric: Avg call duration
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Avg call duration
+Selected metric: Total minutes
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Total minutes
+Selected metric: Short calls
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Short calls

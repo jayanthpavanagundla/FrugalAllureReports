@@ -1,0 +1,33 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Opened Connectivity tab
+Selected metric: Calls attempted
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Calls attempted
+Selected metric: Connected
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Connected
+Selected metric: Total unique users
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Total unique users
+Selected metric: Avg attempts to connect
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Avg attempts to connect
+Selected metric: Failures
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Failures

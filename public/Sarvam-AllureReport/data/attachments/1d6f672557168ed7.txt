@@ -1,0 +1,8 @@
+Detected "Add numbers" state: has-numbers
+Selected phone number: +917965853811
+Selected phone number: +917965853577
+Group created successfully: Automation Group 1791441401232
+SUCCESS: +917965853811 successfully added to "Automation Group 1791441401232"
+Added date: 1 Sept 2026, 03:25 pm
+SUCCESS: +917965853577 successfully added to "Automation Group 1791441401232"
+Added date: 1 Sept 2026, 12:09 pm

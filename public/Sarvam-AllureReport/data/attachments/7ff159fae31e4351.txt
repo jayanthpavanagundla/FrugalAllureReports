@@ -1,0 +1,22 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+Phone number to add twice: 9441302648
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Entered number "9441302648" with reason "Automation 1791441302649".
+[DND] Success toast shown.
+[DND] Number submitted and the dialog closed.
+=================================================
+[DND] Verifying "+919441302648" is on the list
+=================================================
+[DND] SUCCESS: +919441302648 is listed with reason "Automation 1791441302649", added by rgoel766@gmail.com, at 08 Oct 2026, 12:05 PM.
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Entered number "9441302648" with reason "Automation 1791441302649".
+[DND] Duplicate number was correctly rejected.
+[DND] Add DND numbers dialog closed.
+[DND] Dismissed 2 toast(s).
+[DND] Removed +919441302648 from the DND list.

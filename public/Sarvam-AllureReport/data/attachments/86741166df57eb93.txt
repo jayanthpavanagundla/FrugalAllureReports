@@ -1,0 +1,6 @@
+=================================================
+[Agent Analytics] Waiting for Overview to load
+=================================================
+[Agent Analytics] Waiting for "Calls attempted" graph to finish rendering.
+[Agent Analytics] "Calls attempted" graph finished rendering.
+[Agent Analytics] Overview loaded.

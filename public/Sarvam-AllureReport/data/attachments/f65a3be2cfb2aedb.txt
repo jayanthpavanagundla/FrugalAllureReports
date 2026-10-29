@@ -1,0 +1,141 @@
+Inbound calls list has at least one deployment.
+Inbound calls list: 1 deployment(s)
+  demo-1791203446721 | Active | +917971413918
+Phone numbers used by inbounds (any status): +917971413918
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] No tab list -- the page shows only Past campaigns, so there are no Active campaigns.
+[Restore Verification] All numbers tab opened.
+=================================================
+[listPhoneNumbers] Reading the phone numbers table...
+=================================================
+[listPhoneNumbers] 10 number(s) listed:
+[listPhoneNumbers]   +917971413658  ->  Automation Group 1791192349343
+[listPhoneNumbers]   +917971413918  ->  Automation Group 1791203442554
+[listPhoneNumbers]   +917965853872  ->  —
+[listPhoneNumbers]   +917965853454  ->  —
+[listPhoneNumbers]   +917965853811  ->  —
+[listPhoneNumbers]   +917965853577  ->  —
+[listPhoneNumbers]   +918065354066  ->  —
+[listPhoneNumbers]   +918071582911  ->  —
+[listPhoneNumbers]   +918071582891  ->  —
+[listPhoneNumbers]   +918071582826  ->  —
+[Bug Setup] Found 2 Active candidate phone number(s): +917971413658, +917965853872
+Move to unassigned clicked
+Group created successfully: Automation Group 1791439772200
+SUCCESS: +917971413658 successfully added to "Automation Group 1791439772200"
+Added date: 15 Sept 2026, 03:58 pm
+SUCCESS: +917965853872 successfully added to "Automation Group 1791439772200"
+Added date: 10 Sept 2026, 01:53 am
+[Campaign] Creating "Demo_Camp_1791439774016" (attempt 1 of 2)
+[Agent] Selected "Automation Agent 1788329396588" via search.
+[Agent] Version "v1" is committed.
+[Campaign] Step 1 done: agent "Automation Agent 1788329396588", connection "Sarvam Managed (Vobiz)", group "Automation Group 1791439772200".
+[Campaign] Phone Number -> phone_number (mapped automatically by the app).
+[Campaign] Step 2 done: cohort "cohort_sample.csv", phone column "phone_number".
+[Schedule] start: Now
+[Schedule] end: Custom, left at the app's own default "Oct 08, 2026 · 11:59 PM" (clock now 11:39:42 AM)
+[Schedule] Effective: start "Now", end "Oct 08, 2026 · 11:59 PM", 0.5/s, days "M T W T F S S", calls 09:00 AM - 06:00 PM, retry 3x every 30 min on Busy, No Answer, Failed, Provider Error, Internal Error
+[Campaign] Step 3 done: schedule set.
+=================================================
+[Review] Checking the Review step against what was entered
+=================================================
+[Review] WARNING: Review names the agent "Jersey Store Sales Assistant" but "Automation Agent 1788329396588" was selected. The Review prints the name saved in version v1; if the agent was renamed after that version was committed, this is expected. Otherwise the wrong agent may have been picked.
+[Review] Agent: "Jersey Store Sales Assistant · v1" | Campaign: "Demo_Camp_1791439774016" | Connection: "fc0af4b6-25-2fc2a5c1-d3d5" | Numbers: +917971413658, +917965853872
+[Review] File: "cohort_sample.csv" | Rows: "1 valid · 0 removed"
+[Review] Schedule: "Now" -> "Oct 8, 2026, 11:59 PM" | Allowed time: "09:00 – 18:00" | Days: "M T W T F S S" | CPS: "0.5 calls/sec"
+[Review] Retries: "3 retries · every 30 min · on Busy, No Answer, Failed" | Error retries: "Provider Error · 3x / 5 min · Internal Error · 3x / 5 min"
+[Review] SUCCESS: the Review step matches what was entered. Launching.
+[Campaign] Toast after Launch: "Campaign created successfully"
+[Campaign] "Demo_Camp_1791439774016" launched successfully.
+[Campaign] Waiting for "Demo_Camp_1791439774016" to become Active (up to 3 min).
+[Campaign] 11:39:47 AM  status: Scheduled
+[Campaign] 11:40:04 AM  status: Active
+[Campaign] "Demo_Camp_1791439774016" is Active.
+[Restore Verification] All numbers tab opened.
+Phone number found: +917971413658
+Opened actions menu for +917971413658
+Archive attempted for +917971413658
+Archive API status for +917971413658: 409
+Archive API response for +917971413658: {"error":{"message":"(409) Conflict","type":"conflict","code":409,"data":{"details":"Cannot remove phone numbers that are in use by active campaigns. Numbers: +917971413658. Active campaign IDs: Demo-Camp-1-275a0af7-df90"}}}
+[Archive] Conflict dialog for +917971413658 checked and closed.
+Conflict details for +917971413658: Cannot remove phone numbers that are in use by active campaigns. Numbers: +917971413658. Active campaign IDs: Demo-Camp-1-275a0af7-df90
+SUCCESS: Archive blocked for +917971413658 because it is used by an active outbound campaign
+Phone number found: +917965853872
+Opened actions menu for +917965853872
+Archive attempted for +917965853872
+Archive API status for +917965853872: 409
+Archive API response for +917965853872: {"error":{"message":"(409) Conflict","type":"conflict","code":409,"data":{"details":"Cannot remove phone numbers that are in use by active campaigns. Numbers: +917965853872. Active campaign IDs: Demo-Camp-1-275a0af7-df90"}}}
+[Archive] Conflict dialog for +917965853872 checked and closed.
+Conflict details for +917965853872: Cannot remove phone numbers that are in use by active campaigns. Numbers: +917965853872. Active campaign IDs: Demo-Camp-1-275a0af7-df90
+SUCCESS: Archive blocked for +917965853872 because it is used by an active outbound campaign
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Campaign Search] Searching for: "Demo_Camp_1791439774016"
+=================================================
+[Campaign Search] Typed "Demo_Camp_1791439774016".
+=================================================
+[Pause Campaign] Campaign: "Demo_Camp_1791439774016"
+=================================================
+[Pause Campaign] Outbound Campaigns page is visible.
+[Pause Campaign] Total campaign rows found: 1
+[Pause Campaign] Checking row 1: "Demo_Camp_1791439774016"
+[Pause Campaign] Campaign found: "Demo_Camp_1791439774016"
+[Pause Campaign] Opened campaign "Demo_Camp_1791439774016".
+[Pause Campaign] Campaign detail page loaded.
+[Pause Campaign] Campaign "Demo_Camp_1791439774016" is ACTIVE.
+[Pause Campaign] Proceeding with pause operation...
+[Pause Campaign] Actions menu opened.
+[Pause Campaign] "Pause" option is visible.
+[Pause Campaign] "Pause" option clicked.
+[Pause Campaign] Pause Campaign confirmation dialog is visible.
+[Pause Campaign] Correct campaign is shown in confirmation dialog.
+[Pause Campaign] Confirming pause...
+[Pause Campaign] Confirmation dialog closed.
+[Pause Campaign] SUCCESS TOAST: Campaign status updated successfully.
+[Pause Campaign] SUCCESS: Campaign "Demo_Camp_1791439774016" is PAUSED.
+[Restore Verification] All numbers tab opened.
+Phone number found: +917971413658
+Selected phone number: +917971413658
+Archived tab opened
+SUCCESS: +917971413658 = Archived
+SUCCESS: Verified 1 archived numbers
+[Restore Verification] All numbers tab opened.
+Phone number found: +917965853872
+Selected phone number: +917965853872
+Archived tab opened
+SUCCESS: +917965853872 = Archived
+SUCCESS: Verified 1 archived numbers
+=================================================
+[Bug Replicator] Attempting to resume "Demo_Camp_1791439774016".
+=================================================
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Campaign Search] Searching for: "Demo_Camp_1791439774016"
+=================================================
+[Campaign Search] Typed "Demo_Camp_1791439774016".
+[Bug Replicator] Resume confirmed from the dialog.
+[Bug Replicator] After the resume attempt "Demo_Camp_1791439774016" is "Scheduled" (it left Paused).
+Archived tab opened
+SUCCESS: +917971413658 = Archived
+SUCCESS: +917965853872 = Archived
+SUCCESS: Verified 2 archived numbers
+[Restore Verification] All numbers tab opened.
+Phone number found: +917971413658
+[Restore] Clicking Restore...
+[Restore] SUCCESS: 1 number restored
+[Restore Verification] All numbers tab opened.
+Phone number found: +917965853872
+[Restore] Clicking Restore...
+[Restore] SUCCESS: 1 number restored

@@ -1,0 +1,13 @@
+Testing negative Agent name case: Less than 8 characters
+PASS: Less than 8 characters -> Create Agent disabled
+Finished: Less than 8 characters
+Testing negative Agent name case: Only special characters
+PASS: Only special characters -> Create Agent disabled
+Finished: Only special characters
+Testing negative Agent name case: Only spaces
+PASS: Only spaces -> Create Agent disabled
+Finished: Only spaces
+Testing negative Agent name case: More than 40 characters
+PASS: More than 40 characters -> Create Agent disabled
+Finished: More than 40 characters
+SUCCESS: All negative Agent name cases tested

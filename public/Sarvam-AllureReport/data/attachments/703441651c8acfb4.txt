@@ -1,0 +1,18 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] +919999999999 is not on the list. Nothing to remove.
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Switched to the Bulk Upload tab.
+[DND] Bulk upload drop zone is ready.
+[DND] Attached CSV: C:\Users\Aditya Yadav\Documents\Project_Work\Version_3.3\playwright demo\fixtures\data\dnd_sample.csv
+[DND] "dnd_sample.csv" is attached.
+[DND] Toast: Import complete: 1 added
+[DND] Import finished and the dialog closed.
+=================================================
+[DND] Verifying "+919999999999" is on the list
+=================================================
+[DND] SUCCESS: +919999999999 is listed with reason "Customer requested opt-out", added by rgoel766@gmail.com, at 08 Oct 2026, 11:57 AM.

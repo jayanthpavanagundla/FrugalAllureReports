@@ -1,0 +1,3 @@
+[Campaign] Starting "Demo_Camp_discarded_1791440801577" then discarding it.
+[Campaign] Discarded the wizard and returned to the campaigns list.
+[Campaign] Confirmed "Demo_Camp_discarded_1791440801577" was never created.

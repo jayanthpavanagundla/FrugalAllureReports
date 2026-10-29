@@ -1,0 +1,27 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Opened Engagement tab
+Selected metric: Engaged
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Engaged
+Selected metric: Avg call duration
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Avg call duration
+Selected metric: Avg attempts to engage
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: Avg attempts to engage
+Selected metric: End-to-end latency
+Selected time period: Day
+Selected time period: Week
+Selected time period: Month
+Selected time period: Quarter
+Cycled through [Day, Week, Month, Quarter] for metric: End-to-end latency

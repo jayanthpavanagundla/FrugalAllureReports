@@ -1,0 +1,15 @@
+Phone number rows found: 10
+Selected checkbox 1: +917971413658
+Selected checkbox 2: +917971413918
+Selected checkbox 3: +917965853872
+Selected 3 phone numbers: [ '+917971413658', '+917971413918', '+917965853872' ]
+Numbers selected for moving: [ '+917971413658', '+917971413918', '+917965853872' ]
+Selected destination group: Automation Group 1790072690921
+Destination group: Automation Group 1790072690921
+SUCCESS: +917971413658 moved to "Automation Group 1790072690921"
+Added date: 15 Sept 2026, 03:58 pm
+SUCCESS: +917971413918 moved to "Automation Group 1790072690921"
+Added date: 15 Sept 2026, 02:14 pm
+SUCCESS: +917965853872 moved to "Automation Group 1790072690921"
+Added date: 10 Sept 2026, 01:53 am
+SUCCESS: All 3 phone numbers moved to "Automation Group 1790072690921".

@@ -1,0 +1,3 @@
+Filtered by agent: All Agents
+Filtered by campaign: All Campaigns
+Selected last 15 days: Sep 24, 2026 - Oct 08, 2026

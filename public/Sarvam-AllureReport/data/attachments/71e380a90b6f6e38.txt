@@ -1,0 +1,2 @@
+[Call Logs] Start Time sort states clicked through: unsorted -> ascending
+[Call Logs] Start Time sort states clicked through: descending

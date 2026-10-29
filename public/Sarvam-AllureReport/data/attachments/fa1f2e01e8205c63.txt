@@ -1,0 +1,54 @@
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Status Filter] Dropdown opened.
+[Status Filter] Applied filter: "All statuses"
+=================================================
+[Status Filter] Showing the maximum campaigns per page
+=================================================
+[Status Filter] No per page selector -- the list already fits on one page.
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+[Status Filter] All 2 campaign(s) were read.
+[Campaign Search] Terms -- full: "Demo_Camp_1791440023282", partial: "Demo_Camp_17", no match: "no-such-campaign-1791440639969"
+=================================================
+[Campaign Search] Verifying search: "Demo_Camp_1791440023282"
+=================================================
+[Campaign Search] Baseline expects 1 campaign(s).
+=================================================
+[Campaign Search] Searching for: "Demo_Camp_1791440023282"
+=================================================
+[Campaign Search] Typed "Demo_Camp_1791440023282".
+[Campaign Search] Every visible row's name contains "Demo_Camp_1791440023282".
+[Status Filter] Read 1 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 1
+[Campaign Search] SUCCESS: "Demo_Camp_1791440023282" returned exactly the 1 expected campaign(s).
+=================================================
+[Campaign Search] Verifying search: "Demo_Camp_17"
+=================================================
+[Campaign Search] Baseline expects 2 campaign(s).
+=================================================
+[Campaign Search] Searching for: "Demo_Camp_17"
+=================================================
+[Campaign Search] Typed "Demo_Camp_17".
+[Campaign Search] Every visible row's name contains "Demo_Camp_17".
+[Status Filter] Read 2 campaign(s) across every page.
+[Status Filter] No pagination footer -- everything fits on one page. Total: 2
+[Campaign Search] SUCCESS: "Demo_Camp_17" returned exactly the 2 expected campaign(s).
+=================================================
+[Campaign Search] Verifying no results for: "no-such-campaign-1791440639969"
+=================================================
+=================================================
+[Campaign Search] Searching for: "no-such-campaign-1791440639969"
+=================================================
+[Campaign Search] Typed "no-such-campaign-1791440639969".
+[Campaign Search] Empty state shown for "no-such-campaign-1791440639969". Refreshing to rule out a slow response.
+[Campaign Search] Refresh reloaded the campaigns.
+[Campaign Search] SUCCESS: no campaign is named like "no-such-campaign-1791440639969" -- the empty state survived a refresh.
+=================================================
+[Campaign Search] Verifying the cleared search restores every campaign
+=================================================
+[Campaign Search] Cleared the search box.
+[Status Filter] Read 2 campaign(s) across every page.
+[Campaign Search] SUCCESS: All 2 campaign(s) restored.

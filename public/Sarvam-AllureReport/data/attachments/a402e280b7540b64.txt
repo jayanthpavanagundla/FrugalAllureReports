@@ -1,0 +1,37 @@
+[Phone Numbers] Table has loaded its rows.
+=================================================
+[getOrCreateGroup] Starting group check...
+=================================================
+[getOrCreateGroup] Waiting for Number column header...
+[getOrCreateGroup] Phone numbers table is visible.
+[getOrCreateGroup] First row locator count: 1
+[getOrCreateGroup] First phone number row exists.
+[getOrCreateGroup] Number of cells in first row: 8
+[getOrCreateGroup] Raw phone number value: "+917971413658"
+[getOrCreateGroup] Trimmed phone number: "+917971413658"
+[getOrCreateGroup] Raw group name value: "Automation Group 1791439858025"
+[getOrCreateGroup] Trimmed group name: "Automation Group 1791439858025"
+[getOrCreateGroup] Existing group found: "Automation Group 1791439858025"
+[getOrCreateGroup] RETURNING existing group: "Automation Group 1791439858025"
+[Campaign] Creating "Demo_Camp_1791440045925" (attempt 1 of 2)
+[Agent] Selected "Automation Agent 1788329396588" via search.
+[Agent] Version "v1" is committed.
+[Campaign] Step 1 done: agent "Automation Agent 1788329396588", connection "Sarvam Managed (Vobiz)", group "Automation Group 1791439858025".
+[Campaign] Phone Number -> phone_number (mapped automatically by the app).
+[Campaign] Step 2 done: cohort "cohort_sample.csv", phone column "phone_number".
+[Schedule] start: Now
+[Schedule] end: Custom, left at the app's own default "Oct 08, 2026 · 11:59 PM" (clock now 11:44:14 AM)
+[Schedule] Effective: start "Now", end "Oct 08, 2026 · 11:59 PM", 0.5/s, days "M T W T F S S", calls 09:00 AM - 06:00 PM, retry 3x every 30 min on Busy, No Answer, Failed, Provider Error, Internal Error
+[Campaign] Step 3 done: schedule set.
+=================================================
+[Review] Checking the Review step against what was entered
+=================================================
+[Review] WARNING: Review names the agent "Jersey Store Sales Assistant" but "Automation Agent 1788329396588" was selected. The Review prints the name saved in version v1; if the agent was renamed after that version was committed, this is expected. Otherwise the wrong agent may have been picked.
+[Review] Agent: "Jersey Store Sales Assistant · v1" | Campaign: "Demo_Camp_1791440045925" | Connection: "fc0af4b6-25-2fc2a5c1-d3d5" | Numbers: +917971413658
+[Review] File: "cohort_sample.csv" | Rows: "1 valid · 0 removed"
+[Review] Schedule: "Now" -> "Oct 8, 2026, 11:59 PM" | Allowed time: "09:00 – 18:00" | Days: "M T W T F S S" | CPS: "0.5 calls/sec"
+[Review] Retries: "3 retries · every 30 min · on Busy, No Answer, Failed" | Error retries: "Provider Error · 3x / 5 min · Internal Error · 3x / 5 min"
+[Review] SUCCESS: the Review step matches what was entered. Launching.
+[Campaign] Toast after Launch: "Campaign created successfully"
+[Campaign] "Demo_Camp_1791440045925" launched successfully.
+Campaign "Demo_Camp_1791440045925" is displayed correctly.

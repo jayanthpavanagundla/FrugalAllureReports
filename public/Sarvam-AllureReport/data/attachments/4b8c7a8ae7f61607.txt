@@ -1,0 +1,17 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] The DND list already has numbers.
+=================================================
+[DND] Removing every number from the DND list
+=================================================
+[DND] Deleting 1: +918791127723
+[DND] Removed +918791127723 from the DND list.
+[DND] Deleting 2: +919440828533
+[DND] Dismissed 1 toast(s).
+[DND] Removed +919440828533 from the DND list.
+[DND] Removed 2 number(s) in total.
+Numbers removed from the DND list: [ '+918791127723', '+919440828533' ]
+[DND] The DND list is empty.

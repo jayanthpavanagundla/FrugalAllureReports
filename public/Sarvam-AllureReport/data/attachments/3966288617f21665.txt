@@ -1,0 +1,12 @@
+"Outbound Campaigns" heading is visible.
+"Active campaigns" tab is visible.
+First Active/Scheduled campaign found: "Demo_Camp_1791439774016"
+=================================================
+[Cancel Campaign] Dismissing cancellation of "Demo_Camp_1791439774016"
+=================================================
+[Cancel Campaign] Dismissed for "Demo_Camp_1791439774016".
+=================================================
+[Status Filter] Opening tab: "Active campaigns"
+=================================================
+[Status Filter] "Active campaigns" tab is selected.
+[Cancel Campaign] "Demo_Camp_1791439774016" is still under Active campaigns.

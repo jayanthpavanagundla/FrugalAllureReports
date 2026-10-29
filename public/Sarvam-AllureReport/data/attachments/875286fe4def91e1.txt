@@ -1,0 +1,31 @@
+=================================================
+[DND] Opening the DND list
+=================================================
+[DND] Clicked the DND list button.
+[DND] DND list page loaded.
+[DND] The DND list is empty.
+=================================================
+[DND] Verifying the empty state
+=================================================
+[DND] Empty state copy and actions are correct.
+=================================================
+[DND] Verifying the Read docs link
+=================================================
+[DND] Documentation tab opened and shows the DND overview.
+[DND] Documentation tab closed.
+=================================================
+[DND] Adding 1 number(s) to the DND list
+=================================================
+[DND] Adding 1 of 1: 9440828533 ("Automation 1791440828533")
+[DND] Clicked the add number button.
+[DND] Add DND numbers dialog is open.
+[DND] Add is correctly disabled on an empty form.
+[DND] Entered number "9440828533" with reason "Automation 1791440828533".
+[DND] Success toast shown.
+[DND] Number submitted and the dialog closed.
+=================================================
+[DND] Verifying "+919440828533" is on the list
+=================================================
+[DND] SUCCESS: +919440828533 is listed with reason "Automation 1791440828533", added by rgoel766@gmail.com, at 08 Oct 2026, 11:57 AM.
+[DND] Added 1 number(s) in total.
+Numbers added to the DND list: [ '9440828533' ]
